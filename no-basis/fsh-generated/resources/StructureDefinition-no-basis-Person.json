@@ -1,0 +1,155 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "no-basis-Person",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Individuals"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person",
+  "version": "2.0.8",
+  "name": "NoBasisPerson",
+  "title": "no-basis-Person",
+  "status": "active",
+  "date": "2019-05-20",
+  "description": "Basisprofil for Norwegian Person information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nThe no-basis-Person resource main use-case is with regards to information describing persons that are living in Norway. The information is typically available from the Norwegian \"folkeregister\" and contains information describing all Norweigan citizens and individuals working and living in Norway.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Person",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Person",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Person.identifier",
+        "path": "Person.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        },
+        "definition": "An identifier for this person. Should be at Fødselsnummer or D-nummer\r\n\r\nIdentifier for a person within a particular scope."
+      },
+      {
+        "id": "Person.identifier:FNR",
+        "path": "Person.identifier",
+        "sliceName": "FNR",
+        "short": "Norwegian FNR",
+        "definition": "Fødselsnummer for the patient. Fødselsnummer as one of the possible patient identifier, should at least be sent unless there is a reason not to. Reasons for not sending the Fødselsnummer include but are not limited to, research and apps without a contract for processing data.\r\n\r\nMultiple FNR can exist for a person. If several FNR is provided the time period that each identifier is valid should be provided. No information about period is required when only one FNR is provided.",
+        "alias": [
+          "fødselsnummer"
+        ],
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Person.identifier:FNR.system",
+        "path": "Person.identifier.system",
+        "short": "Identification of the Norwegian FNR",
+        "definition": "Identifies that this is a Norwegian Fødselsnummer",
+        "min": 1,
+        "fixedUri": "urn:oid:2.16.578.1.12.4.1.4.1"
+      },
+      {
+        "id": "Person.identifier:FNR.value",
+        "path": "Person.identifier.value",
+        "definition": "The Norwegian Fødselsnummer",
+        "alias": [
+          "fødselsnummer"
+        ],
+        "min": 1,
+        "example": [
+          {
+            "label": "Fødselsnummer",
+            "valueString": "15076500565"
+          }
+        ]
+      },
+      {
+        "id": "Person.identifier:DNR",
+        "path": "Person.identifier",
+        "sliceName": "DNR",
+        "short": "The D-nummer of the patient",
+        "definition": "The D-nummer of the patient. (assigned by the norwegian Skatteetaten)",
+        "alias": [
+          "D-nummer"
+        ],
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Person.identifier:DNR.system",
+        "path": "Person.identifier.system",
+        "short": "The identification of the D-nummer",
+        "definition": "The identification of the Norwegian D-nummer",
+        "min": 1,
+        "fixedUri": "urn:oid:2.16.578.1.12.4.1.4.2"
+      },
+      {
+        "id": "Person.identifier:DNR.value",
+        "path": "Person.identifier.value",
+        "definition": "The actual Norwegian D-nummer",
+        "min": 1,
+        "example": [
+          {
+            "label": "D-nummer",
+            "valueString": "700199 50032"
+          }
+        ]
+      },
+      {
+        "id": "Person.name",
+        "path": "Person.name",
+        "type": [
+          {
+            "code": "HumanName",
+            "profile": [
+              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Person.address",
+        "path": "Person.address",
+        "short": "Norwegian address",
+        "definition": "http://hl7.no/fhir/StructureDefinition/no-basis-Address",
+        "type": [
+          {
+            "code": "Address",
+            "profile": [
+              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "NoBasisMaritalStatus",
+  "id": "no-basis-marital-status.codesystem",
+  "title": "no-basis-marital-status.codesystem",
+  "version": "2.0.8",
+  "url": "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
+  "concept": [
+    {
+      "code": "uoppgitt",
+      "display": "Uoppgitt",
+      "definition": "sivilstand er ikke stadfestet med godkjent grunnlag"
+    },
+    {
+      "code": "ugift",
+      "display": "Ugift",
+      "definition": "person som aldri har inngått ekteskap"
+    },
+    {
+      "code": "gift",
+      "display": "Gift",
+      "definition": "person som er i et ekteskap"
+    },
+    {
+      "code": "enkeEllerEnkemann",
+      "display": "Enke eller enkemann",
+      "definition": "gjenlevende person fra et ekteskap"
+    },
+    {
+      "code": "skilt",
+      "display": "Skilt",
+      "definition": "person som er lovlig skilt fra tidligere ektefelle"
+    },
+    {
+      "code": "separert",
+      "display": "Separert",
+      "definition": "person som er i en separasjonsperiode fra sin ektefelle"
+    },
+    {
+      "code": "registrertPartner",
+      "display": "Registrert partner",
+      "definition": "person som er i et partnerskap iht partnerskapsloven"
+    },
+    {
+      "code": "separertPartner",
+      "display": "Separert partner",
+      "definition": "person som er i en separasjonsperiode fra sin partner"
+    },
+    {
+      "code": "skiltPartner",
+      "display": "Skilt partner",
+      "definition": "person som er lovlig skilt fra tidligere partner"
+    },
+    {
+      "code": "gjenlevende_partner",
+      "display": "Gjenlevende partner",
+      "definition": "gjenlevende person fra et partnerskap"
+    }
+  ],
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-05-07T00:00:00+00:00"
+  },
+  "date": "2019-05-07T00:00:00+00:00",
+  "publisher": "Copy of Codes from Sivilstandstype defined by Skatteetaten",
+  "count": 10
+}

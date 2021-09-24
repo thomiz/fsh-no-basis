@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "NoBasisServiceType",
+  "id": "no-basis-service-type.valueset",
+  "title": "no-basis-service-type.valueset",
+  "description": "ValueSet including all codes for service type (tjenestetype) allowed in the Adressergister",
+  "version": "2.0.8",
+  "url": "http://hl7.no/fhir/ValueSet/no-basis-service-type",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2018-10-16T10:48:46.366+00:00"
+  },
+  "experimental": true,
+  "date": "2018-10-26T10:48:45.936+00:00",
+  "publisher": "Direktoratet for e-helse",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1.8660"
+      },
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1.8668"
+      },
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1.8669"
+      },
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1.8658"
+      },
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1.8659"
+      },
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1.8663"
+      },
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1.8664"
+      },
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1.8666"
+      }
+    ]
+  }
+}

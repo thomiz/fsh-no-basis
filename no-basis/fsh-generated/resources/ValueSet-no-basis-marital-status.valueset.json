@@ -1,0 +1,21 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "NoBasisMaritalStatus",
+  "id": "no-basis-marital-status.valueset",
+  "title": "no-basis-marital-status.valueset",
+  "description": "Copy of Codes from Sivilstandstype defined by Skatteetaten",
+  "version": "2.0.12",
+  "url": "http://hl7.no/fhir/ValueSet/no-basis-marital-status",
+  "experimental": true,
+  "date": "2020-03-20T10:48:45.936+00:00",
+  "publisher": "Direktoratet for e-helse",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.no/fhir/CodeSystem/no-basis-marital-status"
+      }
+    ]
+  }
+}

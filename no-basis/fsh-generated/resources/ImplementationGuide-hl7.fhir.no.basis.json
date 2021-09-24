@@ -1,0 +1,266 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.fhir.no.basis",
+  "url": "http://hl7.no/fhir/no-basis/ImplementationGuide/hl7.fhir.no.basis",
+  "version": "2.0.17-alpha",
+  "name": "NoBasis",
+  "status": "active",
+  "packageId": "hl7.fhir.no.basis",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-Address"
+        },
+        "name": "no-basis-Address",
+        "description": "Basisprofil for Norwegian Address information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information, official use of address and further explanation of the use for the data-elements in a Norwegian address. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-HumanName"
+        },
+        "name": "no-basis-HumanName",
+        "description": "Basisprofil for Norwegian HumanName. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-Patient"
+        },
+        "name": "no-basis-Patient",
+        "description": "Basisprofil for Norwegian Patient information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-Person"
+        },
+        "name": "no-basis-Person",
+        "description": "Basisprofil for Norwegian Person information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nThe no-basis-Person resource main use-case is with regards to information describing persons that are living in Norway. The information is typically available from the Norwegian \"folkeregister\" and contains information describing all Norweigan citizens and individuals working and living in Norway.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-address-official"
+        },
+        "name": "no-basis-address-official",
+        "description": "Defines the concept of an officialy registered address in Norway. Usually this will be the adress registered in \"Folkeregisteret\" for persons or \"Enhetsregisteret\" for organizations.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-middlename"
+        },
+        "name": "no-basis-middlename",
+        "description": "The basis extension defines the Norwegian middlename wich is called \"mellomnavn\" and defined by Norwegian legislation (Lov om personnavn).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-municipalitycode"
+        },
+        "name": "no-basis-municipalitycode",
+        "description": "Coded value for municipality/county Norwegian kommune",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-person-citizenship"
+        },
+        "name": "no-basis-person-citizenship",
+        "description": "The Person's legal status as citizen of a country.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-prescriptiongroup"
+        },
+        "name": "no-basis-prescriptiongroup",
+        "description": "Part of norwegian standard for describing a prescription.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-propertyinformation"
+        },
+        "name": "no-basis-propertyinformation",
+        "description": "This basis extension describes information identifying norwegian real property.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-urban-district"
+        },
+        "name": "no-basis-urban-district",
+        "description": "Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/no-basis-connection-type.valueset"
+        },
+        "name": "no-basis-connection-type.valueset",
+        "description": "ValueSet for connection types used in Endpoint definition. Includes all Norwegian specific types (no-basis-connection-type) and the extensible HL7 CodeSystem for connection-type",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/no-basis-documentreference-type.valueset"
+        },
+        "name": "no-basis-documentreference-type.valueset",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/no-basis-family-relation.valueset"
+        },
+        "name": "no-basis-family-relation.valueset",
+        "description": "Copy of Codes from Familierelasjon defined by Skatteetaten",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/no-basis-marital-status.valueset"
+        },
+        "name": "no-basis-marital-status.valueset",
+        "description": "Copy of Codes from Sivilstandstype defined by Skatteetaten",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/no-basis-parental-responsibility.valueset"
+        },
+        "name": "no-basis-parental-responsibility.valueset",
+        "description": "Copy of Codes from Foreldreansvar defined by Skatteetaten",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/no-basis-service-type.valueset"
+        },
+        "name": "no-basis-service-type.valueset",
+        "description": "ValueSet including all codes for service type (tjenestetype) allowed in the Adressergister",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/no-basis-connection-type.codesystem"
+        },
+        "name": "no-basis-connection-type.codesystem",
+        "description": "Codes to describe Norwegian message based communication protocols.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/no-basis-family-relation.codesystem"
+        },
+        "name": "no-basis-family-relation.codesystem",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/no-basis-marital-status.codesystem"
+        },
+        "name": "no-basis-marital-status.codesystem",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/no-basis-parental-responsibility.codesystem"
+        },
+        "name": "no-basis-parental-responsibility.codesystem",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Patient/GOFSH-GENERATED-ID-2"
+        },
+        "name": "GOFSH-GENERATED-ID-2",
+        "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"
+      },
+      {
+        "reference": {
+          "reference": "Patient/GOFSH-GENERATED-ID-3"
+        },
+        "name": "GOFSH-GENERATED-ID-3",
+        "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/no-basis-bydelsnummer"
+        },
+        "name": "no-basis-bydelsnummer",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/no-basis-dnummer"
+        },
+        "name": "no-basis-dnummer",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/no-basis-dufnummer"
+        },
+        "name": "no-basis-dufnummer",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/no-basis-felleshjelpenummer"
+        },
+        "name": "no-basis-felleshjelpenummer",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/no-basis-foedselsnummer"
+        },
+        "name": "no-basis-foedselsnummer",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/no-basis-helsepersonellnummer"
+        },
+        "name": "no-basis-helsepersonellnummer",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/no-basis-kommunenummer"
+        },
+        "name": "no-basis-kommunenummer",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/no-basis-middlename"
+        },
+        "name": "no-basis-middlename",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": []
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2021+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}
