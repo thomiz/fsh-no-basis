@@ -15,7 +15,8 @@ Description: "Basisprofil for Norwegian Patient information. Defined by The Norw
 * extension[citizenship].extension ^slicing.discriminator.type = #value
 * extension[citizenship].extension ^slicing.discriminator.path = "url"
 * extension[citizenship].extension ^slicing.rules = #open
-* extension[citizenship].extension[code] from urn:iso:std:iso:3166 (example)
+* extension[citizenship].extension[code].value[x] only CodeableConcept
+* extension[citizenship].extension[code].valueCodeableConcept from urn:iso:std:iso:3166 (example)
 * extension[citizenship].extension[code] ^sliceName = "code"
 * extension[citizenship].extension[code] ^definition = "no-basis-Patient introduces iso 3166 codes\r\n\r\nNation code representing the citizenship of patient."
 * identifier ^slicing.discriminator.type = #value
