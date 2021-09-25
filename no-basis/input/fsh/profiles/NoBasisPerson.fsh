@@ -42,4 +42,4 @@ The no-basis-Person resource main use-case is with regards to information descri
 * address only NoBasisAddress
 * address ^short = "Norwegian address"
 * address ^definition = "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
-* managingOrganization only Reference(Organization or NoBasisOrganization)
+* managingOrganization only Reference(Organization)

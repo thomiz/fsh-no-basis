@@ -43,7 +43,6 @@ Description: "This basis extension describes information identifying norwegian r
 * extension[condominiumUnitNumber] ^alias[0] = "Condominium unit number"
 * extension[condominiumUnitNumber] ^alias[+] = "seksjonsnummer"
 * extension[condominiumUnitNumber].value[x] only integer
-* extension[municipality] from urn:oid:2.16.578.1.12.4.1.1.3402 (required)
 * extension[municipality] ^short = "Identification of the Municipality"
 * extension[municipality] ^definition = "The norwegian kommune identifies an administrative geographic unit in Norway called kommune by a predefined number and its official name."
 * extension[municipality] ^alias[0] = "Kommune"
