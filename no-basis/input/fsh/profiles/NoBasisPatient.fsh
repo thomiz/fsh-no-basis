@@ -78,5 +78,5 @@ Description: "Basisprofil for Norwegian Patient information. Defined by The Norw
 * address ^definition = "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
 * contact.name only NoBasisHumanName
 * contact.address only NoBasisAddress
-* generalPractitioner only Reference(Organization or Practitioner or PractitionerRole or NoBasisPractitioner or NoBasisPractitionerRole or NoBasisOrganization)
-* managingOrganization only Reference(Organization or NoBasisOrganization)
+* generalPractitioner only Reference(Organization or Practitioner or PractitionerRole)
+* managingOrganization only Reference(Organization)
