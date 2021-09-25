@@ -6,7 +6,7 @@
     {
       "label": "Build docker-image",
       "type": "shell",
-      "command": "docker build -t thomiz/build-pipeline ${workspaceFolder}",
+      "command": "docker build -t thomiz/build-pipeline ${workspaceFolder}/.docker",
       "presentation": {
         "clear": true
       },
@@ -38,7 +38,7 @@
     {
       "label": "IG Publisher",
       "type": "shell",
-      "command": "docker run -it --rm -v package-cache:/root/.fhir -v ${fileDirname}:/data thomiz/build-pipeline publisher -ig /data/ig.ini",
+      "command": "docker --debug run -it --rm -v package-cache:/root/.fhir -v ${fileDirname}:/data thomiz/build-pipeline publisher -ig /data/ig.ini",
       "dependsOn": [
         "Build docker-image"
       ],
