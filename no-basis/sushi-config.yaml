@@ -17,5 +17,5 @@ copyrightYear: 2021+
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: index.html
+  Home: no-basis-index.html
   Artifacts: artifacts.html
