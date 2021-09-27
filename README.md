@@ -40,3 +40,13 @@ Kommandolinje for å kjøre IG-publisher for fsh-no-basis
 ~~~bash
 docker --debug run -it --rm -v package-cache:/root/.fhir -v e:\GitRepo\fsh-no-basis\no-basis:/data thomiz/build-pipeline publisher -ig /data/ig.ini
 ~~~
+
+Liste images
+~~~bash
+docker image ls
+~~~
+
+Slette hengende image
+~~~bash
+docker image rm fb2356268a8d -f  
+~~~
