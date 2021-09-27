@@ -17,6 +17,17 @@
   "date": "2019-09-23",
   "publisher": "Direktoratet for e-helse",
   "description": "The basis extension defines the Norwegian middlename wich is called \"mellomnavn\" and defined by Norwegian legislation (Lov om personnavn).",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "purpose": "Specific usage of middle name as a specific part of official name standard where name order is important",
   "fhirVersion": "4.0.1",
   "mapping": [

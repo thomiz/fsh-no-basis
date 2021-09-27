@@ -9,7 +9,14 @@
   <version value="2.0.17-alpha"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2021-09-27T18:51:25+00:00"/>
+  <date value="2021-09-27T19:56:41+00:00"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <packageId value="hl7.fhir.no.basis"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -433,6 +440,16 @@
         <reference value="Patient/GOFSH-GENERATED-ID-3"/>
       </reference>
       <name value="GOFSH-GENERATED-ID-3"/>
+      <exampleCanonical value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/JanniceSorengTo"/>
+      </reference>
+      <name value="JanniceSorengTo"/>
       <exampleCanonical value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"/>
     </resource>
     <resource>

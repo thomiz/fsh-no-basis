@@ -9,7 +9,18 @@
   "version": "2.0.17-alpha",
   "name": "NoBasis",
   "status": "active",
-  "date": "2021-09-27T18:51:25+00:00",
+  "date": "2021-09-27T19:56:41+00:00",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "packageId": "hl7.fhir.no.basis",
   "license": "CC0-1.0",
   "fhirVersion": [
@@ -608,6 +619,19 @@
           "reference": "Patient/GOFSH-GENERATED-ID-3"
         },
         "name": "GOFSH-GENERATED-ID-3",
+        "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/JanniceSorengTo"
+        },
+        "name": "JanniceSorengTo",
         "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"
       },
       {

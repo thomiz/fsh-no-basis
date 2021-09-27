@@ -18,6 +18,17 @@
   "date": "2018-10-26T10:48:45.936+00:00",
   "publisher": "Direktoratet for e-helse",
   "description": "ValueSet including all codes for service type (tjenestetype) allowed in the Adressergister",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "immutable": false,
   "compose": {
     "include": [

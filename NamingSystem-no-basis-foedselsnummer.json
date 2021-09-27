@@ -15,6 +15,17 @@
   "publisher": "Direktoratet for e-helse",
   "responsible": "Skatteetaten",
   "description": "Fødselsnummer is the official identification of a Norwegian citizen and is registered in the repository called folkeregisteret. Fødselsnummer is a 11-digit number containing 2 control digits.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "uniqueId": [
     {
       "type": "uri",

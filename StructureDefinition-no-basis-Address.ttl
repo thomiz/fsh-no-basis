@@ -23,6 +23,15 @@
   fhir:StructureDefinition.status [ fhir:value "active"];
   fhir:StructureDefinition.date [ fhir:value "2019-05-15"^^xsd:date];
   fhir:StructureDefinition.description [ fhir:value "Basisprofil for Norwegian Address information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information, official use of address and further explanation of the use for the data-elements in a Norwegian address. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."];
+  fhir:StructureDefinition.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
   fhir:StructureDefinition.purpose [ fhir:value "Norwegian basisprofil for Address resource adding Norwegian specific property information, official use of address and further explanation of the use for the data-elements in a Norwegian address."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

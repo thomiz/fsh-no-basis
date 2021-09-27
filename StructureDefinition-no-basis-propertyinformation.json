@@ -16,6 +16,17 @@
   "status": "active",
   "date": "2018-10-26",
   "description": "This basis extension describes information identifying norwegian real property.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "fhirVersion": "4.0.1",
   "mapping": [
     {

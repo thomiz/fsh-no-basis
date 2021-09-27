@@ -1,45 +1,46 @@
 ﻿NoBasis : Validation Results
 =========================================
 
-err = 21, warn = 109, info = 10
+err = 10, warn = 93, info = 15
 IG Publisher Version: 1.1.79 Out of date - current version is 1.1.80
-Generated Mon Sep 27 18:53:24 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.0.17-alpha (canonical = http://hl7.no/fhir/no-basis)
+Generated Mon Sep 27 19:58:44 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.0.17-alpha (canonical = http://hl7.no/fhir/no-basis)
 
- Build Errors : 218 / 6 / 0
- /data/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 1 / 1
- /data/fsh-generated/resources/codesystem-no-basis-connection-type.codesystem : 0 / 1 / 1
- /data/fsh-generated/resources/codesystem-no-basis-family-relation.codesystem : 0 / 1 / 1
- /data/fsh-generated/resources/codesystem-no-basis-marital-status.codesystem : 0 / 1 / 1
- /data/fsh-generated/resources/codesystem-no-basis-parental-responsibility.codesystem : 0 / 1 / 1
- /data/fsh-generated/resources/namingsystem-no-basis-bydelsnummer : 0 / 1 / 1
- /data/fsh-generated/resources/namingsystem-no-basis-dnummer : 0 / 1 / 1
- /data/fsh-generated/resources/namingsystem-no-basis-dufnummer : 0 / 1 / 1
- /data/fsh-generated/resources/namingsystem-no-basis-felleshjelpenummer : 0 / 1 / 1
- /data/fsh-generated/resources/namingsystem-no-basis-foedselsnummer : 0 / 1 / 1
- /data/fsh-generated/resources/namingsystem-no-basis-helsepersonellnummer : 0 / 1 / 1
- /data/fsh-generated/resources/namingsystem-no-basis-kommunenummer : 0 / 1 / 1
+ Build Errors : 223 / 7 / 0
+ /data/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
+ /data/fsh-generated/resources/codesystem-no-basis-connection-type.codesystem : 0 / 0 / 1
+ /data/fsh-generated/resources/codesystem-no-basis-family-relation.codesystem : 0 / 0 / 1
+ /data/fsh-generated/resources/codesystem-no-basis-marital-status.codesystem : 0 / 0 / 1
+ /data/fsh-generated/resources/codesystem-no-basis-parental-responsibility.codesystem : 0 / 0 / 1
+ /data/fsh-generated/resources/namingsystem-no-basis-bydelsnummer : 0 / 0 / 1
+ /data/fsh-generated/resources/namingsystem-no-basis-dnummer : 0 / 0 / 1
+ /data/fsh-generated/resources/namingsystem-no-basis-dufnummer : 0 / 0 / 1
+ /data/fsh-generated/resources/namingsystem-no-basis-felleshjelpenummer : 0 / 0 / 1
+ /data/fsh-generated/resources/namingsystem-no-basis-foedselsnummer : 0 / 0 / 1
+ /data/fsh-generated/resources/namingsystem-no-basis-helsepersonellnummer : 0 / 0 / 1
+ /data/fsh-generated/resources/namingsystem-no-basis-kommunenummer : 0 / 0 / 1
  /data/fsh-generated/resources/patient-GOFSH-GENERATED-ID-2 : 2 / 1 / 4
  /data/fsh-generated/resources/patient-GOFSH-GENERATED-ID-3 : 4 / 2 / 8
- /data/fsh-generated/resources/searchparameter-no-basis-middlename : 0 / 1 / 1
- /data/fsh-generated/resources/structuredefinition-no-basis-Address : 1 / 0 / 1
- /data/fsh-generated/resources/structuredefinition-no-basis-HumanName : 1 / 0 / 1
- /data/fsh-generated/resources/structuredefinition-no-basis-Patient : 1 / 2 / 1
- /data/fsh-generated/resources/structuredefinition-no-basis-Person : 1 / 1 / 1
- /data/fsh-generated/resources/structuredefinition-no-basis-address-official : 1 / 1 / 1
- /data/fsh-generated/resources/structuredefinition-no-basis-middlename : 1 / 0 / 1
- /data/fsh-generated/resources/structuredefinition-no-basis-municipalitycode : 1 / 3 / 1
- /data/fsh-generated/resources/structuredefinition-no-basis-person-citizenship : 1 / 1 / 1
- /data/fsh-generated/resources/structuredefinition-no-basis-prescriptiongroup : 1 / 1 / 1
- /data/fsh-generated/resources/structuredefinition-no-basis-propertyinformation : 2 / 3 / 1
- /data/fsh-generated/resources/structuredefinition-no-basis-relatedperson-person-reference : 1 / 1 / 1
- /data/fsh-generated/resources/structuredefinition-no-basis-sourceofinformation : 1 / 1 / 1
- /data/fsh-generated/resources/structuredefinition-no-basis-urban-district : 1 / 3 / 1
- /data/fsh-generated/resources/valueset-no-basis-connection-type.valueset : 0 / 1 / 1
+ /data/fsh-generated/resources/patient-JanniceSorengTo : 2 / 3 / 6
+ /data/fsh-generated/resources/searchparameter-no-basis-middlename : 0 / 0 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-Address : 0 / 0 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-HumanName : 0 / 0 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-Patient : 0 / 2 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-Person : 0 / 1 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-address-official : 0 / 0 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-middlename : 0 / 0 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-municipalitycode : 0 / 3 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-person-citizenship : 0 / 1 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-prescriptiongroup : 0 / 1 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-propertyinformation : 1 / 2 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-relatedperson-person-reference : 0 / 1 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-sourceofinformation : 0 / 1 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-urban-district : 0 / 3 / 1
+ /data/fsh-generated/resources/valueset-no-basis-connection-type.valueset : 0 / 0 / 1
  /data/fsh-generated/resources/valueset-no-basis-documentreference-type.valueset : 0 / 64 / 1
- /data/fsh-generated/resources/valueset-no-basis-family-relation.valueset : 0 / 1 / 1
- /data/fsh-generated/resources/valueset-no-basis-marital-status.valueset : 0 / 1 / 1
- /data/fsh-generated/resources/valueset-no-basis-parental-responsibility.valueset : 0 / 1 / 1
- /data/fsh-generated/resources/valueset-no-basis-service-type.valueset : 0 / 2 / 1
+ /data/fsh-generated/resources/valueset-no-basis-family-relation.valueset : 0 / 0 / 1
+ /data/fsh-generated/resources/valueset-no-basis-marital-status.valueset : 0 / 0 / 1
+ /data/fsh-generated/resources/valueset-no-basis-parental-responsibility.valueset : 0 / 0 / 1
+ /data/fsh-generated/resources/valueset-no-basis-service-type.valueset : 0 / 1 / 1
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[22].value: Supressed messages file not found
@@ -49,247 +50,241 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-basis-parental-responsibility.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/GOFSH-GENERATED-ID-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/GOFSH-GENERATED-ID-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.html#/html/body/div/div/div/p/a at Line 211, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.json.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.xml.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.json.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 252, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.json.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 274, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.xml.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.json.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.xml.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.json.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.ttl.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.xml.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.json.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.ttl.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.xml.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.json.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.ttl.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.xml.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.json.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.ttl.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.xml.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.json.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.ttl.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.xml.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.json.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.ttl.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.xml.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.json.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.ttl.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.xml.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.json.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.ttl.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.xml.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.json.html#/html/body/div/div/div/p/a at Line 343, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.ttl.html#/html/body/div/div/div/p/a at Line 323, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.xml.html#/html/body/div/div/div/p/a at Line 299, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.json.html#/html/body/div/div/div/p/a at Line 219, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.xml.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address-definitions.html#/html/body/div/div/div/p/a at Line 430, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address-mappings.html#/html/body/div/div/div/p/a at Line 285, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 267, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 301, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 454, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 488, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/p/a at Line 701, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.profile.json.html#/html/body/div/div/div/p/a at Line 1424, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.profile.ttl.html#/html/body/div/div/div/p/a at Line 1275, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.profile.xml.html#/html/body/div/div/div/p/a at Line 1296, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName-definitions.html#/html/body/div/div/div/p/a at Line 339, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName-mappings.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.html#/html/body/div/div/div/p/a at Line 581, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.json.html#/html/body/div/div/div/p/a at Line 862, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.ttl.html#/html/body/div/div/div/p/a at Line 794, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.xml.html#/html/body/div/div/div/p/a at Line 809, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 318, column 108: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/p/a at Line 1349, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient-examples.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient-mappings.html#/html/body/div/div/div/p/a at Line 453, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 293, column 1837: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 351, column 1923: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 683, column 1837: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 741, column 1923: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/p/a at Line 1219, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.json.html#/html/body/div/div/div/p/a at Line 5842, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 4978, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.xml.html#/html/body/div/div/div/p/a at Line 5268, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person-definitions.html#/html/body/div/div/div/p/a at Line 669, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person-mappings.html#/html/body/div/div/div/p/a at Line 306, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.html#/html/body/div/div/div/p/a at Line 761, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.profile.json.html#/html/body/div/div/div/p/a at Line 2397, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.profile.ttl.html#/html/body/div/div/div/p/a at Line 2105, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.profile.xml.html#/html/body/div/div/div/p/a at Line 2153, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official-definitions.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official-mappings.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.html#/html/body/div/div/div/p/a at Line 464, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.json.html#/html/body/div/div/div/p/a at Line 504, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.ttl.html#/html/body/div/div/div/p/a at Line 482, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.xml.html#/html/body/div/div/div/p/a at Line 470, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename-definitions.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename-mappings.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.html#/html/body/div/div/div/p/a at Line 470, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.ttl.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode-definitions.html#/html/body/div/div/div/p/a at Line 336, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode-mappings.html#/html/body/div/div/div/p/a at Line 246, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.html#/html/body/div/div/div/p/a at Line 510, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.json.html#/html/body/div/div/div/p/a at Line 841, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.ttl.html#/html/body/div/div/div/p/a at Line 762, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.xml.html#/html/body/div/div/div/p/a at Line 767, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship-definitions.html#/html/body/div/div/div/p/a at Line 346, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship-mappings.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.html#/html/body/div/div/div/p/a at Line 525, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.json.html#/html/body/div/div/div/p/a at Line 1107, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.ttl.html#/html/body/div/div/div/p/a at Line 963, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.xml.html#/html/body/div/div/div/p/a at Line 1001, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup-definitions.html#/html/body/div/div/div/p/a at Line 414, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup-mappings.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.html#/html/body/div/div/div/p/a at Line 555, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.json.html#/html/body/div/div/div/p/a at Line 1392, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.ttl.html#/html/body/div/div/div/p/a at Line 1195, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.xml.html#/html/body/div/div/div/p/a at Line 1260, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 396, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/p/a at Line 474, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-mappings.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 272, column 1989: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 310, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 415, column 1989: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 453, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/p/a at Line 614, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.json.html#/html/body/div/div/div/p/a at Line 1834, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.ttl.html#/html/body/div/div/div/p/a at Line 1587, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.xml.html#/html/body/div/div/div/p/a at Line 1621, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference-definitions.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference-mappings.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.html#/html/body/div/div/div/p/a at Line 508, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.json.html#/html/body/div/div/div/p/a at Line 508, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.ttl.html#/html/body/div/div/div/p/a at Line 492, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.xml.html#/html/body/div/div/div/p/a at Line 492, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation-definitions.html#/html/body/div/div/div/p/a at Line 411, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation-mappings.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.html#/html/body/div/div/div/p/a at Line 557, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.json.html#/html/body/div/div/div/p/a at Line 1386, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.ttl.html#/html/body/div/div/div/p/a at Line 1189, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.xml.html#/html/body/div/div/div/p/a at Line 1254, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 212, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/p/a at Line 274, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district-mappings.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 261, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 274, column 1671: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 340, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 353, column 1671: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/p/a at Line 476, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.json.html#/html/body/div/div/div/p/a at Line 539, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.ttl.html#/html/body/div/div/div/p/a at Line 519, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.xml.html#/html/body/div/div/div/p/a at Line 495, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.json.html#/html/body/div/div/div/p/a at Line 220, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 220, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.json.html#/html/body/div/div/div/p/a at Line 474, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 419, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 466, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.json.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.ttl.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.xml.html#/html/body/div/div/div/p/a at Line 216, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.json.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.ttl.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.xml.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.json.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.ttl.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.xml.html#/html/body/div/div/div/p/a at Line 216, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.json.html#/html/body/div/div/div/p/a at Line 238, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/artifacts.html#/html/body/div/div/div/p/a at Line 563, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/index.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/JanniceSorengTo.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.html#/html/body/div/div/div/p/a at Line 214, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.json.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.xml.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.json.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 263, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.xml.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.json.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 285, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.xml.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.json.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.xml.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.json.html#/html/body/div/div/div/p/a at Line 237, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.ttl.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.xml.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dnummer.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dnummer.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dnummer.json.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dnummer.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dnummer.xml.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dufnummer.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dufnummer.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dufnummer.json.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dufnummer.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dufnummer.xml.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.json.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.xml.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.json.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.xml.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.json.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.xml.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-kommunenummer.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-kommunenummer.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-kommunenummer.json.html#/html/body/div/div/div/p/a at Line 237, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-kommunenummer.ttl.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-kommunenummer.xml.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.json.html#/html/body/div/div/div/p/a at Line 300, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.ttl.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.xml.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.json.html#/html/body/div/div/div/p/a at Line 346, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.ttl.html#/html/body/div/div/div/p/a at Line 326, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.xml.html#/html/body/div/div/div/p/a at Line 302, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSorengTo.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSorengTo.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSorengTo.json.html#/html/body/div/div/div/p/a at Line 346, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSorengTo.ttl.html#/html/body/div/div/div/p/a at Line 326, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSorengTo.xml.html#/html/body/div/div/div/p/a at Line 302, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/SearchParameter-no-basis-middlename.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/SearchParameter-no-basis-middlename.html#/html/body/div/div/div/p/a at Line 191, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/SearchParameter-no-basis-middlename.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/SearchParameter-no-basis-middlename.ttl.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/SearchParameter-no-basis-middlename.xml.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address-definitions.html#/html/body/div/div/div/p/a at Line 433, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address-examples.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address-mappings.html#/html/body/div/div/div/p/a at Line 288, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 270, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 304, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 457, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 491, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/p/a at Line 704, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.profile.history.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.profile.json.html#/html/body/div/div/div/p/a at Line 1438, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.profile.ttl.html#/html/body/div/div/div/p/a at Line 1286, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.profile.xml.html#/html/body/div/div/div/p/a at Line 1306, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName-definitions.html#/html/body/div/div/div/p/a at Line 342, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName-examples.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName-mappings.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.html#/html/body/div/div/div/p/a at Line 584, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.history.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.json.html#/html/body/div/div/div/p/a at Line 876, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.ttl.html#/html/body/div/div/div/p/a at Line 805, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.xml.html#/html/body/div/div/div/p/a at Line 819, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 321, column 108: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/p/a at Line 1352, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient-examples.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient-mappings.html#/html/body/div/div/div/p/a at Line 456, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 296, column 1837: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 354, column 1923: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 686, column 1837: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 744, column 1923: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/p/a at Line 1222, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.history.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.json.html#/html/body/div/div/div/p/a at Line 5856, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 4989, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.xml.html#/html/body/div/div/div/p/a at Line 5278, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person-definitions.html#/html/body/div/div/div/p/a at Line 672, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person-examples.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person-mappings.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person.html#/html/body/div/div/div/p/a at Line 764, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person.profile.history.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person.profile.json.html#/html/body/div/div/div/p/a at Line 2411, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person.profile.ttl.html#/html/body/div/div/div/p/a at Line 2116, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person.profile.xml.html#/html/body/div/div/div/p/a at Line 2163, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official-definitions.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official-mappings.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official.html#/html/body/div/div/div/p/a at Line 468, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.history.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.ttl.html#/html/body/div/div/div/p/a at Line 493, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename-definitions.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename-mappings.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename.html#/html/body/div/div/div/p/a at Line 473, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.history.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.json.html#/html/body/div/div/div/p/a at Line 532, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.ttl.html#/html/body/div/div/div/p/a at Line 507, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.xml.html#/html/body/div/div/div/p/a at Line 490, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode-definitions.html#/html/body/div/div/div/p/a at Line 339, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode-mappings.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.html#/html/body/div/div/div/p/a at Line 513, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.history.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.json.html#/html/body/div/div/div/p/a at Line 855, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.ttl.html#/html/body/div/div/div/p/a at Line 773, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.xml.html#/html/body/div/div/div/p/a at Line 777, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship-definitions.html#/html/body/div/div/div/p/a at Line 349, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship-mappings.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.html#/html/body/div/div/div/p/a at Line 528, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.history.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.json.html#/html/body/div/div/div/p/a at Line 1121, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.ttl.html#/html/body/div/div/div/p/a at Line 974, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.xml.html#/html/body/div/div/div/p/a at Line 1011, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup-definitions.html#/html/body/div/div/div/p/a at Line 417, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup-mappings.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.html#/html/body/div/div/div/p/a at Line 558, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.history.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.json.html#/html/body/div/div/div/p/a at Line 1406, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.ttl.html#/html/body/div/div/div/p/a at Line 1206, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.xml.html#/html/body/div/div/div/p/a at Line 1270, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 399, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/p/a at Line 477, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-mappings.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 276, column 1989: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 314, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 419, column 1989: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 457, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/p/a at Line 618, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.history.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.json.html#/html/body/div/div/div/p/a at Line 1848, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.ttl.html#/html/body/div/div/div/p/a at Line 1598, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.xml.html#/html/body/div/div/div/p/a at Line 1631, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference-mappings.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.html#/html/body/div/div/div/p/a at Line 511, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.history.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.json.html#/html/body/div/div/div/p/a at Line 522, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.ttl.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.xml.html#/html/body/div/div/div/p/a at Line 502, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation-definitions.html#/html/body/div/div/div/p/a at Line 414, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation-mappings.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.html#/html/body/div/div/div/p/a at Line 560, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.history.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.json.html#/html/body/div/div/div/p/a at Line 1400, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.ttl.html#/html/body/div/div/div/p/a at Line 1200, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.xml.html#/html/body/div/div/div/p/a at Line 1264, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 215, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district-mappings.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 264, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 277, column 1671: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 343, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 356, column 1671: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/p/a at Line 479, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.history.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.json.html#/html/body/div/div/div/p/a at Line 553, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.ttl.html#/html/body/div/div/div/p/a at Line 530, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.xml.html#/html/body/div/div/div/p/a at Line 505, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.json.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.json.html#/html/body/div/div/div/p/a at Line 477, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 422, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 469, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.xml.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.json.html#/html/body/div/div/div/p/a at Line 227, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.ttl.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.xml.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.xml.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-service-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-service-type.valueset.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-service-type.valueset.json.html#/html/body/div/div/div/p/a at Line 252, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-service-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-service-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/artifacts.html#/html/body/div/div/div/p/a at Line 571, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/index.html#/html/body/div/div/div/p/a at Line 200, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/toc.html#/html/body/div/div/div/p/a at Line 140, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis.json ==
-WARNING: ImplementationGuide.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/codesystem-no-basis-connection-type.codesystem.json ==
-WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/codesystem-no-basis-family-relation.codesystem.json ==
-WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/codesystem-no-basis-marital-status.codesystem.json ==
-WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/codesystem-no-basis-parental-responsibility.codesystem.json ==
-WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/namingsystem-no-basis-bydelsnummer.json ==
-WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/namingsystem-no-basis-dnummer.json ==
-WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/namingsystem-no-basis-dufnummer.json ==
-WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/namingsystem-no-basis-felleshjelpenummer.json ==
-WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/namingsystem-no-basis-foedselsnummer.json ==
-WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/namingsystem-no-basis-helsepersonellnummer.json ==
-WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/namingsystem-no-basis-kommunenummer.json ==
-WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/patient-GOFSH-GENERATED-ID-2.json ==
 WARNING: Patient/GOFSH-GENERATED-ID-2: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet urn:iso:std:iso:3166 not found by validator
 INFORMATION: Patient/GOFSH-GENERATED-ID-2: Patient.address[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address
@@ -311,54 +306,48 @@ INFORMATION: Patient/GOFSH-GENERATED-ID-3: Patient.address[0].district.extension
 WARNING: Patient/GOFSH-GENERATED-ID-3: Patient.contact[0].relationship[1]: No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/patient-contactrelationship (http://hl7.org/fhir/ValueSet/patient-contactrelationship)
 INFORMATION: Patient/GOFSH-GENERATED-ID-3: Patient.contact[0].name.extension[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName
 ERROR: Patient/GOFSH-GENERATED-ID-3: Patient.contact[0].name.extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-middlename is unknown, and not allowed here
+== fsh-generated/resources/patient-JanniceSorengTo.json ==
+INFORMATION: Patient/JanniceSorengTo: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient
+WARNING: Patient/JanniceSorengTo: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet urn:iso:std:iso:3166 not found by validator
+INFORMATION: Patient/JanniceSorengTo: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
+WARNING: Patient/JanniceSorengTo: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
+ERROR: Patient/JanniceSorengTo: Patient.address[0].district.extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode is unknown, and not allowed here
+INFORMATION: Patient/JanniceSorengTo: Patient.address[0].district.extension[0].value.ofType(Coding): Code System URI 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' is unknown so the code cannot be validated
+INFORMATION: Patient/JanniceSorengTo: Patient.address[0].district.extension[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address
+WARNING: Patient/JanniceSorengTo: Patient.contact[0].relationship[1]: No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/patient-contactrelationship (http://hl7.org/fhir/ValueSet/patient-contactrelationship)
+INFORMATION: Patient/JanniceSorengTo: Patient.contact[0].name.extension[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName
+ERROR: Patient/JanniceSorengTo: Patient.contact[0].name.extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-middlename is unknown, and not allowed here
 == fsh-generated/resources/searchparameter-no-basis-middlename.json ==
-WARNING: SearchParameter.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/structuredefinition-no-basis-Address.json ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/structuredefinition-no-basis-HumanName.json ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/structuredefinition-no-basis-Patient.json ==
 WARNING: StructureDefinition/no-basis-Patient: StructureDefinition.differential.element[4].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.valueCodeableConcept could not be resolved
 WARNING: StructureDefinition/no-basis-Patient: StructureDefinition.snapshot.element[15].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] could not be resolved
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/structuredefinition-no-basis-Person.json ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/structuredefinition-no-basis-address-official.json ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-address-official'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/structuredefinition-no-basis-middlename.json ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/structuredefinition-no-basis-municipalitycode.json ==
 WARNING: StructureDefinition/no-basis-municipalitycode: StructureDefinition.differential.element[3].binding: The valueSet reference https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle on element Extension.value[x] could not be resolved
 WARNING: StructureDefinition/no-basis-municipalitycode: StructureDefinition.snapshot.element[4].binding: The valueSet reference https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle on element Extension.value[x] could not be resolved
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-municipalitycode'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/structuredefinition-no-basis-person-citizenship.json ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-person-citizenship'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/structuredefinition-no-basis-prescriptiongroup.json ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-prescriptiongroup'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/structuredefinition-no-basis-propertyinformation.json ==
 ERROR: StructureDefinition/no-basis-propertyinformation: StructureDefinition.differential.element[17].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition)
 WARNING: StructureDefinition/no-basis-propertyinformation: StructureDefinition.differential.element[20].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3402 on element Extension.extension.value[x] could not be resolved
 WARNING: StructureDefinition/no-basis-propertyinformation: StructureDefinition.snapshot.element[27].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3402 on element Extension.extension.value[x] could not be resolved
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-propertyinformation'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/structuredefinition-no-basis-relatedperson-person-reference.json ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 WARNING: StructureDefinition.where(url = 'http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/structuredefinition-no-basis-sourceofinformation.json ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-sourceofinformation'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/structuredefinition-no-basis-urban-district.json ==
 WARNING: StructureDefinition/no-basis-urban-district: StructureDefinition.differential.element[3].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3403 on element Extension.value[x] could not be resolved
 WARNING: StructureDefinition/no-basis-urban-district: StructureDefinition.snapshot.element[4].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3403 on element Extension.value[x] could not be resolved
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-urban-district'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/valueset-no-basis-connection-type.valueset.json ==
-WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/valueset-no-basis-documentreference-type.valueset.json ==
 WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[0]: The code A00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
 WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[1]: The code A01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
@@ -425,11 +414,7 @@ WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].
 WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[62]: The code S03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
 WARNING: ValueSet.where(id = 'no-basis-documentreference-type.valueset'): Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9602
 == fsh-generated/resources/valueset-no-basis-family-relation.valueset.json ==
-WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/valueset-no-basis-marital-status.valueset.json ==
-WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/valueset-no-basis-parental-responsibility.valueset.json ==
-WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 == fsh-generated/resources/valueset-no-basis-service-type.valueset.json ==
-WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.no.basis, jurisdiction = urn:iso:std:iso:3166#NO) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#NO "null"')
 WARNING: ValueSet.where(id = 'no-basis-service-type.valueset'): Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8660

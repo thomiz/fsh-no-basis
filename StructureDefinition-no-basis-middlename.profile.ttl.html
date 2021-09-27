@@ -76,6 +76,9 @@
   <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
+  <li>
+    <a href="qa.html">Build QA</a>
+  </li>
 </ul>
             </div>    <!-- /.nav-collapse -->
           </div>    <!-- /.container -->
@@ -201,6 +204,14 @@
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">fhir:StructureDefinition.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> "2019-09-23"^^xsd:date];
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.publisher">fhir:StructureDefinition.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "Direktoratet for e-helse"];
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.description">fhir:StructureDefinition.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> "The basis extension defines the Norwegian middlename wich is called \"mellomnavn\" and defined by Norwegian legislation (Lov om personnavn)."];
+  <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.jurisdiction">fhir:StructureDefinition.jurisdiction</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> "urn:iso:std:iso:3166" ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "NO" ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "Norway" ]     ]
+  ];
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.purpose">fhir:StructureDefinition.purpose</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> "Specific usage of middle name as a specific part of official name standard where name order is important"];
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.fhirVersion">fhir:StructureDefinition.fhirVersion</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "4.0.1"];
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.mapping">fhir:StructureDefinition.mapping</a> [
@@ -484,8 +495,8 @@
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l1428">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.0.17-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Sep 27, 2021 18:51+0000">2021-09-27</span>
+        <p><a name="l1464">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.0.17-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Sep 27, 2021 19:56+0000">2021-09-27</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

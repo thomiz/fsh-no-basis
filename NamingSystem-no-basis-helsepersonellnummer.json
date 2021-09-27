@@ -15,6 +15,17 @@
   "publisher": "Direktoratet for e-helse",
   "responsible": "Helsedirektoratet",
   "description": "In Norway all registered health care personnel is registered in the Helsepersonellregister (HPR) and is assigned a HPR-number that is used to identify the health care practitioner. Health care personnel not registered in HPR can use FNR for identification.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "uniqueId": [
     {
       "type": "uri",

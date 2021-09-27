@@ -19,6 +19,15 @@
   fhir:StructureDefinition.status [ fhir:value "active"];
   fhir:StructureDefinition.date [ fhir:value "2019-07-03"^^xsd:date];
   fhir:StructureDefinition.description [ fhir:value "Part of norwegian standard for describing a prescription."];
+  fhir:StructureDefinition.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
      fhir:index 0;

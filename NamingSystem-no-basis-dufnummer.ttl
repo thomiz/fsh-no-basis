@@ -22,6 +22,15 @@
   fhir:NamingSystem.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:NamingSystem.responsible [ fhir:value "Utlendingsdirektoratet"];
   fhir:NamingSystem.description [ fhir:value "Et DUF-nummer er et tolvsifret nummer som blir gitt til alle som søker om opphold i Norge. "];
+  fhir:NamingSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
   fhir:NamingSystem.uniqueId [
      fhir:index 0;
      fhir:NamingSystem.uniqueId.type [ fhir:value "uri" ];

@@ -40,6 +40,13 @@ In Norway this is af four digit number defined by the norwegian postal service."
   <status value="active"/>
   <date value="2019-05-15"/>
   <description value="Basisprofil for Norwegian Address information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information, official use of address and further explanation of the use for the data-elements in a Norwegian address. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <purpose value="Norwegian basisprofil for Address resource adding Norwegian specific property information, official use of address and further explanation of the use for the data-elements in a Norwegian address."/>
   <fhirVersion value="4.0.1"/>
   <mapping>

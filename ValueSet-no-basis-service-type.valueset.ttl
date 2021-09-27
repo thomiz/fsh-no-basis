@@ -25,6 +25,15 @@
   fhir:ValueSet.date [ fhir:value "2018-10-26T10:48:45.936+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:ValueSet.description [ fhir:value "ValueSet including all codes for service type (tjenestetype) allowed in the Adressergister"];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
   fhir:ValueSet.immutable [ fhir:value "false"^^xsd:boolean];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [

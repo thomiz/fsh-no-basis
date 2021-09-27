@@ -21,6 +21,13 @@
   <status value="active"/>
   <date value="2019-07-03"/>
   <description value="Part of norwegian standard for describing a prescription."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>

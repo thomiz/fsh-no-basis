@@ -21,6 +21,13 @@
   <experimental value="false"/>
   <date value="2019-05-15"/>
   <description value="Defines the concept of an officialy registered address in Norway. Usually this will be the adress registered in &quot;Folkeregisteret&quot; for persons or &quot;Enhetsregisteret&quot; for organizations."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>

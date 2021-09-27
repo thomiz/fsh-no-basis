@@ -30,6 +30,13 @@
   <date value="2018-12-27T22:37:54+11:00"/>
   <publisher value="HL7 Norway"/>
   <description value="The Person&#39;s legal status as citizen of a country."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>

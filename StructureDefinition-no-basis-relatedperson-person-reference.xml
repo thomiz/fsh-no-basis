@@ -21,6 +21,13 @@ Name or identifier should be supplied in the RelatedPerson.patient element, in a
   <status value="active"/>
   <date value="2021-04-07"/>
   <description value="If a person reference is needed in RelatedPerson.patient element, this optional extension should be used."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>

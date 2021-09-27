@@ -24,6 +24,15 @@
   fhir:StructureDefinition.date [ fhir:value "2019-09-23"^^xsd:date];
   fhir:StructureDefinition.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:StructureDefinition.description [ fhir:value "The basis extension defines the Norwegian middlename wich is called \"mellomnavn\" and defined by Norwegian legislation (Lov om personnavn)."];
+  fhir:StructureDefinition.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
   fhir:StructureDefinition.purpose [ fhir:value "Specific usage of middle name as a specific part of official name standard where name order is important"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

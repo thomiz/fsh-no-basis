@@ -76,6 +76,9 @@
   <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
+  <li>
+    <a href="qa.html">Build QA</a>
+  </li>
 </ul>
             </div>    <!-- /.nav-collapse -->
           </div>    <!-- /.container -->
@@ -214,6 +217,13 @@ Multiple FNR can exist for a person. If several FNR is provided the time period 
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>="Basisprofil for Norwegian Person information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.
 
 The no-basis-Person resource main use-case is with regards to information describing persons that are living in Norway. The information is typically available from the Norwegian &amp;quot;folkeregister&amp;quot; and contains information describing all Norweigan citizens and individuals working and living in Norway."/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.jurisdiction">jurisdiction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:iso:std:iso:3166"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="NO"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Norway"/&gt;
+    &lt;/coding&gt;
+  &lt;/jurisdiction&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.fhirVersion">fhirVersion</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="4.0.1"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.mapping">mapping</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="rim"/&gt;
@@ -2141,8 +2151,8 @@ Multiple FNR can exist for a person. If several FNR is provided the time period 
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l8195">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.0.17-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Sep 27, 2021 18:51+0000">2021-09-27</span>
+        <p><a name="l8225">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.0.17-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Sep 27, 2021 19:56+0000">2021-09-27</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -39,6 +39,13 @@
   <status value="active"/>
   <date value="2018-10-26"/>
   <description value="This basis extension describes information identifying norwegian real property."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>

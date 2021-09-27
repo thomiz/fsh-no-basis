@@ -20,6 +20,15 @@
   fhir:CodeSystem.date [ fhir:value "2019-05-15T00:00:00+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse, HL7 Norway"];
   fhir:CodeSystem.description [ fhir:value "Codes to describe Norwegian message based communication protocols."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
   fhir:CodeSystem.content [ fhir:value "complete"];
   fhir:CodeSystem.count [ fhir:value "2"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [

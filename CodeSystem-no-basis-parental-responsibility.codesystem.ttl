@@ -23,6 +23,15 @@
   fhir:CodeSystem.status [ fhir:value "active"];
   fhir:CodeSystem.date [ fhir:value "2019-05-15T00:00:00+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Copy of Codes from Foreldreansvar defined by Skatteetaten"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
   fhir:CodeSystem.content [ fhir:value "complete"];
   fhir:CodeSystem.count [ fhir:value "6"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [

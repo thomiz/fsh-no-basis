@@ -14,6 +14,13 @@
   <date value="2020-03-20T10:48:45.936+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="Copy of Codes from Sivilstandstype defined by Skatteetaten"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <immutable value="false"/>
   <compose>
     <include>

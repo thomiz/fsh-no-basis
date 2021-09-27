@@ -20,6 +20,13 @@
   <status value="active"/>
   <date value="2018-10-26"/>
   <description value="Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>

@@ -17,6 +17,17 @@
   "experimental": false,
   "date": "2019-05-15",
   "description": "Defines the concept of an officialy registered address in Norway. Usually this will be the adress registered in \"Folkeregisteret\" for persons or \"Enhetsregisteret\" for organizations.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "fhirVersion": "4.0.1",
   "mapping": [
     {

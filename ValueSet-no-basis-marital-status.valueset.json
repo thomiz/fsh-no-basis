@@ -14,6 +14,17 @@
   "date": "2020-03-20T10:48:45.936+00:00",
   "publisher": "Direktoratet for e-helse",
   "description": "Copy of Codes from Sivilstandstype defined by Skatteetaten",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "immutable": false,
   "compose": {
     "include": [

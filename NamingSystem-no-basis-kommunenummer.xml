@@ -16,6 +16,13 @@
   <publisher value="Direktoratet for e-helse"/>
   <responsible value="Statistisk sentralbyrå"/>
   <description value="Nummerering av kommuner i henhold til SSB sin offisielle liste. Inneholder fremtidige, gyldige og utgåtte kommunenummer."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <uniqueId>
     <type value="uri"/>
     <value value="http://hl7.no/fhir/NamingSystem/kommunenummer"/>

@@ -18,6 +18,13 @@
   <date value="2018-10-26T10:48:45.936+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="ValueSet including all codes for service type (tjenestetype) allowed in the Adressergister"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <immutable value="false"/>
   <compose>
     <include>

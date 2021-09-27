@@ -12,6 +12,17 @@
   "status": "active",
   "date": "2019-09-20",
   "description": "Part of norwegian KI standard.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "fhirVersion": "4.0.1",
   "mapping": [
     {

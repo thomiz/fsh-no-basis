@@ -16,6 +16,17 @@
   "status": "active",
   "date": "2019-05-07T00:00:00+00:00",
   "publisher": "Copy of Codes from Sivilstandstype defined by Skatteetaten",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "content": "complete",
   "count": 10,
   "concept": [

@@ -16,6 +16,13 @@
   <status value="active"/>
   <date value="2019-05-07T00:00:00+00:00"/>
   <publisher value="Copy of Codes from Sivilstandstype defined by Skatteetaten"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <content value="complete"/>
   <count value="10"/>
   <concept>

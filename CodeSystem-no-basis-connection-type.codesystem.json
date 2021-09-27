@@ -13,6 +13,17 @@
   "date": "2019-05-15T00:00:00+00:00",
   "publisher": "Direktoratet for e-helse, HL7 Norway",
   "description": "Codes to describe Norwegian message based communication protocols.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "content": "complete",
   "count": 2,
   "concept": [

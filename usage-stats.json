@@ -2,6 +2,7 @@
   "package": "hl7.fhir.no.basis",
   "version": "2.0.17-alpha",
   "fhirVersion": "4.0.1",
+  "jurisdiction": "NO",
   "extensions": [
     {
       "url": "http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference",
@@ -329,7 +330,8 @@
       "Patient.address"
     ],
     "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-address-official": [
-      "Address"
+      "Address",
+      "Patient.address"
     ],
     "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-middlename": [
       "HumanName"
@@ -338,7 +340,8 @@
       "Address.district"
     ],
     "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-propertyinformation": [
-      "Address"
+      "Address",
+      "Patient.address"
     ],
     "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-urban-district": [
       "Address"
