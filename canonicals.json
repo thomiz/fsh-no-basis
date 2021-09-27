@@ -1,0 +1,212 @@
+[
+  {
+    "id": "no-basis-connection-type.codesystem",
+    "type": "CodeSystem",
+    "url": "http://hl7.no/fhir/CodeSystem/no-basis-connection-type",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisConnectionType"
+  },
+  {
+    "id": "no-basis-family-relation.codesystem",
+    "type": "CodeSystem",
+    "url": "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisFamilyRelation"
+  },
+  {
+    "id": "no-basis-marital-status.codesystem",
+    "type": "CodeSystem",
+    "url": "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisMaritalStatus"
+  },
+  {
+    "id": "no-basis-parental-responsibility.codesystem",
+    "type": "CodeSystem",
+    "url": "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisParentalResponsibility"
+  },
+  {
+    "id": "no-basis-middlename",
+    "type": "SearchParameter",
+    "url": "http://hl7.no/fhir/SearchParameter/no-basis-middlename",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisMiddlename"
+  },
+  {
+    "id": "no-basis-connection-type.valueset",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-basis-connection-type",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisConnectionType"
+  },
+  {
+    "id": "no-basis-documentreference-type.valueset",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-basis-documentreference-type",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisDocumentReferenceType"
+  },
+  {
+    "id": "no-basis-family-relation.valueset",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-basis-family-relation",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisFamilyRelation"
+  },
+  {
+    "id": "no-basis-marital-status.valueset",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-basis-marital-status",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisMaritalStatus"
+  },
+  {
+    "id": "no-basis-parental-responsibility.valueset",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisParentalResponsibility"
+  },
+  {
+    "id": "no-basis-service-type.valueset",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-basis-service-type",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisServiceType"
+  },
+  {
+    "id": "hl7.fhir.no.basis",
+    "type": "ImplementationGuide",
+    "url": "http://hl7.no/fhir/no-basis/ImplementationGuide/hl7.fhir.no.basis",
+    "version": "2.0.17-alpha",
+    "name": "NoBasis"
+  },
+  {
+    "id": "no-basis-bydelsnummer",
+    "type": "NamingSystem",
+    "url": "http://hl7.no/fhir/no-basis/NamingSystem/no-basis-bydelsnummer",
+    "version": "2.0.17-alpha",
+    "name": "Bydelsnummer"
+  },
+  {
+    "id": "no-basis-dnummer",
+    "type": "NamingSystem",
+    "url": "http://hl7.no/fhir/no-basis/NamingSystem/no-basis-dnummer",
+    "version": "2.0.17-alpha",
+    "name": "Dnummer"
+  },
+  {
+    "id": "no-basis-dufnummer",
+    "type": "NamingSystem",
+    "url": "http://hl7.no/fhir/no-basis/NamingSystem/no-basis-dufnummer",
+    "version": "2.0.17-alpha",
+    "name": "DUFnummer"
+  },
+  {
+    "id": "no-basis-felleshjelpenummer",
+    "type": "NamingSystem",
+    "url": "http://hl7.no/fhir/no-basis/NamingSystem/no-basis-felleshjelpenummer",
+    "version": "2.0.17-alpha",
+    "name": "FellesHjelpenummer"
+  },
+  {
+    "id": "no-basis-foedselsnummer",
+    "type": "NamingSystem",
+    "url": "http://hl7.no/fhir/no-basis/NamingSystem/no-basis-foedselsnummer",
+    "version": "2.0.17-alpha",
+    "name": "Foedselsnummer"
+  },
+  {
+    "id": "no-basis-helsepersonellnummer",
+    "type": "NamingSystem",
+    "url": "http://hl7.no/fhir/no-basis/NamingSystem/no-basis-helsepersonellnummer",
+    "version": "2.0.17-alpha",
+    "name": "HelsepersonellregisteretNummer"
+  },
+  {
+    "id": "no-basis-kommunenummer",
+    "type": "NamingSystem",
+    "url": "http://hl7.no/fhir/no-basis/NamingSystem/no-basis-kommunenummer",
+    "version": "2.0.17-alpha",
+    "name": "Kommunenummer"
+  },
+  {
+    "id": "no-basis-Address",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisAddress"
+  },
+  {
+    "id": "no-basis-HumanName",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisHumanName"
+  },
+  {
+    "id": "no-basis-Patient",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisPatient"
+  },
+  {
+    "id": "no-basis-Person",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisPerson"
+  },
+  {
+    "id": "no-basis-address-official",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-address-official",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisAddressOfficial"
+  },
+  {
+    "id": "no-basis-middlename",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-middlename",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisMiddlename"
+  },
+  {
+    "id": "no-basis-municipalitycode",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-municipalitycode",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisMunicipalitycode"
+  },
+  {
+    "id": "no-basis-person-citizenship",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-person-citizenship",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisPersonCitizenship"
+  },
+  {
+    "id": "no-basis-prescriptiongroup",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-prescriptiongroup",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisPrescriptiongroup"
+  },
+  {
+    "id": "no-basis-propertyinformation",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-propertyinformation",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisPropertyinformation"
+  },
+  {
+    "id": "no-basis-urban-district",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-urban-district",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisUrbanDistrict"
+  }
+]

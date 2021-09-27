@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="no-basis-dufnummer"/>
+  <meta>
+    <versionId value="1.0"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://hl7.no/fhir/no-basis/NamingSystem/no-basis-dufnummer</td></tr><tr><td>Version</td><td>2.0.17-alpha</td></tr><tr><td>Name</td><td>DUFnummer</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Et DUF-nummer er et tolvsifret nummer som blir gitt til alle som søker om opphold i Norge.</p>
+</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/DUFN</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.5</td><td>true</td></tr></table></div>
+  </text>
+  <name value="DUFnummer"/>
+  <status value="active"/>
+  <kind value="identifier"/>
+  <date value="2018-10-26"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <responsible value="Utlendingsdirektoratet"/>
+  <description value="Et DUF-nummer er et tolvsifret nummer som blir gitt til alle som søker om opphold i Norge. "/>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="http://hl7.no/fhir/NamingSystem/DUFN"/>
+    <preferred value="false"/>
+  </uniqueId>
+  <uniqueId>
+    <type value="oid"/>
+    <value value="2.16.578.1.12.4.1.4.5"/>
+    <preferred value="true"/>
+  </uniqueId>
+</NamingSystem>

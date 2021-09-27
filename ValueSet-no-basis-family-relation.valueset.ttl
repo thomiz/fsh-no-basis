@@ -1,0 +1,42 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/no-basis/ValueSet/no-basis-family-relation.valueset> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "no-basis-family-relation.valueset"];
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ];
+     fhir:Meta.lastUpdated [ fhir:value "2018-10-16T10:48:46.366+00:00"^^xsd:dateTime ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-family-relation.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</code></a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://hl7.no/fhir/ValueSet/no-basis-family-relation"];
+  fhir:ValueSet.version [ fhir:value "2.0.17-alpha"];
+  fhir:ValueSet.name [ fhir:value "NoBasisFamilyRelation"];
+  fhir:ValueSet.title [ fhir:value "no-basis-family-relation.valueset"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:ValueSet.date [ fhir:value "2018-10-26T10:48:45.936+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Direktoratet for e-helse"];
+  fhir:ValueSet.description [ fhir:value "Copy of Codes from Familierelasjon defined by Skatteetaten"];
+  fhir:ValueSet.immutable [ fhir:value "false"^^xsd:boolean];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.no/fhir/CodeSystem/no-basis-family-relation" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/no-basis/ValueSet/no-basis-family-relation.valueset.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

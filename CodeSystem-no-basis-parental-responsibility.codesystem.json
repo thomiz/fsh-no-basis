@@ -1,0 +1,47 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "no-basis-parental-responsibility.codesystem",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-05-07T00:00:00.000+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">felles<a name=\"no-basis-parental-responsibility.codesystem-felles\"> </a></td><td>Felles</td></tr><tr><td style=\"white-space:nowrap\">mor<a name=\"no-basis-parental-responsibility.codesystem-mor\"> </a></td><td>Mor</td></tr><tr><td style=\"white-space:nowrap\">far<a name=\"no-basis-parental-responsibility.codesystem-far\"> </a></td><td>Far</td></tr><tr><td style=\"white-space:nowrap\">medmor<a name=\"no-basis-parental-responsibility.codesystem-medmor\"> </a></td><td>Medmor</td></tr><tr><td style=\"white-space:nowrap\">andre<a name=\"no-basis-parental-responsibility.codesystem-andre\"> </a></td><td>Andre</td></tr><tr><td style=\"white-space:nowrap\">ukjent<a name=\"no-basis-parental-responsibility.codesystem-ukjent\"> </a></td><td>Ukjent</td></tr></table></div>"
+  },
+  "url": "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
+  "version": "2.0.17-alpha",
+  "name": "NoBasisParentalResponsibility",
+  "title": "no-basis-parental-responsibility.codesystem",
+  "status": "active",
+  "date": "2019-05-15T00:00:00+00:00",
+  "publisher": "Copy of Codes from Foreldreansvar defined by Skatteetaten",
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "felles",
+      "display": "Felles"
+    },
+    {
+      "code": "mor",
+      "display": "Mor"
+    },
+    {
+      "code": "far",
+      "display": "Far"
+    },
+    {
+      "code": "medmor",
+      "display": "Medmor"
+    },
+    {
+      "code": "andre",
+      "display": "Andre"
+    },
+    {
+      "code": "ukjent",
+      "display": "Ukjent"
+    }
+  ]
+}

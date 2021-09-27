@@ -1,0 +1,43 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/no-basis/NamingSystem/no-basis-dnummer> a fhir:NamingSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "no-basis-dnummer"];
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1.0" ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/no-basis/NamingSystem/no-basis-dnummer</td></tr><tr><td>Version</td><td>2.0.17-alpha</td></tr><tr><td>Name</td><td>Dnummer</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Personidentifikator for personer som ikke har fødselsnummer og som ikke skal registreres som bosatt i Norge. The D-nummer of the patient. (assigned by the norwegian Skatteetaten)</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/DNR</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.2</td><td>true</td></tr></table></div>"
+  ];
+  fhir:NamingSystem.name [ fhir:value "Dnummer"];
+  fhir:NamingSystem.status [ fhir:value "active"];
+  fhir:NamingSystem.kind [ fhir:value "identifier"];
+  fhir:NamingSystem.date [ fhir:value "2018-10-26"^^xsd:date];
+  fhir:NamingSystem.publisher [ fhir:value "Direktoratet for e-helse"];
+  fhir:NamingSystem.responsible [ fhir:value "Skatteetaten"];
+  fhir:NamingSystem.description [ fhir:value "Personidentifikator for personer som ikke har fødselsnummer og som ikke skal registreres som bosatt i Norge. The D-nummer of the patient. (assigned by the norwegian Skatteetaten)"];
+  fhir:NamingSystem.uniqueId [
+     fhir:index 0;
+     fhir:NamingSystem.uniqueId.type [ fhir:value "uri" ];
+     fhir:NamingSystem.uniqueId.value [ fhir:value "http://hl7.no/fhir/NamingSystem/DNR" ];
+     fhir:NamingSystem.uniqueId.preferred [ fhir:value "false"^^xsd:boolean ]
+  ], [
+     fhir:index 1;
+     fhir:NamingSystem.uniqueId.type [ fhir:value "oid" ];
+     fhir:NamingSystem.uniqueId.value [ fhir:value "2.16.578.1.12.4.1.4.2" ];
+     fhir:NamingSystem.uniqueId.preferred [ fhir:value "true"^^xsd:boolean ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/no-basis/NamingSystem/no-basis-dnummer.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

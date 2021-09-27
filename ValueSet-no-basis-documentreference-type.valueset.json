@@ -1,0 +1,286 @@
+{
+  "resourceType": "ValueSet",
+  "id": "no-basis-documentreference-type.valueset",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>urn:oid:2.16.578.1.12.4.1.1.9602</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>A00-1</td><td>Epikriser og sammenfatninger</td></tr><tr><td>A01-2</td><td>Kriseplan</td></tr><tr><td>A02-2</td><td>Individuell plan</td></tr><tr><td>A03-2</td><td>Epikrise</td></tr><tr><td>A04-2</td><td>Sykepleiesammenfatning</td></tr><tr><td>A05-2</td><td>Fysioterapisammenfatning</td></tr><tr><td>A06-2</td><td>Ergoterapisammenfatning</td></tr><tr><td>A07-2</td><td>Psykologsammenfatning</td></tr><tr><td>A08-2</td><td>Sosionomsammenfatning</td></tr><tr><td>A09-2</td><td>Ernæringsfysiologsammenfatning</td></tr><tr><td>A10-2</td><td>Annet fagpersonell sammenfatning</td></tr><tr><td>A11-2</td><td>Tverrfaglig sammenfatning</td></tr><tr><td>A12-2</td><td>Utskrivings-/Pasientorientering</td></tr><tr><td>A13-2</td><td>Poliklinisk epikrise</td></tr><tr><td>B00-1</td><td>Kontinuerlig/løpende journal</td></tr><tr><td>B01-2</td><td>Tverrfaglig behandlingsplan</td></tr><tr><td>B02-2</td><td>Journalnotat</td></tr><tr><td>B03-2</td><td>Poliklinisk notat</td></tr><tr><td>C00-1</td><td>Prøvesvar, vev og væsker</td></tr><tr><td>C01-2</td><td>Medisinsk biokjemi</td></tr><tr><td>C02-2</td><td>Blodbank og immunologi</td></tr><tr><td>C03-2</td><td>Mikrobiologi, virologi og serologi</td></tr><tr><td>C04-2</td><td>Patologi, histologi og cytologi</td></tr><tr><td>C05-2</td><td>Klinisk farmakologi</td></tr><tr><td>C06-2</td><td>Medisinsk genetikk</td></tr><tr><td>C07-2</td><td>Allergiutredning</td></tr><tr><td>D00-1</td><td>Organfunksjon</td></tr><tr><td>D01-2</td><td>Hjerte og kretsløp</td></tr><tr><td>D02-2</td><td>Lunge</td></tr><tr><td>D03-2</td><td>Fordøyelse</td></tr><tr><td>D04-2</td><td>Urinveier</td></tr><tr><td>D05-2</td><td>Gyn/Reproduksjon</td></tr><tr><td>D06-2</td><td>Nervesystemet</td></tr><tr><td>D07-2</td><td>Ledd/ ben/ skjelett</td></tr><tr><td>D08-2</td><td>ØNH</td></tr><tr><td>D09-2</td><td>Øye</td></tr><tr><td>D10-2</td><td>Hud</td></tr><tr><td>D11-2</td><td>Endokrinologi</td></tr><tr><td>D12-2</td><td>Metabolisme</td></tr><tr><td>D13-2</td><td>Beinmargsutstryk</td></tr><tr><td>E00-1</td><td>Bildediagnostikk og andre medisinske bilder</td></tr><tr><td>E01-2</td><td>Diagnostiske bilder</td></tr><tr><td>F00-1</td><td>Kurve, observasjon og behandling</td></tr><tr><td>F01-2</td><td>Kurve</td></tr><tr><td>F02-2</td><td>Anestesi- og opr. Rapporter</td></tr><tr><td>F03-2</td><td>Intensiv/postoperativ observasjon</td></tr><tr><td>F04-2</td><td>Svangerskap og fødsel</td></tr><tr><td>F05-2</td><td>Diabetes/ endokrinologi</td></tr><tr><td>F06-2</td><td>Onkologi/ hematologi</td></tr><tr><td>F07-2</td><td>Nyre/ dialyse</td></tr><tr><td>F08-2</td><td>Smertebehandling</td></tr><tr><td>F09-2</td><td>Ambulansejournal</td></tr><tr><td>F10-2</td><td>Transplantasjon</td></tr><tr><td>I00-1</td><td>Korrespondanse</td></tr><tr><td>I01-2</td><td>Henvisninger</td></tr><tr><td>I02-2</td><td>Brev</td></tr><tr><td>J00-1</td><td>Attester, melding og erklæringer</td></tr><tr><td>J01-2</td><td>Sykmeldinger og trygdesaker</td></tr><tr><td>J02-2</td><td>Legeerklæring om dødsfall</td></tr><tr><td>S00-1</td><td>Test og scoring</td></tr><tr><td>S01-2</td><td>Tester</td></tr><tr><td>S02-2</td><td>Systematiserte diagnostiske intervju</td></tr><tr><td>S03-2</td><td>Voldsrisikovurdering</td></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.no/fhir/ValueSet/no-basis-documentreference-type",
+  "version": "2.0.17-alpha",
+  "name": "NoBasisDocumentReferenceType",
+  "title": "no-basis-documentreference-type.valueset",
+  "status": "active",
+  "date": "2021-09-26T18:31:01+00:00",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1.9602",
+        "concept": [
+          {
+            "code": "A00-1",
+            "display": "Epikriser og sammenfatninger"
+          },
+          {
+            "code": "A01-2",
+            "display": "Kriseplan"
+          },
+          {
+            "code": "A02-2",
+            "display": "Individuell plan"
+          },
+          {
+            "code": "A03-2",
+            "display": "Epikrise"
+          },
+          {
+            "code": "A04-2",
+            "display": "Sykepleiesammenfatning"
+          },
+          {
+            "code": "A05-2",
+            "display": "Fysioterapisammenfatning"
+          },
+          {
+            "code": "A06-2",
+            "display": "Ergoterapisammenfatning"
+          },
+          {
+            "code": "A07-2",
+            "display": "Psykologsammenfatning"
+          },
+          {
+            "code": "A08-2",
+            "display": "Sosionomsammenfatning"
+          },
+          {
+            "code": "A09-2",
+            "display": "Ernæringsfysiologsammenfatning"
+          },
+          {
+            "code": "A10-2",
+            "display": "Annet fagpersonell sammenfatning"
+          },
+          {
+            "code": "A11-2",
+            "display": "Tverrfaglig sammenfatning"
+          },
+          {
+            "code": "A12-2",
+            "display": "Utskrivings-/Pasientorientering"
+          },
+          {
+            "code": "A13-2",
+            "display": "Poliklinisk epikrise"
+          },
+          {
+            "code": "B00-1",
+            "display": "Kontinuerlig/løpende journal"
+          },
+          {
+            "code": "B01-2",
+            "display": "Tverrfaglig behandlingsplan"
+          },
+          {
+            "code": "B02-2",
+            "display": "Journalnotat"
+          },
+          {
+            "code": "B03-2",
+            "display": "Poliklinisk notat"
+          },
+          {
+            "code": "C00-1",
+            "display": "Prøvesvar, vev og væsker"
+          },
+          {
+            "code": "C01-2",
+            "display": "Medisinsk biokjemi"
+          },
+          {
+            "code": "C02-2",
+            "display": "Blodbank og immunologi"
+          },
+          {
+            "code": "C03-2",
+            "display": "Mikrobiologi, virologi og serologi"
+          },
+          {
+            "code": "C04-2",
+            "display": "Patologi, histologi og cytologi"
+          },
+          {
+            "code": "C05-2",
+            "display": "Klinisk farmakologi"
+          },
+          {
+            "code": "C06-2",
+            "display": "Medisinsk genetikk"
+          },
+          {
+            "code": "C07-2",
+            "display": "Allergiutredning"
+          },
+          {
+            "code": "D00-1",
+            "display": "Organfunksjon"
+          },
+          {
+            "code": "D01-2",
+            "display": "Hjerte og kretsløp"
+          },
+          {
+            "code": "D02-2",
+            "display": "Lunge"
+          },
+          {
+            "code": "D03-2",
+            "display": "Fordøyelse"
+          },
+          {
+            "code": "D04-2",
+            "display": "Urinveier"
+          },
+          {
+            "code": "D05-2",
+            "display": "Gyn/Reproduksjon"
+          },
+          {
+            "code": "D06-2",
+            "display": "Nervesystemet"
+          },
+          {
+            "code": "D07-2",
+            "display": "Ledd/ ben/ skjelett"
+          },
+          {
+            "code": "D08-2",
+            "display": "ØNH"
+          },
+          {
+            "code": "D09-2",
+            "display": "Øye"
+          },
+          {
+            "code": "D10-2",
+            "display": "Hud"
+          },
+          {
+            "code": "D11-2",
+            "display": "Endokrinologi"
+          },
+          {
+            "code": "D12-2",
+            "display": "Metabolisme"
+          },
+          {
+            "code": "D13-2",
+            "display": "Beinmargsutstryk"
+          },
+          {
+            "code": "E00-1",
+            "display": "Bildediagnostikk og andre medisinske bilder"
+          },
+          {
+            "code": "E01-2",
+            "display": "Diagnostiske bilder"
+          },
+          {
+            "code": "F00-1",
+            "display": "Kurve, observasjon og behandling"
+          },
+          {
+            "code": "F01-2",
+            "display": "Kurve"
+          },
+          {
+            "code": "F02-2",
+            "display": "Anestesi- og opr. Rapporter"
+          },
+          {
+            "code": "F03-2",
+            "display": "Intensiv/postoperativ observasjon"
+          },
+          {
+            "code": "F04-2",
+            "display": "Svangerskap og fødsel"
+          },
+          {
+            "code": "F05-2",
+            "display": "Diabetes/ endokrinologi"
+          },
+          {
+            "code": "F06-2",
+            "display": "Onkologi/ hematologi"
+          },
+          {
+            "code": "F07-2",
+            "display": "Nyre/ dialyse"
+          },
+          {
+            "code": "F08-2",
+            "display": "Smertebehandling"
+          },
+          {
+            "code": "F09-2",
+            "display": "Ambulansejournal"
+          },
+          {
+            "code": "F10-2",
+            "display": "Transplantasjon"
+          },
+          {
+            "code": "I00-1",
+            "display": "Korrespondanse"
+          },
+          {
+            "code": "I01-2",
+            "display": "Henvisninger"
+          },
+          {
+            "code": "I02-2",
+            "display": "Brev"
+          },
+          {
+            "code": "J00-1",
+            "display": "Attester, melding og erklæringer"
+          },
+          {
+            "code": "J01-2",
+            "display": "Sykmeldinger og trygdesaker"
+          },
+          {
+            "code": "J02-2",
+            "display": "Legeerklæring om dødsfall"
+          },
+          {
+            "code": "S00-1",
+            "display": "Test og scoring"
+          },
+          {
+            "code": "S01-2",
+            "display": "Tester"
+          },
+          {
+            "code": "S02-2",
+            "display": "Systematiserte diagnostiske intervju"
+          },
+          {
+            "code": "S03-2",
+            "display": "Voldsrisikovurdering"
+          }
+        ]
+      }
+    ]
+  }
+}

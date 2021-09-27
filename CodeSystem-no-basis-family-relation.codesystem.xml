@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-basis-family-relation.codesystem"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2019-05-07T00:00:00.000+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.no/fhir/CodeSystem/no-basis-family-relation defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">mor<a name="no-basis-family-relation.codesystem-mor"> </a></td><td>Mor</td></tr><tr><td style="white-space:nowrap">far<a name="no-basis-family-relation.codesystem-far"> </a></td><td>Far</td></tr><tr><td style="white-space:nowrap">medmor<a name="no-basis-family-relation.codesystem-medmor"> </a></td><td>Medmor</td></tr><tr><td style="white-space:nowrap">barn<a name="no-basis-family-relation.codesystem-barn"> </a></td><td>Barn</td></tr><tr><td style="white-space:nowrap">søsken<a name="no-basis-family-relation.codesystem-s.248sken"> </a></td><td>Søsken</td></tr><tr><td style="white-space:nowrap">ektefelleEllerPartner<a name="no-basis-family-relation.codesystem-ektefelleEllerPartner"> </a></td><td>Ektefelle eller partner</td></tr><tr><td style="white-space:nowrap">dødfødtBarn<a name="no-basis-family-relation.codesystem-d.248df.248dtBarn"> </a></td><td>Dødfødt barn</td></tr></table></div>
+  </text>
+  <url value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation"/>
+  <version value="2.0.17-alpha"/>
+  <name value="NoBasisFamilyRelation"/>
+  <title value="no-basis-family-relation.codesystem"/>
+  <status value="active"/>
+  <date value="2019-05-15T00:00:00+00:00"/>
+  <publisher value="Copy of Codes from Familierelasjon defined by Skatteetaten"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="mor"/>
+    <display value="Mor"/>
+  </concept>
+  <concept>
+    <code value="far"/>
+    <display value="Far"/>
+  </concept>
+  <concept>
+    <code value="medmor"/>
+    <display value="Medmor"/>
+  </concept>
+  <concept>
+    <code value="barn"/>
+    <display value="Barn"/>
+  </concept>
+  <concept>
+    <code value="søsken"/>
+    <display value="Søsken"/>
+  </concept>
+  <concept>
+    <code value="ektefelleEllerPartner"/>
+    <display value="Ektefelle eller partner"/>
+  </concept>
+  <concept>
+    <code value="dødfødtBarn"/>
+    <display value="Dødfødt barn"/>
+  </concept>
+</CodeSystem>
