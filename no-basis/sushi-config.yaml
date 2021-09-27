@@ -12,6 +12,7 @@ status: active
 version: 2.0.17-alpha
 releaseLabel: ci-build
 copyrightYear: 2021+
+jurisdiction: urn:iso:std:iso:3166#NO "Norway"
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
@@ -19,3 +20,4 @@ copyrightYear: 2021+
 menu:
   Home: index.html
   Artifacts: artifacts.html
+  Build QA: qa.html
