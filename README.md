@@ -18,11 +18,14 @@
 * Egen gh-pages branch som bare inneholder resultatet av byggeprosessen fra IG-publisher
   * hvordan styre hvor IG-publisher legger resultatet?
   * Sørge for at IG-publisher resultatene blir lagt i egen katalog og dette blir lagt i gh-pages branchen
-  * Hvor er pakkene fra IG-publisher, genereres det pakker?
+  * Hvor er pakkene fra IG-publisher, genereres det pakker
+    * Ja, disse legges i hovedkatalogen
 * Hvordan ta vare på versjoner av IG-ene som publisher genererer?
   * versjonskontroll med IG-publisher
 * Undersøke hvorfor nye Docker images ikke fungerer og hvorfor docker build ikke fungerer
 
+2021-09-27 - 
+2021-09-27 - Opprettet gh-pages som egen branch, inneholder bare output fra build prosessen, index.html må eksistere for github pages skal fungere
 2021-09-26 - Fikk generert IG med egen no-basis-index.html (basert på md fil fra SIMPLIFIER)
 2021-09-25 - fikk generert IG, men mye arbeid å gjøre før dette går smuud, Måtte bruke det gamle docker imaget fra Tidlig september.  
 2021-09-25 - fixet feil i middlename, propertyinformation og person  
