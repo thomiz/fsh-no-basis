@@ -24,7 +24,7 @@
   * versjonskontroll med IG-publisher
 * Undersøke hvorfor nye Docker images ikke fungerer og hvorfor docker build ikke fungerer
 
-2021-09-27 - 
+2021-09-27 - Ny versjon med sourceofinformation og RelatedPersonPersonReference
 2021-09-27 - Opprettet gh-pages som egen branch, inneholder bare output fra build prosessen, index.html må eksistere for github pages skal fungere
 2021-09-26 - Fikk generert IG med egen no-basis-index.html (basert på md fil fra SIMPLIFIER)
 2021-09-25 - fikk generert IG, men mye arbeid å gjøre før dette går smuud, Måtte bruke det gamle docker imaget fra Tidlig september.  
@@ -38,7 +38,7 @@
 Kommandolinje for å kjøre IG-publisher for fsh-no-basis
 
 ~~~bash
-docker --debug run -it --rm -v package-cache:/root/.fhir -v e:\GitRepo\fsh-no-basis\no-basis:/data thomiz/build-pipeline publisher -ig /data/ig.ini
+docker --debug run -it --rm -v package-cache:/root/.fhir -v e:\GitRepo\fsh-no-basis\master\no-basis:/data thomiz/build-pipeline publisher -ig /data/ig.ini
 ~~~
 
 Liste images
