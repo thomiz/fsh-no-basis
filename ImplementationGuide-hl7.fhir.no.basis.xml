@@ -9,7 +9,7 @@
   <version value="2.0.17-alpha"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2021-09-26T18:31:01+00:00"/>
+  <date value="2021-09-27T18:51:25+00:00"/>
   <packageId value="hl7.fhir.no.basis"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -281,6 +281,28 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/no-basis-relatedperson-person-reference"/>
+      </reference>
+      <name value="NoBasisRelatedpersonPersonReference"/>
+      <description value="If a person reference is needed in RelatedPerson.patient element, this optional extension should be used."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-sourceofinformation"/>
+      </reference>
+      <name value="no-basis-sourceofinformation"/>
+      <description value="Part of norwegian KI standard."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/no-basis-urban-district"/>
       </reference>
       <name value="no-basis-urban-district"/>
@@ -506,8 +528,8 @@
       <title value="Table of Contents"/>
       <generation value="html"/>
       <page>
-        <nameUrl value="no-basis-index.html"/>
-        <title value="No Basis Index"/>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
         <generation value="markdown"/>
       </page>
     </page>

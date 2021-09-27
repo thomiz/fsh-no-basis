@@ -9,7 +9,7 @@
   "version": "2.0.17-alpha",
   "name": "NoBasis",
   "status": "active",
-  "date": "2021-09-26T18:31:01+00:00",
+  "date": "2021-09-27T18:51:25+00:00",
   "packageId": "hl7.fhir.no.basis",
   "license": "CC0-1.0",
   "fhirVersion": [
@@ -414,6 +414,34 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/no-basis-relatedperson-person-reference"
+        },
+        "name": "NoBasisRelatedpersonPersonReference",
+        "description": "If a person reference is needed in RelatedPerson.patient element, this optional extension should be used.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/no-basis-sourceofinformation"
+        },
+        "name": "no-basis-sourceofinformation",
+        "description": "Part of norwegian KI standard.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/no-basis-urban-district"
         },
         "name": "no-basis-urban-district",
@@ -701,8 +729,8 @@
       "generation": "html",
       "page": [
         {
-          "nameUrl": "no-basis-index.html",
-          "title": "No Basis Index",
+          "nameUrl": "index.html",
+          "title": "Home",
           "generation": "markdown"
         }
       ]

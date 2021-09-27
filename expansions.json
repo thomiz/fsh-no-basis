@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "a98344a7-8361-4a75-8bba-1f855cc26aeb",
+  "id" : "60dd193b-77d9-4f6f-aea8-a0308ccf8a6e",
   "meta" : {
-    "lastUpdated" : "2021-09-26T18:31:01.267+00:00"
+    "lastUpdated" : "2021-09-27T18:51:25.182+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -29,8 +29,8 @@
       "description" : "ValueSet for connection types used in Endpoint definition. Includes all Norwegian specific types (no-basis-connection-type) and the extensible HL7 CodeSystem for connection-type",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:1ed9a215-bea4-438a-b1cd-f777ad10ecd7",
-        "timestamp" : "2021-09-26T18:31:24+00:00",
+        "identifier" : "urn:uuid:ffc5f5b1-2fb0-4bf4-b57f-9fadfc3e54ea",
+        "timestamp" : "2021-09-27T18:51:48+00:00",
         "total" : 16,
         "parameter" : [{
           "name" : "excludeNested",
@@ -151,8 +151,8 @@
       "description" : "Copy of Codes from Familierelasjon defined by Skatteetaten",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:84bb6b38-b7bb-4b28-be9f-226936302467",
-        "timestamp" : "2021-09-26T18:31:25+00:00",
+        "identifier" : "urn:uuid:31459a61-41ce-4a80-82d3-49446d58534a",
+        "timestamp" : "2021-09-27T18:51:48+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -220,8 +220,8 @@
       "description" : "Copy of Codes from Sivilstandstype defined by Skatteetaten",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:f27a83c8-af2a-45a6-9b95-8d28aeb9a872",
-        "timestamp" : "2021-09-26T18:31:25+00:00",
+        "identifier" : "urn:uuid:5b4b8464-f008-4603-8a8a-ce5f2532997c",
+        "timestamp" : "2021-09-27T18:51:49+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -308,8 +308,8 @@
       "description" : "Copy of Codes from Foreldreansvar defined by Skatteetaten",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:e09a17f3-4416-4662-ae01-ee5dec254743",
-        "timestamp" : "2021-09-26T18:31:25+00:00",
+        "identifier" : "urn:uuid:ceff5708-b02f-4f53-9069-5587bbb6b2c1",
+        "timestamp" : "2021-09-27T18:51:49+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",

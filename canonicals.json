@@ -1,5 +1,12 @@
 [
   {
+    "id": "no-basis-relatedperson-person-reference",
+    "type": "StructureDefinition",
+    "url": "http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisRelatedpersonPersonReference"
+  },
+  {
     "id": "no-basis-connection-type.codesystem",
     "type": "CodeSystem",
     "url": "http://hl7.no/fhir/CodeSystem/no-basis-connection-type",
@@ -201,6 +208,13 @@
     "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-propertyinformation",
     "version": "2.0.17-alpha",
     "name": "NoBasisPropertyinformation"
+  },
+  {
+    "id": "no-basis-sourceofinformation",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-sourceofinformation",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisSourceofinformation"
   },
   {
     "id": "no-basis-urban-district",
