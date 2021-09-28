@@ -23,6 +23,8 @@
 * Hvordan ta vare på versjoner av IG-ene som publisher genererer?
   * versjonskontroll med IG-publisher
 * Undersøke hvorfor nye Docker images ikke fungerer og hvorfor docker build ikke fungerer
+* Legge om til å bruke FHIR template for no-basis
+  * [HL7 IG templates](https://build.fhir.org/ig/FHIR/ig-guidance/index.html#templates)
 
 2021-09-27 - Ny versjon med sourceofinformation og RelatedPersonPersonReference  
 2021-09-27 - Opprettet gh-pages som egen branch, inneholder bare output fra build prosessen, index.html må eksistere for github pages skal fungere  
