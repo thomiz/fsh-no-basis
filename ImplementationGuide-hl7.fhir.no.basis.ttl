@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "2.0.17-alpha"];
   fhir:ImplementationGuide.name [ fhir:value "NoBasis"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-09-27T19:56:41+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-09-28T18:02:44+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -588,10 +588,10 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/no-basis/Patient/GOFSH-GENERATED-ID-2>;
-         fhir:Reference.reference [ fhir:value "Patient/GOFSH-GENERATED-ID-2" ]
+         fhir:link <http://hl7.no/fhir/no-basis/Patient/EspenEksempel>;
+         fhir:Reference.reference [ fhir:value "Patient/EspenEksempel" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "GOFSH-GENERATED-ID-2" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "EspenEksempel" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient";
          fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient>
@@ -604,10 +604,10 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/no-basis/Patient/GOFSH-GENERATED-ID-3>;
-         fhir:Reference.reference [ fhir:value "Patient/GOFSH-GENERATED-ID-3" ]
+         fhir:link <http://hl7.no/fhir/no-basis/Patient/JanniceSoreng>;
+         fhir:Reference.reference [ fhir:value "Patient/JanniceSoreng" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "GOFSH-GENERATED-ID-3" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "JanniceSoreng" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient";
          fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient>

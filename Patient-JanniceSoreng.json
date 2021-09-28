@@ -1,6 +1,6 @@
 {
   "resourceType": "Patient",
-  "id": "GOFSH-GENERATED-ID-3",
+  "id": "JanniceSoreng",
   "meta": {
     "profile": [
       "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"

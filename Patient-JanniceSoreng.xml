@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Patient xmlns="http://hl7.org/fhir">
-  <id value="GOFSH-GENERATED-ID-3"/>
+  <id value="JanniceSoreng"/>
   <meta>
     <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"/>
   </meta>

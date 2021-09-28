@@ -5,9 +5,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/Patient/GOFSH-GENERATED-ID-2> a fhir:Patient;
+<http://hl7.no/fhir/no-basis/Patient/EspenEksempel> a fhir:Patient;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "GOFSH-GENERATED-ID-2"];
+  fhir:Resource.id [ fhir:value "EspenEksempel"];
   fhir:Resource.meta [
      fhir:Meta.profile [
        fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient";
@@ -108,7 +108,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/Patient/GOFSH-GENERATED-ID-2.ttl> a owl:Ontology;
+<http://hl7.no/fhir/no-basis/Patient/EspenEksempel.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

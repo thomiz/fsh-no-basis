@@ -9,7 +9,7 @@
   "version": "2.0.17-alpha",
   "name": "NoBasis",
   "status": "active",
-  "date": "2021-09-27T19:56:41+00:00",
+  "date": "2021-09-28T18:02:44+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -603,9 +603,9 @@
           }
         ],
         "reference": {
-          "reference": "Patient/GOFSH-GENERATED-ID-2"
+          "reference": "Patient/EspenEksempel"
         },
-        "name": "GOFSH-GENERATED-ID-2",
+        "name": "EspenEksempel",
         "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"
       },
       {
@@ -616,9 +616,9 @@
           }
         ],
         "reference": {
-          "reference": "Patient/GOFSH-GENERATED-ID-3"
+          "reference": "Patient/JanniceSoreng"
         },
-        "name": "GOFSH-GENERATED-ID-3",
+        "name": "JanniceSoreng",
         "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"
       },
       {

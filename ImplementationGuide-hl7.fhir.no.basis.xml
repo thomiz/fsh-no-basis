@@ -9,7 +9,7 @@
   <version value="2.0.17-alpha"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2021-09-27T19:56:41+00:00"/>
+  <date value="2021-09-28T18:02:44+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -427,9 +427,9 @@
         <valueString value="Patient"/>
       </extension>
       <reference>
-        <reference value="Patient/GOFSH-GENERATED-ID-2"/>
+        <reference value="Patient/EspenEksempel"/>
       </reference>
-      <name value="GOFSH-GENERATED-ID-2"/>
+      <name value="EspenEksempel"/>
       <exampleCanonical value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"/>
     </resource>
     <resource>
@@ -437,9 +437,9 @@
         <valueString value="Patient"/>
       </extension>
       <reference>
-        <reference value="Patient/GOFSH-GENERATED-ID-3"/>
+        <reference value="Patient/JanniceSoreng"/>
       </reference>
-      <name value="GOFSH-GENERATED-ID-3"/>
+      <name value="JanniceSoreng"/>
       <exampleCanonical value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"/>
     </resource>
     <resource>

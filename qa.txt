@@ -3,7 +3,7 @@
 
 err = 10, warn = 93, info = 15
 IG Publisher Version: 1.1.79 Out of date - current version is 1.1.80
-Generated Mon Sep 27 19:58:44 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.0.17-alpha (canonical = http://hl7.no/fhir/no-basis)
+Generated Tue Sep 28 18:04:38 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.0.17-alpha (canonical = http://hl7.no/fhir/no-basis)
 
  Build Errors : 223 / 7 / 0
  /data/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
@@ -18,8 +18,8 @@ Generated Mon Sep 27 19:58:44 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis
  /data/fsh-generated/resources/namingsystem-no-basis-foedselsnummer : 0 / 0 / 1
  /data/fsh-generated/resources/namingsystem-no-basis-helsepersonellnummer : 0 / 0 / 1
  /data/fsh-generated/resources/namingsystem-no-basis-kommunenummer : 0 / 0 / 1
- /data/fsh-generated/resources/patient-GOFSH-GENERATED-ID-2 : 2 / 1 / 4
- /data/fsh-generated/resources/patient-GOFSH-GENERATED-ID-3 : 4 / 2 / 8
+ /data/fsh-generated/resources/patient-EspenEksempel : 2 / 1 / 4
+ /data/fsh-generated/resources/patient-JanniceSoreng : 4 / 2 / 8
  /data/fsh-generated/resources/patient-JanniceSorengTo : 2 / 3 / 6
  /data/fsh-generated/resources/searchparameter-no-basis-middlename : 0 / 0 / 1
  /data/fsh-generated/resources/structuredefinition-no-basis-Address : 0 / 0 / 1
@@ -48,8 +48,8 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-basis-family-relation.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-basis-marital-status.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-basis-parental-responsibility.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/GOFSH-GENERATED-ID-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/GOFSH-GENERATED-ID-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/EspenEksempel.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/JanniceSoreng.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/JanniceSorengTo.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.html#/html/body/div/div/div/p/a at Line 214, column 28: The link '' for "" cannot be resolved
@@ -106,16 +106,16 @@ ERROR: /data/output/NamingSystem-no-basis-kommunenummer.html#/html/body/div/div/
 ERROR: /data/output/NamingSystem-no-basis-kommunenummer.json.html#/html/body/div/div/div/p/a at Line 237, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/NamingSystem-no-basis-kommunenummer.ttl.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/NamingSystem-no-basis-kommunenummer.xml.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.json.html#/html/body/div/div/div/p/a at Line 300, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.ttl.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-2.xml.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.json.html#/html/body/div/div/div/p/a at Line 346, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.ttl.html#/html/body/div/div/div/p/a at Line 326, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-GOFSH-GENERATED-ID-3.xml.html#/html/body/div/div/div/p/a at Line 302, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-EspenEksempel.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-EspenEksempel.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-EspenEksempel.json.html#/html/body/div/div/div/p/a at Line 300, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-EspenEksempel.ttl.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-EspenEksempel.xml.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSoreng.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSoreng.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSoreng.json.html#/html/body/div/div/div/p/a at Line 346, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSoreng.ttl.html#/html/body/div/div/div/p/a at Line 326, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSoreng.xml.html#/html/body/div/div/div/p/a at Line 302, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/Patient-JanniceSorengTo.change.history.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/Patient-JanniceSorengTo.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/Patient-JanniceSorengTo.json.html#/html/body/div/div/div/p/a at Line 346, column 28: The link '' for "" cannot be resolved
@@ -270,7 +270,7 @@ ERROR: /data/output/ValueSet-no-basis-service-type.valueset.html#/html/body/div/
 ERROR: /data/output/ValueSet-no-basis-service-type.valueset.json.html#/html/body/div/div/div/p/a at Line 252, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/ValueSet-no-basis-service-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/ValueSet-no-basis-service-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/artifacts.html#/html/body/div/div/div/p/a at Line 571, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/artifacts.html#/html/body/div/div/div/p/a at Line 569, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/index.html#/html/body/div/div/div/p/a at Line 200, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/toc.html#/html/body/div/div/div/p/a at Line 140, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis.json ==
@@ -285,27 +285,27 @@ ERROR: /data/output/toc.html#/html/body/div/div/div/p/a at Line 140, column 28: 
 == fsh-generated/resources/namingsystem-no-basis-foedselsnummer.json ==
 == fsh-generated/resources/namingsystem-no-basis-helsepersonellnummer.json ==
 == fsh-generated/resources/namingsystem-no-basis-kommunenummer.json ==
-== fsh-generated/resources/patient-GOFSH-GENERATED-ID-2.json ==
-WARNING: Patient/GOFSH-GENERATED-ID-2: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet urn:iso:std:iso:3166 not found by validator
-INFORMATION: Patient/GOFSH-GENERATED-ID-2: Patient.address[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address
-INFORMATION: Patient/GOFSH-GENERATED-ID-2: Patient.address[0].extension[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address
-ERROR: Patient/GOFSH-GENERATED-ID-2: Patient.address[0].extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation is unknown, and not allowed here
-INFORMATION: Patient/GOFSH-GENERATED-ID-2: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
-ERROR: Patient/GOFSH-GENERATED-ID-2: Patient.address[0].extension[1]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-address-official is unknown, and not allowed here
-== fsh-generated/resources/patient-GOFSH-GENERATED-ID-3.json ==
-INFORMATION: Patient/GOFSH-GENERATED-ID-3: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient
-WARNING: Patient/GOFSH-GENERATED-ID-3: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet urn:iso:std:iso:3166 not found by validator
-INFORMATION: Patient/GOFSH-GENERATED-ID-3: Patient.address[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address
-INFORMATION: Patient/GOFSH-GENERATED-ID-3: Patient.address[0].extension[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address
-ERROR: Patient/GOFSH-GENERATED-ID-3: Patient.address[0].extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation is unknown, and not allowed here
-INFORMATION: Patient/GOFSH-GENERATED-ID-3: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
-ERROR: Patient/GOFSH-GENERATED-ID-3: Patient.address[0].extension[1]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-address-official is unknown, and not allowed here
-ERROR: Patient/GOFSH-GENERATED-ID-3: Patient.address[0].district.extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode is unknown, and not allowed here
-INFORMATION: Patient/GOFSH-GENERATED-ID-3: Patient.address[0].district.extension[0].value.ofType(Coding): Code System URI 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' is unknown so the code cannot be validated
-INFORMATION: Patient/GOFSH-GENERATED-ID-3: Patient.address[0].district.extension[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address
-WARNING: Patient/GOFSH-GENERATED-ID-3: Patient.contact[0].relationship[1]: No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/patient-contactrelationship (http://hl7.org/fhir/ValueSet/patient-contactrelationship)
-INFORMATION: Patient/GOFSH-GENERATED-ID-3: Patient.contact[0].name.extension[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName
-ERROR: Patient/GOFSH-GENERATED-ID-3: Patient.contact[0].name.extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-middlename is unknown, and not allowed here
+== fsh-generated/resources/patient-EspenEksempel.json ==
+WARNING: Patient/EspenEksempel: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet urn:iso:std:iso:3166 not found by validator
+INFORMATION: Patient/EspenEksempel: Patient.address[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address
+INFORMATION: Patient/EspenEksempel: Patient.address[0].extension[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address
+ERROR: Patient/EspenEksempel: Patient.address[0].extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation is unknown, and not allowed here
+INFORMATION: Patient/EspenEksempel: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
+ERROR: Patient/EspenEksempel: Patient.address[0].extension[1]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-address-official is unknown, and not allowed here
+== fsh-generated/resources/patient-JanniceSoreng.json ==
+INFORMATION: Patient/JanniceSoreng: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient
+WARNING: Patient/JanniceSoreng: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet urn:iso:std:iso:3166 not found by validator
+INFORMATION: Patient/JanniceSoreng: Patient.address[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address
+INFORMATION: Patient/JanniceSoreng: Patient.address[0].extension[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address
+ERROR: Patient/JanniceSoreng: Patient.address[0].extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation is unknown, and not allowed here
+INFORMATION: Patient/JanniceSoreng: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
+ERROR: Patient/JanniceSoreng: Patient.address[0].extension[1]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-address-official is unknown, and not allowed here
+ERROR: Patient/JanniceSoreng: Patient.address[0].district.extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode is unknown, and not allowed here
+INFORMATION: Patient/JanniceSoreng: Patient.address[0].district.extension[0].value.ofType(Coding): Code System URI 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' is unknown so the code cannot be validated
+INFORMATION: Patient/JanniceSoreng: Patient.address[0].district.extension[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address
+WARNING: Patient/JanniceSoreng: Patient.contact[0].relationship[1]: No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/patient-contactrelationship (http://hl7.org/fhir/ValueSet/patient-contactrelationship)
+INFORMATION: Patient/JanniceSoreng: Patient.contact[0].name.extension[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName
+ERROR: Patient/JanniceSoreng: Patient.contact[0].name.extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-middlename is unknown, and not allowed here
 == fsh-generated/resources/patient-JanniceSorengTo.json ==
 INFORMATION: Patient/JanniceSorengTo: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient
 WARNING: Patient/JanniceSorengTo: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet urn:iso:std:iso:3166 not found by validator
