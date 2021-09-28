@@ -23,6 +23,7 @@
 * Hvordan ta vare på versjoner av IG-ene som publisher genererer?
   * versjonskontroll med IG-publisher
 * Undersøke hvorfor nye Docker images ikke fungerer og hvorfor docker build ikke fungerer
+  * Feil i docker-entrypoint fila (linux må ha LF linjeskift)
 * Legge om til å bruke FHIR template for no-basis
   * [HL7 IG templates](https://build.fhir.org/ig/FHIR/ig-guidance/index.html#templates)
 
@@ -38,23 +39,25 @@
 
 ## Når .vscode tasks ikke fungerer
 
-Kommandolinje for å kjøre IG-publisher for fsh-no-basis
+Bygge nygg docker image:
 
 ~~~bash
 docker build -t thomiz/fhir-build-image .
 ~~~
 
+Kommandolinje for å kjøre IG-publisher for fsh-no-basis:
+
 ~~~bash
 docker --debug run -it --rm -v package-cache:/root/.fhir -v e:\GitRepo\fsh-no-basis\master\no-basis:/data thomiz/fhir-build publisher -ig /data/ig.ini
 ~~~
 
-Liste images
+Liste images:
 
 ~~~bash
 docker image ls
 ~~~
 
-Slette hengende image
+Slette hengende image:
 
 ~~~bash
 docker image rm 2f47c3bf6b47 -f  
