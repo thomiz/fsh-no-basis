@@ -6,7 +6,7 @@
     {
       "label": "Build docker-image",
       "type": "shell",
-      "command": "docker build -t thomiz/build-pipeline ${workspaceFolder}/.docker",
+      "command": "docker build -t thomiz/fhir-build-image ${workspaceFolder}/.docker",
       "presentation": {
         "clear": true
       },
@@ -15,7 +15,7 @@
     {
       "label": "SUSHI",
       "type": "shell",
-      "command": "docker run -it --rm -v package-cache:/root/.fhir -v ${fileDirname}:/data thomiz/build-pipeline sushi /data",
+      "command": "docker run -it --rm -v package-cache:/root/.fhir -v ${fileDirname}:/data thomiz/fhir-build-image sushi /data",
       "group": {
         "kind": "build",
         "isDefault": true
@@ -28,20 +28,14 @@
     {
       "label": "Validator",
       "type": "shell",
-      "command": "docker run -it --rm -v package-cache:/root/.fhir -v ${fileDirname}:/data thomiz/build-pipeline validator /data/fsh-generated/resources",
+      "command": "docker run -it --rm -v package-cache:/root/.fhir -v ${fileDirname}:/data thomiz/fhir-build-image validator /data/fsh-generated/resources",
       "group": "test",
-      "dependsOn": [
-        "Build docker-image"
-      ],
       "problemMatcher": []
     },
     {
       "label": "IG Publisher",
       "type": "shell",
-      "command": "docker --debug run -it --rm -v package-cache:/root/.fhir -v ${fileDirname}:/data thomiz/build-pipeline publisher -ig /data/ig.ini",
-      "dependsOn": [
-        "Build docker-image"
-      ],
+      "command": "docker --debug run -it --rm -v package-cache:/root/.fhir -v ${fileDirname}:/data thomiz/fhir-build-image publisher -ig /data/ig.ini",
       "problemMatcher": []
     },
     {

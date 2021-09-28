@@ -24,6 +24,7 @@
   * versjonskontroll med IG-publisher
 * Undersøke hvorfor nye Docker images ikke fungerer og hvorfor docker build ikke fungerer
 
+2021-09-28 - Bug i docker-entrypoint.sh noe så dumt som linjeskift (skal være LF i linux men er CRLF i Windows VSCode)
 2021-09-27 - Ny versjon med sourceofinformation og RelatedPersonPersonReference
 2021-09-27 - Opprettet gh-pages som egen branch, inneholder bare output fra build prosessen, index.html må eksistere for github pages skal fungere
 2021-09-26 - Fikk generert IG med egen no-basis-index.html (basert på md fil fra SIMPLIFIER)
@@ -33,20 +34,26 @@
 2021-09-25 - NoBasis-Patient.fsh - Ny kodelinje for extension (citizenship ser ut til å fungere)  
 2021-09-25 - Får ikke vscode/tasks til å fungere, men docker image fra kommandolinje fungerer  
 
-## Når .vscod tasks ikke fungerer
+## Når .vscode tasks ikke fungerer
 
 Kommandolinje for å kjøre IG-publisher for fsh-no-basis
 
 ~~~bash
-docker --debug run -it --rm -v package-cache:/root/.fhir -v e:\GitRepo\fsh-no-basis\master\no-basis:/data thomiz/build-pipeline publisher -ig /data/ig.ini
+docker build -t thomiz/fhir-build-image .
+~~~
+
+~~~bash
+docker --debug run -it --rm -v package-cache:/root/.fhir -v e:\GitRepo\fsh-no-basis\master\no-basis:/data thomiz/fhir-build publisher -ig /data/ig.ini
 ~~~
 
 Liste images
+
 ~~~bash
 docker image ls
 ~~~
 
 Slette hengende image
+
 ~~~bash
-docker image rm fb2356268a8d -f  
+docker image rm 2f47c3bf6b47 -f  
 ~~~
