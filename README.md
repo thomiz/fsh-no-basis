@@ -23,11 +23,13 @@
 * Hvordan ta vare på versjoner av IG-ene som publisher genererer?
   * versjonskontroll med IG-publisher
 * Undersøke hvorfor nye Docker images ikke fungerer og hvorfor docker build ikke fungerer
+* Legge om til å bruke FHIR template for no-basis
+  * [HL7 IG templates](https://build.fhir.org/ig/FHIR/ig-guidance/index.html#templates)
 
-2021-09-28 - Bug i docker-entrypoint.sh noe så dumt som linjeskift (skal være LF i linux men er CRLF i Windows VSCode)
-2021-09-27 - Ny versjon med sourceofinformation og RelatedPersonPersonReference
-2021-09-27 - Opprettet gh-pages som egen branch, inneholder bare output fra build prosessen, index.html må eksistere for github pages skal fungere
-2021-09-26 - Fikk generert IG med egen no-basis-index.html (basert på md fil fra SIMPLIFIER)
+2021-09-28 - Bug i docker-entrypoint.sh noe så dumt som linjeskift (skal være LF i linux men er CRLF i Windows VSCode)  
+2021-09-27 - Ny versjon med sourceofinformation og RelatedPersonPersonReference  
+2021-09-27 - Opprettet gh-pages som egen branch, inneholder bare output fra build prosessen, index.html må eksistere for github pages skal fungere  
+2021-09-26 - Fikk generert IG med egen no-basis-index.html (basert på md fil fra SIMPLIFIER)  
 2021-09-25 - fikk generert IG, men mye arbeid å gjøre før dette går smuud, Måtte bruke det gamle docker imaget fra Tidlig september.  
 2021-09-25 - fixet feil i middlename, propertyinformation og person  
 2021-09-25 - Problemer med tasks og Docker, forsøker update av docker, hjelper ikke, får ikke bygget nytt fugnerende image men det gamle fungerer  
