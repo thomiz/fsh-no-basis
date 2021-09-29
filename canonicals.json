@@ -154,6 +154,13 @@
     "name": "NoBasisHumanName"
   },
   {
+    "id": "no-basis-Organization",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisOrganization"
+  },
+  {
     "id": "no-basis-Patient",
     "type": "StructureDefinition",
     "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient",
@@ -166,6 +173,20 @@
     "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person",
     "version": "2.0.17-alpha",
     "name": "NoBasisPerson"
+  },
+  {
+    "id": "no-basis-PractitionerRole",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-PractitionerRole",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisPractitionerRole"
+  },
+  {
+    "id": "no-basis-RelatedPerson",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisRelatedPerson"
   },
   {
     "id": "no-basis-address-official",

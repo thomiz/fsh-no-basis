@@ -303,6 +303,12 @@
     }
   ],
   "profiles": {
+    "Organization": [
+      {
+        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization",
+        "title": "no-basis-Organization"
+      }
+    ],
     "Patient": [
       {
         "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient",
@@ -313,6 +319,18 @@
       {
         "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person",
         "title": "no-basis-Person"
+      }
+    ],
+    "PractitionerRole": [
+      {
+        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-PractitionerRole",
+        "title": "no-basis-PractitionerRole"
+      }
+    ],
+    "RelatedPerson": [
+      {
+        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson",
+        "title": "no-basis-RelatedPerson"
       }
     ]
   },
@@ -383,6 +401,7 @@
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.differential.element.type",
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
