@@ -26,7 +26,9 @@
   * Feil i docker-entrypoint fila (linux må ha LF linjeskift)
 * Legge om til å bruke FHIR template for no-basis
   * [HL7 IG templates](https://build.fhir.org/ig/FHIR/ig-guidance/index.html#templates)
+  * HL7 Norge template, men logoer mangler av en eller annen grunn
 
+2021-09-29 - Et par nye ressurser, og lagt til ny template, men får ikke logoer på
 2021-09-28 - Bug i docker-entrypoint.sh noe så dumt som linjeskift (skal være LF i linux men er CRLF i Windows VSCode)  
 2021-09-27 - Ny versjon med sourceofinformation og RelatedPersonPersonReference  
 2021-09-27 - Opprettet gh-pages som egen branch, inneholder bare output fra build prosessen, index.html må eksistere for github pages skal fungere  
