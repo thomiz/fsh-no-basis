@@ -18,16 +18,17 @@
 * Egen gh-pages branch som bare inneholder resultatet av byggeprosessen fra IG-publisher
   * hvordan styre hvor IG-publisher legger resultatet?
   * Sørge for at IG-publisher resultatene blir lagt i egen katalog og dette blir lagt i gh-pages branchen
-  * Hvor er pakkene fra IG-publisher, genereres det pakker
+  * Hvor er pakkene fra IG-publisher, genereres det pakker?
     * Ja, disse legges i hovedkatalogen
 * Hvordan ta vare på versjoner av IG-ene som publisher genererer?
   * versjonskontroll med IG-publisher
 * Undersøke hvorfor nye Docker images ikke fungerer og hvorfor docker build ikke fungerer
   * Feil i docker-entrypoint fila (linux må ha LF linjeskift)
-* Legge om til å bruke FHIR template for no-basis
+* OK, Legge om til å bruke FHIR template for no-basis
   * [HL7 IG templates](https://build.fhir.org/ig/FHIR/ig-guidance/index.html#templates)
-  * HL7 Norge template, men logoer mangler av en eller annen grunn
 
+2021-09-30 - forsøkte med XML instans eksempel NoBasisOrganization
+2021-09-30 - Feilretting i NoBasisPractitioner.fsh
 2021-09-29 - Et par nye ressurser, og lagt til ny template, husk template hentes fra github så bare endringer derfra blir med i bygget...
 2021-09-28 - Bug i docker-entrypoint.sh noe så dumt som linjeskift (skal være LF i linux men er CRLF i Windows VSCode)  
 2021-09-27 - Ny versjon med sourceofinformation og RelatedPersonPersonReference  

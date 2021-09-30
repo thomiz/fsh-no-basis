@@ -55,6 +55,10 @@ Description: """Basisprofil for Norwegian Practitioner information. Defined by T
 * qualification.code.coding ^slicing.rules = #open
 * qualification.code.coding ^short = "Coded representation of the qualification"
 * qualification.code.coding ^definition = "Coded representation of the qualification of the health care practitioner. Usually contains healthPersonnellCategory according to Kategori helsepersonell (OID=9060) and approvalType according to Godkjenningstype HPR (OID=7704)"
+* qualification.code.coding contains
+    healthPersonnellCategory 0..* and
+    approvalType 0..* and
+    healthPersonnelSpecialization 0..*
 * qualification.code.coding[healthPersonnellCategory] from urn:oid:2.16.578.1.12.4.1.1.9060 (preferred)
 * qualification.code.coding[healthPersonnellCategory] ^sliceName = "healthPersonnellCategory"
 * qualification.code.coding[healthPersonnellCategory] ^short = "The health care personnel category"
