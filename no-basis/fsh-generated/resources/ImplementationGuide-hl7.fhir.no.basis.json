@@ -5,6 +5,17 @@
   "version": "2.0.17-alpha",
   "name": "NoBasis",
   "status": "active",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NO",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "packageId": "hl7.fhir.no.basis",
   "fhirVersion": [
     "4.0.1"
@@ -29,6 +40,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/no-basis-Organization"
+        },
+        "name": "no-basis-Organization",
+        "description": "Basisprofil for Norwegian Organization information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The basis profile describes information structures typically used for identifying norwegian organizations. Should be used as a basis for further profiling in use-cases where other specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/no-basis-Patient"
         },
         "name": "no-basis-Patient",
@@ -41,6 +60,30 @@
         },
         "name": "no-basis-Person",
         "description": "Basisprofil for Norwegian Person information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nThe no-basis-Person resource main use-case is with regards to information describing persons that are living in Norway. The information is typically available from the Norwegian \"folkeregister\" and contains information describing all Norweigan citizens and individuals working and living in Norway.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-Practitioner"
+        },
+        "name": "no-basis-Practitioner",
+        "description": "Basisprofil for Norwegian Practitioner information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\n2019-03 - The no-basis-Practitioner resource main use-case is to represent the actual Practitioner, e.g. a person. The resource can include information about how to identify the practitioner in addition to the practitioner's education, qualifications and speciality. The resource can also include approvals and other centrally registered capabilities recorded for the practitioner.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-PractitionerRole"
+        },
+        "name": "no-basis-PractitionerRole",
+        "description": "Basisprofil for Norwegian PractitionerRole information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific role information is available. The basis profile is open, but derived profiles should close down the information elements according to specifications relevant to the use-case.\n\nThe main use-case of no-basis-PractitionerRole is to represent the role or function of a Practitioner wihtin an organization. The resource can include information about services performed by a Practitioner, a location where the practitioner performes the functions as well as information about the nature of the employment at an organization.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-RelatedPerson"
+        },
+        "name": "no-basis-RelatedPerson",
+        "description": "Basisprofil for Norwegian RelatedPerson information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nTypical use-case for no-basis-RelatedPerson involves information about relations person-patient.\n- Relations registered in norwegian Master Person Information Index (aka Folkeregisteret)\n- Other relationship information registered on a patient or person neccessary for patient treatment\n- Should not be used for contact persons for the patient with a predefined role in the patient care, as information as this is registered separately in the Patient resource",
         "exampleBoolean": false
       },
       {
@@ -89,6 +132,22 @@
         },
         "name": "no-basis-propertyinformation",
         "description": "This basis extension describes information identifying norwegian real property.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-relatedperson-person-reference"
+        },
+        "name": "NoBasisRelatedpersonPersonReference",
+        "description": "If a person reference is needed in RelatedPerson.patient element, this optional extension should be used.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/no-basis-sourceofinformation"
+        },
+        "name": "no-basis-sourceofinformation",
+        "description": "Part of norwegian KI standard.",
         "exampleBoolean": false
       },
       {
@@ -177,16 +236,23 @@
       },
       {
         "reference": {
-          "reference": "Patient/GOFSH-GENERATED-ID-2"
+          "reference": "Patient/EspenEksempel"
         },
-        "name": "GOFSH-GENERATED-ID-2",
+        "name": "EspenEksempel",
         "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"
       },
       {
         "reference": {
-          "reference": "Patient/GOFSH-GENERATED-ID-3"
+          "reference": "Patient/JanniceSoreng"
         },
-        "name": "GOFSH-GENERATED-ID-3",
+        "name": "JanniceSoreng",
+        "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"
+      },
+      {
+        "reference": {
+          "reference": "Patient/JanniceSorengTo"
+        },
+        "name": "JanniceSorengTo",
         "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"
       },
       {
@@ -250,7 +316,13 @@
       "nameUrl": "toc.html",
       "title": "Table of Contents",
       "generation": "html",
-      "page": []
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
     },
     "parameter": [
       {

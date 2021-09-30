@@ -106,6 +106,16 @@
         "definition": "no-basis-Patient introduces iso 3166 codes\r\n\r\nNation code representing the citizenship of patient."
       },
       {
+        "id": "Patient.extension:citizenship.extension:code.valueCodeableConcept",
+        "path": "Patient.extension.extension.valueCodeableConcept",
+        "min": 1,
+        "max": "1",
+        "binding": {
+          "strength": "example",
+          "valueSet": "urn:iso:std:iso:3166"
+        }
+      },
+      {
         "id": "Patient.identifier",
         "path": "Patient.identifier",
         "slicing": {
