@@ -321,6 +321,12 @@
         "title": "no-basis-Person"
       }
     ],
+    "Practitioner": [
+      {
+        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner",
+        "title": "no-basis-Practitioner"
+      }
+    ],
     "PractitionerRole": [
       {
         "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-PractitionerRole",

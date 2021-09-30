@@ -1,11 +1,11 @@
 ﻿NoBasis : Validation Results
 =========================================
 
-err = 10, warn = 104, info = 15
+err = 10, warn = 111, info = 15
 IG Publisher Version: 1.1.80 Out of date - current version is 1.1.81
-Generated Wed Sep 29 21:08:01 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.0.17-alpha (canonical = http://hl7.no/fhir/no-basis)
+Generated Thu Sep 30 17:47:05 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.0.17-alpha (canonical = http://hl7.no/fhir/no-basis)
 
- Build Errors : 267 / 7 / 0
+ Build Errors : 290 / 7 / 0
  /data/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
  /data/fsh-generated/resources/codesystem-no-basis-connection-type.codesystem : 0 / 0 / 1
  /data/fsh-generated/resources/codesystem-no-basis-family-relation.codesystem : 0 / 0 / 1
@@ -27,6 +27,7 @@ Generated Wed Sep 29 21:08:01 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis
  /data/fsh-generated/resources/structuredefinition-no-basis-Organization : 0 / 5 / 1
  /data/fsh-generated/resources/structuredefinition-no-basis-Patient : 0 / 2 / 1
  /data/fsh-generated/resources/structuredefinition-no-basis-Person : 0 / 1 / 1
+ /data/fsh-generated/resources/structuredefinition-no-basis-Practitioner : 0 / 7 / 1
  /data/fsh-generated/resources/structuredefinition-no-basis-PractitionerRole : 0 / 5 / 1
  /data/fsh-generated/resources/structuredefinition-no-basis-RelatedPerson : 0 / 1 / 1
  /data/fsh-generated/resources/structuredefinition-no-basis-address-official : 0 / 0 / 1
@@ -188,6 +189,29 @@ ERROR: /data/output/StructureDefinition-no-basis-Person.profile.history.html#/ht
 ERROR: /data/output/StructureDefinition-no-basis-Person.profile.json.html#/html/body/div/div/div/p/a at Line 2428, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-Person.profile.ttl.html#/html/body/div/div/div/p/a at Line 2133, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-Person.profile.xml.html#/html/body/div/div/div/p/a at Line 2180, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 754, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 834, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 914, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/p/a at Line 1084, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner-examples.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner-mappings.html#/html/body/div/div/div/p/a at Line 425, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 315, column 2057: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 318, column 2067: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 321, column 2147: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 396, column 2176: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 404, column 2172: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 412, column 2266: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 626, column 2057: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 629, column 2067: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 632, column 2147: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 707, column 2176: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 715, column 2172: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 723, column 2266: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/p/a at Line 1047, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.history.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.json.html#/html/body/div/div/div/p/a at Line 4457, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.ttl.html#/html/body/div/div/div/p/a at Line 3803, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.xml.html#/html/body/div/div/div/p/a at Line 4042, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 351, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 482, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/p/a at Line 813, column 28: The link '' for "" cannot be resolved
@@ -317,7 +341,7 @@ ERROR: /data/output/ValueSet-no-basis-service-type.valueset.html#/html/body/div/
 ERROR: /data/output/ValueSet-no-basis-service-type.valueset.json.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/ValueSet-no-basis-service-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 271, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/ValueSet-no-basis-service-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/artifacts.html#/html/body/div/div/div/p/a at Line 622, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/artifacts.html#/html/body/div/div/div/p/a at Line 633, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/index.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/toc.html#/html/body/div/div/div/p/a at Line 157, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis.json ==
@@ -378,6 +402,14 @@ WARNING: StructureDefinition/no-basis-Patient: StructureDefinition.differential.
 WARNING: StructureDefinition/no-basis-Patient: StructureDefinition.snapshot.element[15].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] could not be resolved
 == fsh-generated/resources/structuredefinition-no-basis-Person.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/structuredefinition-no-basis-Practitioner.json ==
+WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.differential.element[16].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9060 on element Practitioner.qualification.code.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.differential.element[19].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7704 on element Practitioner.qualification.code.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.differential.element[22].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7426 on element Practitioner.qualification.code.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.snapshot.element[53].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9060 on element Practitioner.qualification.code.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.snapshot.element[61].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7704 on element Practitioner.qualification.code.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.snapshot.element[69].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7426 on element Practitioner.qualification.code.coding could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/structuredefinition-no-basis-PractitionerRole.json ==
 WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.differential.element[2].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9034 on element PractitionerRole.code could not be resolved
 WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.differential.element[6].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8451 on element PractitionerRole.specialty could not be resolved

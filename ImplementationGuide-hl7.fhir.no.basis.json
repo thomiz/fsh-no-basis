@@ -9,7 +9,7 @@
   "version": "2.0.17-alpha",
   "name": "NoBasis",
   "status": "active",
-  "date": "2021-09-29T21:05:52+00:00",
+  "date": "2021-09-30T17:44:30+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -345,6 +345,20 @@
         },
         "name": "no-basis-Person",
         "description": "Basisprofil for Norwegian Person information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nThe no-basis-Person resource main use-case is with regards to information describing persons that are living in Norway. The information is typically available from the Norwegian \"folkeregister\" and contains information describing all Norweigan citizens and individuals working and living in Norway.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/no-basis-Practitioner"
+        },
+        "name": "no-basis-Practitioner",
+        "description": "Basisprofil for Norwegian Practitioner information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\n2019-03 - The no-basis-Practitioner resource main use-case is to represent the actual Practitioner, e.g. a person. The resource can include information about how to identify the practitioner in addition to the practitioner's education, qualifications and speciality. The resource can also include approvals and other centrally registered capabilities recorded for the practitioner.",
         "exampleBoolean": false
       },
       {

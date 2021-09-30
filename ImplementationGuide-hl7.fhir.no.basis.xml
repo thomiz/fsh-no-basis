@@ -9,7 +9,7 @@
   <version value="2.0.17-alpha"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2021-09-29T21:05:52+00:00"/>
+  <date value="2021-09-30T17:44:30+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -226,6 +226,17 @@
       </reference>
       <name value="no-basis-Person"/>
       <description value="Basisprofil for Norwegian Person information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.&#xA;&#xA;The no-basis-Person resource main use-case is with regards to information describing persons that are living in Norway. The information is typically available from the Norwegian &quot;folkeregister&quot; and contains information describing all Norweigan citizens and individuals working and living in Norway."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-Practitioner"/>
+      </reference>
+      <name value="no-basis-Practitioner"/>
+      <description value="Basisprofil for Norwegian Practitioner information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.&#xA;&#xA;2019-03 - The no-basis-Practitioner resource main use-case is to represent the actual Practitioner, e.g. a person. The resource can include information about how to identify the practitioner in addition to the practitioner&#39;s education, qualifications and speciality. The resource can also include approvals and other centrally registered capabilities recorded for the practitioner."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

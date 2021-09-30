@@ -175,6 +175,13 @@
     "name": "NoBasisPerson"
   },
   {
+    "id": "no-basis-Practitioner",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisPractitioner"
+  },
+  {
     "id": "no-basis-PractitionerRole",
     "type": "StructureDefinition",
     "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-PractitionerRole",
