@@ -1,6 +1,7 @@
 CodeSystem: NoBasisMaritalStatus
 Id: no-basis-marital-status.codesystem
 Title: "no-basis-marital-status.codesystem"
+Description: Copy of Codes from Sivilstandstype defined by Skatteetaten
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2019-05-07T00:00:00+00:00"
 * ^url = "http://hl7.no/fhir/CodeSystem/no-basis-marital-status"

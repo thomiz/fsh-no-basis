@@ -236,6 +236,13 @@
       },
       {
         "reference": {
+          "reference": "Organization/Direktoratet-for-eHelse-Organization"
+        },
+        "name": "Direktoratet-for-eHelse-Organization",
+        "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"
+      },
+      {
+        "reference": {
           "reference": "Patient/EspenEksempel"
         },
         "name": "EspenEksempel",
@@ -254,6 +261,27 @@
         },
         "name": "JanniceSorengTo",
         "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Magnar-Komann-Practitioner"
+        },
+        "name": "Magnar-Komann-Practitioner",
+        "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner"
+      },
+      {
+        "reference": {
+          "reference": "RelatedPerson/Solid-Aresdoktor-RelatedPerson"
+        },
+        "name": "Solid-Aresdoktor-RelatedPerson",
+        "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson"
+      },
+      {
+        "reference": {
+          "reference": "RelatedPerson/Sorgard-Erlend-RelatedPerson"
+        },
+        "name": "Sorgard-Erlend-RelatedPerson",
+        "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson"
       },
       {
         "reference": {

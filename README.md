@@ -27,7 +27,8 @@
 * OK, Legge om til å bruke FHIR template for no-basis
   * [HL7 IG templates](https://build.fhir.org/ig/FHIR/ig-guidance/index.html#templates)
 
-2021-09-30 - forsøkte med XML instans eksempel NoBasisOrganization
+2021-09-30 - La til noen flere eksempler, problemer med narrative generation fra fsh filene, noe er galt med extension definisjonenen i eksemplene
+2021-09-30 - forsøkte med XML instans eksempel NoBasisOrganization, ble ikke med
 2021-09-30 - Feilretting i NoBasisPractitioner.fsh
 2021-09-29 - Et par nye ressurser, og lagt til ny template, husk template hentes fra github så bare endringer derfra blir med i bygget...
 2021-09-28 - Bug i docker-entrypoint.sh noe så dumt som linjeskift (skal være LF i linux men er CRLF i Windows VSCode)  
