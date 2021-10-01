@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="Direktoratet-for-eHelse-Organization"/>
+  <meta>
+    <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 915933149</p><p><b>name</b>: Direktoratet for e-Helse</p><p><b>address</b>: </p><ul><li>Postboks 221 Skøyen OSLO 0213 </li><li>Verkstedveien 1 OSLO 0277 </li></ul></div>
+  </text>
+  <identifier>
+    <system value="urn:oid:2.16.578.1.12.4.1.4.101"/>
+    <value value="915933149"/>
+  </identifier>
+  <name value="Direktoratet for e-Helse"/>
+  <address>
+    <extension url="http://hl7.no/fhir/StructureDefinition/no-basis-address-official">
+      <valueBoolean value="true"/>
+    </extension>
+    <type value="postal"/>
+    <line value="Postboks 221 Skøyen"/>
+    <city value="OSLO"/>
+    <postalCode value="0213"/>
+  </address>
+  <address>
+    <extension url="http://hl7.no/fhir/StructureDefinition/no-basis-address-official">
+      <valueBoolean value="true"/>
+    </extension>
+    <type value="physical"/>
+    <line value="Verkstedveien 1"/>
+    <city value="OSLO"/>
+    <postalCode value="0277"/>
+  </address>
+</Organization>

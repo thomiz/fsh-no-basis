@@ -23,6 +23,7 @@
   fhir:CodeSystem.status [ fhir:value "active"];
   fhir:CodeSystem.date [ fhir:value "2019-05-15T00:00:00+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Copy of Codes from Foreldreansvar defined by Skatteetaten"];
+  fhir:CodeSystem.description [ fhir:value "Copy of Codes from Foreldreansvar defined by Skatteetaten"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

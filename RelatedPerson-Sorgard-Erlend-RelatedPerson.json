@@ -1,0 +1,78 @@
+{
+  "resourceType": "RelatedPerson",
+  "id": "Sorgard-Erlend-RelatedPerson",
+  "meta": {
+    "profile": [
+      "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 05073500186</p><p><b>patient</b>: <span></span></p><p><b>relationship</b>: <span title=\"Codes: {http://hl7.no/fhir/CodeSystem/no-basis-marital-status gift}\">Gift</span></p><p><b>name</b>: Ærlend Sørgård </p></div>"
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:iso:std:iso:3166",
+                "code": "NO"
+              }
+            ]
+          }
+        }
+      ],
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-person-citizenship"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "urn:oid:2.16.578.1.12.4.1.4.1",
+      "value": "05073500186"
+    }
+  ],
+  "patient": {
+    "extension": [
+      {
+        "url": "http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference",
+        "valueReference": {
+          "identifier": {
+            "system": "urn:oid:2.16.578.1.12.4.1.4.1",
+            "value": "04021950128"
+          }
+        }
+      }
+    ],
+    "identifier": {
+      "system": "urn:oid:2.16.578.1.12.4.1.4.1",
+      "value": "04021950128"
+    }
+  },
+  "relationship": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
+          "code": "gift"
+        }
+      ]
+    }
+  ],
+  "name": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.no/fhir/StructureDefinition/no-basis-middlename",
+          "valueString": "Pårørende"
+        }
+      ],
+      "family": "Sørgård",
+      "given": [
+        "Ærlend"
+      ]
+    }
+  ]
+}

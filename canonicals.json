@@ -147,11 +147,32 @@
     "name": "NoBasisAddress"
   },
   {
+    "id": "no-basis-Endpoint",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisEndpoint"
+  },
+  {
+    "id": "no-basis-HealthcareService",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisHealthcareService"
+  },
+  {
     "id": "no-basis-HumanName",
     "type": "StructureDefinition",
     "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName",
     "version": "2.0.17-alpha",
     "name": "NoBasisHumanName"
+  },
+  {
+    "id": "no-basis-Location",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Location",
+    "version": "2.0.17-alpha",
+    "name": "NoBasisLocation"
   },
   {
     "id": "no-basis-Organization",

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelatedPerson xmlns="http://hl7.org/fhir">
+  <id value="Solid-Aresdoktor-RelatedPerson"/>
+  <meta>
+    <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 15080050515</p><p><b>patient</b>: <span></span></p><p><b>relationship</b>: <span title="Codes: {http://hl7.no/fhir/CodeSystem/no-basis-family-relation far}">Far</span>, <span title="Codes: {http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility far}">Far</span></p><p><b>name</b>: SOLID ÆRESDOKTOR </p><p><b>address</b>: Nyhaugveien 3 BERGEN 5067 NO (HOME)</p></div>
+  </text>
+  <identifier>
+    <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+    <value value="15080050515"/>
+  </identifier>
+  <patient>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+      <value value="04021950128"/>
+    </identifier>
+  </patient>
+  <relationship>
+    <coding>
+      <system value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation"/>
+      <code value="far"/>
+    </coding>
+  </relationship>
+  <relationship>
+    <coding>
+      <system value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility"/>
+      <code value="far"/>
+    </coding>
+  </relationship>
+  <name>
+    <extension url="http://hl7.no/fhir/StructureDefinition/no-basis-middlename">
+      <valueString value="SKIKKELIG"/>
+    </extension>
+    <family value="ÆRESDOKTOR"/>
+    <given value="SOLID"/>
+  </name>
+  <address>
+    <extension url="http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation">
+      <extension url="cadastralUnitNumber">
+        <valueInteger value="15"/>
+      </extension>
+      <extension url="propertyUnitNumber">
+        <valueInteger value="557"/>
+      </extension>
+      <extension url="municipality">
+        <valueCoding>
+          <system value="urn:oid:2.16.578.1.12.4.1.1.3402"/>
+          <code value="1201"/>
+          <display value="Bergen"/>
+        </valueCoding>
+      </extension>
+    </extension>
+    <extension url="http://hl7.no/fhir/StructureDefinition/no-basis-address-official">
+      <valueBoolean value="true"/>
+    </extension>
+    <use value="home"/>
+    <line value="Nyhaugveien 3"/>
+    <city value="BERGEN"/>
+    <district value="BERGEN"/>
+    <postalCode value="5067"/>
+    <country value="NO"/>
+  </address>
+</RelatedPerson>

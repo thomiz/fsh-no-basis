@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelatedPerson xmlns="http://hl7.org/fhir">
+  <id value="Sorgard-Erlend-RelatedPerson"/>
+  <meta>
+    <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 05073500186</p><p><b>patient</b>: <span></span></p><p><b>relationship</b>: <span title="Codes: {http://hl7.no/fhir/CodeSystem/no-basis-marital-status gift}">Gift</span></p><p><b>name</b>: Ærlend Sørgård </p></div>
+  </text>
+  <extension url="http://hl7.no/fhir/StructureDefinition/no-basis-person-citizenship">
+    <extension url="code">
+      <valueCodeableConcept>
+        <coding>
+          <system value="urn:iso:std:iso:3166"/>
+          <code value="NO"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+  </extension>
+  <identifier>
+    <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+    <value value="05073500186"/>
+  </identifier>
+  <patient>
+    <extension url="http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference">
+      <valueReference>
+        <identifier>
+          <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+          <value value="04021950128"/>
+        </identifier>
+      </valueReference>
+    </extension>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+      <value value="04021950128"/>
+    </identifier>
+  </patient>
+  <relationship>
+    <coding>
+      <system value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status"/>
+      <code value="gift"/>
+    </coding>
+  </relationship>
+  <name>
+    <extension url="http://hl7.no/fhir/StructureDefinition/no-basis-middlename">
+      <valueString value="Pårørende"/>
+    </extension>
+    <family value="Sørgård"/>
+    <given value="Ærlend"/>
+  </name>
+</RelatedPerson>

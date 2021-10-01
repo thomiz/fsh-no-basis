@@ -16,6 +16,7 @@
   <status value="active"/>
   <date value="2019-05-15T00:00:00+00:00"/>
   <publisher value="Copy of Codes from Familierelasjon defined by Skatteetaten"/>
+  <description value="Copy of Codes from Familierelasjon defined by Skatteetaten"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

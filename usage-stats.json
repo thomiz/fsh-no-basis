@@ -303,6 +303,24 @@
     }
   ],
   "profiles": {
+    "Endpoint": [
+      {
+        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint",
+        "title": "no-basis-Endpoint"
+      }
+    ],
+    "HealthcareService": [
+      {
+        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService",
+        "title": "no-basis-HealthcareService"
+      }
+    ],
+    "Location": [
+      {
+        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Location",
+        "title": "no-basis-Location"
+      }
+    ],
     "Organization": [
       {
         "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization",
@@ -341,17 +359,27 @@
     ]
   },
   "usage": {
+    "http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference": [
+      "RelatedPerson.patient"
+    ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-address-official": [
-      "Patient.address"
+      "Organization.address",
+      "Patient.address",
+      "RelatedPerson.address"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-middlename": [
-      "Patient.contact.name"
+      "Patient.contact.name",
+      "RelatedPerson.name"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode": [
       "Patient.address.district"
     ],
+    "http://hl7.no/fhir/StructureDefinition/no-basis-person-citizenship": [
+      "RelatedPerson"
+    ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation": [
-      "Patient.address"
+      "Patient.address",
+      "RelatedPerson.address"
     ],
     "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-address-official": [
       "Address",

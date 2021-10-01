@@ -1,0 +1,116 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/no-basis/Practitioner/Magnar-Komann-Practitioner> a fhir:Practitioner;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Magnar-Komann-Practitioner"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner";
+       fhir:index 0;
+       fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 9144889</p><p><b>name</b>: Magnar Koman </p><p><b>telecom</b>: ph: 75589889(WORK), fax: 75589899, ph: 98128921(MOBILE), <a href=\"mailto:mako@bottomline.no\">mako@bottomline.no</a></p><p><b>address</b>: Dreyfushammarn 23 BODØ 8012 (WORK)</p><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes: {urn:oid:2.16.578.1.12.4.1.1.9060 LE}\">Lege</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes: {urn:oid:2.16.578.1.12.4.1.1.7426 1}\">Allmennmedisin</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes: {urn:oid:2.16.578.1.12.4.1.1.7704 1}\">Autorisasjon</span></p><p><b>period</b>: 2018-10-10 --&gt; (ongoing)</p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes: {urn:oid:2.16.578.1.12.4.1.1.7426 152}\">Ortopedisk kirurgi</span></p></blockquote></div>"
+  ];
+  fhir:Practitioner.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.4.4" ];
+     fhir:Identifier.value [ fhir:value "9144889" ]
+  ];
+  fhir:Practitioner.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Koman" ];
+     fhir:HumanName.given [
+       fhir:value "Magnar";
+       fhir:index 0
+     ]
+  ];
+  fhir:Practitioner.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "phone" ];
+     fhir:ContactPoint.value [ fhir:value "75589889" ];
+     fhir:ContactPoint.use [ fhir:value "work" ]
+  ], [
+     fhir:index 1;
+     fhir:ContactPoint.system [ fhir:value "fax" ];
+     fhir:ContactPoint.value [ fhir:value "75589899" ]
+  ], [
+     fhir:index 2;
+     fhir:ContactPoint.system [ fhir:value "phone" ];
+     fhir:ContactPoint.value [ fhir:value "98128921" ];
+     fhir:ContactPoint.use [ fhir:value "mobile" ]
+  ], [
+     fhir:index 3;
+     fhir:ContactPoint.system [ fhir:value "email" ];
+     fhir:ContactPoint.value [ fhir:value "mako@bottomline.no" ];
+     fhir:ContactPoint.use [ fhir:value "work" ]
+  ];
+  fhir:Practitioner.address [
+     fhir:index 0;
+     fhir:Address.use [ fhir:value "work" ];
+     fhir:Address.line [
+       fhir:value "Dreyfushammarn 23";
+       fhir:index 0
+     ];
+     fhir:Address.city [ fhir:value "BODØ" ];
+     fhir:Address.postalCode [ fhir:value "8012" ]
+  ];
+  fhir:Practitioner.qualification [
+     fhir:index 0;
+     fhir:Practitioner.qualification.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.9060" ];
+         fhir:Coding.code [ fhir:value "LE" ];
+         fhir:Coding.display [ fhir:value "Lege" ]
+       ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Practitioner.qualification.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.7426" ];
+         fhir:Coding.code [ fhir:value "1" ];
+         fhir:Coding.display [ fhir:value "Allmennmedisin" ]
+       ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Practitioner.qualification.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.7704" ];
+         fhir:Coding.code [ fhir:value "1" ];
+         fhir:Coding.display [ fhir:value "Autorisasjon" ]
+       ]
+     ];
+     fhir:Practitioner.qualification.period [
+       fhir:Period.start [ fhir:value "2018-10-10"^^xsd:date ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Practitioner.qualification.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.7426" ];
+         fhir:Coding.code [ fhir:value "152" ];
+         fhir:Coding.display [ fhir:value "Ortopedisk kirurgi" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/no-basis/Practitioner/Magnar-Komann-Practitioner.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -9,7 +9,7 @@
   "version": "2.0.17-alpha",
   "name": "NoBasis",
   "status": "active",
-  "date": "2021-09-30T17:44:30+00:00",
+  "date": "2021-10-01T17:05:15+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -295,6 +295,34 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/no-basis-Endpoint"
+        },
+        "name": "no-basis-Endpoint",
+        "description": "Basisprofil for Norwegian Endpoint information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific identification of Endpoing. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nResource profile for definition of electronic endpoints used by healthcare organizations to communicate using different protocols. The norwegian profile use-case is to represent endpoints for electronic communication. Fallback solutions using mail or fax has to be indexed in the norwegian master index for healthcare organizations and are not described using this profile.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/no-basis-HealthcareService"
+        },
+        "name": "no-basis-HealthcareService",
+        "description": "Basisprofil for Norwegian Healthcare Service information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific identification of Healthcare Services. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nThe typical use-case is to include information regarding what Healthcare related services, support functions or activities provided by an Organization or awailable at a Location.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:complex-type"
           }
         ],
@@ -303,6 +331,20 @@
         },
         "name": "no-basis-HumanName",
         "description": "Basisprofil for Norwegian HumanName. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/no-basis-Location"
+        },
+        "name": "no-basis-Location",
+        "description": "Basisprofil for Norwegian Location information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific location information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
         "exampleBoolean": false
       },
       {
@@ -623,6 +665,7 @@
           "reference": "CodeSystem/no-basis-family-relation.codesystem"
         },
         "name": "no-basis-family-relation.codesystem",
+        "description": "Copy of Codes from Familierelasjon defined by Skatteetaten",
         "exampleBoolean": false
       },
       {
@@ -636,6 +679,7 @@
           "reference": "CodeSystem/no-basis-marital-status.codesystem"
         },
         "name": "no-basis-marital-status.codesystem",
+        "description": "Copy of Codes from Sivilstandstype defined by Skatteetaten",
         "exampleBoolean": false
       },
       {
@@ -649,7 +693,21 @@
           "reference": "CodeSystem/no-basis-parental-responsibility.codesystem"
         },
         "name": "no-basis-parental-responsibility.codesystem",
+        "description": "Copy of Codes from Foreldreansvar defined by Skatteetaten",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/Direktoratet-for-eHelse-Organization"
+        },
+        "name": "Direktoratet-for-eHelse-Organization",
+        "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"
       },
       {
         "extension": [
@@ -689,6 +747,45 @@
         },
         "name": "JanniceSorengTo",
         "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/Magnar-Komann-Practitioner"
+        },
+        "name": "Magnar-Komann-Practitioner",
+        "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RelatedPerson"
+          }
+        ],
+        "reference": {
+          "reference": "RelatedPerson/Solid-Aresdoktor-RelatedPerson"
+        },
+        "name": "Solid-Aresdoktor-RelatedPerson",
+        "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RelatedPerson"
+          }
+        ],
+        "reference": {
+          "reference": "RelatedPerson/Sorgard-Erlend-RelatedPerson"
+        },
+        "name": "Sorgard-Erlend-RelatedPerson",
+        "exampleCanonical": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson"
       },
       {
         "extension": [
@@ -811,6 +908,11 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "Changelog-STU3.html",
+          "title": "Changelog STU 3",
           "generation": "markdown"
         }
       ]

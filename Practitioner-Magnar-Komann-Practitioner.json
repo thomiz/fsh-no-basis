@@ -1,0 +1,107 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Magnar-Komann-Practitioner",
+  "meta": {
+    "profile": [
+      "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 9144889</p><p><b>name</b>: Magnar Koman </p><p><b>telecom</b>: ph: 75589889(WORK), fax: 75589899, ph: 98128921(MOBILE), <a href=\"mailto:mako@bottomline.no\">mako@bottomline.no</a></p><p><b>address</b>: Dreyfushammarn 23 BODØ 8012 (WORK)</p><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes: {urn:oid:2.16.578.1.12.4.1.1.9060 LE}\">Lege</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes: {urn:oid:2.16.578.1.12.4.1.1.7426 1}\">Allmennmedisin</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes: {urn:oid:2.16.578.1.12.4.1.1.7704 1}\">Autorisasjon</span></p><p><b>period</b>: 2018-10-10 --&gt; (ongoing)</p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes: {urn:oid:2.16.578.1.12.4.1.1.7426 152}\">Ortopedisk kirurgi</span></p></blockquote></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:oid:2.16.578.1.12.4.1.4.4",
+      "value": "9144889"
+    }
+  ],
+  "name": [
+    {
+      "family": "Koman",
+      "given": [
+        "Magnar"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "75589889",
+      "use": "work"
+    },
+    {
+      "system": "fax",
+      "value": "75589899"
+    },
+    {
+      "system": "phone",
+      "value": "98128921",
+      "use": "mobile"
+    },
+    {
+      "system": "email",
+      "value": "mako@bottomline.no",
+      "use": "work"
+    }
+  ],
+  "address": [
+    {
+      "use": "work",
+      "line": [
+        "Dreyfushammarn 23"
+      ],
+      "city": "BODØ",
+      "postalCode": "8012"
+    }
+  ],
+  "qualification": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "urn:oid:2.16.578.1.12.4.1.1.9060",
+            "code": "LE",
+            "display": "Lege"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "urn:oid:2.16.578.1.12.4.1.1.7426",
+            "code": "1",
+            "display": "Allmennmedisin"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "urn:oid:2.16.578.1.12.4.1.1.7704",
+            "code": "1",
+            "display": "Autorisasjon"
+          }
+        ]
+      },
+      "period": {
+        "start": "2018-10-10"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "urn:oid:2.16.578.1.12.4.1.1.7426",
+            "code": "152",
+            "display": "Ortopedisk kirurgi"
+          }
+        ]
+      }
+    }
+  ]
+}
