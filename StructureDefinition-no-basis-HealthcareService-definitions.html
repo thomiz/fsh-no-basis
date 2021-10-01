@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.3"}
-    h3,h4,h5,h6{--heading-prefix:"3.3"}</style>
+    <style type="text/css">h2{--heading-prefix:"4.3"}
+    h3,h4,h5,h6{--heading-prefix:"4.3"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -89,35 +89,56 @@
   <li>
     <a href="index.html">Home</a>
   </li>
-  <li>
-    <a href="artifacts.html#1">Search Parameters</a>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guidance
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="Datatypes.html">Data types</a>
+      </li>
+    </ul>
   </li>
-  <li>
-    <a href="artifacts.html#2">Profiles</a>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artifacts
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html#1">Search Parameters</a>
+      </li>
+      <li>
+        <a href="artifacts.html#2">Profiles</a>
+      </li>
+      <li>
+        <a href="artifacts.html#3">Extensions</a>
+      </li>
+      <li>
+        <a href="artifacts.html#4">Value Sets</a>
+      </li>
+      <li>
+        <a href="artifacts.html#5">Code Systems</a>
+      </li>
+      <li>
+        <a href="artifacts.html#6">Naming Systems</a>
+      </li>
+      <li>
+        <a href="artifacts.html#7">Examples</a>
+      </li>
+    </ul>
   </li>
-  <li>
-    <a href="artifacts.html#3">Extensions</a>
-  </li>
-  <li>
-    <a href="artifacts.html#4">Value Sets</a>
-  </li>
-  <li>
-    <a href="artifacts.html#5">Code Systems</a>
-  </li>
-  <li>
-    <a href="artifacts.html#6">Naming Systems</a>
-  </li>
-  <li>
-    <a href="artifacts.html#7">Examples</a>
-  </li>
-  <li>
-    <a href="qa.html">Build QA</a>
-  </li>
-  <li>
-    <a href="https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Changelog-20x.md">Changelog</a>
-  </li>
-  <li><a name="l207">​</a>
-    <a href="Changelog-STU3.md">STU3 Changelog</a>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Changelog
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Changelog-20x.md">R4 Changelog</a>
+      </li>
+      <li>
+        <a href="Changelog-STU3.html">STU3 Changelog</a>
+      </li>
+    </ul>
   </li>
 </ul>
             </div>    <!-- /.nav-collapse -->
@@ -479,7 +500,7 @@ A coded type for an identifier that can be used to determine which identifier to
   <tr><td>Definition</td><td><p>Example of category. Helsevirksomhet type (OID=9040), identifies the virksomhetstype used in Adresseregisteret. This element is usually not necessary to describe the HealthcareService adequately.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..*</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l2040">​</a>For example codes, see <a href="urn:oid:2.16.578.1.12.4.1.1.9040">urn:oid:2.16.578.1.12.4.1.1.9040</a>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l2073">​</a>For example codes, see <a href="urn:oid:2.16.578.1.12.4.1.1.9040">urn:oid:2.16.578.1.12.4.1.1.9040</a>
 virksomhetstype 9040
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
@@ -546,7 +567,7 @@ A specialty that a healthcare service may provide.
 Also use Klinisk/medisinsk service (OID=8654)?</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..*</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l2450">​</a>The codes SHOULD be taken from <a href="urn:oid:2.16.578.1.12.4.1.1.8655">urn:oid:2.16.578.1.12.4.1.1.8655</a>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l2483">​</a>The codes SHOULD be taken from <a href="urn:oid:2.16.578.1.12.4.1.1.8655">urn:oid:2.16.578.1.12.4.1.1.8655</a>
 Helsehjelpsområde
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td></tr>
@@ -628,7 +649,7 @@ Helsehjelpsområde
   <tr><td>Definition</td><td><p>Klinisk/medisinsk service (OID=8654)</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..*</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l2964">​</a>The codes SHOULD be taken from <a href="urn:oid:2.16.578.1.12.4.1.1.8654">urn:oid:2.16.578.1.12.4.1.1.8654</a>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l2997">​</a>The codes SHOULD be taken from <a href="urn:oid:2.16.578.1.12.4.1.1.8654">urn:oid:2.16.578.1.12.4.1.1.8654</a>
 Klinisk/medisinsk service
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td></tr>
@@ -710,7 +731,7 @@ Klinisk/medisinsk service
   <tr><td>Definition</td><td><p>IPLOS tjenestetype (OID=9151)</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..*</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l3478">​</a>The codes SHOULD be taken from <a href="urn:oid:2.16.578.1.12.4.1.1.9151">urn:oid:2.16.578.1.12.4.1.1.9151</a>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l3511">​</a>The codes SHOULD be taken from <a href="urn:oid:2.16.578.1.12.4.1.1.9151">urn:oid:2.16.578.1.12.4.1.1.9151</a>
 IPLOS tjenestetype
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td></tr>
@@ -792,7 +813,7 @@ IPLOS tjenestetype
   <tr><td>Definition</td><td><p>Fagområde (OID=8451)</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..*</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l3992">​</a>The codes SHOULD be taken from <a href="urn:oid:2.16.578.1.12.4.1.1.8451">urn:oid:2.16.578.1.12.4.1.1.8451</a>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l4025">​</a>The codes SHOULD be taken from <a href="urn:oid:2.16.578.1.12.4.1.1.8451">urn:oid:2.16.578.1.12.4.1.1.8451</a>
 Fagområde
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td></tr>
@@ -1244,8 +1265,8 @@ The days of the week.
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l6621">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.0.17-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Oct 1, 2021 17:05+0000">2021-10-01</span>
+        <p><a name="l6654">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.0.17-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Oct 1, 2021 17:28+0000">2021-10-01</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

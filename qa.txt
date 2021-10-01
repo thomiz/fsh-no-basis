@@ -3,9 +3,9 @@
 
 err = 17, warn = 133, info = 26
 IG Publisher Version: 1.1.80 Out of date - current version is 1.1.81
-Generated Fri Oct 01 17:08:35 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.0.17-alpha (canonical = http://hl7.no/fhir/no-basis)
+Generated Fri Oct 01 17:32:43 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.0.17-alpha (canonical = http://hl7.no/fhir/no-basis)
 
- Build Errors : 650 / 8 / 0
+ Build Errors : 371 / 8 / 0
  /data/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
  /data/fsh-generated/resources/codesystem-no-basis-connection-type.codesystem : 0 / 0 / 1
  /data/fsh-generated/resources/codesystem-no-basis-family-relation.codesystem : 0 / 0 / 1
@@ -63,655 +63,376 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Magnar-Komann-Practitioner.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Solid-Aresdoktor-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Sorgard-Erlend-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /data/output/Changelog-STU3.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Changelog-STU3.html#/html/body/div/div/div/p/a at Line 352, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.json.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.xml.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.json.html#/html/body/div/div/div/p/a at Line 295, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 305, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.json.html#/html/body/div/div/div/p/a at Line 317, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 327, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.xml.html#/html/body/div/div/div/p/a at Line 312, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.json.html#/html/body/div/div/div/p/a at Line 291, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 301, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.xml.html#/html/body/div/div/div/p/a at Line 285, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.json.html#/html/body/div/div/div/p/a at Line 278, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.ttl.html#/html/body/div/div/div/p/a at Line 288, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.xml.html#/html/body/div/div/div/p/a at Line 274, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.json.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dnummer.xml.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.json.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-dufnummer.xml.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.json.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.xml.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.json.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.xml.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.json.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.xml.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.json.html#/html/body/div/div/div/p/a at Line 278, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.ttl.html#/html/body/div/div/div/p/a at Line 288, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/NamingSystem-no-basis-kommunenummer.xml.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.json.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.ttl.html#/html/body/div/div/div/p/a at Line 291, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.xml.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-EspenEksempel.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-EspenEksempel.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-EspenEksempel.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-EspenEksempel.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-EspenEksempel.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-EspenEksempel.json.html#/html/body/div/div/div/p/a at Line 341, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-EspenEksempel.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-EspenEksempel.ttl.html#/html/body/div/div/div/p/a at Line 334, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-EspenEksempel.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-EspenEksempel.xml.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-JanniceSoreng.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-JanniceSoreng.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-JanniceSoreng.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-JanniceSoreng.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-JanniceSoreng.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-JanniceSoreng.json.html#/html/body/div/div/div/p/a at Line 387, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-JanniceSoreng.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-JanniceSoreng.ttl.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-JanniceSoreng.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-JanniceSoreng.xml.html#/html/body/div/div/div/p/a at Line 343, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-JanniceSorengTo.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-JanniceSorengTo.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-JanniceSorengTo.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-JanniceSorengTo.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-JanniceSorengTo.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-JanniceSorengTo.json.html#/html/body/div/div/div/p/a at Line 387, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-JanniceSorengTo.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-JanniceSorengTo.ttl.html#/html/body/div/div/div/p/a at Line 367, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Patient-JanniceSorengTo.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Patient-JanniceSorengTo.xml.html#/html/body/div/div/div/p/a at Line 343, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.json.html#/html/body/div/div/div/p/a at Line 339, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.ttl.html#/html/body/div/div/div/p/a at Line 336, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.xml.html#/html/body/div/div/div/p/a at Line 316, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.json.html#/html/body/div/div/div/p/a at Line 328, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.ttl.html#/html/body/div/div/div/p/a at Line 324, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.xml.html#/html/body/div/div/div/p/a at Line 302, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.json.html#/html/body/div/div/div/p/a at Line 310, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.ttl.html#/html/body/div/div/div/p/a at Line 307, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.xml.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.json.html#/html/body/div/div/div/p/a at Line 274, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.ttl.html#/html/body/div/div/div/p/a at Line 295, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/SearchParameter-no-basis-middlename.xml.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address-definitions.html#/html/body/div/div/div/p/a at Line 474, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address-examples.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address-mappings.html#/html/body/div/div/div/p/a at Line 329, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 311, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 345, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 498, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 532, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/p/a at Line 745, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.profile.json.html#/html/body/div/div/div/p/a at Line 1479, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.profile.ttl.html#/html/body/div/div/div/p/a at Line 1327, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Address.profile.xml.html#/html/body/div/div/div/p/a at Line 1347, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 396, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 408, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/p/a at Line 511, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint-examples.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint-mappings.html#/html/body/div/div/div/p/a at Line 305, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 332, column 1056: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 335, column 973: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 388, column 1127: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 391, column 1078: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 553, column 1056: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 556, column 973: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 609, column 1127: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 612, column 1078: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/p/a at Line 822, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.profile.json.html#/html/body/div/div/div/p/a at Line 1401, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.profile.ttl.html#/html/body/div/div/div/p/a at Line 1271, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Endpoint.profile.xml.html#/html/body/div/div/div/p/a at Line 1372, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 487, column 108: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 554, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 636, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 718, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 800, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/p/a at Line 1253, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-examples.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-mappings.html#/html/body/div/div/div/p/a at Line 382, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 325, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 334, column 906: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 337, column 1894: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 340, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 343, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 392, column 1876: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 403, column 1003: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 411, column 1967: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 419, column 1960: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 427, column 1955: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 692, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 701, column 906: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 704, column 1894: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 707, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 710, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 759, column 1876: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 770, column 1003: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 778, column 1967: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 786, column 1960: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 794, column 1955: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/p/a at Line 1213, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.profile.json.html#/html/body/div/div/div/p/a at Line 5071, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.profile.ttl.html#/html/body/div/div/div/p/a at Line 4368, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.profile.xml.html#/html/body/div/div/div/p/a at Line 4551, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName-definitions.html#/html/body/div/div/div/p/a at Line 383, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName-examples.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName-mappings.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.html#/html/body/div/div/div/p/a at Line 625, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.json.html#/html/body/div/div/div/p/a at Line 917, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.ttl.html#/html/body/div/div/div/p/a at Line 846, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.xml.html#/html/body/div/div/div/p/a at Line 860, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location-definitions.html#/html/body/div/div/div/p/a at Line 645, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location-examples.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location-mappings.html#/html/body/div/div/div/p/a at Line 324, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location.html#/html/body/div/div/div/p/a at Line 771, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location.profile.json.html#/html/body/div/div/div/p/a at Line 2059, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location.profile.ttl.html#/html/body/div/div/div/p/a at Line 1845, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Location.profile.xml.html#/html/body/div/div/div/p/a at Line 1859, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 565, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 685, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/p/a at Line 999, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization-mappings.html#/html/body/div/div/div/p/a at Line 434, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 338, column 1750: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 342, column 1778: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 397, column 1884: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 409, column 1912: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 618, column 1750: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 622, column 1778: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 677, column 1884: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 689, column 1912: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/p/a at Line 1003, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.profile.history.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.profile.json.html#/html/body/div/div/div/p/a at Line 3848, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.profile.ttl.html#/html/body/div/div/div/p/a at Line 3313, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Organization.profile.xml.html#/html/body/div/div/div/p/a at Line 3479, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 362, column 108: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/p/a at Line 1393, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient-examples.html#/html/body/div/div/div/p/a at Line 310, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient-mappings.html#/html/body/div/div/div/p/a at Line 497, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 337, column 1837: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 395, column 1923: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 727, column 1837: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 785, column 1923: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/p/a at Line 1263, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.history.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.json.html#/html/body/div/div/div/p/a at Line 5897, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 5030, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.xml.html#/html/body/div/div/div/p/a at Line 5319, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person-definitions.html#/html/body/div/div/div/p/a at Line 713, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person-examples.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person-mappings.html#/html/body/div/div/div/p/a at Line 350, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.html#/html/body/div/div/div/p/a at Line 805, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.profile.json.html#/html/body/div/div/div/p/a at Line 2452, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.profile.ttl.html#/html/body/div/div/div/p/a at Line 2157, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Person.profile.xml.html#/html/body/div/div/div/p/a at Line 2204, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 788, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 868, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 948, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/p/a at Line 1118, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner-mappings.html#/html/body/div/div/div/p/a at Line 459, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 349, column 2057: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 352, column 2067: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 355, column 2147: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 430, column 2176: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 438, column 2172: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 446, column 2266: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 660, column 2057: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 663, column 2067: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 666, column 2147: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 741, column 2176: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 749, column 2172: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 757, column 2266: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/p/a at Line 1081, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.history.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.json.html#/html/body/div/div/div/p/a at Line 4491, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.ttl.html#/html/body/div/div/div/p/a at Line 3837, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.xml.html#/html/body/div/div/div/p/a at Line 4076, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 375, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 506, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/p/a at Line 837, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-examples.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-mappings.html#/html/body/div/div/div/p/a at Line 379, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 314, column 975: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 321, column 1840: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 357, column 1054: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 372, column 1931: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 562, column 975: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 569, column 1840: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 605, column 1054: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 620, column 1931: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/p/a at Line 916, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.json.html#/html/body/div/div/div/p/a at Line 3132, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.ttl.html#/html/body/div/div/div/p/a at Line 2717, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.xml.html#/html/body/div/div/div/p/a at Line 2834, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson-definitions.html#/html/body/div/div/div/p/a at Line 1139, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson-examples.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson-mappings.html#/html/body/div/div/div/p/a at Line 428, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.html#/html/body/div/div/div/p/a at Line 1230, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.profile.history.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.profile.json.html#/html/body/div/div/div/p/a at Line 4387, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.profile.ttl.html#/html/body/div/div/div/p/a at Line 3772, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.profile.xml.html#/html/body/div/div/div/p/a at Line 4054, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official-definitions.html#/html/body/div/div/div/p/a at Line 313, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official-mappings.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.html#/html/body/div/div/div/p/a at Line 509, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.json.html#/html/body/div/div/div/p/a at Line 559, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.ttl.html#/html/body/div/div/div/p/a at Line 534, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.xml.html#/html/body/div/div/div/p/a at Line 521, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename-definitions.html#/html/body/div/div/div/p/a at Line 316, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename-mappings.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.html#/html/body/div/div/div/p/a at Line 514, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.json.html#/html/body/div/div/div/p/a at Line 573, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.ttl.html#/html/body/div/div/div/p/a at Line 548, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.xml.html#/html/body/div/div/div/p/a at Line 531, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode-definitions.html#/html/body/div/div/div/p/a at Line 380, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode-mappings.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.html#/html/body/div/div/div/p/a at Line 554, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.json.html#/html/body/div/div/div/p/a at Line 896, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.ttl.html#/html/body/div/div/div/p/a at Line 814, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.xml.html#/html/body/div/div/div/p/a at Line 818, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship-definitions.html#/html/body/div/div/div/p/a at Line 390, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship-mappings.html#/html/body/div/div/div/p/a at Line 291, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.html#/html/body/div/div/div/p/a at Line 569, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.json.html#/html/body/div/div/div/p/a at Line 1162, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.ttl.html#/html/body/div/div/div/p/a at Line 1015, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.xml.html#/html/body/div/div/div/p/a at Line 1052, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup-definitions.html#/html/body/div/div/div/p/a at Line 458, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup-mappings.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.html#/html/body/div/div/div/p/a at Line 599, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.json.html#/html/body/div/div/div/p/a at Line 1447, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.ttl.html#/html/body/div/div/div/p/a at Line 1247, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.xml.html#/html/body/div/div/div/p/a at Line 1311, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 440, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-mappings.html#/html/body/div/div/div/p/a at Line 303, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 317, column 1989: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 355, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 460, column 1989: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 498, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/p/a at Line 659, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.json.html#/html/body/div/div/div/p/a at Line 1889, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.ttl.html#/html/body/div/div/div/p/a at Line 1639, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.xml.html#/html/body/div/div/div/p/a at Line 1672, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference-definitions.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference-mappings.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.html#/html/body/div/div/div/p/a at Line 552, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.json.html#/html/body/div/div/div/p/a at Line 563, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.ttl.html#/html/body/div/div/div/p/a at Line 544, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.xml.html#/html/body/div/div/div/p/a at Line 543, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation-definitions.html#/html/body/div/div/div/p/a at Line 455, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation-mappings.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.html#/html/body/div/div/div/p/a at Line 601, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.json.html#/html/body/div/div/div/p/a at Line 1441, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.ttl.html#/html/body/div/div/div/p/a at Line 1241, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.xml.html#/html/body/div/div/div/p/a at Line 1305, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 256, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/p/a at Line 318, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district-mappings.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 305, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 318, column 1671: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 384, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 397, column 1671: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/p/a at Line 520, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.json.html#/html/body/div/div/div/p/a at Line 594, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.ttl.html#/html/body/div/div/div/p/a at Line 571, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 129, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.xml.html#/html/body/div/div/div/p/a at Line 546, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.json.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 271, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.html#/html/body/div/div/div/p/a at Line 289, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.json.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 463, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 510, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.json.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.ttl.html#/html/body/div/div/div/p/a at Line 281, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.xml.html#/html/body/div/div/div/p/a at Line 267, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.json.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.ttl.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.xml.html#/html/body/div/div/div/p/a at Line 263, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.json.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.ttl.html#/html/body/div/div/div/p/a at Line 281, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.xml.html#/html/body/div/div/div/p/a at Line 267, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 125, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.html#/html/body/div/div/div/p/a at Line 292, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.json.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 295, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/ValueSet-no-basis-service-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 288, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/artifacts.html#/html/body/div/div/div/p/a at Line 712, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/index.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/index.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/toc.html#/html/body/div/div/nav/div/div/ul/li/a at Line 121, column 6: The link 'Changelog-STU3.md' for "STU3 Changelog" cannot be resolved
-ERROR: /data/output/toc.html#/html/body/div/div/div/p/a at Line 181, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Changelog-STU3.html#/html/body/div/div/div/p/a at Line 373, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.json.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.json.html#/html/body/div/div/div/p/a at Line 316, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 326, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-family-relation.codesystem.xml.html#/html/body/div/div/div/p/a at Line 311, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.json.html#/html/body/div/div/div/p/a at Line 338, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 348, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-marital-status.codesystem.xml.html#/html/body/div/div/div/p/a at Line 333, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.json.html#/html/body/div/div/div/p/a at Line 312, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 322, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/CodeSystem-no-basis-parental-responsibility.codesystem.xml.html#/html/body/div/div/div/p/a at Line 306, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Datatypes.html#/html/body/div/div/div/p/a at Line 318, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.json.html#/html/body/div/div/div/p/a at Line 299, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.ttl.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-bydelsnummer.xml.html#/html/body/div/div/div/p/a at Line 295, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dnummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dnummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dnummer.json.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dnummer.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dnummer.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dufnummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dufnummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dufnummer.json.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dufnummer.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-dufnummer.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.json.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-felleshjelpenummer.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.json.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-foedselsnummer.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.json.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-kommunenummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-kommunenummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-kommunenummer.json.html#/html/body/div/div/div/p/a at Line 299, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-kommunenummer.ttl.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-kommunenummer.xml.html#/html/body/div/div/div/p/a at Line 296, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.json.html#/html/body/div/div/div/p/a at Line 303, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.ttl.html#/html/body/div/div/div/p/a at Line 312, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Organization-Direktoratet-for-eHelse-Organization.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-EspenEksempel.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-EspenEksempel.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-EspenEksempel.json.html#/html/body/div/div/div/p/a at Line 362, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-EspenEksempel.ttl.html#/html/body/div/div/div/p/a at Line 355, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-EspenEksempel.xml.html#/html/body/div/div/div/p/a at Line 330, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSoreng.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSoreng.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSoreng.json.html#/html/body/div/div/div/p/a at Line 408, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSoreng.ttl.html#/html/body/div/div/div/p/a at Line 388, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSoreng.xml.html#/html/body/div/div/div/p/a at Line 364, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSorengTo.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSorengTo.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSorengTo.json.html#/html/body/div/div/div/p/a at Line 408, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSorengTo.ttl.html#/html/body/div/div/div/p/a at Line 388, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Patient-JanniceSorengTo.xml.html#/html/body/div/div/div/p/a at Line 364, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.json.html#/html/body/div/div/div/p/a at Line 360, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.ttl.html#/html/body/div/div/div/p/a at Line 357, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.xml.html#/html/body/div/div/div/p/a at Line 337, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.json.html#/html/body/div/div/div/p/a at Line 349, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.ttl.html#/html/body/div/div/div/p/a at Line 345, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.xml.html#/html/body/div/div/div/p/a at Line 323, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.json.html#/html/body/div/div/div/p/a at Line 331, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.ttl.html#/html/body/div/div/div/p/a at Line 328, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.xml.html#/html/body/div/div/div/p/a at Line 308, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/SearchParameter-no-basis-middlename.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/SearchParameter-no-basis-middlename.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/SearchParameter-no-basis-middlename.json.html#/html/body/div/div/div/p/a at Line 295, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/SearchParameter-no-basis-middlename.ttl.html#/html/body/div/div/div/p/a at Line 316, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/SearchParameter-no-basis-middlename.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address-definitions.html#/html/body/div/div/div/p/a at Line 495, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address-mappings.html#/html/body/div/div/div/p/a at Line 350, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 332, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 366, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 519, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 553, column 1808: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/p/a at Line 766, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.profile.json.html#/html/body/div/div/div/p/a at Line 1500, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.profile.ttl.html#/html/body/div/div/div/p/a at Line 1348, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Address.profile.xml.html#/html/body/div/div/div/p/a at Line 1368, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 417, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 429, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/p/a at Line 532, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint-mappings.html#/html/body/div/div/div/p/a at Line 326, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 353, column 1056: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 356, column 973: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 409, column 1127: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 412, column 1078: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 574, column 1056: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 577, column 973: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 630, column 1127: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 633, column 1078: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/p/a at Line 843, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint.profile.json.html#/html/body/div/div/div/p/a at Line 1422, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint.profile.ttl.html#/html/body/div/div/div/p/a at Line 1292, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Endpoint.profile.xml.html#/html/body/div/div/div/p/a at Line 1393, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 508, column 108: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 575, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 657, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 739, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 821, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/p/a at Line 1274, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService-mappings.html#/html/body/div/div/div/p/a at Line 403, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 346, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 355, column 906: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 358, column 1894: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 361, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 364, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 413, column 1876: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 424, column 1003: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 432, column 1967: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 440, column 1960: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 448, column 1955: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 713, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 722, column 906: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 725, column 1894: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 728, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 731, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 780, column 1876: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 791, column 1003: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 799, column 1967: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 807, column 1960: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 815, column 1955: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/p/a at Line 1234, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.profile.json.html#/html/body/div/div/div/p/a at Line 5092, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.profile.ttl.html#/html/body/div/div/div/p/a at Line 4389, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.profile.xml.html#/html/body/div/div/div/p/a at Line 4572, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName-definitions.html#/html/body/div/div/div/p/a at Line 404, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName-mappings.html#/html/body/div/div/div/p/a at Line 330, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.html#/html/body/div/div/div/p/a at Line 646, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.json.html#/html/body/div/div/div/p/a at Line 938, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.ttl.html#/html/body/div/div/div/p/a at Line 867, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.xml.html#/html/body/div/div/div/p/a at Line 881, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Location-definitions.html#/html/body/div/div/div/p/a at Line 666, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Location-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Location-mappings.html#/html/body/div/div/div/p/a at Line 345, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Location.html#/html/body/div/div/div/p/a at Line 792, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Location.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Location.profile.json.html#/html/body/div/div/div/p/a at Line 2080, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Location.profile.ttl.html#/html/body/div/div/div/p/a at Line 1866, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Location.profile.xml.html#/html/body/div/div/div/p/a at Line 1880, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 586, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 706, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/p/a at Line 1020, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization-examples.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization-mappings.html#/html/body/div/div/div/p/a at Line 455, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 359, column 1750: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 363, column 1778: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 418, column 1884: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 430, column 1912: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 639, column 1750: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 643, column 1778: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 698, column 1884: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 710, column 1912: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/p/a at Line 1024, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization.profile.history.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization.profile.json.html#/html/body/div/div/div/p/a at Line 3869, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization.profile.ttl.html#/html/body/div/div/div/p/a at Line 3334, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Organization.profile.xml.html#/html/body/div/div/div/p/a at Line 3500, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 383, column 108: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/p/a at Line 1414, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient-examples.html#/html/body/div/div/div/p/a at Line 331, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient-mappings.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 358, column 1837: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 416, column 1923: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 748, column 1837: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 806, column 1923: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/p/a at Line 1284, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.history.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.json.html#/html/body/div/div/div/p/a at Line 5918, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 5051, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Patient.profile.xml.html#/html/body/div/div/div/p/a at Line 5340, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person-definitions.html#/html/body/div/div/div/p/a at Line 734, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person-mappings.html#/html/body/div/div/div/p/a at Line 371, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person.html#/html/body/div/div/div/p/a at Line 826, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person.profile.json.html#/html/body/div/div/div/p/a at Line 2473, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person.profile.ttl.html#/html/body/div/div/div/p/a at Line 2178, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Person.profile.xml.html#/html/body/div/div/div/p/a at Line 2225, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 809, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 889, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 969, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/p/a at Line 1139, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner-examples.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner-mappings.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 370, column 2057: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 373, column 2067: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 376, column 2147: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 451, column 2176: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 459, column 2172: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 467, column 2266: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 681, column 2057: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 684, column 2067: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 687, column 2147: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 762, column 2176: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 770, column 2172: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 778, column 2266: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/p/a at Line 1102, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.history.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.json.html#/html/body/div/div/div/p/a at Line 4512, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.ttl.html#/html/body/div/div/div/p/a at Line 3858, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Practitioner.profile.xml.html#/html/body/div/div/div/p/a at Line 4097, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 396, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 527, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/p/a at Line 858, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole-mappings.html#/html/body/div/div/div/p/a at Line 400, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 335, column 975: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 342, column 1840: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 378, column 1054: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 393, column 1931: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 583, column 975: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 590, column 1840: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 626, column 1054: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 641, column 1931: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/p/a at Line 937, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.json.html#/html/body/div/div/div/p/a at Line 3153, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.ttl.html#/html/body/div/div/div/p/a at Line 2738, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.xml.html#/html/body/div/div/div/p/a at Line 2855, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson-definitions.html#/html/body/div/div/div/p/a at Line 1160, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson-examples.html#/html/body/div/div/div/p/a at Line 325, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson-mappings.html#/html/body/div/div/div/p/a at Line 449, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.html#/html/body/div/div/div/p/a at Line 1251, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.profile.history.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.profile.json.html#/html/body/div/div/div/p/a at Line 4408, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.profile.ttl.html#/html/body/div/div/div/p/a at Line 3793, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson.profile.xml.html#/html/body/div/div/div/p/a at Line 4075, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official-definitions.html#/html/body/div/div/div/p/a at Line 334, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official-mappings.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official.html#/html/body/div/div/div/p/a at Line 530, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.json.html#/html/body/div/div/div/p/a at Line 580, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.ttl.html#/html/body/div/div/div/p/a at Line 555, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-address-official.profile.xml.html#/html/body/div/div/div/p/a at Line 542, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename-definitions.html#/html/body/div/div/div/p/a at Line 337, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename-mappings.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename.html#/html/body/div/div/div/p/a at Line 535, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.json.html#/html/body/div/div/div/p/a at Line 594, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.ttl.html#/html/body/div/div/div/p/a at Line 569, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-middlename.profile.xml.html#/html/body/div/div/div/p/a at Line 552, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode-definitions.html#/html/body/div/div/div/p/a at Line 401, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode-mappings.html#/html/body/div/div/div/p/a at Line 311, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.html#/html/body/div/div/div/p/a at Line 575, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.json.html#/html/body/div/div/div/p/a at Line 917, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.ttl.html#/html/body/div/div/div/p/a at Line 835, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-municipalitycode.profile.xml.html#/html/body/div/div/div/p/a at Line 839, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship-definitions.html#/html/body/div/div/div/p/a at Line 411, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship-mappings.html#/html/body/div/div/div/p/a at Line 312, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.html#/html/body/div/div/div/p/a at Line 590, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.json.html#/html/body/div/div/div/p/a at Line 1183, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.ttl.html#/html/body/div/div/div/p/a at Line 1036, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-person-citizenship.profile.xml.html#/html/body/div/div/div/p/a at Line 1073, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup-definitions.html#/html/body/div/div/div/p/a at Line 479, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup-mappings.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.html#/html/body/div/div/div/p/a at Line 620, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.json.html#/html/body/div/div/div/p/a at Line 1468, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.ttl.html#/html/body/div/div/div/p/a at Line 1268, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-prescriptiongroup.profile.xml.html#/html/body/div/div/div/p/a at Line 1332, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 461, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/p/a at Line 539, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation-mappings.html#/html/body/div/div/div/p/a at Line 324, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 338, column 1989: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 376, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 481, column 1989: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 519, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/p/a at Line 680, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.json.html#/html/body/div/div/div/p/a at Line 1910, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.ttl.html#/html/body/div/div/div/p/a at Line 1660, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-propertyinformation.profile.xml.html#/html/body/div/div/div/p/a at Line 1693, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference-definitions.html#/html/body/div/div/div/p/a at Line 340, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference-mappings.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.html#/html/body/div/div/div/p/a at Line 573, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.json.html#/html/body/div/div/div/p/a at Line 584, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.ttl.html#/html/body/div/div/div/p/a at Line 565, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.xml.html#/html/body/div/div/div/p/a at Line 564, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation-definitions.html#/html/body/div/div/div/p/a at Line 476, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation-mappings.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.html#/html/body/div/div/div/p/a at Line 622, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.json.html#/html/body/div/div/div/p/a at Line 1462, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.ttl.html#/html/body/div/div/div/p/a at Line 1262, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-sourceofinformation.profile.xml.html#/html/body/div/div/div/p/a at Line 1326, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 277, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/p/a at Line 339, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district-mappings.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 326, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 339, column 1671: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 405, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 418, column 1671: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/p/a at Line 541, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.json.html#/html/body/div/div/div/p/a at Line 615, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.ttl.html#/html/body/div/div/div/p/a at Line 592, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-urban-district.profile.xml.html#/html/body/div/div/div/p/a at Line 567, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.json.html#/html/body/div/div/div/p/a at Line 296, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-connection-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 292, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.html#/html/body/div/div/div/p/a at Line 310, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.json.html#/html/body/div/div/div/p/a at Line 539, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 484, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-documentreference-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 531, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.json.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.ttl.html#/html/body/div/div/div/p/a at Line 302, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-family-relation.valueset.xml.html#/html/body/div/div/div/p/a at Line 288, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.json.html#/html/body/div/div/div/p/a at Line 289, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.ttl.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-marital-status.valueset.xml.html#/html/body/div/div/div/p/a at Line 284, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.json.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.ttl.html#/html/body/div/div/div/p/a at Line 302, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-parental-responsibility.valueset.xml.html#/html/body/div/div/div/p/a at Line 288, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-service-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-service-type.valueset.html#/html/body/div/div/div/p/a at Line 313, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-service-type.valueset.json.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-service-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 316, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/ValueSet-no-basis-service-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/artifacts.html#/html/body/div/div/div/p/a at Line 733, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/index.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/toc.html#/html/body/div/div/div/p/a at Line 202, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis.json ==
 == fsh-generated/resources/codesystem-no-basis-connection-type.codesystem.json ==
 == fsh-generated/resources/codesystem-no-basis-family-relation.codesystem.json ==
