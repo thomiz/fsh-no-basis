@@ -27,6 +27,8 @@
 * OK, Legge om til å bruke FHIR template for no-basis
   * [HL7 IG templates](https://build.fhir.org/ig/FHIR/ig-guidance/index.html#templates)
 
+2021-10-02 - Endret på menyen og lag til Datatyper og figurer
+2021-10-01 - La til Endpoint, HealthcareService og Location
 2021-09-30 - La til noen flere eksempler, problemer med narrative generation fra fsh filene, noe er galt med extension definisjonenen i eksemplene
 2021-09-30 - forsøkte med XML instans eksempel NoBasisOrganization, ble ikke med
 2021-09-30 - Feilretting i NoBasisPractitioner.fsh
