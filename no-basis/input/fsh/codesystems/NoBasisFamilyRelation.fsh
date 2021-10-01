@@ -1,7 +1,7 @@
 CodeSystem: NoBasisFamilyRelation
 Id: no-basis-family-relation.codesystem
 Title: "no-basis-family-relation.codesystem"
-Description: Copy of Codes from Familierelasjon defined by Skatteetaten
+Description: "Copy of Codes from Familierelasjon defined by Skatteetaten"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2019-05-07T00:00:00+00:00"
 * ^url = "http://hl7.no/fhir/CodeSystem/no-basis-family-relation"
