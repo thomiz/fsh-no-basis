@@ -15,6 +15,9 @@
   History: CHANGELOG.html
 ~~~
 
+* Sette opp Github workflow
+* TEste ut bruk av maturity level på artefaktene
+  * [FMM extension](http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm)
 * Egen gh-pages branch som bare inneholder resultatet av byggeprosessen fra IG-publisher
   * hvordan styre hvor IG-publisher legger resultatet?
   * Sørge for at IG-publisher resultatene blir lagt i egen katalog og dette blir lagt i gh-pages branchen
