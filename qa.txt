@@ -3,7 +3,7 @@
 
 err = 13, warn = 142, info = 12
 IG Publisher Version: 1.1.80 Out of date - current version is 1.1.81
-Generated Sun Oct 03 20:28:49 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.0.17-alpha (canonical = http://hl7.no/fhir)
+Generated Sun Oct 03 21:09:35 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.0.17-alpha (canonical = http://hl7.no/fhir)
 
  Build Errors : 419 / 8 / 0
  /data/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
@@ -256,11 +256,11 @@ ERROR: /data/output/StructureDefinition-no-basis-HealthcareService.profile.xml.h
 ERROR: /data/output/StructureDefinition-no-basis-HumanName-definitions.html#/html/body/div/div/div/p/a at Line 404, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-HumanName-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-HumanName-mappings.html#/html/body/div/div/div/p/a at Line 330, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.html#/html/body/div/div/div/p/a at Line 646, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.html#/html/body/div/div/div/p/a at Line 649, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.json.html#/html/body/div/div/div/p/a at Line 938, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.ttl.html#/html/body/div/div/div/p/a at Line 867, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.xml.html#/html/body/div/div/div/p/a at Line 880, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.json.html#/html/body/div/div/div/p/a at Line 944, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.ttl.html#/html/body/div/div/div/p/a at Line 872, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-HumanName.profile.xml.html#/html/body/div/div/div/p/a at Line 884, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-Location-definitions.html#/html/body/div/div/div/p/a at Line 666, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-Location-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-Location-mappings.html#/html/body/div/div/div/p/a at Line 345, column 28: The link '' for "" cannot be resolved
