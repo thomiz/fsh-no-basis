@@ -19,7 +19,7 @@
       "valueCode": "individual"
     }
   ],
-  "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner",
+  "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner",
   "version": "2.0.17-alpha",
   "name": "NoBasisPractitioner",
   "title": "no-basis-Practitioner",
@@ -1938,7 +1938,7 @@
           {
             "code": "HumanName",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"
             ]
           }
         ],
@@ -2039,7 +2039,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ],
@@ -4073,7 +4073,7 @@
           {
             "code": "HumanName",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"
             ]
           }
         ]
@@ -4087,7 +4087,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ]

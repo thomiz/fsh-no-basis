@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-PractitionerRole> a fhir:StructureDefinition;
+<http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "no-basis-PractitionerRole"];
   fhir:DomainResource.text [
@@ -21,7 +21,7 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "individual" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-PractitionerRole"];
+  fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole"];
   fhir:StructureDefinition.version [ fhir:value "2.0.17-alpha"];
   fhir:StructureDefinition.name [ fhir:value "NoBasisPractitionerRole"];
   fhir:StructureDefinition.title [ fhir:value "no-basis-PractitionerRole"];
@@ -2943,7 +2943,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-PractitionerRole.ttl> a owl:Ontology;
+<http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

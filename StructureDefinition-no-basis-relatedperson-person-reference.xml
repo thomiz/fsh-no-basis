@@ -181,7 +181,7 @@ Name or identifier should be supplied in the RelatedPerson.patient element, in a
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person"/>
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Person"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Person"/>
       </type>
       <constraint>
@@ -221,7 +221,7 @@ Name or identifier should be supplied in the RelatedPerson.patient element, in a
       <definition value="Reference to a single Person/no-basis-Person resource in RelatedPerson.patient element. &#xD;&#xA;Should only be used when a Person resource reference is needed.&#xD;&#xA;&#xD;&#xA;Name or identifier should be supplied in the RelatedPerson.patient element, in addition to information supplied in this extension."/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person"/>
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Person"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Person"/>
       </type>
     </element>

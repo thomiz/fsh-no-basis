@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/NamingSystem/no-basis-helsepersonellnummer> a fhir:NamingSystem;
+<http://hl7.no/fhir/NamingSystem/no-basis-helsepersonellnummer> a fhir:NamingSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "no-basis-helsepersonellnummer"];
   fhir:Resource.meta [
@@ -13,7 +13,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/no-basis/NamingSystem/no-basis-helsepersonellnummer</td></tr><tr><td>Version</td><td>2.0.17-alpha</td></tr><tr><td>Name</td><td>HelsepersonellregisteretNummer</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>In Norway all registered health care personnel is registered in the Helsepersonellregister (HPR) and is assigned a HPR-number that is used to identify the health care practitioner. Health care personnel not registered in HPR can use FNR for identification.</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/HPR</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.4</td><td>true</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-helsepersonellnummer</td></tr><tr><td>Version</td><td>2.0.17-alpha</td></tr><tr><td>Name</td><td>HelsepersonellregisteretNummer</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>In Norway all registered health care personnel is registered in the Helsepersonellregister (HPR) and is assigned a HPR-number that is used to identify the health care practitioner. Health care personnel not registered in HPR can use FNR for identification.</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/HPR</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.4</td><td>true</td></tr></table></div>"
   ];
   fhir:NamingSystem.name [ fhir:value "HelsepersonellregisteretNummer"];
   fhir:NamingSystem.status [ fhir:value "active"];
@@ -45,7 +45,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/NamingSystem/no-basis-helsepersonellnummer.ttl> a owl:Ontology;
+<http://hl7.no/fhir/NamingSystem/no-basis-helsepersonellnummer.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

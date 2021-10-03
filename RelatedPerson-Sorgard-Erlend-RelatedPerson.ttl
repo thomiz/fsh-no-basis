@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/RelatedPerson/Sorgard-Erlend-RelatedPerson> a fhir:RelatedPerson;
+<http://hl7.no/fhir/RelatedPerson/Sorgard-Erlend-RelatedPerson> a fhir:RelatedPerson;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Sorgard-Erlend-RelatedPerson"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson";
+       fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson";
        fhir:index 0;
-       fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson>
+       fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson>
      ]
   ];
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 05073500186</p><p><b>patient</b>: <span></span></p><p><b>relationship</b>: <span title=\"Codes: {http://hl7.no/fhir/CodeSystem/no-basis-marital-status gift}\">Gift</span></p><p><b>name</b>: Ærlend Sørgård </p></div>"
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><blockquote><p><b>no-basis-person-citizenship</b></p><p><b>value</b>: <span title=\"Codes: {urn:iso:std:iso:3166 NO}\">Norway</span></p></blockquote><p><b>identifier</b>: id: 05073500186</p><p><b>patient</b>: <span></span></p><p><b>relationship</b>: <span title=\"Codes: {http://hl7.no/fhir/CodeSystem/no-basis-marital-status gift}\">Gift</span></p><p><b>name</b>: Ærlend Sørgård </p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -79,7 +79,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/RelatedPerson/Sorgard-Erlend-RelatedPerson.ttl> a owl:Ontology;
+<http://hl7.no/fhir/RelatedPerson/Sorgard-Erlend-RelatedPerson.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

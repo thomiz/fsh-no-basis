@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson> a fhir:StructureDefinition;
+<http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "no-basis-RelatedPerson"];
   fhir:DomainResource.text [
@@ -21,7 +21,7 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson"];
+  fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"];
   fhir:StructureDefinition.version [ fhir:value "2.0.17-alpha"];
   fhir:StructureDefinition.name [ fhir:value "NoBasisRelatedPerson"];
   fhir:StructureDefinition.title [ fhir:value "no-basis-RelatedPerson"];
@@ -1537,9 +1537,9 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Patient>
          ], [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Patient";
            fhir:index 1;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Patient>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -3396,9 +3396,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "HumanName" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-HumanName>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -3590,9 +3590,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Address" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Address";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Address>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -4096,9 +4096,9 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Patient>
          ], [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Patient";
            fhir:index 1;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Patient>
          ]
        ]
      ], [
@@ -4203,9 +4203,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "HumanName" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-HumanName>
          ]
        ]
      ], [
@@ -4218,9 +4218,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Address" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Address";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Address>
          ]
        ]
      ]
@@ -4228,7 +4228,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson.ttl> a owl:Ontology;
+<http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

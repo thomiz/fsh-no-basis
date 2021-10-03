@@ -215,7 +215,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person",
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Person",
               "http://hl7.org/fhir/StructureDefinition/Person"
             ]
           }
@@ -269,7 +269,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person",
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Person",
               "http://hl7.org/fhir/StructureDefinition/Person"
             ]
           }

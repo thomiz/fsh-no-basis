@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/RelatedPerson/Solid-Aresdoktor-RelatedPerson> a fhir:RelatedPerson;
+<http://hl7.no/fhir/RelatedPerson/Solid-Aresdoktor-RelatedPerson> a fhir:RelatedPerson;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Solid-Aresdoktor-RelatedPerson"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson";
+       fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson";
        fhir:index 0;
-       fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson>
+       fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson>
      ]
   ];
   fhir:DomainResource.text [
@@ -98,7 +98,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/RelatedPerson/Solid-Aresdoktor-RelatedPerson.ttl> a owl:Ontology;
+<http://hl7.no/fhir/RelatedPerson/Solid-Aresdoktor-RelatedPerson.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -3,7 +3,7 @@
   "id": "Direktoratet-for-eHelse-Organization",
   "meta": {
     "profile": [
-      "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"
+      "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
     ]
   },
   "text": {

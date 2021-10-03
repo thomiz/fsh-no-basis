@@ -3,7 +3,7 @@
 <Practitioner xmlns="http://hl7.org/fhir">
   <id value="Magnar-Komann-Practitioner"/>
   <meta>
-    <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner"/>
+    <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 9144889</p><p><b>name</b>: Magnar Koman </p><p><b>telecom</b>: ph: 75589889(WORK), fax: 75589899, ph: 98128921(MOBILE), <a href="mailto:mako@bottomline.no">mako@bottomline.no</a></p><p><b>address</b>: Dreyfushammarn 23 BODØ 8012 (WORK)</p><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title="Codes: {urn:oid:2.16.578.1.12.4.1.1.9060 LE}">Lege</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title="Codes: {urn:oid:2.16.578.1.12.4.1.1.7426 1}">Allmennmedisin</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title="Codes: {urn:oid:2.16.578.1.12.4.1.1.7704 1}">Autorisasjon</span></p><p><b>period</b>: 2018-10-10 --&gt; (ongoing)</p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title="Codes: {urn:oid:2.16.578.1.12.4.1.1.7426 152}">Ortopedisk kirurgi</span></p></blockquote></div>

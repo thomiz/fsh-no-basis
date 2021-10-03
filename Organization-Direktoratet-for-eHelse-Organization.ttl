@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/Organization/Direktoratet-for-eHelse-Organization> a fhir:Organization;
+<http://hl7.no/fhir/Organization/Direktoratet-for-eHelse-Organization> a fhir:Organization;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Direktoratet-for-eHelse-Organization"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization";
+       fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Organization";
        fhir:index 0;
-       fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization>
+       fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Organization>
      ]
   ];
   fhir:DomainResource.text [
@@ -57,7 +57,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/Organization/Direktoratet-for-eHelse-Organization.ttl> a owl:Ontology;
+<http://hl7.no/fhir/Organization/Direktoratet-for-eHelse-Organization.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

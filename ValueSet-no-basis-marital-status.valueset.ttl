@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/ValueSet/no-basis-marital-status.valueset> a fhir:ValueSet;
+<http://hl7.no/fhir/ValueSet/no-basis-marital-status.valueset> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "no-basis-marital-status.valueset"];
   fhir:DomainResource.text [
@@ -40,7 +40,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/ValueSet/no-basis-marital-status.valueset.ttl> a owl:Ontology;
+<http://hl7.no/fhir/ValueSet/no-basis-marital-status.valueset.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

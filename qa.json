@@ -1,12 +1,12 @@
 {
-  "url": "http://hl7.no/fhir/no-basis/ImplementationGuide/hl7.fhir.no.basis",
+  "url": "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis",
   "name": "NoBasis",
   "package-id": "hl7.fhir.no.basis",
   "ig-ver": "2.0.17-alpha",
-  "date": "Fri, 01 Oct, 2021 17:28:30 +0000",
-  "errs": 17,
-  "warnings": 133,
-  "hints": 26,
+  "date": "Sun, 03 Oct, 2021 20:25:33 +0000",
+  "errs": 13,
+  "warnings": 142,
+  "hints": 12,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
 }

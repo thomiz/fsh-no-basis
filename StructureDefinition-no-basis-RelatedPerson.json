@@ -15,7 +15,7 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson",
+  "url": "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson",
   "version": "2.0.17-alpha",
   "name": "NoBasisRelatedPerson",
   "title": "no-basis-RelatedPerson",
@@ -1473,7 +1473,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Patient",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"
             ]
           }
         ],
@@ -3303,7 +3303,7 @@
           {
             "code": "HumanName",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"
             ]
           }
         ],
@@ -3492,7 +3492,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ],
@@ -3977,7 +3977,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Patient",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"
             ]
           }
         ]
@@ -4070,7 +4070,7 @@
           {
             "code": "HumanName",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"
             ]
           }
         ]
@@ -4084,7 +4084,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ]

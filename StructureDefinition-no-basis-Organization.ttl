@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization> a fhir:StructureDefinition;
+<http://hl7.no/fhir/StructureDefinition/no-basis-Organization> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "no-basis-Organization"];
   fhir:Resource.meta [
@@ -25,7 +25,7 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "business" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"];
+  fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"];
   fhir:StructureDefinition.version [ fhir:value "2.0.17-alpha"];
   fhir:StructureDefinition.name [ fhir:value "NoBasisOrganization"];
   fhir:StructureDefinition.title [ fhir:value "no-basis-Organization"];
@@ -2959,9 +2959,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Address" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Address";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Address>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -3036,9 +3036,9 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
          ], [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Organization";
            fhir:index 1;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Organization>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -3405,9 +3405,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Address" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Address";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Address>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -3617,9 +3617,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Address" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Address";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Address>
          ]
        ]
      ], [
@@ -3639,9 +3639,9 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
          ], [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Organization";
            fhir:index 1;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Organization>
          ]
        ]
      ], [
@@ -3652,9 +3652,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Address" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Address";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Address>
          ]
        ]
      ], [
@@ -3667,7 +3667,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization.ttl> a owl:Ontology;
+<http://hl7.no/fhir/StructureDefinition/no-basis-Organization.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

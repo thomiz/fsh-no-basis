@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint> a fhir:StructureDefinition;
+<http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "no-basis-Endpoint"];
   fhir:DomainResource.text [
@@ -21,7 +21,7 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "business" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint"];
+  fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint"];
   fhir:StructureDefinition.version [ fhir:value "2.0.17-alpha"];
   fhir:StructureDefinition.name [ fhir:value "NoBasisEndpoint"];
   fhir:StructureDefinition.title [ fhir:value "no-basis-Endpoint"];
@@ -699,9 +699,9 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
          ], [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Organization";
            fhir:index 1;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Organization>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -1108,9 +1108,9 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
          ], [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Organization";
            fhir:index 1;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Organization>
          ]
        ]
      ], [
@@ -1186,7 +1186,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint.ttl> a owl:Ontology;
+<http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

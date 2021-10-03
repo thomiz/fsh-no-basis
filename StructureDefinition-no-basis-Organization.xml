@@ -43,7 +43,7 @@ no-basis don't use this element to reference endpoints registered in the Norwegi
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="business"/>
   </extension>
-  <url value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"/>
+  <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Organization"/>
   <version value="2.0.17-alpha"/>
   <name value="NoBasisOrganization"/>
   <title value="no-basis-Organization"/>
@@ -2390,7 +2390,7 @@ no-basis don't use this element to reference endpoints registered in the Norwegi
       </base>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -2445,7 +2445,7 @@ no-basis don't use this element to reference endpoints registered in the Norwegi
         </extension>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <targetProfile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"/>
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Organization"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2730,7 +2730,7 @@ no-basis don't use this element to reference endpoints registered in the Norwegi
       </base>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -2894,7 +2894,7 @@ no-basis don't use this element to reference endpoints registered in the Norwegi
       <path value="Organization.address"/>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
     </element>
     <element id="Organization.partOf">
@@ -2905,14 +2905,14 @@ no-basis don't use this element to reference endpoints registered in the Norwegi
         </extension>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <targetProfile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"/>
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Organization"/>
       </type>
     </element>
     <element id="Organization.contact.address">
       <path value="Organization.contact.address"/>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
     </element>
     <element id="Organization.endpoint">

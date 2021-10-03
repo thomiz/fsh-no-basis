@@ -15,7 +15,7 @@
       "valueCode": "business"
     }
   ],
-  "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Location",
+  "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Location",
   "version": "2.0.17-alpha",
   "name": "NoBasisLocation",
   "title": "no-basis-Location",
@@ -858,7 +858,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ],
@@ -1247,7 +1247,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Organization",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
             ],
             "versioning": "specific"
           }
@@ -1699,7 +1699,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Endpoint",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint"
             ]
           }
         ],
@@ -1738,7 +1738,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ]
@@ -1751,7 +1751,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Organization",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
             ],
             "versioning": "specific"
           }
@@ -1766,7 +1766,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Endpoint",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint"
             ]
           }
         ]

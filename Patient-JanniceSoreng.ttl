@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/Patient/JanniceSoreng> a fhir:Patient;
+<http://hl7.no/fhir/Patient/JanniceSoreng> a fhir:Patient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "JanniceSoreng"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient";
+       fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Patient";
        fhir:index 0;
-       fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient>
+       fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Patient>
      ]
   ];
   fhir:DomainResource.text [
@@ -150,7 +150,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/Patient/JanniceSoreng.ttl> a owl:Ontology;
+<http://hl7.no/fhir/Patient/JanniceSoreng.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -3,7 +3,7 @@
 <Organization xmlns="http://hl7.org/fhir">
   <id value="Direktoratet-for-eHelse-Organization"/>
   <meta>
-    <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"/>
+    <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Organization"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 915933149</p><p><b>name</b>: Direktoratet for e-Helse</p><p><b>address</b>: </p><ul><li>Postboks 221 Skøyen OSLO 0213 </li><li>Verkstedveien 1 OSLO 0277 </li></ul></div>

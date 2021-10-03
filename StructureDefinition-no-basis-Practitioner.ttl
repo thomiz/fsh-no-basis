@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner> a fhir:StructureDefinition;
+<http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "no-basis-Practitioner"];
   fhir:Resource.meta [
@@ -25,7 +25,7 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "individual" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner"];
+  fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner"];
   fhir:StructureDefinition.version [ fhir:value "2.0.17-alpha"];
   fhir:StructureDefinition.name [ fhir:value "NoBasisPractitioner"];
   fhir:StructureDefinition.title [ fhir:value "no-basis-Practitioner"];
@@ -2004,9 +2004,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "HumanName" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-HumanName>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -2108,9 +2108,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Address" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Address";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Address>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -4173,9 +4173,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "HumanName" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-HumanName>
          ]
        ]
      ], [
@@ -4188,9 +4188,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Address" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Address";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Address>
          ]
        ]
      ], [
@@ -4298,7 +4298,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner.ttl> a owl:Ontology;
+<http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

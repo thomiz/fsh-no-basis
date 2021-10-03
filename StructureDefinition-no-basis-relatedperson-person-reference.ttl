@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-relatedperson-person-reference> a fhir:StructureDefinition;
+<http://hl7.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "no-basis-relatedperson-person-reference"];
   fhir:DomainResource.text [
@@ -226,9 +226,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Person";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Person>
          ], [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Person";
            fhir:index 1;
@@ -284,9 +284,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Person";
            fhir:index 0;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Person>
          ], [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Person";
            fhir:index 1;
@@ -298,7 +298,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-relatedperson-person-reference.ttl> a owl:Ontology;
+<http://hl7.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

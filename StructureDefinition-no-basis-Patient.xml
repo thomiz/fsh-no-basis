@@ -54,7 +54,7 @@ Organization that issued/manages the identifier.">assigner</a><a name="Patient.i
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"/>
+  <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Patient"/>
   <version value="2.0.17-alpha"/>
   <name value="NoBasisPatient"/>
   <title value="no-basis-Patient"/>
@@ -3058,7 +3058,7 @@ Organization that issued/manages the identifier.">assigner</a><a name="Patient.i
       </base>
       <type>
         <code value="HumanName"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -3277,7 +3277,7 @@ Organization that issued/manages the identifier.">assigner</a><a name="Patient.i
       </base>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -3650,7 +3650,7 @@ Organization that issued/manages the identifier.">assigner</a><a name="Patient.i
       </base>
       <type>
         <code value="HumanName"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -3733,7 +3733,7 @@ Organization that issued/manages the identifier.">assigner</a><a name="Patient.i
       </base>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -4589,7 +4589,7 @@ Organization that issued/manages the identifier.">assigner</a><a name="Patient.i
       <path value="Patient.name"/>
       <type>
         <code value="HumanName"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"/>
       </type>
     </element>
     <element id="Patient.address">
@@ -4598,21 +4598,21 @@ Organization that issued/manages the identifier.">assigner</a><a name="Patient.i
       <definition value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
     </element>
     <element id="Patient.contact.name">
       <path value="Patient.contact.name"/>
       <type>
         <code value="HumanName"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"/>
       </type>
     </element>
     <element id="Patient.contact.address">
       <path value="Patient.contact.address"/>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
     </element>
   </differential>

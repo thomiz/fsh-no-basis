@@ -46,7 +46,7 @@ Address(es) of the practitioner that are not role specific (typically home addre
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="individual"/>
   </extension>
-  <url value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner"/>
+  <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner"/>
   <version value="2.0.17-alpha"/>
   <name value="NoBasisPractitioner"/>
   <title value="no-basis-Practitioner"/>
@@ -1621,7 +1621,7 @@ Address(es) of the practitioner that are not role specific (typically home addre
       </base>
       <type>
         <code value="HumanName"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -1704,7 +1704,7 @@ Address(es) of the practitioner that are not role specific (typically home addre
       </base>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -3369,7 +3369,7 @@ Address(es) of the practitioner that are not role specific (typically home addre
       <path value="Practitioner.name"/>
       <type>
         <code value="HumanName"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"/>
       </type>
     </element>
     <element id="Practitioner.address">
@@ -3378,7 +3378,7 @@ Address(es) of the practitioner that are not role specific (typically home addre
       <definition value="http://hl7.no/fhir/StructureDefinition/no-basis-Address&#xD;&#xA;&#xD;&#xA;Address(es) of the practitioner that are not role specific (typically home address). &#xD;Work addresses are not typically entered in this property as they are usually role dependent."/>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
     </element>
     <element id="Practitioner.qualification">

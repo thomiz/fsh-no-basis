@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/ValueSet/no-basis-parental-responsibility.valueset> a fhir:ValueSet;
+<http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility.valueset> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "no-basis-parental-responsibility.valueset"];
   fhir:Resource.meta [
@@ -44,7 +44,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/ValueSet/no-basis-parental-responsibility.valueset.ttl> a owl:Ontology;
+<http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility.valueset.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

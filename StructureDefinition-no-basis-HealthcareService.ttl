@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService> a fhir:StructureDefinition;
+<http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "no-basis-HealthcareService"];
   fhir:DomainResource.text [
@@ -21,7 +21,7 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "business" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService"];
+  fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"];
   fhir:StructureDefinition.version [ fhir:value "2.0.17-alpha"];
   fhir:StructureDefinition.name [ fhir:value "NoBasisHealthcareService"];
   fhir:StructureDefinition.title [ fhir:value "no-basis-HealthcareService"];
@@ -595,9 +595,9 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
          ], [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Organization";
            fhir:index 1;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Organization>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -618,8 +618,8 @@
          fhir:ElementDefinition.constraint.human [ fhir:value "no-basis recommends the use of logical references by ENH or RESH identifiers. If providedBy exists, identifiers should exist." ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "$this.exists(identifier.exists())" ];
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService";
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService>
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService";
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService>
          ]
        ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
@@ -1108,8 +1108,8 @@
          fhir:ElementDefinition.constraint.human [ fhir:value "no-basis recommends the use of urn:oid:2.16.578.1.12.4.1.4.101 (ENH) or urn:oid:2.16.578.1.12.4.1.4.102 (RESH) for identifier.system" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "$this.exists(value = 'urn:oid:2.16.578.1.12.4.1.4.101' or value = 'urn:oid:2.16.578.1.12.4.1.4.102')" ];
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService";
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService>
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService";
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService>
          ]
        ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
@@ -3224,9 +3224,9 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Location>
          ], [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Location";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Location";
            fhir:index 1;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Location>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Location>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -4681,9 +4681,9 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Endpoint>
          ], [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint";
            fhir:index 1;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -4732,9 +4732,9 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
          ], [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Organization";
            fhir:index 1;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Organization>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -4744,8 +4744,8 @@
          fhir:ElementDefinition.constraint.human [ fhir:value "no-basis recommends the use of logical references by ENH or RESH identifiers. If providedBy exists, identifiers should exist." ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "$this.exists(identifier.exists())" ];
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService";
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService>
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService";
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService>
          ]
        ]
      ], [
@@ -4765,8 +4765,8 @@
          fhir:ElementDefinition.constraint.human [ fhir:value "no-basis recommends the use of urn:oid:2.16.578.1.12.4.1.4.101 (ENH) or urn:oid:2.16.578.1.12.4.1.4.102 (RESH) for identifier.system" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "$this.exists(value = 'urn:oid:2.16.578.1.12.4.1.4.101' or value = 'urn:oid:2.16.578.1.12.4.1.4.102')" ];
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService";
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService>
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService";
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService>
          ]
        ]
      ], [
@@ -4922,9 +4922,9 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Location>
          ], [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Location";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Location";
            fhir:index 1;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Location>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Location>
          ]
        ]
      ], [
@@ -4940,9 +4940,9 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Endpoint>
          ], [
-           fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint";
+           fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint";
            fhir:index 1;
-           fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint>
+           fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint>
          ]
        ];
        fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ]
@@ -4951,7 +4951,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService.ttl> a owl:Ontology;
+<http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

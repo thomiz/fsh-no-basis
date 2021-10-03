@@ -19,7 +19,7 @@
       "valueCode": "business"
     }
   ],
-  "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization",
+  "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Organization",
   "version": "2.0.17-alpha",
   "name": "NoBasisOrganization",
   "title": "no-basis-Organization",
@@ -2880,7 +2880,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ],
@@ -2949,7 +2949,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Organization",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
             ]
           }
         ],
@@ -3302,7 +3302,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ],
@@ -3509,7 +3509,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ]
@@ -3528,7 +3528,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Organization",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
             ]
           }
         ]
@@ -3540,7 +3540,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ]

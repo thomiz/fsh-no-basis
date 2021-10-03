@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"4.4"}
-    h3,h4,h5,h6{--heading-prefix:"4.4"}</style>
+    <style type="text/css">h2{--heading-prefix:"4.7"}
+    h3,h4,h5,h6{--heading-prefix:"4.7"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -57,7 +57,7 @@
             
 <div id="hl7-nav">
     <a no-external="true" id="hl7-logo" href="https://github.com/HL7Norway">
-        <img src="https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Images/HL7-Norge.png" alt="visit the hl7 website" height="50"/>
+        <img src="assets/images/HL7-norway-logo.png" alt="visit the hl7 website" height="60"/>
     </a>            
 </div>
 
@@ -165,7 +165,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 4" class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">NoBasis - Local Development build (v2.0.17-alpha). See the <a href="http://hl7.no/fhir/no-basis/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">NoBasis - Local Development build (v2.0.17-alpha). See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   
 
 
@@ -419,7 +419,7 @@ Indicates the type of function performed at the location.
   <tr><td>Definition</td><td><p>An address expressed using postal conventions (as opposed to GPS or other location definition formats).  This data type may be used to convey addresses for use in delivering mail as well as for visiting locations which might not be valid for mail delivery.  There are a variety of postal address formats defined around the world.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1 This element is affected by the following invariants: ele-1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Address">Address</a>(<a href="StructureDefinition-no-basis-Address.html" title="[CanonicalType[http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address]]">NoBasisAddress</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Address">Address</a>(<a href="StructureDefinition-no-basis-Address.html" title="[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Address]]">NoBasisAddress</a>)</td></tr>
   <tr><td>Requirements</td><td><p>If locations can be visited, we need to keep track of their address.</p>
 </td></tr>
   <tr><td>Comments</td><td><p>Note: address is intended to describe postal addresses for administrative purposes, not to describe absolute geographical coordinates.  Postal addresses are often used as proxies for physical locations (also see the <a href="http://hl7.org/fhir/R4/location.html#">Location</a> resource).</p>
@@ -501,7 +501,7 @@ Physical form of the location.
   <tr><td>Definition</td><td><p>The organization responsible for the provisioning and upkeep of the location.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/R4/organization.html" title="http://hl7.org/fhir/StructureDefinition/Organization">Organization</a> | <a href="StructureDefinition-no-basis-Organization.html" title="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization">NoBasisOrganization</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/R4/organization.html" title="http://hl7.org/fhir/StructureDefinition/Organization">Organization</a> | <a href="StructureDefinition-no-basis-Organization.html" title="http://hl7.no/fhir/StructureDefinition/no-basis-Organization">NoBasisOrganization</a>)</td></tr>
   <tr><td>Requirements</td><td><p>Need to know who manages the location.</p>
 </td></tr>
   <tr><td>Comments</td><td><p>This can also be used as the part of the organization hierarchy where this location provides services. These services can be defined through the HealthcareService resource.</p>
@@ -599,7 +599,7 @@ The days of the week.
 <p>Technical endpoints providing access to services operated for the location.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..*</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/R4/endpoint.html" title="http://hl7.org/fhir/StructureDefinition/Endpoint">Endpoint</a> | <a href="StructureDefinition-no-basis-Endpoint.html" title="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint">NoBasisEndpoint</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/R4/endpoint.html" title="http://hl7.org/fhir/StructureDefinition/Endpoint">Endpoint</a> | <a href="StructureDefinition-no-basis-Endpoint.html" title="http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint">NoBasisEndpoint</a>)</td></tr>
   <tr><td>Requirements</td><td><p>Organizations may have different systems at different locations that provide various services and need to be able to define the technical connection details for how to connect to them, and for what purpose.</p>
 </td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
@@ -658,7 +658,7 @@ The days of the week.
 
       <div class="inner-wrapper">
         <p><a name="l2788">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.0.17-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Oct 1, 2021 17:28+0000">2021-10-01</span>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.0.17-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Oct 3, 2021 20:25+0000">2021-10-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

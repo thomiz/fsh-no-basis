@@ -15,7 +15,7 @@
       "valueCode": "business"
     }
   ],
-  "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint",
+  "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint",
   "version": "2.0.17-alpha",
   "name": "NoBasisEndpoint",
   "title": "no-basis-Endpoint",
@@ -644,7 +644,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Organization",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
             ]
           }
         ],
@@ -1041,7 +1041,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Organization",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
             ]
           }
         ]

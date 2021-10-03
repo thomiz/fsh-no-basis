@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:Address</sch:title>
     <sch:rule context="f:Address">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-urban-district']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-urban-district': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/no-basis-urban-district']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/no-basis-urban-district': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -68,7 +68,7 @@
     <sch:title>f:Address/f:district</sch:title>
     <sch:rule context="f:Address/f:district">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-municipalitycode']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-municipalitycode': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:value) &lt;= 1">value: maximum cardinality of 'value' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

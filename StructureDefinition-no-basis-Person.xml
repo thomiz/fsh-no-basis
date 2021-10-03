@@ -25,7 +25,7 @@ Multiple FNR can exist for a person. If several FNR is provided the time period 
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person"/>
+  <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Person"/>
   <version value="2.0.17-alpha"/>
   <name value="NoBasisPerson"/>
   <title value="no-basis-Person"/>
@@ -1183,7 +1183,7 @@ Multiple FNR can exist for a person. If several FNR is provided the time period 
       </base>
       <type>
         <code value="HumanName"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -1343,7 +1343,7 @@ Multiple FNR can exist for a person. If several FNR is provided the time period 
       </base>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -1749,7 +1749,7 @@ Multiple FNR can exist for a person. If several FNR is provided the time period 
       <path value="Person.name"/>
       <type>
         <code value="HumanName"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"/>
       </type>
     </element>
     <element id="Person.address">
@@ -1758,7 +1758,7 @@ Multiple FNR can exist for a person. If several FNR is provided the time period 
       <definition value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
     </element>
   </differential>

@@ -3,7 +3,7 @@
 <RelatedPerson xmlns="http://hl7.org/fhir">
   <id value="Solid-Aresdoktor-RelatedPerson"/>
   <meta>
-    <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson"/>
+    <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 15080050515</p><p><b>patient</b>: <span></span></p><p><b>relationship</b>: <span title="Codes: {http://hl7.no/fhir/CodeSystem/no-basis-family-relation far}">Far</span>, <span title="Codes: {http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility far}">Far</span></p><p><b>name</b>: SOLID ÆRESDOKTOR </p><p><b>address</b>: Nyhaugveien 3 BERGEN 5067 NO (HOME)</p></div>

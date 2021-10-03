@@ -19,7 +19,7 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient",
+  "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Patient",
   "version": "2.0.17-alpha",
   "name": "NoBasisPatient",
   "title": "no-basis-Patient",
@@ -3670,7 +3670,7 @@
           {
             "code": "HumanName",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"
             ]
           }
         ],
@@ -3932,7 +3932,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ],
@@ -4389,7 +4389,7 @@
           {
             "code": "HumanName",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"
             ]
           }
         ],
@@ -4490,7 +4490,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ],
@@ -5556,7 +5556,7 @@
           {
             "code": "HumanName",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"
             ]
           }
         ]
@@ -5570,7 +5570,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ]
@@ -5582,7 +5582,7 @@
           {
             "code": "HumanName",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"
             ]
           }
         ]
@@ -5594,7 +5594,7 @@
           {
             "code": "Address",
             "profile": [
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Address"
             ]
           }
         ]

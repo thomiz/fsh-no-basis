@@ -15,7 +15,7 @@
       "valueCode": "business"
     }
   ],
-  "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService",
+  "url": "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService",
   "version": "2.0.17-alpha",
   "name": "NoBasisHealthcareService",
   "title": "no-basis-HealthcareService",
@@ -546,7 +546,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Organization",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
             ]
           }
         ],
@@ -564,7 +564,7 @@
             "severity": "warning",
             "human": "no-basis recommends the use of logical references by ENH or RESH identifiers. If providedBy exists, identifiers should exist.",
             "expression": "$this.exists(identifier.exists())",
-            "source": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService"
+            "source": "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"
           }
         ],
         "isModifier": false,
@@ -1039,7 +1039,7 @@
             "severity": "warning",
             "human": "no-basis recommends the use of urn:oid:2.16.578.1.12.4.1.4.101 (ENH) or urn:oid:2.16.578.1.12.4.1.4.102 (RESH) for identifier.system",
             "expression": "$this.exists(value = 'urn:oid:2.16.578.1.12.4.1.4.101' or value = 'urn:oid:2.16.578.1.12.4.1.4.102')",
-            "source": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService"
+            "source": "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"
           }
         ],
         "isModifier": false,
@@ -3134,7 +3134,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Location",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Location"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Location"
             ]
           }
         ],
@@ -4535,7 +4535,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Endpoint",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint"
             ]
           }
         ],
@@ -4582,7 +4582,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Organization",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
             ]
           }
         ],
@@ -4592,7 +4592,7 @@
             "severity": "warning",
             "human": "no-basis recommends the use of logical references by ENH or RESH identifiers. If providedBy exists, identifiers should exist.",
             "expression": "$this.exists(identifier.exists())",
-            "source": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService"
+            "source": "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"
           }
         ]
       },
@@ -4611,7 +4611,7 @@
             "severity": "warning",
             "human": "no-basis recommends the use of urn:oid:2.16.578.1.12.4.1.4.101 (ENH) or urn:oid:2.16.578.1.12.4.1.4.102 (RESH) for identifier.system",
             "expression": "$this.exists(value = 'urn:oid:2.16.578.1.12.4.1.4.101' or value = 'urn:oid:2.16.578.1.12.4.1.4.102')",
-            "source": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService"
+            "source": "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"
           }
         ]
       },
@@ -4763,7 +4763,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Location",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Location"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Location"
             ]
           }
         ]
@@ -4777,7 +4777,7 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Endpoint",
-              "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint"
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint"
             ]
           }
         ],

@@ -15,7 +15,7 @@
       "valueCode": "individual"
     }
   ],
-  "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-PractitionerRole",
+  "url": "http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole",
   "version": "2.0.17-alpha",
   "name": "NoBasisPractitionerRole",
   "title": "no-basis-PractitionerRole",

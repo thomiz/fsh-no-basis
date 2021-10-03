@@ -31,7 +31,7 @@ Technical endpoints providing access to services operated for the practitioner w
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="individual"/>
   </extension>
-  <url value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-PractitionerRole"/>
+  <url value="http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole"/>
   <version value="2.0.17-alpha"/>
   <name value="NoBasisPractitionerRole"/>
   <title value="no-basis-PractitionerRole"/>

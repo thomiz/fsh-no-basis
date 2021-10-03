@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/NamingSystem/no-basis-bydelsnummer> a fhir:NamingSystem;
+<http://hl7.no/fhir/NamingSystem/no-basis-bydelsnummer> a fhir:NamingSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "no-basis-bydelsnummer"];
   fhir:Resource.meta [
@@ -13,7 +13,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/no-basis/NamingSystem/no-basis-bydelsnummer</td></tr><tr><td>Version</td><td>2.0.17-alpha</td></tr><tr><td>Name</td><td>Bydelsnummer</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Nummerering av kommuner i henhold til SSB sin offisielle liste. Inneholder fremtidige, gyldige og utgåtte kommunenummer.</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/bydelsnummer</td><td>false</td></tr><tr><td>URI</td><td>http://data.ssb.no/api/klass/v1/versions/919</td><td>true</td></tr><tr><td>URI</td><td>urn:oid:2.16.578.1.12.4.1.1.3403</td><td>false</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-bydelsnummer</td></tr><tr><td>Version</td><td>2.0.17-alpha</td></tr><tr><td>Name</td><td>Bydelsnummer</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Nummerering av kommuner i henhold til SSB sin offisielle liste. Inneholder fremtidige, gyldige og utgåtte kommunenummer.</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/bydelsnummer</td><td>false</td></tr><tr><td>URI</td><td>http://data.ssb.no/api/klass/v1/versions/919</td><td>true</td></tr><tr><td>URI</td><td>urn:oid:2.16.578.1.12.4.1.1.3403</td><td>false</td></tr></table></div>"
   ];
   fhir:NamingSystem.name [ fhir:value "Bydelsnummer"];
   fhir:NamingSystem.status [ fhir:value "active"];
@@ -50,7 +50,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/NamingSystem/no-basis-bydelsnummer.ttl> a owl:Ontology;
+<http://hl7.no/fhir/NamingSystem/no-basis-bydelsnummer.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/CodeSystem/no-basis-marital-status.codesystem> a fhir:CodeSystem;
+<http://hl7.no/fhir/CodeSystem/no-basis-marital-status.codesystem> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "no-basis-marital-status.codesystem"];
   fhir:Resource.meta [
@@ -89,7 +89,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/CodeSystem/no-basis-marital-status.codesystem.ttl> a owl:Ontology;
+<http://hl7.no/fhir/CodeSystem/no-basis-marital-status.codesystem.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

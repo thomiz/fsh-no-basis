@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/Practitioner/Magnar-Komann-Practitioner> a fhir:Practitioner;
+<http://hl7.no/fhir/Practitioner/Magnar-Komann-Practitioner> a fhir:Practitioner;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Magnar-Komann-Practitioner"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner";
+       fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner";
        fhir:index 0;
-       fhir:link <http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner>
+       fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner>
      ]
   ];
   fhir:DomainResource.text [
@@ -109,7 +109,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/Practitioner/Magnar-Komann-Practitioner.ttl> a owl:Ontology;
+<http://hl7.no/fhir/Practitioner/Magnar-Komann-Practitioner.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

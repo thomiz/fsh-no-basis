@@ -45,7 +45,7 @@ Technical endpoints providing access to services operated for the specific healt
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="business"/>
   </extension>
-  <url value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService"/>
+  <url value="http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"/>
   <version value="2.0.17-alpha"/>
   <name value="NoBasisHealthcareService"/>
   <title value="no-basis-HealthcareService"/>
@@ -483,7 +483,7 @@ Technical endpoints providing access to services operated for the specific healt
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <targetProfile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"/>
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Organization"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -498,7 +498,7 @@ Technical endpoints providing access to services operated for the specific healt
         <severity value="warning"/>
         <human value="no-basis recommends the use of logical references by ENH or RESH identifiers. If providedBy exists, identifiers should exist."/>
         <expression value="$this.exists(identifier.exists())"/>
-        <source value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService"/>
+        <source value="http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"/>
       </constraint>
       <isModifier value="false"/>
       <isSummary value="true"/>
@@ -875,7 +875,7 @@ Technical endpoints providing access to services operated for the specific healt
         <severity value="warning"/>
         <human value="no-basis recommends the use of urn:oid:2.16.578.1.12.4.1.4.101 (ENH) or urn:oid:2.16.578.1.12.4.1.4.102 (RESH) for identifier.system"/>
         <expression value="$this.exists(value = &#39;urn:oid:2.16.578.1.12.4.1.4.101&#39; or value = &#39;urn:oid:2.16.578.1.12.4.1.4.102&#39;)"/>
-        <source value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService"/>
+        <source value="http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"/>
       </constraint>
       <isModifier value="false"/>
       <isSummary value="true"/>
@@ -2592,7 +2592,7 @@ Technical endpoints providing access to services operated for the specific healt
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Location"/>
-        <targetProfile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Location"/>
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Location"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3711,7 +3711,7 @@ Technical endpoints providing access to services operated for the specific healt
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Endpoint"/>
-        <targetProfile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint"/>
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3745,14 +3745,14 @@ Technical endpoints providing access to services operated for the specific healt
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <targetProfile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"/>
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Organization"/>
       </type>
       <constraint>
         <key value="no-basis-providedBy-identifier"/>
         <severity value="warning"/>
         <human value="no-basis recommends the use of logical references by ENH or RESH identifiers. If providedBy exists, identifiers should exist."/>
         <expression value="$this.exists(identifier.exists())"/>
-        <source value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService"/>
+        <source value="http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"/>
       </constraint>
     </element>
     <element id="HealthcareService.providedBy.identifier">
@@ -3767,7 +3767,7 @@ Technical endpoints providing access to services operated for the specific healt
         <severity value="warning"/>
         <human value="no-basis recommends the use of urn:oid:2.16.578.1.12.4.1.4.101 (ENH) or urn:oid:2.16.578.1.12.4.1.4.102 (RESH) for identifier.system"/>
         <expression value="$this.exists(value = &#39;urn:oid:2.16.578.1.12.4.1.4.101&#39; or value = &#39;urn:oid:2.16.578.1.12.4.1.4.102&#39;)"/>
-        <source value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService"/>
+        <source value="http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"/>
       </constraint>
     </element>
     <element id="HealthcareService.category">
@@ -3893,7 +3893,7 @@ Technical endpoints providing access to services operated for the specific healt
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Location"/>
-        <targetProfile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Location"/>
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Location"/>
       </type>
     </element>
     <element id="HealthcareService.endpoint">
@@ -3902,7 +3902,7 @@ Technical endpoints providing access to services operated for the specific healt
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Endpoint"/>
-        <targetProfile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint"/>
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint"/>
       </type>
       <mustSupport value="false"/>
     </element>

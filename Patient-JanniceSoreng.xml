@@ -3,7 +3,7 @@
 <Patient xmlns="http://hl7.org/fhir">
   <id value="JanniceSoreng"/>
   <meta>
-    <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"/>
+    <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Patient"/>
   </meta>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><blockquote><p><b>citizenship</b></p><p><b>value</b>: <span title="Codes: {urn:iso:std:iso:3166 NO}">Norway</span></p></blockquote><p><b>identifier</b>: id: 21030550231, id: 123</p><p><b>name</b>: Jannice Søreng </p><p><b>telecom</b>: <a href="tel:+4733445566">+4733445566</a></p><p><b>gender</b>: female</p><p><b>address</b>: Karisvingen 44 Oslo 0603 NO (HOME)</p><p><b>maritalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></p><h3>Contacts</h3><table class="grid"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0131 C}">Emergency Contact</span>, <span title="Codes: ">Bror</span></td><td>Pål Pårørende Olsen</td></tr></table><h3>Communications</h3><table class="grid"><tr><td>-</td><td><b>Language</b></td></tr><tr><td>*</td><td><span title="Codes: ">Norsk</span></td></tr></table><p><b>generalPractitioner</b>: <span>SIDSEL AASE JAVERY</span></p></div>

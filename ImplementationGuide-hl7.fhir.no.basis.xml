@@ -3,13 +3,13 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.fhir.no.basis"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NoBasis</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/no-basis/ImplementationGuide/hl7.fhir.no.basis</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NoBasis</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis</pre></div>
   </text>
-  <url value="http://hl7.no/fhir/no-basis/ImplementationGuide/hl7.fhir.no.basis"/>
+  <url value="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis"/>
   <version value="2.0.17-alpha"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2021-10-01T17:28:30+00:00"/>
+  <date value="2021-10-03T20:25:33+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -90,7 +90,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://hl7.no/fhir/no-basis/history.html"/>
+        <valueString value="http://hl7.no/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -189,6 +189,39 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/no-basis-AllergyIntolerance"/>
+      </reference>
+      <name value="no-basis-AllergyIntolerance"/>
+      <description value="Basis profile for allergy intolerance, to be used in Norway. The profile is adapted to support the norwegian standard for critical information (KI standard)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-Composition"/>
+      </reference>
+      <name value="no-basis-Composition"/>
+      <description value="Basisprofil for Norwegian Composition. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to the relevant use-case.&#xA;&#xA;The profile sets the absolute minimum requirements, identifies the extensions and terminology which can be present."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-DocumentReference"/>
+      </reference>
+      <name value="no-basis-DocumentReference"/>
+      <description value="Basisprofil for Norwegian DocumentReference. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to specification relevant to the use-case.&#xA;&#xA;The profile sets the absolute minimum requirements when searching, fething and storing documents within the healtcare domain. It sets the basic requirements for extensions and terminology which can be present."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/no-basis-Endpoint"/>
       </reference>
       <name value="no-basis-Endpoint"/>
@@ -226,6 +259,28 @@
       </reference>
       <name value="no-basis-Location"/>
       <description value="Basisprofil for Norwegian Location information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific location information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-Medication"/>
+      </reference>
+      <name value="no-basis-Medication"/>
+      <description value="Basis profile for medication to be used in Norway. The profile is adapted to use FEST as source of information."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-MedicationStatement"/>
+      </reference>
+      <name value="no-basis-MedicationStatement"/>
+      <description value="Basis profile for medication statement, to be used in Norway. The profile is adapted to include norwegian specific features and constraints."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -292,6 +347,17 @@
       </reference>
       <name value="no-basis-RelatedPerson"/>
       <description value="Basisprofil for Norwegian RelatedPerson information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.&#xA;&#xA;Typical use-case for no-basis-RelatedPerson involves information about relations person-patient.&#xA;- Relations registered in norwegian Master Person Information Index (aka Folkeregisteret)&#xA;- Other relationship information registered on a patient or person neccessary for patient treatment&#xA;- Should not be used for contact persons for the patient with a predefined role in the patient care, as information as this is registered separately in the Patient resource"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-Substance"/>
+      </reference>
+      <name value="no-basis-Substance"/>
+      <description value="Basis profile for Substances to be used in Norway. The profile is adapted to use FEST as source of information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -510,7 +576,7 @@
         <reference value="Organization/Direktoratet-for-eHelse-Organization"/>
       </reference>
       <name value="Direktoratet-for-eHelse-Organization"/>
-      <exampleCanonical value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/no-basis-Organization"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -520,7 +586,7 @@
         <reference value="Patient/EspenEksempel"/>
       </reference>
       <name value="EspenEksempel"/>
-      <exampleCanonical value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/no-basis-Patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -530,7 +596,7 @@
         <reference value="Patient/JanniceSoreng"/>
       </reference>
       <name value="JanniceSoreng"/>
-      <exampleCanonical value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/no-basis-Patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -540,7 +606,7 @@
         <reference value="Patient/JanniceSorengTo"/>
       </reference>
       <name value="JanniceSorengTo"/>
-      <exampleCanonical value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/no-basis-Patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -550,7 +616,7 @@
         <reference value="Practitioner/Magnar-Komann-Practitioner"/>
       </reference>
       <name value="Magnar-Komann-Practitioner"/>
-      <exampleCanonical value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -560,7 +626,7 @@
         <reference value="RelatedPerson/Solid-Aresdoktor-RelatedPerson"/>
       </reference>
       <name value="Solid-Aresdoktor-RelatedPerson"/>
-      <exampleCanonical value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -570,7 +636,7 @@
         <reference value="RelatedPerson/Sorgard-Erlend-RelatedPerson"/>
       </reference>
       <name value="Sorgard-Erlend-RelatedPerson"/>
-      <exampleCanonical value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

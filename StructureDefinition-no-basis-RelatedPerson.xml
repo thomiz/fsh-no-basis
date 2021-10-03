@@ -77,7 +77,7 @@ Når informasjonen er migrert fra DSF vil Registeret være oppdatert i takt med 
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson"/>
+  <url value="http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"/>
   <version value="2.0.17-alpha"/>
   <name value="NoBasisRelatedPerson"/>
   <title value="no-basis-RelatedPerson"/>
@@ -1270,7 +1270,7 @@ Når informasjonen er migrert fra DSF vil Registeret være oppdatert i takt med 
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"/>
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Patient"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2761,7 +2761,7 @@ Når informasjonen er migrert fra DSF vil Registeret være oppdatert i takt med 
       </base>
       <type>
         <code value="HumanName"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -2914,7 +2914,7 @@ Når informasjonen er migrert fra DSF vil Registeret være oppdatert i takt med 
       </base>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -3300,7 +3300,7 @@ Når informasjonen er migrert fra DSF vil Registeret være oppdatert i takt med 
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient"/>
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Patient"/>
       </type>
     </element>
     <element id="RelatedPerson.relationship">
@@ -3373,7 +3373,7 @@ Når informasjonen er migrert fra DSF vil Registeret være oppdatert i takt med 
       <path value="RelatedPerson.name"/>
       <type>
         <code value="HumanName"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HumanName"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"/>
       </type>
     </element>
     <element id="RelatedPerson.address">
@@ -3382,7 +3382,7 @@ Når informasjonen er migrert fra DSF vil Registeret være oppdatert i takt med 
       <definition value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       <type>
         <code value="Address"/>
-        <profile value="http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Address"/>
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Address"/>
       </type>
     </element>
   </differential>

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/ValueSet/no-basis-documentreference-type.valueset> a fhir:ValueSet;
+<http://hl7.no/fhir/ValueSet/no-basis-documentreference-type.valueset> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "no-basis-documentreference-type.valueset"];
   fhir:DomainResource.text [
@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "NoBasisDocumentReferenceType"];
   fhir:ValueSet.title [ fhir:value "no-basis-documentreference-type.valueset"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-10-01T17:28:30+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-10-03T20:25:33+00:00"^^xsd:dateTime];
   fhir:ValueSet.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -289,7 +289,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/no-basis/ValueSet/no-basis-documentreference-type.valueset.ttl> a owl:Ontology;
+<http://hl7.no/fhir/ValueSet/no-basis-documentreference-type.valueset.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -12,21 +12,21 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-address-official",
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-address-official",
       "title": "no-basis-address-official",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-middlename",
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-middlename",
       "title": "no-basis-middlename",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-municipalitycode",
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode",
       "title": "no-basis-municipalitycode",
       "types": [
         "Coding",
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-person-citizenship",
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-person-citizenship",
       "title": "no-basis-person-citizenship",
       "types": [
         "CodeableConcept",
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-prescriptiongroup",
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-prescriptiongroup",
       "title": "no-basis-prescriptiongroup",
       "types": [
         "CodeableConcept",
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-propertyinformation",
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation",
       "title": "no-basis-propertyinformation",
       "types": [
         "integer",
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-sourceofinformation",
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation",
       "title": "no-basis-sourceofinformation",
       "types": [
         "CodeableConcept",
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-urban-district",
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-urban-district",
       "title": "no-basis-urban-district",
       "types": [
         "Coding"
@@ -303,58 +303,94 @@
     }
   ],
   "profiles": {
+    "AllergyIntolerance": [
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance",
+        "title": "no-basis-AllergyIntolerance"
+      }
+    ],
+    "Composition": [
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Composition",
+        "title": "no-basis-Composition"
+      }
+    ],
+    "DocumentReference": [
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-DocumentReference",
+        "title": "no-basis-DocumentReference"
+      }
+    ],
     "Endpoint": [
       {
-        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Endpoint",
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint",
         "title": "no-basis-Endpoint"
       }
     ],
     "HealthcareService": [
       {
-        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-HealthcareService",
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService",
         "title": "no-basis-HealthcareService"
       }
     ],
     "Location": [
       {
-        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Location",
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Location",
         "title": "no-basis-Location"
+      }
+    ],
+    "Medication": [
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Medication",
+        "title": "no-basis-Medication"
+      }
+    ],
+    "MedicationStatement": [
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-MedicationStatement",
+        "title": "no-basis-MedicationStatement"
       }
     ],
     "Organization": [
       {
-        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Organization",
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Organization",
         "title": "no-basis-Organization"
       }
     ],
     "Patient": [
       {
-        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Patient",
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Patient",
         "title": "no-basis-Patient"
       }
     ],
     "Person": [
       {
-        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Person",
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Person",
         "title": "no-basis-Person"
       }
     ],
     "Practitioner": [
       {
-        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-Practitioner",
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner",
         "title": "no-basis-Practitioner"
       }
     ],
     "PractitionerRole": [
       {
-        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-PractitionerRole",
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole",
         "title": "no-basis-PractitionerRole"
       }
     ],
     "RelatedPerson": [
       {
-        "url": "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-RelatedPerson",
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson",
         "title": "no-basis-RelatedPerson"
+      }
+    ],
+    "Substance": [
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Substance",
+        "title": "no-basis-Substance"
       }
     ]
   },
@@ -363,39 +399,35 @@
       "RelatedPerson.patient"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-address-official": [
+      "Address",
       "Organization.address",
       "Patient.address",
       "RelatedPerson.address"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-middlename": [
+      "HumanName",
       "Patient.contact.name",
       "RelatedPerson.name"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode": [
+      "Address.district",
       "Patient.address.district"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-person-citizenship": [
       "RelatedPerson"
     ],
+    "http://hl7.no/fhir/StructureDefinition/no-basis-prescriptiongroup": [
+      "Medication"
+    ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation": [
+      "Address",
       "Patient.address",
       "RelatedPerson.address"
     ],
-    "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-address-official": [
-      "Address",
-      "Patient.address"
+    "http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation": [
+      "AllergyIntolerance"
     ],
-    "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-middlename": [
-      "HumanName"
-    ],
-    "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-municipalitycode": [
-      "Address.district"
-    ],
-    "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-propertyinformation": [
-      "Address",
-      "Patient.address"
-    ],
-    "http://hl7.no/fhir/no-basis/StructureDefinition/no-basis-urban-district": [
+    "http://hl7.no/fhir/StructureDefinition/no-basis-urban-district": [
       "Address"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
