@@ -2,7 +2,7 @@
 
 ## Plan
 
-* Skrive resten av ressursene i fsh format, validere og generer IG
+* OK, Skrive resten av ressursene i fsh format, validere og generer IG
 * Ta inn markdown fra SIMPLIFIER til ig-publisher
   * Sørge for at markdown filene blir med i generert IG
   * egne md/html sider med dokumentasjonen legges i input/pages eller input/pagecontent katalog før man kjører igpublisher/sushi
@@ -16,20 +16,22 @@
 ~~~
 
 * Sette opp Github workflow
-* TEste ut bruk av maturity level på artefaktene
+* Teste ut bruk av maturity level på artefaktene
   * [FMM extension](http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm)
 * Egen gh-pages branch som bare inneholder resultatet av byggeprosessen fra IG-publisher
   * hvordan styre hvor IG-publisher legger resultatet?
   * Sørge for at IG-publisher resultatene blir lagt i egen katalog og dette blir lagt i gh-pages branchen
   * Hvor er pakkene fra IG-publisher, genereres det pakker?
     * Ja, disse legges i hovedkatalogen
-* Hvordan ta vare på versjoner av IG-ene som publisher genererer?
+* OK, Hvordan ta vare på versjoner av IG-ene som publisher genererer?
   * versjonskontroll med IG-publisher
-* Undersøke hvorfor nye Docker images ikke fungerer og hvorfor docker build ikke fungerer
+  * Ta vare på zip av gamle IG's
+* OK, Undersøke hvorfor nye Docker images ikke fungerer og hvorfor docker build ikke fungerer
   * Feil i docker-entrypoint fila (linux må ha LF linjeskift)
 * OK, Legge om til å bruke FHIR template for no-basis
   * [HL7 IG templates](https://build.fhir.org/ig/FHIR/ig-guidance/index.html#templates)
 
+2021-10-03 - La til resten av profilene fikset canonical slik at den sammenfaller med definert for no-basis http://hl7.no/fhir
 2021-10-02 - Endret på menyen og lag til Datatyper og figurer
 2021-10-01 - La til Endpoint, HealthcareService og Location
 2021-09-30 - La til noen flere eksempler, problemer med narrative generation fra fsh filene, noe er galt med extension definisjonenen i eksemplene
