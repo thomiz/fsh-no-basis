@@ -9,6 +9,10 @@ Description: "Basisprofil for Norwegian HumanName. Defined by The Norwegian Dire
 * ^date = "2019-05-20"
 * . ^short = "Norwegian human name"
 * . ^definition = "Defines the format of norwegian human name according to norwegian legislation (lov om personnavn)."
+//FMM
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension.valueInteger = 1
+//FMM
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
