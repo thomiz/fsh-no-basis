@@ -25,7 +25,7 @@ Part of the name that is acquired as a title due to academic, legal, employment 
     <valueInteger value="1"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"/>
-  <version value="2.0.17-alpha"/>
+  <version value="2.1.0"/>
   <name value="NoBasisHumanName"/>
   <title value="no-basis-HumanName"/>
   <status value="active"/>

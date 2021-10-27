@@ -32,7 +32,7 @@ Technical endpoints providing access to services operated for the practitioner w
     <valueCode value="individual"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole"/>
-  <version value="2.0.17-alpha"/>
+  <version value="2.1.0"/>
   <name value="NoBasisPractitionerRole"/>
   <title value="no-basis-PractitionerRole"/>
   <status value="active"/>

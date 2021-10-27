@@ -10,7 +10,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-no-basis-family-relation.codesystem.html"><code>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</code></a></li></ul></div>
   </text>
   <url value="http://hl7.no/fhir/ValueSet/no-basis-family-relation"/>
-  <version value="2.0.17-alpha"/>
+  <version value="2.1.0"/>
   <name value="NoBasisFamilyRelation"/>
   <title value="no-basis-family-relation.valueset"/>
   <status value="active"/>

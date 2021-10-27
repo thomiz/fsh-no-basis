@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.no.basis",
-  "version": "2.0.17-alpha",
+  "version": "2.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [
@@ -391,6 +391,12 @@
       {
         "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Substance",
         "title": "no-basis-Substance"
+      }
+    ],
+    "Procedure": [
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-procedure",
+        "title": "no-basis-Procedure"
       }
     ]
   },

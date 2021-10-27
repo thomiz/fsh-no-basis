@@ -10,7 +10,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8660</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8668</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8669</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8658</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8659</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8663</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8664</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8666</code></li></ul></div>
   </text>
   <url value="http://hl7.no/fhir/ValueSet/no-basis-service-type"/>
-  <version value="2.0.17-alpha"/>
+  <version value="2.1.0"/>
   <name value="NoBasisServiceType"/>
   <title value="no-basis-service-type.valueset"/>
   <status value="active"/>

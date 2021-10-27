@@ -50,7 +50,7 @@ Slette = entered-in-error">verificationStatus</a><a name="AllergyIntolerance.ver
     <valueCode value="patient"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance"/>
-  <version value="2.0.17-alpha"/>
+  <version value="2.1.0"/>
   <name value="NoBasisAllergyIntolerance"/>
   <title value="no-basis-AllergyIntolerance"/>
   <status value="active"/>

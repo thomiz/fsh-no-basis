@@ -10,7 +10,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html"><code>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</code></a></li></ul></div>
   </text>
   <url value="http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility"/>
-  <version value="2.0.17-alpha"/>
+  <version value="2.1.0"/>
   <name value="NoBasisParentalResponsibility"/>
   <title value="no-basis-parental-responsibility.valueset"/>
   <status value="active"/>

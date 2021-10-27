@@ -21,7 +21,7 @@ The profile is adapted to use FEST information for coding the substance.">Substa
     <valueCode value="business"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Substance"/>
-  <version value="2.0.17-alpha"/>
+  <version value="2.1.0"/>
   <name value="NoBasisSubstance"/>
   <title value="no-basis-Substance"/>
   <status value="active"/>

@@ -1,0 +1,70 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/Procedure/no-basis-Procedure-example> a fhir:Procedure;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "no-basis-Procedure-example"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-procedure";
+       fhir:index 0;
+       fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-procedure>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 73761001}\">Colonoscopy (procedure)</span></p><p><b>subject</b>: <a href=\"Patient/example\">Patient/example</a></p><h3>Performers</h3><table class=\"grid\"><tr><td>-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td>*</td><td><span title=\"Codes: {http://snomed.info/sct 8921000202108}\">Primary performing endoscopist (person)</span></td><td><a href=\"Practitioner/example\">Practitioner/example</a></td></tr></table><p><b>bodySite</b>: <span title=\"Codes: {http://snomed.info/sct 485005}\">TC - Transverse colon</span></p></div>"
+  ];
+  fhir:Procedure.status [ fhir:value "completed"];
+  fhir:Procedure.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:73761001;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "73761001" ];
+       fhir:Coding.display [ fhir:value "Colonoscopy (procedure)" ]
+     ]
+  ];
+  fhir:Procedure.subject [
+     fhir:link <http://hl7.no/fhir/Patient/example>;
+     fhir:Reference.reference [ fhir:value "Patient/example" ]
+  ];
+  fhir:Procedure.performer [
+     fhir:index 0;
+     fhir:Procedure.performer.function [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a sct:8921000202108;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+         fhir:Coding.code [ fhir:value "8921000202108" ];
+         fhir:Coding.display [ fhir:value "Primary performing endoscopist (person)" ]
+       ]
+     ];
+     fhir:Procedure.performer.actor [
+       fhir:link <http://hl7.no/fhir/Practitioner/example>;
+       fhir:Reference.reference [ fhir:value "Practitioner/example" ]
+     ]
+  ];
+  fhir:Procedure.bodySite [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:485005;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "485005" ];
+       fhir:Coding.display [ fhir:value "TC - Transverse colon" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/Procedure/no-basis-Procedure-example.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

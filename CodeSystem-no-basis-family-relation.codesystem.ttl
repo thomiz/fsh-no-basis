@@ -17,7 +17,7 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.no/fhir/CodeSystem/no-basis-family-relation defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">mor<a name=\"no-basis-family-relation.codesystem-mor\"> </a></td><td>Mor</td></tr><tr><td style=\"white-space:nowrap\">far<a name=\"no-basis-family-relation.codesystem-far\"> </a></td><td>Far</td></tr><tr><td style=\"white-space:nowrap\">medmor<a name=\"no-basis-family-relation.codesystem-medmor\"> </a></td><td>Medmor</td></tr><tr><td style=\"white-space:nowrap\">barn<a name=\"no-basis-family-relation.codesystem-barn\"> </a></td><td>Barn</td></tr><tr><td style=\"white-space:nowrap\">søsken<a name=\"no-basis-family-relation.codesystem-s.248sken\"> </a></td><td>Søsken</td></tr><tr><td style=\"white-space:nowrap\">ektefelleEllerPartner<a name=\"no-basis-family-relation.codesystem-ektefelleEllerPartner\"> </a></td><td>Ektefelle eller partner</td></tr><tr><td style=\"white-space:nowrap\">dødfødtBarn<a name=\"no-basis-family-relation.codesystem-d.248df.248dtBarn\"> </a></td><td>Dødfødt barn</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://hl7.no/fhir/CodeSystem/no-basis-family-relation"];
-  fhir:CodeSystem.version [ fhir:value "2.0.17-alpha"];
+  fhir:CodeSystem.version [ fhir:value "2.1.0"];
   fhir:CodeSystem.name [ fhir:value "NoBasisFamilyRelation"];
   fhir:CodeSystem.title [ fhir:value "no-basis-family-relation.codesystem"];
   fhir:CodeSystem.status [ fhir:value "active"];

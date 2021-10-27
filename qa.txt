@@ -1,11 +1,11 @@
 ﻿NoBasis : Validation Results
 =========================================
 
-err = 13, warn = 142, info = 12
-IG Publisher Version: 1.1.80 Out of date - current version is 1.1.81
-Generated Sun Oct 03 21:09:35 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.0.17-alpha (canonical = http://hl7.no/fhir)
+err = 17, warn = 81, info = 12
+IG Publisher Version: 1.1.80 Out of date - current version is 1.1.83
+Generated Wed Oct 27 20:03:08 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.1.0 (canonical = http://hl7.no/fhir)
 
- Build Errors : 419 / 8 / 0
+ Build Errors : 434 / 9 / 0
  /data/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
  /data/fsh-generated/resources/codesystem-no-basis-connection-type.codesystem : 1 / 0 / 1
  /data/fsh-generated/resources/codesystem-no-basis-family-relation.codesystem : 1 / 0 / 1
@@ -53,11 +53,13 @@ Generated Sun Oct 03 21:09:35 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis
  /data/fsh-generated/resources/structuredefinition-no-basis-sourceofinformation : 0 / 1 / 1
  /data/fsh-generated/resources/structuredefinition-no-basis-urban-district : 0 / 3 / 1
  /data/fsh-generated/resources/valueset-no-basis-connection-type.valueset : 1 / 0 / 1
- /data/fsh-generated/resources/valueset-no-basis-documentreference-type.valueset : 1 / 64 / 1
+ /data/fsh-generated/resources/valueset-no-basis-documentreference-type.valueset : 1 / 2 / 1
  /data/fsh-generated/resources/valueset-no-basis-family-relation.valueset : 1 / 0 / 1
  /data/fsh-generated/resources/valueset-no-basis-marital-status.valueset : 1 / 0 / 1
  /data/fsh-generated/resources/valueset-no-basis-parental-responsibility.valueset : 1 / 0 / 1
  /data/fsh-generated/resources/valueset-no-basis-service-type.valueset : 1 / 1 / 1
+ /data/input/examples/no-basis-Procedure-example : 3 / 0 / 1
+ /data/input/profiles/no-basis-Procedure.structuredefinition : 1 / 0 / 1
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[22].value: Supressed messages file not found
@@ -69,6 +71,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Magnar-Komann-Practitioner.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Solid-Aresdoktor-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Sorgard-Erlend-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/no-basis-Procedure-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /data/output/Changelog-STU3.html#/html/body/div/div/div/p/a at Line 373, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/CodeSystem-no-basis-connection-type.codesystem.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
@@ -151,6 +154,13 @@ ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.html#/html/body/div/
 ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.json.html#/html/body/div/div/div/p/a at Line 360, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.ttl.html#/html/body/div/div/div/p/a at Line 357, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/Practitioner-Magnar-Komann-Practitioner.xml.html#/html/body/div/div/div/p/a at Line 337, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Procedure-no-basis-Procedure-example.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/p/a at Line 222, column 234: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: /data/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 222, column 519: The link 'Practitioner/example' for "Practitioner/example" cannot be resolved
+ERROR: /data/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Procedure-no-basis-Procedure-example.json.html#/html/body/div/div/div/p/a at Line 306, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Procedure-no-basis-Procedure-example.ttl.html#/html/body/div/div/div/p/a at Line 315, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/Procedure-no-basis-Procedure-example.xml.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.json.html#/html/body/div/div/div/p/a at Line 349, column 28: The link '' for "" cannot be resolved
@@ -365,6 +375,14 @@ ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.histor
 ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.json.html#/html/body/div/div/div/p/a at Line 3153, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.ttl.html#/html/body/div/div/div/p/a at Line 2738, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-PractitionerRole.profile.xml.html#/html/body/div/div/div/p/a at Line 2854, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Procedure-definitions.html#/html/body/div/div/div/p/a at Line 850, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Procedure-examples.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Procedure-mappings.html#/html/body/div/div/div/p/a at Line 420, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Procedure.html#/html/body/div/div/div/p/a at Line 947, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Procedure.profile.history.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Procedure.profile.json.html#/html/body/div/div/div/p/a at Line 3052, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Procedure.profile.ttl.html#/html/body/div/div/div/p/a at Line 2736, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/StructureDefinition-no-basis-Procedure.profile.xml.html#/html/body/div/div/div/p/a at Line 2753, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson-definitions.html#/html/body/div/div/div/p/a at Line 1160, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson-examples.html#/html/body/div/div/div/p/a at Line 325, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/StructureDefinition-no-basis-RelatedPerson-mappings.html#/html/body/div/div/div/p/a at Line 449, column 28: The link '' for "" cannot be resolved
@@ -484,7 +502,7 @@ ERROR: /data/output/ValueSet-no-basis-service-type.valueset.html#/html/body/div/
 ERROR: /data/output/ValueSet-no-basis-service-type.valueset.json.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/ValueSet-no-basis-service-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 316, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/ValueSet-no-basis-service-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/artifacts.html#/html/body/div/div/div/p/a at Line 791, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/artifacts.html#/html/body/div/div/div/p/a at Line 821, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/index.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/toc.html#/html/body/div/div/div/p/a at Line 202, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis.json ==
@@ -624,69 +642,7 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition
 ERROR: ValueSet.url: Resource id/url mismatch: no-basis-connection-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-connection-type
 == fsh-generated/resources/valueset-no-basis-documentreference-type.valueset.json ==
 ERROR: ValueSet.url: Resource id/url mismatch: no-basis-documentreference-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-documentreference-type
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[0]: The code A00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[1]: The code A01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[2]: The code A02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[3]: The code A03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[4]: The code A04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[5]: The code A05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[6]: The code A06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[7]: The code A07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[8]: The code A08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[9]: The code A09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[10]: The code A10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[11]: The code A11-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[12]: The code A12-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[13]: The code A13-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[14]: The code B00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[15]: The code B01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[16]: The code B02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[17]: The code B03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[18]: The code C00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[19]: The code C01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[20]: The code C02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[21]: The code C03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[22]: The code C04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[23]: The code C05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[24]: The code C06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[25]: The code C07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[26]: The code D00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[27]: The code D01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[28]: The code D02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[29]: The code D03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[30]: The code D04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[31]: The code D05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[32]: The code D06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[33]: The code D07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[34]: The code D08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[35]: The code D09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[36]: The code D10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[37]: The code D11-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[38]: The code D12-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[39]: The code D13-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[40]: The code E00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[41]: The code E01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[42]: The code F00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[43]: The code F01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[44]: The code F02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[45]: The code F03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[46]: The code F04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[47]: The code F05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[48]: The code F06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[49]: The code F07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[50]: The code F08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[51]: The code F09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[52]: The code F10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[53]: The code I00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[54]: The code I01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[55]: The code I02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[56]: The code J00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[57]: The code J01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[58]: The code J02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[59]: The code S00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[60]: The code S01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[61]: The code S02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[62]: The code S03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
 WARNING: ValueSet.where(id = 'no-basis-documentreference-type.valueset'): Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9602
 == fsh-generated/resources/valueset-no-basis-family-relation.valueset.json ==
 ERROR: ValueSet.url: Resource id/url mismatch: no-basis-family-relation.valueset/http://hl7.no/fhir/ValueSet/no-basis-family-relation
@@ -697,3 +653,9 @@ ERROR: ValueSet.url: Resource id/url mismatch: no-basis-parental-responsibility.
 == fsh-generated/resources/valueset-no-basis-service-type.valueset.json ==
 ERROR: ValueSet.url: Resource id/url mismatch: no-basis-service-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-service-type
 WARNING: ValueSet.where(id = 'no-basis-service-type.valueset'): Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8660
+== input/examples/no-basis-Procedure-example.xml ==
+ERROR: Procedure/no-basis-Procedure-example: Procedure.subject: Unable to resolve resource 'Patient/example'
+ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].function.coding[0]: Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20210731); The code "8921000202108" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#8921000202108) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#8921000202108'
+ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].actor: Unable to resolve resource 'Practitioner/example'
+== input/profiles/no-basis-Procedure.structuredefinition.xml ==
+ERROR: StructureDefinition.url: Resource id/url mismatch: no-basis-Procedure/http://hl7.no/fhir/StructureDefinition/no-basis-procedure

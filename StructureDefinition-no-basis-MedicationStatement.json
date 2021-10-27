@@ -16,7 +16,7 @@
     }
   ],
   "url": "http://hl7.no/fhir/StructureDefinition/no-basis-MedicationStatement",
-  "version": "2.0.17-alpha",
+  "version": "2.1.0",
   "name": "NoBasisMedicationStatement",
   "title": "no-basis-MedicationStatement",
   "status": "active",

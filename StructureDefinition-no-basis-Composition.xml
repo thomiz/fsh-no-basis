@@ -21,11 +21,11 @@ See valueset 'NoBasisDocumentReferenceType' in the Terminology section for more 
     <valueCode value="not-classified"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Composition"/>
-  <version value="2.0.17-alpha"/>
+  <version value="2.1.0"/>
   <name value="NoBasisComposition"/>
   <title value="no-basis-Composition"/>
   <status value="active"/>
-  <date value="2021-10-03T21:06:41+00:00"/>
+  <date value="2021-10-27T20:00:18+00:00"/>
   <description value="Basisprofil for Norwegian Composition. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to the relevant use-case.&#xA;&#xA;The profile sets the absolute minimum requirements, identifies the extensions and terminology which can be present."/>
   <jurisdiction>
     <coding>
