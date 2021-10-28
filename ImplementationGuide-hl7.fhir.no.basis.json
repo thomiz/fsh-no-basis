@@ -9,7 +9,7 @@
   "version": "2.1.0",
   "name": "NoBasis",
   "status": "active",
-  "date": "2021-10-27T20:00:18+00:00",
+  "date": "2021-10-28T19:43:55+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -987,7 +987,7 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource:abstract"
+            "valueString": "StructureDefinition:resource"
           }
         ],
         "reference": {
@@ -1008,7 +1008,7 @@
           "reference": "Procedure/no-basis-Procedure-example"
         },
         "name": "no-basis-Procedure-example",
-        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/no-basis-procedure"
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/no-basis-Procedure"
       }
     ],
     "page": {

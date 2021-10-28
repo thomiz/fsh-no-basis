@@ -203,6 +203,13 @@
     "name": "NoBasisPractitionerRole"
   },
   {
+    "id": "no-basis-Procedure",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Procedure",
+    "version": "2.1.0",
+    "name": "NoBasisProcedure"
+  },
+  {
     "id": "no-basis-RelatedPerson",
     "type": "StructureDefinition",
     "url": "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson",
@@ -250,13 +257,6 @@
     "url": "http://hl7.no/fhir/StructureDefinition/no-basis-prescriptiongroup",
     "version": "2.1.0",
     "name": "NoBasisPrescriptiongroup"
-  },
-  {
-    "id": "no-basis-Procedure",
-    "type": "StructureDefinition",
-    "url": "http://hl7.no/fhir/StructureDefinition/no-basis-procedure",
-    "version": "2.1.0",
-    "name": "NoBasisProcedure"
   },
   {
     "id": "no-basis-propertyinformation",

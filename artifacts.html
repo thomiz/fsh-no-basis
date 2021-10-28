@@ -182,28 +182,25 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#1">Behavior: Search Parameters</a>
       </li>
       <li>
-         <a href="#2">Structures: Abstract Profiles</a>
+         <a href="#2">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#3">Structures: Resource Profiles</a>
+         <a href="#3">Structures: Data Type Profiles</a>
       </li>
       <li>
-         <a href="#4">Structures: Data Type Profiles</a>
+         <a href="#4">Structures: Extension Definitions</a>
       </li>
       <li>
-         <a href="#5">Structures: Extension Definitions</a>
+         <a href="#5">Terminology: Value Sets</a>
       </li>
       <li>
-         <a href="#6">Terminology: Value Sets</a>
+         <a href="#6">Terminology: Code Systems</a>
       </li>
       <li>
-         <a href="#7">Terminology: Code Systems</a>
+         <a href="#7">Terminology: Naming Systems</a>
       </li>
       <li>
-         <a href="#8">Terminology: Naming Systems</a>
-      </li>
-      <li>
-         <a href="#9">Example: Example Instances</a>
+         <a href="#8">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -230,26 +227,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </table>
    </p>
    <a name="2"> </a>
-   <h3>Structures: Abstract Profiles </h3>
-   <p>
-    <p>These are profiles on resources or data types that describe patterns used by other profiles, but cannot be instantiated directly.  I.e. instances can conform to profiles <em>based</em> on these abstract profiles, but do not declare conformance to the abstract profiles themselves.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-no-basis-Procedure.html" title="StructureDefinition/no-basis-Procedure">no-basis-Procedure</a>
-               </td>
-               <td>
-<p>Basis profile for a procedure, to be used in Norway. The profile is adapted to include norwegian specific features and constraints.</p>
-</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="3"> </a>
    <h3>Structures: Resource Profiles </h3>
    <p>
     <p>These define constraints on FHIR resources for systems conforming to this implementation guide</p>
@@ -399,10 +376,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Basis profile for Substances to be used in Norway. The profile is adapted to use FEST as source of information.</p>
 </td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Procedure.html" title="StructureDefinition/no-basis-Procedure">no-basis-Procedure</a>
+               </td>
+               <td>
+<p>Basis profile for a procedure, to be used in Norway. The profile is adapted to include norwegian specific features and constraints.</p>
+</td>
+            </tr>
          </tbody>
       </table>
    </p>
-   <a name="4"> </a>
+   <a name="3"> </a>
    <h3>Structures: Data Type Profiles </h3>
    <p>
     <p>These define constraints on FHIR data types for systems conforming to this implementation guide</p>
@@ -430,7 +415,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="5"> </a>
+   <a name="4"> </a>
    <h3>Structures: Extension Definitions </h3>
    <p>
     <p>These define constraints on FHIR data types for systems conforming to this implementation guide</p>
@@ -514,7 +499,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="6"> </a>
+   <a name="5"> </a>
    <h3>Terminology: Value Sets </h3>
    <p>
     <p>These define sets of codes used by systems conforming to this implementation guide</p>
@@ -574,7 +559,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="7"> </a>
+   <a name="6"> </a>
    <h3>Terminology: Code Systems </h3>
    <p>
     <p>These define new code systems used by systems conforming to this implementation guide</p>
@@ -618,7 +603,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="8"> </a>
+   <a name="7"> </a>
    <h3>Terminology: Naming Systems </h3>
    <p>
     <p>These define identifier and/or code system identities used by systems conforming to this implementation guide</p>
@@ -686,7 +671,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="9"> </a>
+   <a name="8"> </a>
    <h3>Example: Example Instances </h3>
    <p>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
@@ -761,8 +746,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l1417">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 27, 2021 20:00+0000">2021-10-27</span>
+        <p><a name="l1385">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 28, 2021 19:43+0000">2021-10-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

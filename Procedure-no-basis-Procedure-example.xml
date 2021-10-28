@@ -3,7 +3,7 @@
 <Procedure xmlns="http://hl7.org/fhir">
   <id value="no-basis-Procedure-example"/>
   <meta>
-    <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-procedure"/>
+    <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Procedure"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 73761001}">Colonoscopy (procedure)</span></p><p><b>subject</b>: <a href="Patient/example">Patient/example</a></p><h3>Performers</h3><table class="grid"><tr><td>-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td>*</td><td><span title="Codes: {http://snomed.info/sct 8921000202108}">Primary performing endoscopist (person)</span></td><td><a href="Practitioner/example">Practitioner/example</a></td></tr></table><p><b>bodySite</b>: <span title="Codes: {http://snomed.info/sct 485005}">TC - Transverse colon</span></p></div>

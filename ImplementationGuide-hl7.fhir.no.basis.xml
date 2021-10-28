@@ -9,7 +9,7 @@
   <version value="2.1.0"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2021-10-27T20:00:18+00:00"/>
+  <date value="2021-10-28T19:43:55+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -728,7 +728,7 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
+        <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/no-basis-Procedure"/>
@@ -745,7 +745,7 @@
         <reference value="Procedure/no-basis-Procedure-example"/>
       </reference>
       <name value="no-basis-Procedure-example"/>
-      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/no-basis-procedure"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/no-basis-Procedure"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "2.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "NoBasis"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-10-27T20:00:18+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-10-28T19:43:55+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -994,7 +994,7 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Procedure>;
@@ -1016,8 +1016,8 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-Procedure-example" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-procedure";
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-procedure>
+         fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Procedure";
+         fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Procedure>
        ]
      ];
      fhir:ImplementationGuide.definition.page [
