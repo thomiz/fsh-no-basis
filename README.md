@@ -36,6 +36,7 @@
 * OK, Legge om til å bruke FHIR template for no-basis
   * [HL7 IG templates](https://build.fhir.org/ig/FHIR/ig-guidance/index.html#templates)
 
+2021-10-28 - bugfix og validering av Procedure
 2021-10-27 - La inn Procedure og eksempel
 2021-10-03 - La til resten av profilene fikset canonical slik at den sammenfaller med definert for no-basis http://hl7.no/fhir  
 2021-10-02 - Endret på menyen og lag til Datatyper og figurer  
