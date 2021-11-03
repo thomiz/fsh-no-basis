@@ -36,16 +36,17 @@
 * OK, Legge om til å bruke FHIR template for no-basis
   * [HL7 IG templates](https://build.fhir.org/ig/FHIR/ig-guidance/index.html#templates)
 
+2021-11-03 - bugfix 2.1.1 added including NamingSystem and Procedure updates
 2021-10-28 - bugfix og validering av Procedure
 2021-10-27 - La inn Procedure og eksempel
 2021-10-03 - La til resten av profilene fikset canonical slik at den sammenfaller med definert for no-basis http://hl7.no/fhir  
 2021-10-02 - Endret på menyen og lag til Datatyper og figurer  
-2021-10-01 - La til Endpoint, HealthcareService og Location   
+2021-10-01 - La til Endpoint, HealthcareService og Location  
 2021-09-30 - La til noen flere eksempler, problemer med narrative generation fra fsh filene, noe er galt med extension definisjonenen i eksemplene  
 2021-09-30 - forsøkte med XML instans eksempel NoBasisOrganization, ble ikke med  
 2021-09-30 - Feilretting i NoBasisPractitioner.fsh  
 2021-09-29 - Et par nye ressurser, og lagt til ny template, husk template hentes fra github så bare endringer derfra blir med i bygget...  
-2021-09-28 - Bug i docker-entrypoint.sh noe så dumt som linjeskift (skal være LF i linux men er CRLF i Windows VSCode)   
+2021-09-28 - Bug i docker-entrypoint.sh noe så dumt som linjeskift (skal være LF i linux men er CRLF i Windows VSCode)  
 2021-09-27 - Ny versjon med sourceofinformation og RelatedPersonPersonReference  
 2021-09-27 - Opprettet gh-pages som egen branch, inneholder bare output fra build prosessen, index.html må eksistere for github pages skal fungere  
 2021-09-26 - Fikk generert IG med egen no-basis-index.html (basert på md fil fra SIMPLIFIER)  
