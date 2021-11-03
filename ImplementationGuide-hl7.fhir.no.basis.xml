@@ -9,7 +9,7 @@
   <version value="2.1.1"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2021-11-03T17:38:13+00:00"/>
+  <date value="2021-11-03T17:57:59+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -735,6 +735,17 @@
       </reference>
       <name value="no-basis-Procedure"/>
       <description value="Basis profile for a procedure, to be used in Norway. The profile is adapted to include norwegian specific features and constraints."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/no-basis-icpc-2"/>
+      </reference>
+      <name value="NoBasisICPC2"/>
+      <description value="In Norway primary care uses ICPC-2 to document contact-reason, health related problem and diagnosis."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

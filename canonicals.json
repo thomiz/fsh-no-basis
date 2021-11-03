@@ -84,6 +84,13 @@
     "name": "HelsepersonellregisteretNummer"
   },
   {
+    "id": "no-basis-icpc-2",
+    "type": "NamingSystem",
+    "url": "http://hl7.no/fhir/NamingSystem/no-basis-icpc-2",
+    "version": "2.1.1",
+    "name": "NoBasisICPC2"
+  },
+  {
     "id": "no-basis-kommunenummer",
     "type": "NamingSystem",
     "url": "http://hl7.no/fhir/NamingSystem/no-basis-kommunenummer",

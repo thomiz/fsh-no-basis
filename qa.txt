@@ -3,9 +3,9 @@
 
 err = 16, warn = 143, info = 12
 IG Publisher Version: 1.1.80 Out of date - current version is 1.1.84
-Generated Wed Nov 03 17:41:30 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.1.1 (canonical = http://hl7.no/fhir)
+Generated Wed Nov 03 18:01:16 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.1.1 (canonical = http://hl7.no/fhir)
 
- Build Errors : 434 / 9 / 0
+ Build Errors : 439 / 9 / 0
  /data/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
  /data/fsh-generated/resources/codesystem-no-basis-connection-type.codesystem : 1 / 0 / 1
  /data/fsh-generated/resources/codesystem-no-basis-family-relation.codesystem : 1 / 0 / 1
@@ -60,6 +60,7 @@ Generated Wed Nov 03 17:41:30 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis
  /data/fsh-generated/resources/valueset-no-basis-service-type.valueset : 1 / 1 / 1
  /data/input/examples/no-basis-Procedure-example : 3 / 0 / 1
  /data/input/profiles/no-basis-Procedure.structuredefinition : 0 / 0 / 1
+ /data/input/resources/no-basis-icpc-2.namingsystem : 0 / 0 / 1
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[22].value: Supressed messages file not found
@@ -124,6 +125,11 @@ ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.html#/html/body/d
 ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.json.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/NamingSystem-no-basis-helsepersonellnummer.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-icpc-2.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-icpc-2.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-icpc-2.json.html#/html/body/div/div/div/p/a at Line 300, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-icpc-2.ttl.html#/html/body/div/div/div/p/a at Line 310, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/NamingSystem-no-basis-icpc-2.xml.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/NamingSystem-no-basis-kommunenummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/NamingSystem-no-basis-kommunenummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/NamingSystem-no-basis-kommunenummer.json.html#/html/body/div/div/div/p/a at Line 299, column 28: The link '' for "" cannot be resolved
@@ -502,7 +508,7 @@ ERROR: /data/output/ValueSet-no-basis-service-type.valueset.html#/html/body/div/
 ERROR: /data/output/ValueSet-no-basis-service-type.valueset.json.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/ValueSet-no-basis-service-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 316, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/ValueSet-no-basis-service-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
-ERROR: /data/output/artifacts.html#/html/body/div/div/div/p/a at Line 806, column 28: The link '' for "" cannot be resolved
+ERROR: /data/output/artifacts.html#/html/body/div/div/div/p/a at Line 815, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/index.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
 ERROR: /data/output/toc.html#/html/body/div/div/div/p/a at Line 202, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis.json ==
@@ -720,3 +726,4 @@ ERROR: Procedure/no-basis-Procedure-example: Procedure.subject: Unable to resolv
 ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].function.coding[0]: Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20210731); The code "8921000202108" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#8921000202108) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#8921000202108'
 ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].actor: Unable to resolve resource 'Practitioner/example'
 == input/profiles/no-basis-Procedure.structuredefinition.xml ==
+== input/resources/no-basis-icpc-2.namingsystem.xml ==

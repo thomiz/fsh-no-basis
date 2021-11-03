@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="no-basis-icpc-2"/>
+  <meta>
+    <versionId value="2.1.1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-icpc-2</td></tr><tr><td>Version</td><td>2.1.1</td></tr><tr><td>Name</td><td>NoBasisICPC2</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>In Norway primary care uses ICPC-2 to document contact-reason, health related problem and diagnosis.</p>
+</div></td></tr><tr><td>Publisher</td><td>HL7 Norway</td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td><td><b>Comment</b></td></tr><tr><td>URI</td><td>http://hl7.org/fhir/sid/icpc-2</td><td>true</td><td/></tr><tr><td>OID</td><td>2.16.840.1.113883.6.139</td><td>false</td><td/></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.1.7170</td><td>false</td><td>Volven oid for ICPC-2 codesystem for use in Norwegian legacy implementations.</td></tr></table></div>
+  </text>
+  <name value="NoBasisICPC2"/>
+  <status value="active"/>
+  <kind value="codesystem"/>
+  <date value="2021-11-02"/>
+  <publisher value="HL7 Norway"/>
+  <responsible value="Wonca International Classification Committee (WICC)"/>
+  <description value="In Norway primary care uses ICPC-2 to document contact-reason, health related problem and diagnosis."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="http://hl7.org/fhir/sid/icpc-2"/>
+    <preferred value="true"/>
+  </uniqueId>
+  <uniqueId>
+    <type value="oid"/>
+    <value value="2.16.840.1.113883.6.139"/>
+    <preferred value="false"/>
+  </uniqueId>
+  <uniqueId>
+    <type value="oid"/>
+    <value value="2.16.578.1.12.4.1.1.7170"/>
+    <preferred value="false"/>
+    <comment value="Volven oid for ICPC-2 codesystem for use in Norwegian legacy implementations."/>
+  </uniqueId>
+</NamingSystem>

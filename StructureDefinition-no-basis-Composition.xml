@@ -25,7 +25,7 @@ See valueset 'NoBasisDocumentReferenceType' in the Terminology section for more 
   <name value="NoBasisComposition"/>
   <title value="no-basis-Composition"/>
   <status value="active"/>
-  <date value="2021-11-03T17:38:13+00:00"/>
+  <date value="2021-11-03T17:57:59+00:00"/>
   <description value="Basisprofil for Norwegian Composition. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to the relevant use-case.&#xA;&#xA;The profile sets the absolute minimum requirements, identifies the extensions and terminology which can be present."/>
   <jurisdiction>
     <coding>
