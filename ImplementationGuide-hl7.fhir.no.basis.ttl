@@ -13,10 +13,10 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoBasis</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis</pre></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis"];
-  fhir:ImplementationGuide.version [ fhir:value "2.1.0"];
+  fhir:ImplementationGuide.version [ fhir:value "2.1.1"];
   fhir:ImplementationGuide.name [ fhir:value "NoBasis"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-10-28T19:43:55+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-11-03T17:38:13+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

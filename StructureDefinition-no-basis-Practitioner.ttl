@@ -26,7 +26,7 @@
      fhir:Extension.valueCode [ fhir:value "individual" ]
   ];
   fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner"];
-  fhir:StructureDefinition.version [ fhir:value "2.1.0"];
+  fhir:StructureDefinition.version [ fhir:value "2.1.1"];
   fhir:StructureDefinition.name [ fhir:value "NoBasisPractitioner"];
   fhir:StructureDefinition.title [ fhir:value "no-basis-Practitioner"];
   fhir:StructureDefinition.status [ fhir:value "active"];

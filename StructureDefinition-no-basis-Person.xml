@@ -26,7 +26,7 @@ Multiple FNR can exist for a person. If several FNR is provided the time period 
     <valueCode value="patient"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Person"/>
-  <version value="2.1.0"/>
+  <version value="2.1.1"/>
   <name value="NoBasisPerson"/>
   <title value="no-basis-Person"/>
   <status value="active"/>

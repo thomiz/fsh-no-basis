@@ -6,10 +6,10 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NoBasis</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis</pre></div>
   </text>
   <url value="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis"/>
-  <version value="2.1.0"/>
+  <version value="2.1.1"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2021-10-28T19:43:55+00:00"/>
+  <date value="2021-11-03T17:38:13+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

@@ -55,7 +55,7 @@ Organization that issued/manages the identifier.">assigner</a><a name="Patient.i
     <valueCode value="patient"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Patient"/>
-  <version value="2.1.0"/>
+  <version value="2.1.1"/>
   <name value="NoBasisPatient"/>
   <title value="no-basis-Patient"/>
   <status value="active"/>

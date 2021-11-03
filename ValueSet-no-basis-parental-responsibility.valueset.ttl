@@ -17,7 +17,7 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</code></a></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility"];
-  fhir:ValueSet.version [ fhir:value "2.1.0"];
+  fhir:ValueSet.version [ fhir:value "2.1.1"];
   fhir:ValueSet.name [ fhir:value "NoBasisParentalResponsibility"];
   fhir:ValueSet.title [ fhir:value "no-basis-parental-responsibility.valueset"];
   fhir:ValueSet.status [ fhir:value "active"];

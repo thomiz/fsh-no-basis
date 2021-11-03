@@ -22,7 +22,7 @@
      fhir:Extension.valueCode [ fhir:value "business" ]
   ];
   fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Substance"];
-  fhir:StructureDefinition.version [ fhir:value "2.1.0"];
+  fhir:StructureDefinition.version [ fhir:value "2.1.1"];
   fhir:StructureDefinition.name [ fhir:value "NoBasisSubstance"];
   fhir:StructureDefinition.title [ fhir:value "no-basis-Substance"];
   fhir:StructureDefinition.status [ fhir:value "active"];

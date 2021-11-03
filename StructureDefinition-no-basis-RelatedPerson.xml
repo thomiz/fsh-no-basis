@@ -78,7 +78,7 @@ Når informasjonen er migrert fra DSF vil Registeret være oppdatert i takt med 
     <valueCode value="patient"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"/>
-  <version value="2.1.0"/>
+  <version value="2.1.1"/>
   <name value="NoBasisRelatedPerson"/>
   <title value="no-basis-RelatedPerson"/>
   <status value="active"/>

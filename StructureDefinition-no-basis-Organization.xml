@@ -44,7 +44,7 @@ no-basis don't use this element to reference endpoints registered in the Norwegi
     <valueCode value="business"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Organization"/>
-  <version value="2.1.0"/>
+  <version value="2.1.1"/>
   <name value="NoBasisOrganization"/>
   <title value="no-basis-Organization"/>
   <status value="active"/>
