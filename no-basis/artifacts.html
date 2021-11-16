@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>HL7.FHIR.NO.BASIS\Artifacts Summary - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/hl7.css"/>
+    <link rel="stylesheet" href="assets/css/fhir.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4.0"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
+
+            
+<div id="family-nav">
+	<a no-external="true" id="logo" href="http://hl7.org/fhir"> <img src="assets/images/fhir-logo-www.png" alt="logo fhir" height="50"/>
+	</a>
+</div>
+
+
+            
+<div id="hl7-nav">
+    <a no-external="true" id="hl7-logo" href="https://github.com/HL7Norway">
+        <img src="assets/images/HL7-norway-logo.png" alt="visit the hl7 website" height="60"/>
+    </a>            
+</div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold"></span><br/>2.1.1 - ci-build</p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guidance
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="Datatypes.html">Data types</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artifacts
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html#1">Search Parameters</a>
+      </li>
+      <li>
+        <a href="artifacts.html#2">Profiles</a>
+      </li>
+      <li>
+        <a href="artifacts.html#3">Extensions</a>
+      </li>
+      <li>
+        <a href="artifacts.html#4">Value Sets</a>
+      </li>
+      <li>
+        <a href="artifacts.html#5">Code Systems</a>
+      </li>
+      <li>
+        <a href="artifacts.html#6">Naming Systems</a>
+      </li>
+      <li>
+        <a href="artifacts.html#7">Examples</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Changelog
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Changelog-21.md">R4 Changelog</a>
+      </li>
+      <li>
+        <a href="Changelog-STU3.html">STU3 Changelog</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Publication Build: This will be filled in by the publication tooling</p>  <!-- EndReleaseHeader -->
+  <h2>Artifacts Summary</h2>
+  
+    <!-- DO NOT EDIT THIS FILE - It is generated and any changes made will be overwritten --><div class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Behavior: Search Parameters</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#3">Structures: Data Type Profiles</a>
+      </li>
+      <li>
+         <a href="#4">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#5">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#6">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#7">Terminology: Naming Systems</a>
+      </li>
+      <li>
+         <a href="#8">Example: Example Instances</a>
+      </li>
+   </ul>
+</div>
+<div>
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Behavior: Search Parameters </h3>
+   <p>
+    <p>These define the properties by which a RESTful server can be searched.  They can also be used for sorting and including related resources.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-no-basis-middlename.html" title="SearchParameter/no-basis-middlename">no-basis-middlename</a>
+               </td>
+               <td>
+<p>SearchParameter for the Norwegian middlename extension http://hl7.no/fhir/StructureDefinition/no-basis-middlename</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Structures: Resource Profiles </h3>
+   <p>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-AllergyIntolerance.html" title="StructureDefinition/no-basis-AllergyIntolerance">no-basis-AllergyIntolerance</a>
+               </td>
+               <td>
+<p>Basis profile for allergy intolerance, to be used in Norway. The profile is adapted to support the norwegian standard for critical information (KI standard).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Composition.html" title="StructureDefinition/no-basis-Composition">no-basis-Composition</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian Composition. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to the relevant use-case.</p>
+
+<p>The profile sets the absolute minimum requirements, identifies the extensions and terminology which can be present.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-DocumentReference.html" title="StructureDefinition/no-basis-DocumentReference">no-basis-DocumentReference</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian DocumentReference. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+
+<p>The profile sets the absolute minimum requirements when searching, fething and storing documents within the healtcare domain. It sets the basic requirements for extensions and terminology which can be present.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Endpoint.html" title="StructureDefinition/no-basis-Endpoint">no-basis-Endpoint</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian Endpoint information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific identification of Endpoing. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+
+<p>Resource profile for definition of electronic endpoints used by healthcare organizations to communicate using different protocols. The norwegian profile use-case is to represent endpoints for electronic communication. Fallback solutions using mail or fax has to be indexed in the norwegian master index for healthcare organizations and are not described using this profile.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-HealthcareService.html" title="StructureDefinition/no-basis-HealthcareService">no-basis-HealthcareService</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian Healthcare Service information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific identification of Healthcare Services. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+
+<p>The typical use-case is to include information regarding what Healthcare related services, support functions or activities provided by an Organization or awailable at a Location.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Location.html" title="StructureDefinition/no-basis-Location">no-basis-Location</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian Location information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific location information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Medication.html" title="StructureDefinition/no-basis-Medication">no-basis-Medication</a>
+               </td>
+               <td>
+<p>Basis profile for medication to be used in Norway. The profile is adapted to use FEST as source of information.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-MedicationStatement.html" title="StructureDefinition/no-basis-MedicationStatement">no-basis-MedicationStatement</a>
+               </td>
+               <td>
+<p>Basis profile for medication statement, to be used in Norway. The profile is adapted to include norwegian specific features and constraints.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Organization.html" title="StructureDefinition/no-basis-Organization">no-basis-Organization</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian Organization information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The basis profile describes information structures typically used for identifying norwegian organizations. Should be used as a basis for further profiling in use-cases where other specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Patient.html" title="StructureDefinition/no-basis-Patient">no-basis-Patient</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian Patient information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Person.html" title="StructureDefinition/no-basis-Person">no-basis-Person</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian Person information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+
+<p>The no-basis-Person resource main use-case is with regards to information describing persons that are living in Norway. The information is typically available from the Norwegian “folkeregister” and contains information describing all Norweigan citizens and individuals working and living in Norway.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Practitioner.html" title="StructureDefinition/no-basis-Practitioner">no-basis-Practitioner</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian Practitioner information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+
+<p>2019-03 - The no-basis-Practitioner resource main use-case is to represent the actual Practitioner, e.g. a person. The resource can include information about how to identify the practitioner in addition to the practitioner’s education, qualifications and speciality. The resource can also include approvals and other centrally registered capabilities recorded for the practitioner.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-PractitionerRole.html" title="StructureDefinition/no-basis-PractitionerRole">no-basis-PractitionerRole</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian PractitionerRole information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific role information is available. The basis profile is open, but derived profiles should close down the information elements according to specifications relevant to the use-case.</p>
+
+<p>The main use-case of no-basis-PractitionerRole is to represent the role or function of a Practitioner wihtin an organization. The resource can include information about services performed by a Practitioner, a location where the practitioner performes the functions as well as information about the nature of the employment at an organization.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-RelatedPerson.html" title="StructureDefinition/no-basis-RelatedPerson">no-basis-RelatedPerson</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian RelatedPerson information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+
+<p>Typical use-case for no-basis-RelatedPerson involves information about relations person-patient.</p>
+<ul>
+  <li>Relations registered in norwegian Master Person Information Index (aka Folkeregisteret)</li>
+  <li>Other relationship information registered on a patient or person neccessary for patient treatment</li>
+  <li>Should not be used for contact persons for the patient with a predefined role in the patient care, as information as this is registered separately in the Patient resource</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Substance.html" title="StructureDefinition/no-basis-Substance">no-basis-Substance</a>
+               </td>
+               <td>
+<p>Basis profile for Substances to be used in Norway. The profile is adapted to use FEST as source of information.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Procedure.html" title="StructureDefinition/no-basis-Procedure">no-basis-Procedure</a>
+               </td>
+               <td>
+<p>Basis profile for a procedure, to be used in Norway. The profile is adapted to include norwegian specific features and constraints.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Structures: Data Type Profiles </h3>
+   <p>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Address.html" title="StructureDefinition/no-basis-Address">no-basis-Address</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian Address information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information, official use of address and further explanation of the use for the data-elements in a Norwegian address. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-HumanName.html" title="StructureDefinition/no-basis-HumanName">no-basis-HumanName</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian HumanName. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Structures: Extension Definitions </h3>
+   <p>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-address-official.html" title="StructureDefinition/no-basis-address-official">no-basis-address-official</a>
+               </td>
+               <td>
+<p>Defines the concept of an officialy registered address in Norway. Usually this will be the adress registered in “Folkeregisteret” for persons or “Enhetsregisteret” for organizations.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-middlename.html" title="StructureDefinition/no-basis-middlename">no-basis-middlename</a>
+               </td>
+               <td>
+<p>The basis extension defines the Norwegian middlename wich is called “mellomnavn” and defined by Norwegian legislation (Lov om personnavn).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-municipalitycode.html" title="StructureDefinition/no-basis-municipalitycode">no-basis-municipalitycode</a>
+               </td>
+               <td>
+<p>Coded value for municipality/county Norwegian kommune</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-person-citizenship.html" title="StructureDefinition/no-basis-person-citizenship">no-basis-person-citizenship</a>
+               </td>
+               <td>
+<p>The Person’s legal status as citizen of a country.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-prescriptiongroup.html" title="StructureDefinition/no-basis-prescriptiongroup">no-basis-prescriptiongroup</a>
+               </td>
+               <td>
+<p>Part of norwegian standard for describing a prescription.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-propertyinformation.html" title="StructureDefinition/no-basis-propertyinformation">no-basis-propertyinformation</a>
+               </td>
+               <td>
+<p>This basis extension describes information identifying norwegian real property.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-relatedperson-person-reference.html" title="StructureDefinition/no-basis-relatedperson-person-reference">NoBasisRelatedpersonPersonReference</a>
+               </td>
+               <td>
+<p>If a person reference is needed in RelatedPerson.patient element, this optional extension should be used.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-sourceofinformation.html" title="StructureDefinition/no-basis-sourceofinformation">no-basis-sourceofinformation</a>
+               </td>
+               <td>
+<p>Part of norwegian KI standard.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-urban-district.html" title="StructureDefinition/no-basis-urban-district">no-basis-urban-district</a>
+               </td>
+               <td>
+<p>Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-no-basis-connection-type.valueset.html" title="ValueSet/no-basis-connection-type.valueset">no-basis-connection-type.valueset</a>
+               </td>
+               <td>
+<p>ValueSet for connection types used in Endpoint definition. Includes all Norwegian specific types (no-basis-connection-type) and the extensible HL7 CodeSystem for connection-type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-no-basis-documentreference-type.valueset.html" title="ValueSet/no-basis-documentreference-type.valueset">no-basis-documentreference-type.valueset</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-no-basis-family-relation.valueset.html" title="ValueSet/no-basis-family-relation.valueset">no-basis-family-relation.valueset</a>
+               </td>
+               <td>
+<p>Copy of Codes from Familierelasjon defined by Skatteetaten</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-no-basis-marital-status.valueset.html" title="ValueSet/no-basis-marital-status.valueset">no-basis-marital-status.valueset</a>
+               </td>
+               <td>
+<p>Copy of Codes from Sivilstandstype defined by Skatteetaten</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-no-basis-parental-responsibility.valueset.html" title="ValueSet/no-basis-parental-responsibility.valueset">no-basis-parental-responsibility.valueset</a>
+               </td>
+               <td>
+<p>Copy of Codes from Foreldreansvar defined by Skatteetaten</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-no-basis-service-type.valueset.html" title="ValueSet/no-basis-service-type.valueset">no-basis-service-type.valueset</a>
+               </td>
+               <td>
+<p>ValueSet including all codes for service type (tjenestetype) allowed in the Adressergister</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="6"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>
+    <p>These define new code systems used by systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-no-basis-connection-type.codesystem.html" title="CodeSystem/no-basis-connection-type.codesystem">no-basis-connection-type.codesystem</a>
+               </td>
+               <td>
+<p>Codes to describe Norwegian message based communication protocols.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-no-basis-family-relation.codesystem.html" title="CodeSystem/no-basis-family-relation.codesystem">no-basis-family-relation.codesystem</a>
+               </td>
+               <td>
+<p>Copy of Codes from Familierelasjon defined by Skatteetaten</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-no-basis-marital-status.codesystem.html" title="CodeSystem/no-basis-marital-status.codesystem">no-basis-marital-status.codesystem</a>
+               </td>
+               <td>
+<p>Copy of Codes from Sivilstandstype defined by Skatteetaten</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html" title="CodeSystem/no-basis-parental-responsibility.codesystem">no-basis-parental-responsibility.codesystem</a>
+               </td>
+               <td>
+<p>Copy of Codes from Foreldreansvar defined by Skatteetaten</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="7"> </a>
+   <h3>Terminology: Naming Systems </h3>
+   <p>
+    <p>These define identifier and/or code system identities used by systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="NamingSystem-no-basis-bydelsnummer.html" title="NamingSystem/no-basis-bydelsnummer">no-basis-bydelsnummer</a>
+               </td>
+               <td>
+<p>Nummerering av kommuner i henhold til SSB sin offisielle liste. Inneholder fremtidige, gyldige og utgåtte kommunenummer.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="NamingSystem-no-basis-dnummer.html" title="NamingSystem/no-basis-dnummer">no-basis-dnummer</a>
+               </td>
+               <td>
+<p>Personidentifikator for personer som ikke har fødselsnummer og som ikke skal registreres som bosatt i Norge. The D-nummer of the patient. (assigned by the norwegian Skatteetaten)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="NamingSystem-no-basis-dufnummer.html" title="NamingSystem/no-basis-dufnummer">no-basis-dufnummer</a>
+               </td>
+               <td>
+<p>Et DUF-nummer er et tolvsifret nummer som blir gitt til alle som søker om opphold i Norge.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="NamingSystem-no-basis-felleshjelpenummer.html" title="NamingSystem/no-basis-felleshjelpenummer">no-basis-felleshjelpenummer</a>
+               </td>
+               <td>
+<p>Felles hjelpenummer is one possible patient identification number administered by Norsk Helsenett. The norwegian felles hjelpenummer is a 11-digit number containing two control digits. The number shoud only be used when the Fødselsnummer and D-number is unknown.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="NamingSystem-no-basis-foedselsnummer.html" title="NamingSystem/no-basis-foedselsnummer">no-basis-foedselsnummer</a>
+               </td>
+               <td>
+<p>Fødselsnummer is the official identification of a Norwegian citizen and is registered in the repository called folkeregisteret. Fødselsnummer is a 11-digit number containing 2 control digits.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="NamingSystem-no-basis-helsepersonellnummer.html" title="NamingSystem/no-basis-helsepersonellnummer">no-basis-helsepersonellnummer</a>
+               </td>
+               <td>
+<p>In Norway all registered health care personnel is registered in the Helsepersonellregister (HPR) and is assigned a HPR-number that is used to identify the health care practitioner. Health care personnel not registered in HPR can use FNR for identification.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="NamingSystem-no-basis-kommunenummer.html" title="NamingSystem/no-basis-kommunenummer">no-basis-kommunenummer</a>
+               </td>
+               <td>
+<p>Nummerering av kommuner i henhold til SSB sin offisielle liste. Inneholder fremtidige, gyldige og utgåtte kommunenummer.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="NamingSystem-no-basis-icpc-2.html" title="NamingSystem/no-basis-icpc-2">NoBasisICPC2</a>
+               </td>
+               <td>
+<p>In Norway primary care uses ICPC-2 to document contact-reason, health related problem and diagnosis.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="8"> </a>
+   <h3>Example: Example Instances </h3>
+   <p>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-Direktoratet-for-eHelse-Organization.html" title="Organization/Direktoratet-for-eHelse-Organization">Direktoratet-for-eHelse-Organization</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-EspenEksempel.html" title="Patient/EspenEksempel">EspenEksempel</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-JanniceSoreng.html" title="Patient/JanniceSoreng">JanniceSoreng</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-JanniceSorengTo.html" title="Patient/JanniceSorengTo">JanniceSorengTo</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Practitioner-Magnar-Komann-Practitioner.html" title="Practitioner/Magnar-Komann-Practitioner">Magnar-Komann-Practitioner</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RelatedPerson-Solid-Aresdoktor-RelatedPerson.html" title="RelatedPerson/Solid-Aresdoktor-RelatedPerson">Solid-Aresdoktor-RelatedPerson</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RelatedPerson-Sorgard-Erlend-RelatedPerson.html" title="RelatedPerson/Sorgard-Erlend-RelatedPerson">Sorgard-Erlend-RelatedPerson</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Procedure-no-basis-Procedure-example.html" title="Procedure/no-basis-Procedure-example">no-basis-Procedure-example</a>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+</div>
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p><a name="l1398">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 16, 2021 21:30+0000">2021-11-16</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+
+          
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

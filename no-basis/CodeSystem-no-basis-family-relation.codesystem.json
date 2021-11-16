@@ -1,0 +1,63 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "no-basis-family-relation.codesystem",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-05-07T00:00:00.000+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.no/fhir/CodeSystem/no-basis-family-relation defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">mor<a name=\"no-basis-family-relation.codesystem-mor\"> </a></td><td>Mor</td></tr><tr><td style=\"white-space:nowrap\">far<a name=\"no-basis-family-relation.codesystem-far\"> </a></td><td>Far</td></tr><tr><td style=\"white-space:nowrap\">medmor<a name=\"no-basis-family-relation.codesystem-medmor\"> </a></td><td>Medmor</td></tr><tr><td style=\"white-space:nowrap\">barn<a name=\"no-basis-family-relation.codesystem-barn\"> </a></td><td>Barn</td></tr><tr><td style=\"white-space:nowrap\">søsken<a name=\"no-basis-family-relation.codesystem-s.248sken\"> </a></td><td>Søsken</td></tr><tr><td style=\"white-space:nowrap\">ektefelleEllerPartner<a name=\"no-basis-family-relation.codesystem-ektefelleEllerPartner\"> </a></td><td>Ektefelle eller partner</td></tr><tr><td style=\"white-space:nowrap\">dødfødtBarn<a name=\"no-basis-family-relation.codesystem-d.248df.248dtBarn\"> </a></td><td>Dødfødt barn</td></tr></table></div>"
+  },
+  "url": "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
+  "version": "2.1.1",
+  "name": "NoBasisFamilyRelation",
+  "title": "no-basis-family-relation.codesystem",
+  "status": "active",
+  "date": "2019-05-15T00:00:00+00:00",
+  "publisher": "Copy of Codes from Familierelasjon defined by Skatteetaten",
+  "description": "Copy of Codes from Familierelasjon defined by Skatteetaten",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 7,
+  "concept": [
+    {
+      "code": "mor",
+      "display": "Mor"
+    },
+    {
+      "code": "far",
+      "display": "Far"
+    },
+    {
+      "code": "medmor",
+      "display": "Medmor"
+    },
+    {
+      "code": "barn",
+      "display": "Barn"
+    },
+    {
+      "code": "søsken",
+      "display": "Søsken"
+    },
+    {
+      "code": "ektefelleEllerPartner",
+      "display": "Ektefelle eller partner"
+    },
+    {
+      "code": "dødfødtBarn",
+      "display": "Dødfødt barn"
+    }
+  ]
+}

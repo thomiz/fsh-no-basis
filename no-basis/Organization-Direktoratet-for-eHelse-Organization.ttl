@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/Organization/Direktoratet-for-eHelse-Organization> a fhir:Organization;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Direktoratet-for-eHelse-Organization"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Organization";
+       fhir:index 0;
+       fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Organization>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Direktoratet-for-eHelse-Organization\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-Organization.html\">no-basis-Organization</a></p></div><p><b>identifier</b>: id: 915933149</p><p><b>name</b>: Direktoratet for e-Helse</p><p><b>address</b>: </p><ul><li>Postboks 221 Skøyen OSLO 0213 </li><li>Verkstedveien 1 OSLO 0277 </li></ul></div>"
+  ];
+  fhir:Organization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.4.101" ];
+     fhir:Identifier.value [ fhir:value "915933149" ]
+  ];
+  fhir:Organization.name [ fhir:value "Direktoratet for e-Helse"];
+  fhir:Organization.address [
+     fhir:index 0;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-address-official" ];
+       fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ];
+     fhir:Address.type [ fhir:value "postal" ];
+     fhir:Address.line [
+       fhir:value "Postboks 221 Skøyen";
+       fhir:index 0
+     ];
+     fhir:Address.city [ fhir:value "OSLO" ];
+     fhir:Address.postalCode [ fhir:value "0213" ]
+  ], [
+     fhir:index 1;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-address-official" ];
+       fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ];
+     fhir:Address.type [ fhir:value "physical" ];
+     fhir:Address.line [
+       fhir:value "Verkstedveien 1";
+       fhir:index 0
+     ];
+     fhir:Address.city [ fhir:value "OSLO" ];
+     fhir:Address.postalCode [ fhir:value "0277" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/Organization/Direktoratet-for-eHelse-Organization.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

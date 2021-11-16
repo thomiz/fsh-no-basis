@@ -1,0 +1,50 @@
+{
+  "resourceType": "Organization",
+  "id": "Direktoratet-for-eHelse-Organization",
+  "meta": {
+    "profile": [
+      "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Direktoratet-for-eHelse-Organization\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-Organization.html\">no-basis-Organization</a></p></div><p><b>identifier</b>: id: 915933149</p><p><b>name</b>: Direktoratet for e-Helse</p><p><b>address</b>: </p><ul><li>Postboks 221 Skøyen OSLO 0213 </li><li>Verkstedveien 1 OSLO 0277 </li></ul></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:oid:2.16.578.1.12.4.1.4.101",
+      "value": "915933149"
+    }
+  ],
+  "name": "Direktoratet for e-Helse",
+  "address": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.no/fhir/StructureDefinition/no-basis-address-official",
+          "valueBoolean": true
+        }
+      ],
+      "type": "postal",
+      "line": [
+        "Postboks 221 Skøyen"
+      ],
+      "city": "OSLO",
+      "postalCode": "0213"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.no/fhir/StructureDefinition/no-basis-address-official",
+          "valueBoolean": true
+        }
+      ],
+      "type": "physical",
+      "line": [
+        "Verkstedveien 1"
+      ],
+      "city": "OSLO",
+      "postalCode": "0277"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-basis-connection-type.codesystem> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "no-basis-connection-type.codesystem"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.no/fhir/CodeSystem/no-basis-connection-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">no-ebxml-2<a name=\"no-basis-connection-type.codesystem-no-ebxml-2\"> </a></td><td>ebXML 2.0</td><td>ebXML messaging as described in the Norwegian profile HIS 1037:2011 based on OASIS ebMS 2.0 specification</td></tr><tr><td style=\"white-space:nowrap\">no-amqp<a name=\"no-basis-connection-type.codesystem-no-amqp\"> </a></td><td>AMQP</td><td>AMQP based synchronuous and asynchronus message delivery</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://hl7.no/fhir/CodeSystem/no-basis-connection-type"];
+  fhir:CodeSystem.version [ fhir:value "2.1.1"];
+  fhir:CodeSystem.name [ fhir:value "NoBasisConnectionType"];
+  fhir:CodeSystem.title [ fhir:value "no-basis-connection-type.codesystem"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2019-05-15T00:00:00+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse, HL7 Norway"];
+  fhir:CodeSystem.description [ fhir:value "Codes to describe Norwegian message based communication protocols."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "2"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "no-ebxml-2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ebXML 2.0" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "ebXML messaging as described in the Norwegian profile HIS 1037:2011 based on OASIS ebMS 2.0 specification" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "no-amqp" ];
+     fhir:CodeSystem.concept.display [ fhir:value "AMQP" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "AMQP based synchronuous and asynchronus message delivery" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-basis-connection-type.codesystem.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

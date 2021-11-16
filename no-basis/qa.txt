@@ -1,0 +1,668 @@
+﻿NoBasis : Validation Results
+=========================================
+
+err = 18, warn = 81, info = 12
+IG Publisher Version: 1.1.86
+Generated Tue Nov 16 21:31:42 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.1.1 (canonical = http://hl7.no/fhir)
+ Build Errors : 439 / 9 / 0
+ /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 1 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 1 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem : 1 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem : 1 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-bydelsnummer : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-dnummer : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-dufnummer : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-felleshjelpenummer : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-foedselsnummer : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-helsepersonellnummer : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-kommunenummer : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/Organization-Direktoratet-for-eHelse-Organization : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/Patient-EspenEksempel : 0 / 2 / 2
+ /github/workspace/no-basis/fsh-generated/resources/Patient-JanniceSoreng : 0 / 4 / 4
+ /github/workspace/no-basis/fsh-generated/resources/Patient-JanniceSorengTo : 0 / 4 / 4
+ /github/workspace/no-basis/fsh-generated/resources/Practitioner-Magnar-Komann-Practitioner : 0 / 4 / 5
+ /github/workspace/no-basis/fsh-generated/resources/RelatedPerson-Solid-Aresdoktor-RelatedPerson : 0 / 1 / 2
+ /github/workspace/no-basis/fsh-generated/resources/RelatedPerson-Sorgard-Erlend-RelatedPerson : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/SearchParameter-no-basis-middlename : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Address : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-AllergyIntolerance : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Composition : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-DocumentReference : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Endpoint : 2 / 9 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-HealthcareService : 0 / 11 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-HumanName : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Location : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Medication : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement : 1 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Organization : 0 / 4 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Patient : 0 / 2 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Person : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Practitioner : 0 / 6 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-PractitionerRole : 0 / 5 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-RelatedPerson : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Substance : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-address-official : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-middlename : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-municipalitycode : 0 / 2 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-person-citizenship : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-prescriptiongroup : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-propertyinformation : 1 / 2 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-relatedperson-person-reference : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-sourceofinformation : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-urban-district : 0 / 3 / 1
+ /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-connection-type.valueset : 1 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset : 1 / 2 / 1
+ /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-family-relation.valueset : 1 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-marital-status.valueset : 1 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-parental-responsibility.valueset : 1 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-service-type.valueset : 1 / 1 / 1
+ /github/workspace/no-basis/input/examples/no-basis-Procedure-example : 3 / 0 / 1
+ /github/workspace/no-basis/input/profiles/no-basis-Procedure.StructureDefinition : 0 / 0 / 1
+ /github/workspace/no-basis/input/resources/no-basis-icpc-2.namingsystem : 0 / 0 / 1
+</table>
+== n/a ==
+ERROR: ImplementationGuide.definition.parameter[22].value: Supressed messages file not found
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/no-basis-documentreference-type.valueset.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/Direktoratet-for-eHelse-Organization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/EspenEksempel.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/JanniceSoreng.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/JanniceSorengTo.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Magnar-Komann-Practitioner.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Solid-Aresdoktor-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Sorgard-Erlend-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/no-basis-Procedure-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/no-basis/output/Changelog-STU3.html#/html/body/div/div/div/p/a at Line 373, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-connection-type.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-connection-type.codesystem.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-connection-type.codesystem.json.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-connection-type.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-connection-type.codesystem.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-family-relation.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-family-relation.codesystem.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-family-relation.codesystem.json.html#/html/body/div/div/div/p/a at Line 316, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-family-relation.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 326, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-family-relation.codesystem.xml.html#/html/body/div/div/div/p/a at Line 311, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-marital-status.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-marital-status.codesystem.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-marital-status.codesystem.json.html#/html/body/div/div/div/p/a at Line 338, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-marital-status.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 348, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-marital-status.codesystem.xml.html#/html/body/div/div/div/p/a at Line 333, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-parental-responsibility.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-parental-responsibility.codesystem.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-parental-responsibility.codesystem.json.html#/html/body/div/div/div/p/a at Line 312, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-parental-responsibility.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 322, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-parental-responsibility.codesystem.xml.html#/html/body/div/div/div/p/a at Line 306, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Datatypes.html#/html/body/div/div/div/p/a at Line 318, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-bydelsnummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-bydelsnummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-bydelsnummer.json.html#/html/body/div/div/div/p/a at Line 299, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-bydelsnummer.ttl.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-bydelsnummer.xml.html#/html/body/div/div/div/p/a at Line 295, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-dnummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-dnummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-dnummer.json.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-dnummer.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-dnummer.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-dufnummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-dufnummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-dufnummer.json.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-dufnummer.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-dufnummer.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-felleshjelpenummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-felleshjelpenummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-felleshjelpenummer.json.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-felleshjelpenummer.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-felleshjelpenummer.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-foedselsnummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-foedselsnummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-foedselsnummer.json.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-foedselsnummer.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-foedselsnummer.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-helsepersonellnummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-helsepersonellnummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-helsepersonellnummer.json.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-helsepersonellnummer.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-helsepersonellnummer.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-icpc-2.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-icpc-2.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-icpc-2.json.html#/html/body/div/div/div/p/a at Line 300, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-icpc-2.ttl.html#/html/body/div/div/div/p/a at Line 310, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-icpc-2.xml.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-kommunenummer.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-kommunenummer.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-kommunenummer.json.html#/html/body/div/div/div/p/a at Line 299, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-kommunenummer.ttl.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/NamingSystem-no-basis-kommunenummer.xml.html#/html/body/div/div/div/p/a at Line 296, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Organization-Direktoratet-for-eHelse-Organization.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Organization-Direktoratet-for-eHelse-Organization.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Organization-Direktoratet-for-eHelse-Organization.json.html#/html/body/div/div/div/p/a at Line 303, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Organization-Direktoratet-for-eHelse-Organization.ttl.html#/html/body/div/div/div/p/a at Line 312, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Organization-Direktoratet-for-eHelse-Organization.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-EspenEksempel.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-EspenEksempel.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-EspenEksempel.json.html#/html/body/div/div/div/p/a at Line 362, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-EspenEksempel.ttl.html#/html/body/div/div/div/p/a at Line 355, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-EspenEksempel.xml.html#/html/body/div/div/div/p/a at Line 329, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-JanniceSoreng.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-JanniceSoreng.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-JanniceSoreng.json.html#/html/body/div/div/div/p/a at Line 408, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-JanniceSoreng.ttl.html#/html/body/div/div/div/p/a at Line 388, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-JanniceSoreng.xml.html#/html/body/div/div/div/p/a at Line 363, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-JanniceSorengTo.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-JanniceSorengTo.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-JanniceSorengTo.json.html#/html/body/div/div/div/p/a at Line 408, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-JanniceSorengTo.ttl.html#/html/body/div/div/div/p/a at Line 388, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Patient-JanniceSorengTo.xml.html#/html/body/div/div/div/p/a at Line 363, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Practitioner-Magnar-Komann-Practitioner.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Practitioner-Magnar-Komann-Practitioner.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Practitioner-Magnar-Komann-Practitioner.json.html#/html/body/div/div/div/p/a at Line 360, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Practitioner-Magnar-Komann-Practitioner.ttl.html#/html/body/div/div/div/p/a at Line 357, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Practitioner-Magnar-Komann-Practitioner.xml.html#/html/body/div/div/div/p/a at Line 337, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/p/a at Line 222, column 694: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 222, column 1078: The link 'Practitioner/example' for "Practitioner/example" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.json.html#/html/body/div/div/div/p/a at Line 306, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.ttl.html#/html/body/div/div/div/p/a at Line 315, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.xml.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.json.html#/html/body/div/div/div/p/a at Line 349, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.ttl.html#/html/body/div/div/div/p/a at Line 345, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/RelatedPerson-Solid-Aresdoktor-RelatedPerson.xml.html#/html/body/div/div/div/p/a at Line 323, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.json.html#/html/body/div/div/div/p/a at Line 331, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.ttl.html#/html/body/div/div/div/p/a at Line 328, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/RelatedPerson-Sorgard-Erlend-RelatedPerson.xml.html#/html/body/div/div/div/p/a at Line 308, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/SearchParameter-no-basis-middlename.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/SearchParameter-no-basis-middlename.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/SearchParameter-no-basis-middlename.json.html#/html/body/div/div/div/p/a at Line 295, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/SearchParameter-no-basis-middlename.ttl.html#/html/body/div/div/div/p/a at Line 316, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/SearchParameter-no-basis-middlename.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address-definitions.html#/html/body/div/div/div/p/a at Line 495, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address-mappings.html#/html/body/div/div/div/p/a at Line 350, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 332, column 1790: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 366, column 1790: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 519, column 1790: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 553, column 1790: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/p/a at Line 766, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.profile.json.html#/html/body/div/div/div/p/a at Line 1500, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.profile.ttl.html#/html/body/div/div/div/p/a at Line 1348, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.profile.xml.html#/html/body/div/div/div/p/a at Line 1368, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AllergyIntolerance-definitions.html#/html/body/div/div/div/p/a at Line 1162, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AllergyIntolerance-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AllergyIntolerance-mappings.html#/html/body/div/div/div/p/a at Line 457, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AllergyIntolerance.html#/html/body/div/div/div/p/a at Line 1188, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AllergyIntolerance.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AllergyIntolerance.profile.json.html#/html/body/div/div/div/p/a at Line 4654, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AllergyIntolerance.profile.ttl.html#/html/body/div/div/div/p/a at Line 4063, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AllergyIntolerance.profile.xml.html#/html/body/div/div/div/p/a at Line 4247, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Composition-definitions.html#/html/body/div/div/div/p/a at Line 861, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Composition-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Composition-mappings.html#/html/body/div/div/div/p/a at Line 436, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Composition.html#/html/body/div/div/div/p/a at Line 886, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Composition.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Composition.profile.json.html#/html/body/div/div/div/p/a at Line 3043, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Composition.profile.ttl.html#/html/body/div/div/div/p/a at Line 2712, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Composition.profile.xml.html#/html/body/div/div/div/p/a at Line 2795, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-DocumentReference-definitions.html#/html/body/div/div/div/p/a at Line 747, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-DocumentReference-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-DocumentReference-mappings.html#/html/body/div/div/div/p/a at Line 470, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-DocumentReference.html#/html/body/div/div/div/p/a at Line 825, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-DocumentReference.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-DocumentReference.profile.json.html#/html/body/div/div/div/p/a at Line 2725, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-DocumentReference.profile.ttl.html#/html/body/div/div/div/p/a at Line 2416, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-DocumentReference.profile.xml.html#/html/body/div/div/div/p/a at Line 2535, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 417, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 429, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/p/a at Line 532, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint-mappings.html#/html/body/div/div/div/p/a at Line 326, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 353, column 1056: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 356, column 973: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 409, column 1127: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 412, column 1078: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 574, column 1056: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 577, column 973: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 630, column 1127: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 633, column 1078: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/p/a at Line 843, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.profile.json.html#/html/body/div/div/div/p/a at Line 1422, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.profile.ttl.html#/html/body/div/div/div/p/a at Line 1292, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.profile.xml.html#/html/body/div/div/div/p/a at Line 1393, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 508, column 108: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 575, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 657, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 739, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 821, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/p/a at Line 1274, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-mappings.html#/html/body/div/div/div/p/a at Line 403, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 346, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 355, column 906: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 358, column 1894: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 361, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 364, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 413, column 1876: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 424, column 1003: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 432, column 1967: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 440, column 1960: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 448, column 1955: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 713, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 722, column 906: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 725, column 1894: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 728, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 731, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 780, column 1876: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 791, column 1003: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 799, column 1967: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 807, column 1960: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 815, column 1955: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/p/a at Line 1234, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.profile.json.html#/html/body/div/div/div/p/a at Line 5092, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.profile.ttl.html#/html/body/div/div/div/p/a at Line 4389, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.profile.xml.html#/html/body/div/div/div/p/a at Line 4571, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HumanName-definitions.html#/html/body/div/div/div/p/a at Line 404, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HumanName-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HumanName-mappings.html#/html/body/div/div/div/p/a at Line 330, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HumanName.html#/html/body/div/div/div/p/a at Line 649, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HumanName.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HumanName.profile.json.html#/html/body/div/div/div/p/a at Line 944, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HumanName.profile.ttl.html#/html/body/div/div/div/p/a at Line 872, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HumanName.profile.xml.html#/html/body/div/div/div/p/a at Line 884, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location-definitions.html#/html/body/div/div/div/p/a at Line 666, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location-mappings.html#/html/body/div/div/div/p/a at Line 345, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.html#/html/body/div/div/div/p/a at Line 792, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.profile.json.html#/html/body/div/div/div/p/a at Line 2080, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.profile.ttl.html#/html/body/div/div/div/p/a at Line 1866, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.profile.xml.html#/html/body/div/div/div/p/a at Line 1878, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Medication-definitions.html#/html/body/div/div/div/p/a at Line 888, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Medication-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Medication-mappings.html#/html/body/div/div/div/p/a at Line 426, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Medication.html#/html/body/div/div/div/p/a at Line 976, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Medication.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Medication.profile.json.html#/html/body/div/div/div/p/a at Line 3347, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Medication.profile.ttl.html#/html/body/div/div/div/p/a at Line 2893, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Medication.profile.xml.html#/html/body/div/div/div/p/a at Line 3046, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-MedicationStatement-definitions.html#/html/body/div/div/div/p/a at Line 955, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-MedicationStatement-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-MedicationStatement-mappings.html#/html/body/div/div/div/p/a at Line 430, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-MedicationStatement.html#/html/body/div/div/div/p/a at Line 1048, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-MedicationStatement.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-MedicationStatement.profile.json.html#/html/body/div/div/div/p/a at Line 3611, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-MedicationStatement.profile.ttl.html#/html/body/div/div/div/p/a at Line 3131, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-MedicationStatement.profile.xml.html#/html/body/div/div/div/p/a at Line 3295, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 586, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 706, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/p/a at Line 1020, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization-examples.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization-mappings.html#/html/body/div/div/div/p/a at Line 455, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 359, column 1750: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 363, column 1778: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 418, column 1884: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 430, column 1912: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 639, column 1750: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 643, column 1778: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 698, column 1884: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 710, column 1912: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/p/a at Line 1024, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.profile.history.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.profile.json.html#/html/body/div/div/div/p/a at Line 3869, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.profile.ttl.html#/html/body/div/div/div/p/a at Line 3334, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.profile.xml.html#/html/body/div/div/div/p/a at Line 3495, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 383, column 108: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/p/a at Line 1414, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-examples.html#/html/body/div/div/div/p/a at Line 331, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-mappings.html#/html/body/div/div/div/p/a at Line 518, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 358, column 1837: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 416, column 1923: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 748, column 1837: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 806, column 1923: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/p/a at Line 1284, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.profile.history.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.profile.json.html#/html/body/div/div/div/p/a at Line 5918, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 5051, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.profile.xml.html#/html/body/div/div/div/p/a at Line 5336, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Person-definitions.html#/html/body/div/div/div/p/a at Line 734, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Person-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Person-mappings.html#/html/body/div/div/div/p/a at Line 371, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Person.html#/html/body/div/div/div/p/a at Line 826, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Person.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Person.profile.json.html#/html/body/div/div/div/p/a at Line 2473, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Person.profile.ttl.html#/html/body/div/div/div/p/a at Line 2178, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Person.profile.xml.html#/html/body/div/div/div/p/a at Line 2223, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 809, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 889, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 969, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/p/a at Line 1139, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-examples.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-mappings.html#/html/body/div/div/div/p/a at Line 480, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 370, column 2057: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 373, column 2067: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 376, column 2147: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 451, column 2176: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 459, column 2172: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 467, column 2266: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 681, column 2057: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 684, column 2067: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 687, column 2147: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 762, column 2176: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 770, column 2172: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 778, column 2266: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/p/a at Line 1102, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.profile.history.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.profile.json.html#/html/body/div/div/div/p/a at Line 4512, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.profile.ttl.html#/html/body/div/div/div/p/a at Line 3858, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.profile.xml.html#/html/body/div/div/div/p/a at Line 4094, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 396, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 527, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/p/a at Line 858, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole-mappings.html#/html/body/div/div/div/p/a at Line 400, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 335, column 975: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 342, column 1840: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 378, column 1054: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 393, column 1931: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 583, column 975: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 590, column 1840: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 626, column 1054: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 641, column 1931: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/p/a at Line 937, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.profile.json.html#/html/body/div/div/div/p/a at Line 3153, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.profile.ttl.html#/html/body/div/div/div/p/a at Line 2738, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.profile.xml.html#/html/body/div/div/div/p/a at Line 2854, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Procedure-definitions.html#/html/body/div/div/div/p/a at Line 850, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Procedure-examples.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Procedure-mappings.html#/html/body/div/div/div/p/a at Line 420, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Procedure.html#/html/body/div/div/div/p/a at Line 947, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Procedure.profile.history.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Procedure.profile.json.html#/html/body/div/div/div/p/a at Line 3052, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Procedure.profile.ttl.html#/html/body/div/div/div/p/a at Line 2736, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Procedure.profile.xml.html#/html/body/div/div/div/p/a at Line 2753, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-RelatedPerson-definitions.html#/html/body/div/div/div/p/a at Line 1160, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-RelatedPerson-examples.html#/html/body/div/div/div/p/a at Line 325, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-RelatedPerson-mappings.html#/html/body/div/div/div/p/a at Line 449, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-RelatedPerson.html#/html/body/div/div/div/p/a at Line 1251, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-RelatedPerson.profile.history.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-RelatedPerson.profile.json.html#/html/body/div/div/div/p/a at Line 4408, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-RelatedPerson.profile.ttl.html#/html/body/div/div/div/p/a at Line 3793, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-RelatedPerson.profile.xml.html#/html/body/div/div/div/p/a at Line 4072, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Substance-definitions.html#/html/body/div/div/div/p/a at Line 667, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Substance-examples.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Substance-mappings.html#/html/body/div/div/div/p/a at Line 356, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Substance.html#/html/body/div/div/div/p/a at Line 789, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Substance.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Substance.profile.json.html#/html/body/div/div/div/p/a at Line 2173, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Substance.profile.ttl.html#/html/body/div/div/div/p/a at Line 1924, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Substance.profile.xml.html#/html/body/div/div/div/p/a at Line 1951, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-address-official-definitions.html#/html/body/div/div/div/p/a at Line 334, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-address-official-mappings.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-address-official.html#/html/body/div/div/div/p/a at Line 530, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-address-official.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-address-official.profile.json.html#/html/body/div/div/div/p/a at Line 580, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-address-official.profile.ttl.html#/html/body/div/div/div/p/a at Line 555, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-address-official.profile.xml.html#/html/body/div/div/div/p/a at Line 541, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-middlename-definitions.html#/html/body/div/div/div/p/a at Line 337, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-middlename-mappings.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-middlename.html#/html/body/div/div/div/p/a at Line 536, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-middlename.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-middlename.profile.json.html#/html/body/div/div/div/p/a at Line 594, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-middlename.profile.ttl.html#/html/body/div/div/div/p/a at Line 569, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-middlename.profile.xml.html#/html/body/div/div/div/p/a at Line 551, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-municipalitycode-definitions.html#/html/body/div/div/div/p/a at Line 401, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-municipalitycode-mappings.html#/html/body/div/div/div/p/a at Line 311, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-municipalitycode.html#/html/body/div/div/div/p/a at Line 576, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-municipalitycode.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-municipalitycode.profile.json.html#/html/body/div/div/div/p/a at Line 917, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-municipalitycode.profile.ttl.html#/html/body/div/div/div/p/a at Line 835, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-municipalitycode.profile.xml.html#/html/body/div/div/div/p/a at Line 838, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-person-citizenship-definitions.html#/html/body/div/div/div/p/a at Line 411, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-person-citizenship-mappings.html#/html/body/div/div/div/p/a at Line 312, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-person-citizenship.html#/html/body/div/div/div/p/a at Line 590, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-person-citizenship.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-person-citizenship.profile.json.html#/html/body/div/div/div/p/a at Line 1183, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-person-citizenship.profile.ttl.html#/html/body/div/div/div/p/a at Line 1036, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-person-citizenship.profile.xml.html#/html/body/div/div/div/p/a at Line 1073, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-prescriptiongroup-definitions.html#/html/body/div/div/div/p/a at Line 479, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-prescriptiongroup-mappings.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-prescriptiongroup.html#/html/body/div/div/div/p/a at Line 620, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-prescriptiongroup.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-prescriptiongroup.profile.json.html#/html/body/div/div/div/p/a at Line 1468, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-prescriptiongroup.profile.ttl.html#/html/body/div/div/div/p/a at Line 1268, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-prescriptiongroup.profile.xml.html#/html/body/div/div/div/p/a at Line 1331, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 461, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/p/a at Line 539, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation-mappings.html#/html/body/div/div/div/p/a at Line 324, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 338, column 1989: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 376, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 481, column 1989: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 519, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/p/a at Line 680, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation.profile.json.html#/html/body/div/div/div/p/a at Line 1910, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation.profile.ttl.html#/html/body/div/div/div/p/a at Line 1660, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation.profile.xml.html#/html/body/div/div/div/p/a at Line 1693, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-relatedperson-person-reference-definitions.html#/html/body/div/div/div/p/a at Line 340, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-relatedperson-person-reference-mappings.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-relatedperson-person-reference.html#/html/body/div/div/div/p/a at Line 573, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.json.html#/html/body/div/div/div/p/a at Line 584, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.ttl.html#/html/body/div/div/div/p/a at Line 565, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-relatedperson-person-reference.profile.xml.html#/html/body/div/div/div/p/a at Line 564, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-sourceofinformation-definitions.html#/html/body/div/div/div/p/a at Line 476, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-sourceofinformation-mappings.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-sourceofinformation.html#/html/body/div/div/div/p/a at Line 622, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-sourceofinformation.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-sourceofinformation.profile.json.html#/html/body/div/div/div/p/a at Line 1462, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-sourceofinformation.profile.ttl.html#/html/body/div/div/div/p/a at Line 1262, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-sourceofinformation.profile.xml.html#/html/body/div/div/div/p/a at Line 1326, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 277, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/p/a at Line 339, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district-mappings.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 326, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 339, column 1671: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 405, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 418, column 1671: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/p/a at Line 541, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district.profile.json.html#/html/body/div/div/div/p/a at Line 615, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district.profile.ttl.html#/html/body/div/div/div/p/a at Line 592, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district.profile.xml.html#/html/body/div/div/div/p/a at Line 566, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-connection-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-connection-type.valueset.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-connection-type.valueset.json.html#/html/body/div/div/div/p/a at Line 296, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-connection-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-connection-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 292, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-documentreference-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-documentreference-type.valueset.html#/html/body/div/div/div/p/a at Line 313, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-documentreference-type.valueset.json.html#/html/body/div/div/div/p/a at Line 539, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-documentreference-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 484, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-documentreference-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 531, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-family-relation.valueset.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-family-relation.valueset.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-family-relation.valueset.json.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-family-relation.valueset.ttl.html#/html/body/div/div/div/p/a at Line 302, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-family-relation.valueset.xml.html#/html/body/div/div/div/p/a at Line 288, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-marital-status.valueset.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-marital-status.valueset.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-marital-status.valueset.json.html#/html/body/div/div/div/p/a at Line 289, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-marital-status.valueset.ttl.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-marital-status.valueset.xml.html#/html/body/div/div/div/p/a at Line 284, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-parental-responsibility.valueset.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-parental-responsibility.valueset.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-parental-responsibility.valueset.json.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-parental-responsibility.valueset.ttl.html#/html/body/div/div/div/p/a at Line 302, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-parental-responsibility.valueset.xml.html#/html/body/div/div/div/p/a at Line 288, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-service-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-service-type.valueset.html#/html/body/div/div/div/p/a at Line 313, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-service-type.valueset.json.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-service-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 316, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-service-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/artifacts.html#/html/body/div/div/div/p/a at Line 815, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/index.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/toc.html#/html/body/div/div/div/p/a at Line 202, column 28: The link '' for "" cannot be resolved
+== fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem.json ==
+ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-connection-type.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-connection-type
+== fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem.json ==
+ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-family-relation.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-family-relation
+== fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem.json ==
+ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-marital-status.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-marital-status
+== fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem.json ==
+ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-parental-responsibility.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis.json ==
+== fsh-generated/resources/NamingSystem-no-basis-bydelsnummer.json ==
+== fsh-generated/resources/NamingSystem-no-basis-dnummer.json ==
+== fsh-generated/resources/NamingSystem-no-basis-dufnummer.json ==
+== fsh-generated/resources/NamingSystem-no-basis-felleshjelpenummer.json ==
+== fsh-generated/resources/NamingSystem-no-basis-foedselsnummer.json ==
+== fsh-generated/resources/NamingSystem-no-basis-helsepersonellnummer.json ==
+== fsh-generated/resources/NamingSystem-no-basis-kommunenummer.json ==
+== fsh-generated/resources/Organization-Direktoratet-for-eHelse-Organization.json ==
+== fsh-generated/resources/Patient-EspenEksempel.json ==
+WARNING: Patient/EspenEksempel: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet urn:iso:std:iso:3166 not found by validator
+INFORMATION: Patient/EspenEksempel: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
+WARNING: Patient/EspenEksempel: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
+== fsh-generated/resources/Patient-JanniceSoreng.json ==
+INFORMATION: Patient/JanniceSoreng: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient
+WARNING: Patient/JanniceSoreng: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet urn:iso:std:iso:3166 not found by validator
+INFORMATION: Patient/JanniceSoreng: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
+WARNING: Patient/JanniceSoreng: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
+INFORMATION: Patient/JanniceSoreng: Patient.address[0].district.extension[0].value.ofType(Coding): Code System URI 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' is unknown so the code cannot be validated
+WARNING: Patient/JanniceSoreng: Patient.address[0].district.extension[0].value.ofType(Coding): ValueSet https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle not found by validator
+WARNING: Patient/JanniceSoreng: Patient.contact[0].relationship[1]: No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/patient-contactrelationship (http://hl7.org/fhir/ValueSet/patient-contactrelationship)
+== fsh-generated/resources/Patient-JanniceSorengTo.json ==
+INFORMATION: Patient/JanniceSorengTo: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient
+WARNING: Patient/JanniceSorengTo: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet urn:iso:std:iso:3166 not found by validator
+INFORMATION: Patient/JanniceSorengTo: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
+WARNING: Patient/JanniceSorengTo: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
+INFORMATION: Patient/JanniceSorengTo: Patient.address[0].district.extension[0].value.ofType(Coding): Code System URI 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' is unknown so the code cannot be validated
+WARNING: Patient/JanniceSorengTo: Patient.address[0].district.extension[0].value.ofType(Coding): ValueSet https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle not found by validator
+WARNING: Patient/JanniceSorengTo: Patient.contact[0].relationship[1]: No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/patient-contactrelationship (http://hl7.org/fhir/ValueSet/patient-contactrelationship)
+== fsh-generated/resources/Practitioner-Magnar-Komann-Practitioner.json ==
+INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[0].code.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.9060' is unknown so the code cannot be validated
+WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[0].code.coding[0]: ValueSet urn:oid:2.16.578.1.12.4.1.1.9060 not found by validator
+INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[1].code.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7426' is unknown so the code cannot be validated
+WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[1].code.coding[0]: ValueSet urn:oid:2.16.578.1.12.4.1.1.7426 not found by validator
+INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[2].code.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7704' is unknown so the code cannot be validated
+WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[2].code.coding[0]: ValueSet urn:oid:2.16.578.1.12.4.1.1.7704 not found by validator
+INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[3].code.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7426' is unknown so the code cannot be validated
+WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[3].code.coding[0]: ValueSet urn:oid:2.16.578.1.12.4.1.1.7426 not found by validator
+== fsh-generated/resources/RelatedPerson-Solid-Aresdoktor-RelatedPerson.json ==
+INFORMATION: RelatedPerson/Solid-Aresdoktor-RelatedPerson: RelatedPerson.address[0].extension[0].extension[2].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
+WARNING: RelatedPerson/Solid-Aresdoktor-RelatedPerson: RelatedPerson.address[0].extension[0].extension[2].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
+== fsh-generated/resources/RelatedPerson-Sorgard-Erlend-RelatedPerson.json ==
+== fsh-generated/resources/SearchParameter-no-basis-middlename.json ==
+== fsh-generated/resources/StructureDefinition-no-basis-Address.json ==
+== fsh-generated/resources/StructureDefinition-no-basis-AllergyIntolerance.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-no-basis-Composition.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Composition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-no-basis-DocumentReference.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-DocumentReference'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-no-basis-Endpoint.json ==
+WARNING: no-basis-Endpoint.Endpoint.payloadMimeType: Binding http://www.rfc-editor.org/bcp/bcp13.txt could not be located
+ERROR: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[18].binding.valueSet: OIDs must be valid
+ERROR: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[6].binding.valueSet: OIDs must be valid
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition: Binding http://www.rfc-editor.org/bcp/bcp13.txt could not be located
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[5].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8279 on element Endpoint.payloadType could not be resolved
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[6].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.0000 on element Endpoint.payloadType could not be resolved
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[7].binding: The valueSet reference http://www.rfc-editor.org/bcp/bcp13.txt on element Endpoint.payloadMimeType could not be resolved
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[17].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8279 on element Endpoint.payloadType could not be resolved
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[18].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.0000 on element Endpoint.payloadType could not be resolved
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[19].binding: The valueSet reference http://www.rfc-editor.org/bcp/bcp13.txt on element Endpoint.payloadMimeType could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-no-basis-HealthcareService.json ==
+WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.differential.element[5].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9040 on element HealthcareService.category could not be resolved
+WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.differential.element[9].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8655 on element HealthcareService.specialty.coding could not be resolved
+WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.differential.element[12].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8654 on element HealthcareService.specialty.coding could not be resolved
+WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.differential.element[15].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9151 on element HealthcareService.specialty.coding could not be resolved
+WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.differential.element[18].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8451 on element HealthcareService.specialty.coding could not be resolved
+WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.snapshot.element[26].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9040 on element HealthcareService.category could not be resolved
+WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.snapshot.element[32].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8655 on element HealthcareService.specialty.coding could not be resolved
+WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.snapshot.element[40].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8654 on element HealthcareService.specialty.coding could not be resolved
+WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.snapshot.element[48].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9151 on element HealthcareService.specialty.coding could not be resolved
+WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.snapshot.element[56].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8451 on element HealthcareService.specialty.coding could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-no-basis-HumanName.json ==
+== fsh-generated/resources/StructureDefinition-no-basis-Location.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Location'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-no-basis-Medication.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Medication'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement.json ==
+ERROR: StructureDefinition/no-basis-MedicationStatement: StructureDefinition.snapshot.element[28].binding: The element MedicationStatement.medication[x] has a binding, but no bindable types are present [Reference]
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-MedicationStatement'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-no-basis-Organization.json ==
+WARNING: StructureDefinition/no-basis-Organization: StructureDefinition.differential.element[9].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8628 on element Organization.type could not be resolved
+WARNING: StructureDefinition/no-basis-Organization: StructureDefinition.differential.element[12].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8624 on element Organization.type could not be resolved
+WARNING: StructureDefinition/no-basis-Organization: StructureDefinition.snapshot.element[30].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8628 on element Organization.type could not be resolved
+WARNING: StructureDefinition/no-basis-Organization: StructureDefinition.snapshot.element[42].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8624 on element Organization.type could not be resolved
+== fsh-generated/resources/StructureDefinition-no-basis-Patient.json ==
+WARNING: StructureDefinition/no-basis-Patient: StructureDefinition.differential.element[4].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.valueCodeableConcept could not be resolved
+WARNING: StructureDefinition/no-basis-Patient: StructureDefinition.snapshot.element[15].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] could not be resolved
+== fsh-generated/resources/StructureDefinition-no-basis-Person.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Person'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-no-basis-Practitioner.json ==
+WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.differential.element[16].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9060 on element Practitioner.qualification.code.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.differential.element[19].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7704 on element Practitioner.qualification.code.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.differential.element[22].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7426 on element Practitioner.qualification.code.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.snapshot.element[53].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9060 on element Practitioner.qualification.code.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.snapshot.element[61].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7704 on element Practitioner.qualification.code.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.snapshot.element[69].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7426 on element Practitioner.qualification.code.coding could not be resolved
+== fsh-generated/resources/StructureDefinition-no-basis-PractitionerRole.json ==
+WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.differential.element[2].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9034 on element PractitionerRole.code could not be resolved
+WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.differential.element[6].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8451 on element PractitionerRole.specialty could not be resolved
+WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.snapshot.element[15].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9034 on element PractitionerRole.code could not be resolved
+WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.snapshot.element[28].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8451 on element PractitionerRole.specialty could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-no-basis-RelatedPerson.json ==
+== fsh-generated/resources/StructureDefinition-no-basis-Substance.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Substance'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-no-basis-address-official.json ==
+== fsh-generated/resources/StructureDefinition-no-basis-middlename.json ==
+== fsh-generated/resources/StructureDefinition-no-basis-municipalitycode.json ==
+WARNING: StructureDefinition/no-basis-municipalitycode: StructureDefinition.differential.element[3].binding: The valueSet reference https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle on element Extension.value[x] could not be resolved
+WARNING: StructureDefinition/no-basis-municipalitycode: StructureDefinition.snapshot.element[4].binding: The valueSet reference https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle on element Extension.value[x] could not be resolved
+== fsh-generated/resources/StructureDefinition-no-basis-person-citizenship.json ==
+== fsh-generated/resources/StructureDefinition-no-basis-prescriptiongroup.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-prescriptiongroup'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-no-basis-propertyinformation.json ==
+ERROR: StructureDefinition/no-basis-propertyinformation: StructureDefinition.differential.element[17].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+WARNING: StructureDefinition/no-basis-propertyinformation: StructureDefinition.differential.element[20].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3402 on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition/no-basis-propertyinformation: StructureDefinition.snapshot.element[27].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3402 on element Extension.extension.value[x] could not be resolved
+== fsh-generated/resources/StructureDefinition-no-basis-relatedperson-person-reference.json ==
+== fsh-generated/resources/StructureDefinition-no-basis-sourceofinformation.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-no-basis-urban-district.json ==
+WARNING: StructureDefinition/no-basis-urban-district: StructureDefinition.differential.element[3].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3403 on element Extension.value[x] could not be resolved
+WARNING: StructureDefinition/no-basis-urban-district: StructureDefinition.snapshot.element[4].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3403 on element Extension.value[x] could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-urban-district'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/ValueSet-no-basis-connection-type.valueset.json ==
+ERROR: ValueSet.url: Resource id/url mismatch: no-basis-connection-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-connection-type
+== fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset.json ==
+ERROR: ValueSet.url: Resource id/url mismatch: no-basis-documentreference-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-documentreference-type
+WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet.where(id = 'no-basis-documentreference-type.valueset'): Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9602
+== fsh-generated/resources/ValueSet-no-basis-family-relation.valueset.json ==
+ERROR: ValueSet.url: Resource id/url mismatch: no-basis-family-relation.valueset/http://hl7.no/fhir/ValueSet/no-basis-family-relation
+== fsh-generated/resources/ValueSet-no-basis-marital-status.valueset.json ==
+ERROR: ValueSet.url: Resource id/url mismatch: no-basis-marital-status.valueset/http://hl7.no/fhir/ValueSet/no-basis-marital-status
+== fsh-generated/resources/ValueSet-no-basis-parental-responsibility.valueset.json ==
+ERROR: ValueSet.url: Resource id/url mismatch: no-basis-parental-responsibility.valueset/http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility
+== fsh-generated/resources/ValueSet-no-basis-service-type.valueset.json ==
+ERROR: ValueSet.url: Resource id/url mismatch: no-basis-service-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-service-type
+WARNING: ValueSet.where(id = 'no-basis-service-type.valueset'): Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8660
+== input/examples/no-basis-Procedure-example.xml ==
+ERROR: Procedure/no-basis-Procedure-example: Procedure.subject: Unable to resolve resource 'Patient/example'
+ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].function.coding[0]: Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20210731); The code "8921000202108" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#8921000202108) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#8921000202108'
+ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].actor: Unable to resolve resource 'Practitioner/example'
+== input/profiles/no-basis-Procedure.StructureDefinition.xml ==
+== input/resources/no-basis-icpc-2.namingsystem.xml ==

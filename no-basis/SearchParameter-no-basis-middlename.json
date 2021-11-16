@@ -1,0 +1,42 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "no-basis-middlename",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"no-basis-middlename\" </p></div><p><b>url</b>: <code>http://hl7.no/fhir/SearchParameter/no-basis-middlename</code></p><p><b>version</b>: 2.1.1</p><p><b>name</b>: NoBasisMiddlename</p><p><b>status</b>: active</p><p><b>date</b>: Nov 16, 2021, 9:30:48 PM</p><p><b>description</b>: SearchParameter for the Norwegian middlename extension http://hl7.no/fhir/StructureDefinition/no-basis-middlename</p><p><b>jurisdiction</b>: Norway <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#NO)</span></p><p><b>code</b>: middlename</p><p><b>base</b>: Patient, Practitioner, Person</p><p><b>type</b>: string</p><p><b>expression</b>: Patient.name.extension.where(url='http://hl7.no/fhir/StructureDefinition/no-basis-middlename').value | Practitioner.name.extension.where(url='http://hl7.no/fhir/StructureDefinition/no-basis-middlename').value | Person.name.extension.where(url='http://hl7.no/fhir/StructureDefinition/no-basis-middlename').value</p><p><b>xpath</b>: f:Patient/f:name/f:extension[@url='http://hl7.no/fhir/StructureDefinition/no-basis-middlename'] | f:Practitioner/f:name/f:extension[@url='http://hl7.no/fhir/StructureDefinition/no-basis-middlename'] | f:Person/f:name/f:extension[@url='http://hl7.no/fhir/StructureDefinition/no-basis-middlename']</p><p><b>xpathUsage</b>: normal</p><p><b>multipleOr</b>: true</p><p><b>multipleAnd</b>: true</p><p><b>modifier</b>: missing, exact, contains</p></div>"
+  },
+  "url": "http://hl7.no/fhir/SearchParameter/no-basis-middlename",
+  "version": "2.1.1",
+  "name": "NoBasisMiddlename",
+  "status": "active",
+  "date": "2021-11-16T21:30:48+00:00",
+  "description": "SearchParameter for the Norwegian middlename extension http://hl7.no/fhir/StructureDefinition/no-basis-middlename",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "code": "middlename",
+  "base": [
+    "Patient",
+    "Practitioner",
+    "Person"
+  ],
+  "type": "string",
+  "expression": "Patient.name.extension.where(url='http://hl7.no/fhir/StructureDefinition/no-basis-middlename').value | Practitioner.name.extension.where(url='http://hl7.no/fhir/StructureDefinition/no-basis-middlename').value | Person.name.extension.where(url='http://hl7.no/fhir/StructureDefinition/no-basis-middlename').value",
+  "xpath": "f:Patient/f:name/f:extension[@url='http://hl7.no/fhir/StructureDefinition/no-basis-middlename'] | f:Practitioner/f:name/f:extension[@url='http://hl7.no/fhir/StructureDefinition/no-basis-middlename'] | f:Person/f:name/f:extension[@url='http://hl7.no/fhir/StructureDefinition/no-basis-middlename']",
+  "xpathUsage": "normal",
+  "multipleOr": true,
+  "multipleAnd": true,
+  "modifier": [
+    "missing",
+    "exact",
+    "contains"
+  ]
+}

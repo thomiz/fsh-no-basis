@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="no-basis-foedselsnummer"/>
+  <meta>
+    <versionId value="1.0"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-foedselsnummer</td></tr><tr><td>Version</td><td>2.1.1</td></tr><tr><td>Name</td><td>Foedselsnummer</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Fødselsnummer is the official identification of a Norwegian citizen and is registered in the repository called folkeregisteret. Fødselsnummer is a 11-digit number containing 2 control digits.</p>
+</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/FNR</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.1</td><td>true</td></tr></table></div>
+  </text>
+  <name value="Foedselsnummer"/>
+  <status value="active"/>
+  <kind value="identifier"/>
+  <date value="2018-08-13"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <responsible value="Skatteetaten"/>
+  <description value="Fødselsnummer is the official identification of a Norwegian citizen and is registered in the repository called folkeregisteret. Fødselsnummer is a 11-digit number containing 2 control digits."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="http://hl7.no/fhir/NamingSystem/FNR"/>
+    <preferred value="false"/>
+  </uniqueId>
+  <uniqueId>
+    <type value="oid"/>
+    <value value="2.16.578.1.12.4.1.4.1"/>
+    <preferred value="true"/>
+  </uniqueId>
+</NamingSystem>
