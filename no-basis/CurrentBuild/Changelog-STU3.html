@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>HL7.FHIR.NO.BASIS\Changelog STU 3 - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/hl7.css"/>
+    <link rel="stylesheet" href="assets/css/fhir.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
+
+            
+<div id="family-nav">
+	<a no-external="true" id="logo" href="http://hl7.org/fhir"> <img src="assets/images/fhir-logo-www.png" alt="logo fhir" height="50"/>
+	</a>
+</div>
+
+
+            
+<div id="hl7-nav">
+    <a no-external="true" id="hl7-logo" href="https://github.com/HL7Norway">
+        <img src="assets/images/HL7-norway-logo.png" alt="visit the hl7 website" height="60"/>
+    </a>            
+</div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold"></span><br/>2.1.1 - ci-build</p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guidance
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="Datatypes.html">Data types</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artifacts
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html#1">Search Parameters</a>
+      </li>
+      <li>
+        <a href="artifacts.html#2">Profiles</a>
+      </li>
+      <li>
+        <a href="artifacts.html#3">Extensions</a>
+      </li>
+      <li>
+        <a href="artifacts.html#4">Value Sets</a>
+      </li>
+      <li>
+        <a href="artifacts.html#5">Code Systems</a>
+      </li>
+      <li>
+        <a href="artifacts.html#6">Naming Systems</a>
+      </li>
+      <li>
+        <a href="artifacts.html#7">Examples</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Changelog
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Changelog-21.md">R4 Changelog</a>
+      </li>
+      <li>
+        <a href="Changelog-STU3.html">STU3 Changelog</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Changelog STU 3</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Publication Build: This will be filled in by the publication tooling</p>  <!-- EndReleaseHeader -->
+  <h2>Changelog STU 3</h2>
+  
+
+
+
+
+
+
+
+
+
+    <p>  <!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#changelog-stu3" id="markdown-toc-changelog-stu3">Changelog STU3</a>    <ul>
+      <li><a href="#changes" id="markdown-toc-changes">Changes</a>        <ul>
+          <li><a href="#extensions" id="markdown-toc-extensions">Extensions</a></li>
+          <li><a href="#patient" id="markdown-toc-patient">Patient</a></li>
+          <li><a href="#address" id="markdown-toc-address">Address</a></li>
+          <li><a href="#humanname" id="markdown-toc-humanname">HumanName</a></li>
+          <li><a href="#codesystemvalueset" id="markdown-toc-codesystemvalueset">CodeSystem/ValueSet</a></li>
+          <li><a href="#practitioner" id="markdown-toc-practitioner">Practitioner</a></li>
+          <li><a href="#practitionerrole" id="markdown-toc-practitionerrole">PractitionerRole</a></li>
+          <li><a href="#healthcareservice" id="markdown-toc-healthcareservice">HealthcareService</a></li>
+          <li><a href="#endpoint" id="markdown-toc-endpoint">Endpoint</a></li>
+          <li><a href="#relatedperson" id="markdown-toc-relatedperson">RelatedPerson</a></li>
+        </ul>
+      </li>
+      <li><a href="#documentation-changes" id="markdown-toc-documentation-changes">Documentation changes:</a>        <ul>
+          <li><a href="#healthcareservice-1" id="markdown-toc-healthcareservice-1">HealthcareService</a></li>
+          <li><a href="#endpoint-1" id="markdown-toc-endpoint-1">Endpoint</a></li>
+          <li><a href="#practitioner-1" id="markdown-toc-practitioner-1">Practitioner</a></li>
+          <li><a href="#practitionerrole-1" id="markdown-toc-practitionerrole-1">PractitionerRole</a></li>
+          <li><a href="#relatedperson-1" id="markdown-toc-relatedperson-1">RelatedPerson</a></li>
+          <li><a href="#location" id="markdown-toc-location">Location</a></li>
+        </ul>
+      </li>
+      <li><a href="#bugfixes" id="markdown-toc-bugfixes">Bugfixes</a>        <ul>
+          <li><a href="#person" id="markdown-toc-person">Person</a></li>
+          <li><a href="#endpoint-2" id="markdown-toc-endpoint-2">Endpoint</a></li>
+          <li><a href="#practitioner-2" id="markdown-toc-practitioner-2">Practitioner</a></li>
+          <li><a href="#no-basis-person" id="markdown-toc-no-basis-person">No-basis-Person</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+<h1 id="changelog-stu3">Changelog STU3</h1>
+
+<p>Summary of changes from STU3 to R4 versions of the no-basis profiles.</p>
+
+<h2 id="changes">Changes</h2>
+
+<h3 id="extensions">Extensions</h3>
+
+<p>New extension for Person nationality: no-basis-person-nationality
+New extension added for Person citizenship: no-basis-person-citizenship</p>
+
+<h3 id="patient">Patient</h3>
+
+<p>Patient nationality changed to Patient citizenship to reflect citizenship instead of nationality (statsborgerskap).
+Patient nationality removed.
+Removed extension for urban district from no-basis-Patient (added to no-basis-Address).</p>
+
+<h3 id="address">Address</h3>
+
+<p>Added extension for urban district to no-basis-Address: Address.extension:urbanDistrict
+Removed extension for urban district from no-basis-Patient.
+Changed cardinality of Address.propertyinformation from 0..* -&gt; 0..1</p>
+
+<h3 id="humanname">HumanName</h3>
+<p>HumanName.family 1..1 -&gt; 0..1
+HumanName.given 1..1 -&gt; 0..1</p>
+
+<h3 id="codesystemvalueset">CodeSystem/ValueSet</h3>
+<p>no-basis-marital-status CodeSystem and ValueSet added
+no-basis-family-relation.codesystem and ValueSet added
+no-basis-parental-responsibility CodeSystem and ValueSet added
+no-basis-connection-type.codesystem and ValueSet added for ebxml and amqp connection types</p>
+
+<h3 id="practitioner">Practitioner</h3>
+<p>Practitioner.qualification.code:healthPersonnelSpecialization kodeverk 7426</p>
+
+<h3 id="practitionerrole">PractitionerRole</h3>
+<p>PractitionerRole.specialty Change of codesystem 7426 to 8451 Fagområde (OID=8451), alias added “fagområde”
+PractitionerRole.code.coding.system changed from 7426 to 9034</p>
+
+<h3 id="healthcareservice">HealthcareService</h3>
+<p>HealthcareService.providedby.identifier added slices for RSH and ENH
+HealthcareService.category 9040 changed from preferred to example. Updated documentation: “Usually not necesarry”
+HealthcareService.speciality now contains 4 slices
+HealthcareService.specialty: Slices for 8655 and 8654 added
+HealthcareService.specialty: Slices for 8451 added
+HealthcareService.specialty: Slices for 8452, 8453 and 8454 removed
+HealthcareService.endpoint: Reference can be Endpoint or no-basis-Endpoint</p>
+
+<h3 id="endpoint">Endpoint</h3>
+<p>No-basis-Endpoint.managingOrganization.identifier now contains slices for ENH and RSH identifier values</p>
+
+<h3 id="relatedperson">RelatedPerson</h3>
+
+<p>RelatedPerson.relationship:sivilstand changed to RelatedPerson.relationship:maritalStatus
+RelatedPerson.relationship:familierelasjon changed to RelatedPerson.relationship:familyRelation, valueset binding http://hl7.no/fhir/ValueSet/relatedperson-family-relation
+Added slice for RelatedPerson.relationship:parental, valuesetbinding: relatedperson-parental-responsibility</p>
+
+<h2 id="documentation-changes">Documentation changes:</h2>
+
+<h3 id="healthcareservice-1">HealthcareService</h3>
+<p>No-basis-HealthcareService added: “The typical use-case is to include information regarding what Healthcare related services, support functions or activities awailable at a Organizaiton or Location.”</p>
+
+<p>No-basis-HealthcareService definition added: “The organization that provides this healthcare service.
+
+no-basis recommends the use of logical reference to an organization using ENH or RSH. To describe a top level organization. Departments within an organization should use a different reference scheme defined by the organization.”
+No-basis-HealthcareService.category: “Example of category. Helsevirksomhet type (OID=9040), identifies the virksomhetstype used in Adresseregisteret. This element is usually not necessary to describe the HealthcareService adequately.”
+HealthcareService.type: no-basis: This element is usually not necessary to describe the HealthcareService adequately. Further coding can be used when common set of SNOMED codes are agreed for healthc care service types.
+
+The specific type of service that may be delivered or performed. “
+HealthcareService.specialty: “no-basis: Helsehjelpområde is given by the specialty element, preferred coding includes 8655 and 8654 codesystems. Type and category is usually not necessary to describe the HealthcareService adequately.
+
+The specific type defined in a codesystem allowed included in the valueset.”</p>
+
+<h3 id="endpoint-1">Endpoint</h3>
+<p>No-basis.Endpoint.definition: “for ebXML and AMQP messages in Norway one is expected to list all mesage types that the endpoint supports using the CodeSystem Meldingens funksjon (OID=8279) as a minimum. To describe complete version information to determine the type and version of the messages the endpoint supports, a CapabilityStatement can be used to describe the endpoints communication capabilities in detail.
+REST endpoints are expected to use the code "any" from https://www.hl7.org/fhir/codesystem-endpoint-payload-type.html. Proper FHIR Restful API’s are expected to serve a CapabilityStatement from the base uri specified.
+Other payload types can be given using codes from the ValueSet http://hl7.org/fhir/ValueSet/endpoint-payload-type. 
+
+The payload type describes the acceptable content that can be communicated on the endpoint.”
+No-basis-Endpoint added: “no-basis recommends the use of logical reference to an organization using ENH or RSH. To describe a top level organization. Departments within an organization could use a different reference scheme defined by the organization. 
+”
+No-basis-Endpoint.address added: “/" or "amqps://" prefix.
+REST endpoints will have "http://" or "https://" prefix.”</p>
+
+<h3 id="practitioner-1">Practitioner</h3>
+<p>No-basis-Practitioner added: “2019-03 - The no-basis-Practitioner resource main use-case is to represent the actual Practitioner, e.g. a person. The resource can include information about how to identify the practitioner in addition to the practitioner’s education, qualifications and speciality. The resource can also include approvals and other centrally registered capabilities recorded for the practitioner.”</p>
+
+<h3 id="practitionerrole-1">PractitionerRole</h3>
+<p>No-basis-PractitionerRole added: “The main use-case of no-basis-PractitionerRole is to represent the role or function of a Practitioner wihtin an organization. The resource can include information about services performed by a Practitioner, a location where the practitioner performes the functions as well as information about the nature of the employment at an organization.”
+PractitionerRole.code.definition: “no-basis: code related to a speciality that the Practitioner can perform in the role within an organization
+
+Specific specialty of the practitioner.”</p>
+
+<h3 id="relatedperson-1">RelatedPerson</h3>
+
+<p>No-basis-RelatedPerson added: “Typical use-case for no-basis-RelatedPerson involves information about relations person-patient.
+- Relations registered in norwegian Master Person Information Index (aka Folkeregisteret)
+- Other relationship information registered on a patient or person neccessary for patient treatment
+- Should not be used for contact persons for the patient with a predefined role in the patient care, as information as this is registered separately in the Patient resource”</p>
+
+<h3 id="location">Location</h3>
+<p>No-basis-Location definition added: “Details and position information for a physical place where services are provided  and resources and participants may be stored, found, contained or 
+accommodated.
+
+no-basis: The use-case for no-basis-Location is representation of organization structure to describe where a specific department or healthcare service is offered.”</p>
+
+<h2 id="bugfixes">Bugfixes</h2>
+
+<h3 id="person">Person</h3>
+<p>No-basis-Person managingOrganization reference both Organization and no-basis-Organization</p>
+
+<h3 id="endpoint-2">Endpoint</h3>
+<p>No-basis-Endpoint.address: bugfix in documentation “suffix” to “prefix” and text/xml type for ebxml payloadMimeType</p>
+
+<h3 id="practitioner-2">Practitioner</h3>
+<p>No-basis-Practitioner.qualification.healthPersonnelSpecialization slice fixed binding from 7704 (same as the approvalType slice) to klassifikasjon av spesialiteter (OID=7426) CodeSystem</p>
+
+<h3 id="no-basis-person">No-basis-Person</h3>
+<p>Required fixed string of “The actual Fødselsnummer” in the FNR and DNR slices of the profile. Requirement removed.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;fixedString value="The actual Fødselsnummer" /&gt;
+</code></pre></div></div>
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p><a name="l620">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 16, 2021 22:08+0000">2021-11-16</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+
+          
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

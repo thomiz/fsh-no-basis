@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="Magnar-Komann-Practitioner"/>
+  <meta>
+    <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Magnar-Komann-Practitioner" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-no-basis-Practitioner.html">no-basis-Practitioner</a></p></div><p><b>identifier</b>: id: 9144889</p><p><b>name</b>: Magnar Koman </p><p><b>telecom</b>: ph: 75589889(WORK), fax: 75589899, ph: 98128921(MOBILE), <a href="mailto:mako@bottomline.no">mako@bottomline.no</a></p><p><b>address</b>: Dreyfushammarn 23 BODØ 8012 (WORK)</p><blockquote><p><b>qualification</b></p><p><b>code</b>: Lege <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#LE)</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: Allmennmedisin <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#1)</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: Autorisasjon <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#1)</span></p><p><b>period</b>: 2018-10-10 --&gt; (ongoing)</p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: Ortopedisk kirurgi <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#152)</span></p></blockquote></div>
+  </text>
+  <identifier>
+    <system value="urn:oid:2.16.578.1.12.4.1.4.4"/>
+    <value value="9144889"/>
+  </identifier>
+  <name>
+    <family value="Koman"/>
+    <given value="Magnar"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="75589889"/>
+    <use value="work"/>
+  </telecom>
+  <telecom>
+    <system value="fax"/>
+    <value value="75589899"/>
+  </telecom>
+  <telecom>
+    <system value="phone"/>
+    <value value="98128921"/>
+    <use value="mobile"/>
+  </telecom>
+  <telecom>
+    <system value="email"/>
+    <value value="mako@bottomline.no"/>
+    <use value="work"/>
+  </telecom>
+  <address>
+    <use value="work"/>
+    <line value="Dreyfushammarn 23"/>
+    <city value="BODØ"/>
+    <postalCode value="8012"/>
+  </address>
+  <qualification>
+    <code>
+      <coding>
+        <system value="urn:oid:2.16.578.1.12.4.1.1.9060"/>
+        <code value="LE"/>
+        <display value="Lege"/>
+      </coding>
+    </code>
+  </qualification>
+  <qualification>
+    <code>
+      <coding>
+        <system value="urn:oid:2.16.578.1.12.4.1.1.7426"/>
+        <code value="1"/>
+        <display value="Allmennmedisin"/>
+      </coding>
+    </code>
+  </qualification>
+  <qualification>
+    <code>
+      <coding>
+        <system value="urn:oid:2.16.578.1.12.4.1.1.7704"/>
+        <code value="1"/>
+        <display value="Autorisasjon"/>
+      </coding>
+    </code>
+    <period>
+      <start value="2018-10-10"/>
+    </period>
+  </qualification>
+  <qualification>
+    <code>
+      <coding>
+        <system value="urn:oid:2.16.578.1.12.4.1.1.7426"/>
+        <code value="152"/>
+        <display value="Ortopedisk kirurgi"/>
+      </coding>
+    </code>
+  </qualification>
+</Practitioner>

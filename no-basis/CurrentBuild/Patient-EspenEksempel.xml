@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="EspenEksempel"/>
+  <meta>
+    <profile value="http://hl7.no/fhir/StructureDefinition/no-basis-Patient"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "EspenEksempel" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-no-basis-Patient.html">no-basis-Patient</a></p></div><blockquote><p><b>citizenship</b></p><p><b>value</b>: Norway <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#NO)</span></p></blockquote><p><b>identifier</b>: id: 210377xxxxx</p><p><b>name</b>: Espen Eksempel </p><p><b>telecom</b>: <a href="tel:+4798216832">+4798216832</a></p><p><b>gender</b>: male</p><p><b>address</b>: Stålverkskroken 14 Oslo 0661 NO (HOME)</p><p><b>maritalStatus</b>: unmarried <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html">MaritalStatus</a>#U)</span></p><h3>Communications</h3><table class="grid"><tr><td>-</td><td><b>Language</b></td></tr><tr><td>*</td><td>Norsk <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></td></tr></table><p><b>generalPractitioner</b>: <span>: SIDSEL AASE JAVERY</span></p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/patient-citizenship">
+    <extension url="code">
+      <valueCodeableConcept>
+        <coding>
+          <system value="urn:iso:std:iso:3166"/>
+          <code value="NO"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+  </extension>
+  <identifier>
+    <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+    <value value="210377xxxxx"/>
+  </identifier>
+  <name>
+    <family value="Eksempel"/>
+    <given value="Espen"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="+4798216832"/>
+    <use value="home"/>
+  </telecom>
+  <gender value="male"/>
+  <address>
+    <extension url="http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation">
+      <extension url="municipality">
+        <valueCoding>
+          <system value="urn:oid:2.16.578.1.12.4.1.1.3402"/>
+          <code value="0301"/>
+          <display value="Oslo"/>
+        </valueCoding>
+      </extension>
+    </extension>
+    <extension url="http://hl7.no/fhir/StructureDefinition/no-basis-address-official">
+      <valueBoolean value="true"/>
+    </extension>
+    <use value="home"/>
+    <line value="Stålverkskroken 14"/>
+    <city value="Oslo"/>
+    <district value="Oslo"/>
+    <postalCode value="0661"/>
+    <country value="NO"/>
+  </address>
+  <maritalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+      <code value="U"/>
+      <display value="unmarried"/>
+    </coding>
+  </maritalStatus>
+  <communication>
+    <language>
+      <text value="Norsk"/>
+    </language>
+  </communication>
+  <generalPractitioner>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.2"/>
+      <value value="720"/>
+    </identifier>
+    <display value="SIDSEL AASE JAVERY"/>
+  </generalPractitioner>
+</Patient>

@@ -1,0 +1,85 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "no-basis-marital-status.codesystem",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-05-07T00:00:00.000+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.no/fhir/CodeSystem/no-basis-marital-status defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">uoppgitt<a name=\"no-basis-marital-status.codesystem-uoppgitt\"> </a></td><td>Uoppgitt</td><td>sivilstand er ikke stadfestet med godkjent grunnlag</td></tr><tr><td style=\"white-space:nowrap\">ugift<a name=\"no-basis-marital-status.codesystem-ugift\"> </a></td><td>Ugift</td><td>person som aldri har inngått ekteskap</td></tr><tr><td style=\"white-space:nowrap\">gift<a name=\"no-basis-marital-status.codesystem-gift\"> </a></td><td>Gift</td><td>person som er i et ekteskap</td></tr><tr><td style=\"white-space:nowrap\">enkeEllerEnkemann<a name=\"no-basis-marital-status.codesystem-enkeEllerEnkemann\"> </a></td><td>Enke eller enkemann</td><td>gjenlevende person fra et ekteskap</td></tr><tr><td style=\"white-space:nowrap\">skilt<a name=\"no-basis-marital-status.codesystem-skilt\"> </a></td><td>Skilt</td><td>person som er lovlig skilt fra tidligere ektefelle</td></tr><tr><td style=\"white-space:nowrap\">separert<a name=\"no-basis-marital-status.codesystem-separert\"> </a></td><td>Separert</td><td>person som er i en separasjonsperiode fra sin ektefelle</td></tr><tr><td style=\"white-space:nowrap\">registrertPartner<a name=\"no-basis-marital-status.codesystem-registrertPartner\"> </a></td><td>Registrert partner</td><td>person som er i et partnerskap iht partnerskapsloven</td></tr><tr><td style=\"white-space:nowrap\">separertPartner<a name=\"no-basis-marital-status.codesystem-separertPartner\"> </a></td><td>Separert partner</td><td>person som er i en separasjonsperiode fra sin partner</td></tr><tr><td style=\"white-space:nowrap\">skiltPartner<a name=\"no-basis-marital-status.codesystem-skiltPartner\"> </a></td><td>Skilt partner</td><td>person som er lovlig skilt fra tidligere partner</td></tr><tr><td style=\"white-space:nowrap\">gjenlevende_partner<a name=\"no-basis-marital-status.codesystem-gjenlevende_partner\"> </a></td><td>Gjenlevende partner</td><td>gjenlevende person fra et partnerskap</td></tr></table></div>"
+  },
+  "url": "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
+  "version": "2.1.1",
+  "name": "NoBasisMaritalStatus",
+  "title": "no-basis-marital-status.codesystem",
+  "status": "active",
+  "date": "2019-05-07T00:00:00+00:00",
+  "publisher": "Copy of Codes from Sivilstandstype defined by Skatteetaten",
+  "description": "Copy of Codes from Sivilstandstype defined by Skatteetaten",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 10,
+  "concept": [
+    {
+      "code": "uoppgitt",
+      "display": "Uoppgitt",
+      "definition": "sivilstand er ikke stadfestet med godkjent grunnlag"
+    },
+    {
+      "code": "ugift",
+      "display": "Ugift",
+      "definition": "person som aldri har inngått ekteskap"
+    },
+    {
+      "code": "gift",
+      "display": "Gift",
+      "definition": "person som er i et ekteskap"
+    },
+    {
+      "code": "enkeEllerEnkemann",
+      "display": "Enke eller enkemann",
+      "definition": "gjenlevende person fra et ekteskap"
+    },
+    {
+      "code": "skilt",
+      "display": "Skilt",
+      "definition": "person som er lovlig skilt fra tidligere ektefelle"
+    },
+    {
+      "code": "separert",
+      "display": "Separert",
+      "definition": "person som er i en separasjonsperiode fra sin ektefelle"
+    },
+    {
+      "code": "registrertPartner",
+      "display": "Registrert partner",
+      "definition": "person som er i et partnerskap iht partnerskapsloven"
+    },
+    {
+      "code": "separertPartner",
+      "display": "Separert partner",
+      "definition": "person som er i en separasjonsperiode fra sin partner"
+    },
+    {
+      "code": "skiltPartner",
+      "display": "Skilt partner",
+      "definition": "person som er lovlig skilt fra tidligere partner"
+    },
+    {
+      "code": "gjenlevende_partner",
+      "display": "Gjenlevende partner",
+      "definition": "gjenlevende person fra et partnerskap"
+    }
+  ]
+}

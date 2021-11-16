@@ -1,0 +1,96 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-basis-marital-status.codesystem> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "no-basis-marital-status.codesystem"];
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ];
+     fhir:Meta.lastUpdated [ fhir:value "2019-05-07T00:00:00.000+00:00"^^xsd:dateTime ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.no/fhir/CodeSystem/no-basis-marital-status defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">uoppgitt<a name=\"no-basis-marital-status.codesystem-uoppgitt\"> </a></td><td>Uoppgitt</td><td>sivilstand er ikke stadfestet med godkjent grunnlag</td></tr><tr><td style=\"white-space:nowrap\">ugift<a name=\"no-basis-marital-status.codesystem-ugift\"> </a></td><td>Ugift</td><td>person som aldri har inngått ekteskap</td></tr><tr><td style=\"white-space:nowrap\">gift<a name=\"no-basis-marital-status.codesystem-gift\"> </a></td><td>Gift</td><td>person som er i et ekteskap</td></tr><tr><td style=\"white-space:nowrap\">enkeEllerEnkemann<a name=\"no-basis-marital-status.codesystem-enkeEllerEnkemann\"> </a></td><td>Enke eller enkemann</td><td>gjenlevende person fra et ekteskap</td></tr><tr><td style=\"white-space:nowrap\">skilt<a name=\"no-basis-marital-status.codesystem-skilt\"> </a></td><td>Skilt</td><td>person som er lovlig skilt fra tidligere ektefelle</td></tr><tr><td style=\"white-space:nowrap\">separert<a name=\"no-basis-marital-status.codesystem-separert\"> </a></td><td>Separert</td><td>person som er i en separasjonsperiode fra sin ektefelle</td></tr><tr><td style=\"white-space:nowrap\">registrertPartner<a name=\"no-basis-marital-status.codesystem-registrertPartner\"> </a></td><td>Registrert partner</td><td>person som er i et partnerskap iht partnerskapsloven</td></tr><tr><td style=\"white-space:nowrap\">separertPartner<a name=\"no-basis-marital-status.codesystem-separertPartner\"> </a></td><td>Separert partner</td><td>person som er i en separasjonsperiode fra sin partner</td></tr><tr><td style=\"white-space:nowrap\">skiltPartner<a name=\"no-basis-marital-status.codesystem-skiltPartner\"> </a></td><td>Skilt partner</td><td>person som er lovlig skilt fra tidligere partner</td></tr><tr><td style=\"white-space:nowrap\">gjenlevende_partner<a name=\"no-basis-marital-status.codesystem-gjenlevende_partner\"> </a></td><td>Gjenlevende partner</td><td>gjenlevende person fra et partnerskap</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://hl7.no/fhir/CodeSystem/no-basis-marital-status"];
+  fhir:CodeSystem.version [ fhir:value "2.1.1"];
+  fhir:CodeSystem.name [ fhir:value "NoBasisMaritalStatus"];
+  fhir:CodeSystem.title [ fhir:value "no-basis-marital-status.codesystem"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2019-05-07T00:00:00+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Copy of Codes from Sivilstandstype defined by Skatteetaten"];
+  fhir:CodeSystem.description [ fhir:value "Copy of Codes from Sivilstandstype defined by Skatteetaten"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "10"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "uoppgitt" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Uoppgitt" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "sivilstand er ikke stadfestet med godkjent grunnlag" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "ugift" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ugift" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "person som aldri har inngått ekteskap" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "gift" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Gift" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "person som er i et ekteskap" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "enkeEllerEnkemann" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Enke eller enkemann" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "gjenlevende person fra et ekteskap" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "skilt" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Skilt" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "person som er lovlig skilt fra tidligere ektefelle" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "separert" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Separert" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "person som er i en separasjonsperiode fra sin ektefelle" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "registrertPartner" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Registrert partner" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "person som er i et partnerskap iht partnerskapsloven" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "separertPartner" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Separert partner" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "person som er i en separasjonsperiode fra sin partner" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "skiltPartner" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Skilt partner" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "person som er lovlig skilt fra tidligere partner" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "gjenlevende_partner" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Gjenlevende partner" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "gjenlevende person fra et partnerskap" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-basis-marital-status.codesystem.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
