@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="no-basis-shortNotice" />
+  <id value="no-basis-shortnotice" />
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse/ShortNotice" />
   <name value="NoBasisShortNotice" />
   <title value="no-basis-shortNotice" />
