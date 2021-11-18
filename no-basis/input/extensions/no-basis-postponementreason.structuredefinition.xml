@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="no-basis-postponementReason" />
+  <id value="no-basis-postponementreason" />
   <url value="https://example.org/fhir/StructureDefinition/PostponementReason" />
   <name value="NoBasisPostponementReason" />
   <title value="no-basis-postponementReason" />
