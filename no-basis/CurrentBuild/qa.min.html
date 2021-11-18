@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 438, errors = 18, warn = 81, info = 12 -->
+<!-- broken links = 504, errors = 23, warn = 104, info = 12 -->
 <head>
   <title>NoBasis : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for NoBasis</h1>
- <p>Generated Tue Nov 16 22:09:17 UTC 2021, FHIR version 4.0.1 for hl7.fhir.no.basis#2.1.1 (canonical = <a href="http://hl7.no/fhir">http://hl7.no/fhir</a> (<a href="http://hl7.no/fhir/history.html">history</a>)). See <a href="/github/workspace/no-basis/output/qa.html">Full QA Report</a></p>
+ <p>Generated Thu Nov 18 12:28:25 UTC 2021, FHIR version 4.0.1 for hl7.fhir.no.basis#2.1.1 (canonical = <a href="http://hl7.no/fhir">http://hl7.no/fhir</a> (<a href="http://hl7.no/fhir/history.html">history</a>)). See <a href="/github/workspace/no-basis/output/qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.86</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.no.basis, Canonical = http://hl7.no/fhir</td></tr>
@@ -49,15 +49,15 @@
  <tr><td>Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
  <br/><br/>The copyrightYear parameter ('2021+') in the IG resource is good</td></tr>
  <tr><td>HTA Analysis:</td><td><a href="qa-hta.html">All OK</a></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://hl7.no/fhir (Problem #1 with package-list.json at http://hl7.no/fhir: http://www.hl7.no/fhir/package-list.json?nocache=1637100507342)</td></tr>
- <tr><td>Summary:</td><td> broken links = 438, errors = 18, warn = 81, info = 12</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://hl7.no/fhir (Problem #1 with package-list.json at http://hl7.no/fhir: http://www.hl7.no/fhir/package-list.json?nocache=1637238449260)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 504, errors = 23, warn = 104, info = 12</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>439</b></td><td><b>9</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>505</b></td><td><b>14</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_github_workspace_no-basis_fsh-generated_resources_CodeSystem-no-basis-connection-type.codesystem"><b>/github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -164,6 +164,21 @@
    <tr style="background-color: #ffcccc">
      <td><a href="#_github_workspace_no-basis_input_examples_no-basis-Procedure-example"><b>/github/workspace/no-basis/input/examples/no-basis-Procedure-example</b></a></td><td><b>3</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_no-basis_input_extensions_no-basis-partof.structuredefinition"><b>/github/workspace/no-basis/input/extensions/no-basis-partof.structuredefinition</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_no-basis_input_extensions_no-basis-postponementreason.structuredefinition"><b>/github/workspace/no-basis/input/extensions/no-basis-postponementreason.structuredefinition</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_no-basis_input_extensions_no-basis-shortnotice.structuredefinition"><b>/github/workspace/no-basis/input/extensions/no-basis-shortnotice.structuredefinition</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_no-basis_input_profiles_no-basis-Appointment.StructureDefinition"><b>/github/workspace/no-basis/input/profiles/no-basis-Appointment.StructureDefinition</b></a></td><td><b>3</b></td><td><b>12</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_no-basis_input_profiles_no-basis-AppointmentResponse.StructureDefinition"><b>/github/workspace/no-basis/input/profiles/no-basis-AppointmentResponse.StructureDefinition</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
 </table>
 <hr/>
 <a name="internal"> </a>
@@ -196,6 +211,21 @@
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Sorgard-Erlend-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/no-basis-partof.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/no-basis-postponementreason.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/no-basis-shortnotice.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/no-basis-Appointment.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/no-basis-AppointmentResponse.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/no-basis-Procedure-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
@@ -586,6 +616,126 @@
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="StructureDefinition-no-basis-AllergyIntolerance.profile.xml.html#l16340">output/StructureDefinition-no-basis-AllergyIntolerance.profile.xml.html#/html/body/div/div/div/p/a at Line 4247, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment-definitions.html#l1179">output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 357, column 115</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment-definitions.html#l2271">output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 513, column 115</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for &quot;urn:oid:2.16.578.1.12.4.1.1.8406&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment-definitions.html#l2354">output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 528, column 115</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for &quot;urn:oid:2.16.578.1.12.4.1.1.8432&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment-definitions.html#l2437">output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 543, column 115</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for &quot;urn:oid:2.16.578.1.12.4.1.1.7617&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment-definitions.html#l3919">output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/p/a at Line 815, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment-examples.html#l398">output/StructureDefinition-no-basis-Appointment-examples.html#/html/body/div/div/div/p/a at Line 298, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment-mappings.html#l1304">output/StructureDefinition-no-basis-Appointment-mappings.html#/html/body/div/div/div/p/a at Line 431, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l664">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 336, column 1891</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l705">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 337, column 1826</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l868">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 343, column 1823</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for &quot;urn:oid:2.16.578.1.12.4.1.1.8406&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l902">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 344, column 1837</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for &quot;urn:oid:2.16.578.1.12.4.1.1.8432&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l936">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 345, column 1821</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for &quot;urn:oid:2.16.578.1.12.4.1.1.7617&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l1212">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 363, column 1858</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l1315">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 367, column 1732</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l1777">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 386, column 1896</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for &quot;urn:oid:2.16.578.1.12.4.1.1.8406&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l1812">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 387, column 1910</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for &quot;urn:oid:2.16.578.1.12.4.1.1.8432&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l1847">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 388, column 1894</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for &quot;urn:oid:2.16.578.1.12.4.1.1.7617&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l2718">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 572, column 1891</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l2759">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 573, column 1826</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l2922">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 579, column 1823</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for &quot;urn:oid:2.16.578.1.12.4.1.1.8406&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l2956">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 580, column 1837</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for &quot;urn:oid:2.16.578.1.12.4.1.1.8432&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l2990">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 581, column 1821</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for &quot;urn:oid:2.16.578.1.12.4.1.1.7617&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l3266">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 599, column 1858</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l3369">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 603, column 1732</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l3831">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 622, column 1896</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for &quot;urn:oid:2.16.578.1.12.4.1.1.8406&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l3866">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 623, column 1910</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for &quot;urn:oid:2.16.578.1.12.4.1.1.8432&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l3901">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 624, column 1894</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for &quot;urn:oid:2.16.578.1.12.4.1.1.7617&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.html#l5532">output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/p/a at Line 923, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.profile.history.html#l393">output/StructureDefinition-no-basis-Appointment.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.profile.json.html#l6074">output/StructureDefinition-no-basis-Appointment.profile.json.html#/html/body/div/div/div/p/a at Line 3247, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.profile.ttl.html#l12453">output/StructureDefinition-no-basis-Appointment.profile.ttl.html#/html/body/div/div/div/p/a at Line 2844, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Appointment.profile.xml.html#l11222">output/StructureDefinition-no-basis-Appointment.profile.xml.html#/html/body/div/div/div/p/a at Line 2915, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-AppointmentResponse-definitions.html#l1535">output/StructureDefinition-no-basis-AppointmentResponse-definitions.html#/html/body/div/div/div/p/a at Line 463, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-AppointmentResponse-examples.html#l398">output/StructureDefinition-no-basis-AppointmentResponse-examples.html#/html/body/div/div/div/p/a at Line 298, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-AppointmentResponse-mappings.html#l714">output/StructureDefinition-no-basis-AppointmentResponse-mappings.html#/html/body/div/div/div/p/a at Line 346, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-AppointmentResponse.html#l2245">output/StructureDefinition-no-basis-AppointmentResponse.html#/html/body/div/div/div/p/a at Line 646, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-AppointmentResponse.profile.history.html#l393">output/StructureDefinition-no-basis-AppointmentResponse.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-AppointmentResponse.profile.json.html#l2240">output/StructureDefinition-no-basis-AppointmentResponse.profile.json.html#/html/body/div/div/div/p/a at Line 1250, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-AppointmentResponse.profile.ttl.html#l4347">output/StructureDefinition-no-basis-AppointmentResponse.profile.ttl.html#/html/body/div/div/div/p/a at Line 1157, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-AppointmentResponse.profile.xml.html#l3947">output/StructureDefinition-no-basis-AppointmentResponse.profile.xml.html#/html/body/div/div/div/p/a at Line 1161, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="StructureDefinition-no-basis-Composition-definitions.html#l3997">output/StructureDefinition-no-basis-Composition-definitions.html#/html/body/div/div/div/p/a at Line 861, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
@@ -1260,6 +1410,27 @@
      <td><b><a href="StructureDefinition-no-basis-municipalitycode.profile.xml.html#l2618">output/StructureDefinition-no-basis-municipalitycode.profile.xml.html#/html/body/div/div/div/p/a at Line 838, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-partof-definitions.html#l689">output/StructureDefinition-no-basis-partof-definitions.html#/html/body/div/div/div/p/a at Line 337, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-partof-mappings.html#l458">output/StructureDefinition-no-basis-partof-mappings.html#/html/body/div/div/div/p/a at Line 305, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-partof.html#l1235">output/StructureDefinition-no-basis-partof.html#/html/body/div/div/div/p/a at Line 547, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-partof.profile.history.html#l393">output/StructureDefinition-no-basis-partof.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-partof.profile.json.html#l953">output/StructureDefinition-no-basis-partof.profile.json.html#/html/body/div/div/div/p/a at Line 584, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-partof.profile.ttl.html#l1518">output/StructureDefinition-no-basis-partof.profile.ttl.html#/html/body/div/div/div/p/a at Line 561, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-partof.profile.xml.html#l1385">output/StructureDefinition-no-basis-partof.profile.xml.html#/html/body/div/div/div/p/a at Line 539, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
      <td><b><a href="StructureDefinition-no-basis-person-citizenship-definitions.html#l1586">output/StructureDefinition-no-basis-person-citizenship-definitions.html#/html/body/div/div/div/p/a at Line 411, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
@@ -1279,6 +1450,42 @@
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="StructureDefinition-no-basis-person-citizenship.profile.xml.html#l3488">output/StructureDefinition-no-basis-person-citizenship.profile.xml.html#/html/body/div/div/div/p/a at Line 1073, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-postponementreason-definitions.html#l617">output/StructureDefinition-no-basis-postponementreason-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 279, column 116</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-postponementreason-definitions.html#l696">output/StructureDefinition-no-basis-postponementreason-definitions.html#/html/body/div/div/div/p/a at Line 340, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-postponementreason-mappings.html#l458">output/StructureDefinition-no-basis-postponementreason-mappings.html#/html/body/div/div/div/p/a at Line 305, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-postponementreason.html#l593">output/StructureDefinition-no-basis-postponementreason.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 319, column 1689</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-postponementreason.html#l744">output/StructureDefinition-no-basis-postponementreason.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 332, column 1587</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-postponementreason.html#l907">output/StructureDefinition-no-basis-postponementreason.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 399, column 1689</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-postponementreason.html#l1058">output/StructureDefinition-no-basis-postponementreason.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 412, column 1587</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for &quot;urn:oid:2.16.578.1.12.4.1.1.8446&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-postponementreason.html#l1262">output/StructureDefinition-no-basis-postponementreason.html#/html/body/div/div/div/p/a at Line 539, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-postponementreason.profile.history.html#l393">output/StructureDefinition-no-basis-postponementreason.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-postponementreason.profile.json.html#l980">output/StructureDefinition-no-basis-postponementreason.profile.json.html#/html/body/div/div/div/p/a at Line 591, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-postponementreason.profile.ttl.html#l1554">output/StructureDefinition-no-basis-postponementreason.profile.ttl.html#/html/body/div/div/div/p/a at Line 564, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-postponementreason.profile.xml.html#l1433">output/StructureDefinition-no-basis-postponementreason.profile.xml.html#/html/body/div/div/div/p/a at Line 545, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="StructureDefinition-no-basis-prescriptiongroup-definitions.html#l2029">output/StructureDefinition-no-basis-prescriptiongroup-definitions.html#/html/body/div/div/div/p/a at Line 479, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
@@ -1357,6 +1564,27 @@
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="StructureDefinition-no-basis-relatedperson-person-reference.profile.xml.html#l1406">output/StructureDefinition-no-basis-relatedperson-person-reference.profile.xml.html#/html/body/div/div/div/p/a at Line 564, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-shortnotice-definitions.html#l688">output/StructureDefinition-no-basis-shortnotice-definitions.html#/html/body/div/div/div/p/a at Line 337, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-shortnotice-mappings.html#l458">output/StructureDefinition-no-basis-shortnotice-mappings.html#/html/body/div/div/div/p/a at Line 305, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-shortnotice.html#l1183">output/StructureDefinition-no-basis-shortnotice.html#/html/body/div/div/div/p/a at Line 533, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-shortnotice.profile.history.html#l393">output/StructureDefinition-no-basis-shortnotice.profile.history.html#/html/body/div/div/div/p/a at Line 287, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-shortnotice.profile.json.html#l947">output/StructureDefinition-no-basis-shortnotice.profile.json.html#/html/body/div/div/div/p/a at Line 578, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-shortnotice.profile.ttl.html#l1494">output/StructureDefinition-no-basis-shortnotice.profile.ttl.html#/html/body/div/div/div/p/a at Line 553, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-shortnotice.profile.xml.html#l1373">output/StructureDefinition-no-basis-shortnotice.profile.xml.html#/html/body/div/div/div/p/a at Line 534, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="StructureDefinition-no-basis-sourceofinformation-definitions.html#l2015">output/StructureDefinition-no-basis-sourceofinformation-definitions.html#/html/body/div/div/div/p/a at Line 476, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
@@ -1506,13 +1734,13 @@
      <td><b><a href="ValueSet-no-basis-service-type.valueset.xml.html#l595">output/ValueSet-no-basis-service-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 309, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="artifacts.html#l1398">output/artifacts.html#/html/body/div/div/div/p/a at Line 815, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+     <td><b><a href="artifacts.html#l1458">output/artifacts.html#/html/body/div/div/div/p/a at Line 860, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="index.html#l448">output/index.html#/html/body/div/div/div/p/a at Line 262, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="toc.html#l822">output/toc.html#/html/body/div/div/div/p/a at Line 202, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+     <td><b><a href="toc.html#l862">output/toc.html#/html/body/div/div/div/p/a at Line 202, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
    </tr>
 </table>
 <hr/>
@@ -1596,7 +1824,7 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Patient.identifier[1] (l32/c6)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient</b> <span id="sl455" class="flip" onclick="flip('l455')">Show Reasoning</span><div id="l455" style="display: none"><p>&nbsp;</p>This element does not match any known slicedefined_in_the_profilehttp://hl7.no/fhir/StructureDefinition/no-basis-Patient<ul><li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.1' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.3' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.2' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('HNR' in system)</li></ul></div></td>
+     <td><b><a href="">Patient.identifier[1] (l32/c6)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient</b> <span id="sl526" class="flip" onclick="flip('l526')">Show Reasoning</span><div id="l526" style="display: none"><p>&nbsp;</p>This element does not match any known slicedefined_in_the_profilehttp://hl7.no/fhir/StructureDefinition/no-basis-Patient<ul><li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.1' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.3' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.2' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('HNR' in system)</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Patient.extension[0].extension[0].value.ofType(CodeableConcept) (l15/c24)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet urn:iso:std:iso:3166 not found by validator</b></td>
@@ -1627,7 +1855,7 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Patient.identifier[1] (l74/c6)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient</b> <span id="sl462" class="flip" onclick="flip('l462')">Show Reasoning</span><div id="l462" style="display: none"><p>&nbsp;</p>This element does not match any known slicedefined_in_the_profilehttp://hl7.no/fhir/StructureDefinition/no-basis-Patient<ul><li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.1' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.3' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.2' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('HNR' in system)</li></ul></div></td>
+     <td><b><a href="">Patient.identifier[1] (l74/c6)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient</b> <span id="sl533" class="flip" onclick="flip('l533')">Show Reasoning</span><div id="l533" style="display: none"><p>&nbsp;</p>This element does not match any known slicedefined_in_the_profilehttp://hl7.no/fhir/StructureDefinition/no-basis-Patient<ul><li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.1' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.3' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.2' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('HNR' in system)</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Patient.extension[0].extension[0].value.ofType(CodeableConcept) (l57/c24)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet urn:iso:std:iso:3166 not found by validator</b></td>
@@ -2091,7 +2319,7 @@
      <td><b>ValueSet.compose[0].include[0]</b></td><td><b>warning</b></td><td title=""><b>Unknown System specified, so Concepts and Filters can''t be checked</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.where(id = 'no-basis-documentreference-type.valueset')</b></td><td><b>warning</b></td><td title=""><b>Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+     <td><b>ValueSet.where(id = 'no-basis-documentreference-type.valueset')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9602</b> (<a href="qa-tx.html#l14">see Tx log</a>)</td>
    </tr>
 </table>
 <hr/>
@@ -2146,7 +2374,7 @@
      <td><b>ValueSet.url</b></td><td><b>error</b></td><td title="RESOURCE_ID_MISMATCH"><b>Resource id/url mismatch: no-basis-service-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-service-type</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.where(id = 'no-basis-service-type.valueset')</b></td><td><b>warning</b></td><td title=""><b>Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8660</b></td>
+     <td><b>ValueSet.where(id = 'no-basis-service-type.valueset')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8660</b> (<a href="qa-tx.html#l16">see Tx log</a>)</td>
    </tr>
 </table>
 <hr/>
@@ -2162,10 +2390,129 @@
      <td><b>Procedure.subject (l15/c14)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource 'Patient/example'</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Procedure.performer[0].function.coding[0] (l20/c21)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20210731); The code &quot;8921000202108&quot; is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#8921000202108) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#8921000202108'</b></td>
+     <td><b>Procedure.performer[0].function.coding[0] (l20/c21)</b></td><td><b>error</b></td><td><b>Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20210731); The code &quot;8921000202108&quot; is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#8921000202108) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#8921000202108'</b> (<a href="qa-tx.html#l9">see Tx log</a>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Procedure.performer[0].actor (l26/c16)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource 'Practitioner/example'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_no-basis_input_extensions_no-basis-partof.structuredefinition"> </a>
+<h2><a href="StructureDefinition-no-basis-partof.html">input/extensions/no-basis-partof.structuredefinition.xml</a> <span id="svi36" class="toggle" onclick="toggle('vi36')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi36')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi36"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.url</b></td><td><b>error</b></td><td title="RESOURCE_ID_MISMATCH"><b>Resource id/url mismatch: no-basis-partof/http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/PartOf</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/PartOf')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_no-basis_input_extensions_no-basis-postponementreason.structuredefinition"> </a>
+<h2><a href="StructureDefinition-no-basis-postponementreason.html">input/extensions/no-basis-postponementreason.structuredefinition.xml</a> <span id="svi37" class="toggle" onclick="toggle('vi37')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi37')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi37"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[2].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8446 on element Extension.value[x] could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[4].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8446 on element Extension.value[x] could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PostponementReason')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_no-basis_input_extensions_no-basis-shortnotice.structuredefinition"> </a>
+<h2><a href="StructureDefinition-no-basis-shortnotice.html">input/extensions/no-basis-shortnotice.structuredefinition.xml</a> <span id="svi38" class="toggle" onclick="toggle('vi38')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi38')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi38"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.url</b></td><td><b>error</b></td><td title="RESOURCE_ID_MISMATCH"><b>Resource id/url mismatch: no-basis-shortnotice/http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse/ShortNotice</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse/ShortNotice')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_no-basis_input_profiles_no-basis-Appointment.StructureDefinition"> </a>
+<h2><a href="StructureDefinition-no-basis-Appointment.html">input/profiles/no-basis-Appointment.StructureDefinition.xml</a> <span id="svi39" class="toggle" onclick="toggle('vi39')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi39')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi39"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://hl7.no/fhir/StructureDefinition/no-basis-Appointment#Appointment.extension:group</b></td><td><b>warning</b></td><td title=""><b>The type of profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/Group cannot be checked as the profile is not known</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element.where(path = 'Appointment.extension:group')</b></td><td><b>warning</b></td><td title=""><b>The type of profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/Group cannot be checked as the profile is not known</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[2].type[0].profile[0]</b></td><td><b>warning</b></td><td title=""><b>Unable to resolve profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/Group</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[9].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8406 on element Appointment.appointmentType.coding could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[10].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8432 on element Appointment.appointmentType.coding could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[11].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7617 on element Appointment.appointmentType.coding could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[8].type[0].profile[0]</b></td><td><b>warning</b></td><td title=""><b>Unable to resolve profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/Group</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[13].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8446 on element Appointment.extension.value[x] could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[30].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8406 on element Appointment.appointmentType.coding could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[31].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8432 on element Appointment.appointmentType.coding could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[32].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7617 on element Appointment.appointmentType.coding could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>no-basis-Appointment</b></td><td><b>error</b></td><td title=""><b><a href="no-basis-appointment.html">no-basis-Appointment</a>: Unable to find Extension 'http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/Group' referenced at http://hl7.no/fhir/StructureDefinition/no-basis-Appointment differential Appointment.extension (group)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>no-basis-Appointment</b></td><td><b>error</b></td><td title=""><b><a href="no-basis-appointment.html">no-basis-Appointment</a>: Unable to find Extension 'http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/Group' referenced at http://hl7.no/fhir/StructureDefinition/no-basis-Appointment snapshot Appointment.extension (group)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>no-basis-Appointment</b></td><td><b>error</b></td><td title=""><b><a href="no-basis-appointment.html">no-basis-Appointment</a>: Unable to find Extension 'http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/Group' referenced at http://hl7.no/fhir/StructureDefinition/no-basis-Appointment snapshot Appointment.extension (group)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Appointment')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_no-basis_input_profiles_no-basis-AppointmentResponse.StructureDefinition"> </a>
+<h2><a href="StructureDefinition-no-basis-AppointmentResponse.html">input/profiles/no-basis-AppointmentResponse.StructureDefinition.xml</a> <span id="svi40" class="toggle" onclick="toggle('vi40')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi40')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi40"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <a name="suppressed"> </a>
@@ -2205,6 +2552,12 @@
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="ValueSet-no-basis-service-type.valueset.html">fsh-generated/resources/ValueSet-no-basis-service-type.valueset.json</a></td><td><b>Resource id/url mismatch: no-basis-service-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-service-type</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-no-basis-partof.html">input/extensions/no-basis-partof.structuredefinition.xml</a></td><td><b>Resource id/url mismatch: no-basis-partof/http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/PartOf</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-no-basis-shortnotice.html">input/extensions/no-basis-shortnotice.structuredefinition.xml</a></td><td><b>Resource id/url mismatch: no-basis-shortnotice/http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse/ShortNotice</b></td>
    </tr>
 </table>
 <hr/>

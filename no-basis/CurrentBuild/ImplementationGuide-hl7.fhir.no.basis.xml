@@ -9,7 +9,7 @@
   <version value="2.1.1"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2021-11-16T22:08:29+00:00"/>
+  <date value="2021-11-18T12:27:31+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -724,6 +724,56 @@
       </reference>
       <name value="no-basis-middlename"/>
       <description value="SearchParameter for the Norwegian middlename extension http://hl7.no/fhir/StructureDefinition/no-basis-middlename"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-partof"/>
+      </reference>
+      <name value="no-basis-partOf"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-postponementreason"/>
+      </reference>
+      <name value="no-basis-postponementReason"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-shortnotice"/>
+      </reference>
+      <name value="no-basis-shortNotice"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-Appointment"/>
+      </reference>
+      <name value="no-basis-Appointment"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-AppointmentResponse"/>
+      </reference>
+      <name value="no-basis-AppointmentResponse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

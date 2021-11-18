@@ -12,6 +12,20 @@
       ]
     },
     {
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/PartOf",
+      "title": "no-basis-partOf",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse/ShortNotice",
+      "title": "no-basis-shortNotice",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
       "url": "http://hl7.no/fhir/StructureDefinition/no-basis-address-official",
       "title": "no-basis-address-official",
       "types": [
@@ -300,6 +314,13 @@
       "types": [
         "Coding"
       ]
+    },
+    {
+      "url": "https://example.org/fhir/StructureDefinition/PostponementReason",
+      "title": "no-basis-postponementReason",
+      "types": [
+        "code"
+      ]
     }
   ],
   "profiles": {
@@ -307,6 +328,18 @@
       {
         "url": "http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance",
         "title": "no-basis-AllergyIntolerance"
+      }
+    ],
+    "Appointment": [
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment",
+        "title": "no-basis-Appointment"
+      }
+    ],
+    "AppointmentResponse": [
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse",
+        "title": "no-basis-AppointmentResponse"
       }
     ],
     "Composition": [
@@ -404,6 +437,15 @@
     "http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference": [
       "RelatedPerson.patient"
     ],
+    "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/Group": [
+      "Appointment"
+    ],
+    "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/PartOf": [
+      "Appointment"
+    ],
+    "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse/ShortNotice": [
+      "AppointmentResponse"
+    ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-address-official": [
       "Address",
       "Organization.address",
@@ -487,6 +529,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://example.org/fhir/StructureDefinition/PostponementReason": [
+      "Appointment"
     ]
   }
 }

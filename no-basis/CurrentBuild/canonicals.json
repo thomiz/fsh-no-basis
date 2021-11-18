@@ -119,6 +119,34 @@
     "name": "NoBasisAllergyIntolerance"
   },
   {
+    "id": "no-basis-Appointment",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment",
+    "version": "2.1.1",
+    "name": "NoBasisAppointment"
+  },
+  {
+    "id": "no-basis-partof",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/PartOf",
+    "version": "2.1.1",
+    "name": "NoBasisPartOf"
+  },
+  {
+    "id": "no-basis-AppointmentResponse",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse",
+    "version": "2.1.1",
+    "name": "NoBasisAppointmentResponse"
+  },
+  {
+    "id": "no-basis-shortnotice",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse/ShortNotice",
+    "version": "2.1.1",
+    "name": "NoBasisShortNotice"
+  },
+  {
     "id": "no-basis-Composition",
     "type": "StructureDefinition",
     "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Composition",
@@ -327,5 +355,12 @@
     "url": "http://hl7.no/fhir/ValueSet/no-basis-service-type",
     "version": "2.1.1",
     "name": "NoBasisServiceType"
+  },
+  {
+    "id": "no-basis-postponementreason",
+    "type": "StructureDefinition",
+    "url": "https://example.org/fhir/StructureDefinition/PostponementReason",
+    "version": "2.1.1",
+    "name": "NoBasisPostponementReason"
   }
 ]

@@ -9,7 +9,7 @@
   "version": "2.1.1",
   "name": "NoBasis",
   "status": "active",
-  "date": "2021-11-16T22:08:29+00:00",
+  "date": "2021-11-18T12:27:31+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -981,6 +981,71 @@
         },
         "name": "no-basis-middlename",
         "description": "SearchParameter for the Norwegian middlename extension http://hl7.no/fhir/StructureDefinition/no-basis-middlename",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/no-basis-partof"
+        },
+        "name": "no-basis-partOf",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/no-basis-postponementreason"
+        },
+        "name": "no-basis-postponementReason",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/no-basis-shortnotice"
+        },
+        "name": "no-basis-shortNotice",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/no-basis-Appointment"
+        },
+        "name": "no-basis-Appointment",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/no-basis-AppointmentResponse"
+        },
+        "name": "no-basis-AppointmentResponse",
         "exampleBoolean": false
       },
       {
