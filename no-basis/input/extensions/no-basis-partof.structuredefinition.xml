@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="no-basis-partOf" />
+  <id value="no-basis-partof" />
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/PartOf" />
   <name value="NoBasisPartOf" />
   <title value="no-basis-partOf" />
