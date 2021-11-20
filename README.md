@@ -68,6 +68,8 @@ Kommandolinje for å kjøre IG-publisher for fsh-no-basis:
 
 ~~~bash
 docker --debug run -it --rm -v package-cache:/root/.fhir -v e:\GitRepo\fsh-no-basis\master\no-basis:/data thomiz/fhir-build publisher -ig /data/ig.ini
+
+docker --debug run -it --rm -v package-cache:/root/.fhir -v E:\GitRepo\HL7-norway-basisprofiler-r4:/data thomiz/fhir-build publisher -ig /data/ig.ini
 ~~~
 
 Liste images:
