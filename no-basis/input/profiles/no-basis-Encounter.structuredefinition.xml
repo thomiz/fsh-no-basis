@@ -13,8 +13,8 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Encounter" />
   <derivation value="constraint" />
   <differential>
-    <element id="Encounter.class">
-      <path value="Encounter.class" />
+    <element id="Encounter.class.Coding">
+      <path value="Encounter.class.Coding" />
       <slicing>
         <discriminator>
           <type value="value" />
@@ -23,8 +23,8 @@
         <rules value="open" />
       </slicing>
     </element>
-    <element id="Encounter.class:omsorgsNiva">
-      <path value="Encounter.class" />
+    <element id="Encounter.class.Coding:omsorgsNiva">
+      <path value="Encounter.class.Coding" />
       <sliceName value="omsorgsNiva" />
       <binding>
         <strength value="extensible" />
@@ -32,8 +32,8 @@
         <valueSet value="urn:oid:2.16.578.1.12.4.1.1.8406" />
       </binding>
     </element>
-    <element id="Encounter.class:kontaktType">
-      <path value="Encounter.class" />
+    <element id="Encounter.class.Coding:kontaktType">
+      <path value="Encounter.class.Coding" />
       <sliceName value="kontaktType" />
       <binding>
         <strength value="extensible" />
