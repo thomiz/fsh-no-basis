@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"4"}
-    h3,h4,h5,h6{--heading-prefix:"4.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"5"}
+    h3,h4,h5,h6{--heading-prefix:"5.0"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -63,7 +63,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold"></span><br/>2.1.1 - ci-build</p>
+          <p><span style="font-size:12pt;font-weight:bold"></span><br/>2.2.0 - ci-build</p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
@@ -96,6 +96,9 @@
     <ul class="dropdown-menu">
       <li>
         <a href="Datatypes.html">Data types</a>
+      </li>
+      <li>
+        <a href="introWorkflow.html">Appointment</a>
       </li>
     </ul>
   </li>
@@ -381,7 +384,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   <a href="StructureDefinition-no-basis-Appointment.html" title="StructureDefinition/no-basis-Appointment">no-basis-Appointment</a>
                </td>
                <td>
-
+<p>Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) must be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
 </td>
             </tr>
             <tr>
@@ -389,7 +392,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   <a href="StructureDefinition-no-basis-AppointmentResponse.html" title="StructureDefinition/no-basis-AppointmentResponse">no-basis-AppointmentResponse</a>
                </td>
                <td>
-
+<p>Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Encounter.html" title="StructureDefinition/no-basis-Encounter">no-basis-Encounter</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian Location information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where more specific encounter information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
 </td>
             </tr>
             <tr>
@@ -514,26 +525,42 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-no-basis-partof.html" title="StructureDefinition/no-basis-partof">no-basis-partOf</a>
+                  <a href="StructureDefinition-no-basis-conferencetype.html" title="StructureDefinition/no-basis-conferencetype">NoBasisConferenceType</a>
                </td>
                <td>
-
+<p>Norwegian valueset for conference type.</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-no-basis-postponementreason.html" title="StructureDefinition/no-basis-postponementreason">no-basis-postponementReason</a>
+                  <a href="StructureDefinition-no-basis-group.html" title="StructureDefinition/no-basis-group">no-basis-group</a>
                </td>
                <td>
-
+<p>The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-no-basis-shortnotice.html" title="StructureDefinition/no-basis-shortnotice">no-basis-shortNotice</a>
+                  <a href="StructureDefinition-no-basis-partof.html" title="StructureDefinition/no-basis-partof">no-basis-partof</a>
                </td>
                <td>
-
+<p>This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-postponementreason.html" title="StructureDefinition/no-basis-postponementreason">no-basis-postponementreason</a>
+               </td>
+               <td>
+<p>The basis extension defines the reason for a postponement for example of an appointment or an encounter.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-shortnotice.html" title="StructureDefinition/no-basis-shortnotice">no-basis-shortnotice</a>
+               </td>
+               <td>
+<p>The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.</p>
 </td>
             </tr>
          </tbody>
@@ -794,8 +821,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l1458">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Nov 18, 2021 12:27+0000">2021-11-18</span>
+        <p><a name="l1524">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.basis#2.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 24, 2021 13:32+0000">2021-11-24</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

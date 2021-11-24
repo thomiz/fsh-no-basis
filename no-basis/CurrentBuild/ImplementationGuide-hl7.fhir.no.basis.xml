@@ -6,10 +6,10 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NoBasis</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis</pre></div>
   </text>
   <url value="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis"/>
-  <version value="2.1.1"/>
+  <version value="2.2.0"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2021-11-18T12:27:31+00:00"/>
+  <date value="2021-11-24T13:32:15+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -731,9 +731,32 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/no-basis-conferencetype"/>
+      </reference>
+      <name value="NoBasisConferenceType"/>
+      <description value="Norwegian valueset for conference type."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-group"/>
+      </reference>
+      <name value="no-basis-group"/>
+      <description value="The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/no-basis-partof"/>
       </reference>
-      <name value="no-basis-partOf"/>
+      <name value="no-basis-partof"/>
+      <description value="This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -743,7 +766,8 @@
       <reference>
         <reference value="StructureDefinition/no-basis-postponementreason"/>
       </reference>
-      <name value="no-basis-postponementReason"/>
+      <name value="no-basis-postponementreason"/>
+      <description value="The basis extension defines the reason for a postponement for example of an appointment or an encounter."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -753,7 +777,8 @@
       <reference>
         <reference value="StructureDefinition/no-basis-shortnotice"/>
       </reference>
-      <name value="no-basis-shortNotice"/>
+      <name value="no-basis-shortnotice"/>
+      <description value="The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -764,6 +789,7 @@
         <reference value="StructureDefinition/no-basis-Appointment"/>
       </reference>
       <name value="no-basis-Appointment"/>
+      <description value="Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) must be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -774,6 +800,18 @@
         <reference value="StructureDefinition/no-basis-AppointmentResponse"/>
       </reference>
       <name value="no-basis-AppointmentResponse"/>
+      <description value="Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-Encounter"/>
+      </reference>
+      <name value="no-basis-Encounter"/>
+      <description value="Basisprofil for Norwegian Location information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where more specific encounter information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -825,6 +863,11 @@
       <page>
         <nameUrl value="Datatypes.html"/>
         <title value="Datatypes"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="introWorkflow.html"/>
+        <title value="Intro Workflow"/>
         <generation value="markdown"/>
       </page>
     </page>

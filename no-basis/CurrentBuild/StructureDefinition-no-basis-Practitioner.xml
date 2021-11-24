@@ -47,7 +47,7 @@ Address(es) of the practitioner that are not role specific (typically home addre
     <valueCode value="individual"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner"/>
-  <version value="2.1.1"/>
+  <version value="2.2.0"/>
   <name value="NoBasisPractitioner"/>
   <title value="no-basis-Practitioner"/>
   <status value="active"/>

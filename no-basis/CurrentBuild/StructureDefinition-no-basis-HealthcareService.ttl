@@ -22,7 +22,7 @@
      fhir:Extension.valueCode [ fhir:value "business" ]
   ];
   fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"];
-  fhir:StructureDefinition.version [ fhir:value "2.1.1"];
+  fhir:StructureDefinition.version [ fhir:value "2.2.0"];
   fhir:StructureDefinition.name [ fhir:value "NoBasisHealthcareService"];
   fhir:StructureDefinition.title [ fhir:value "no-basis-HealthcareService"];
   fhir:StructureDefinition.status [ fhir:value "active"];

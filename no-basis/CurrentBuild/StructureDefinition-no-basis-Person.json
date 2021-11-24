@@ -16,7 +16,7 @@
     }
   ],
   "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Person",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "name": "NoBasisPerson",
   "title": "no-basis-Person",
   "status": "active",

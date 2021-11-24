@@ -47,7 +47,7 @@ on-hold = the treatment is paused">status</a><a name="MedicationStatement.status
     <valueCode value="patient"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-MedicationStatement"/>
-  <version value="2.1.1"/>
+  <version value="2.2.0"/>
   <name value="NoBasisMedicationStatement"/>
   <title value="no-basis-MedicationStatement"/>
   <status value="active"/>

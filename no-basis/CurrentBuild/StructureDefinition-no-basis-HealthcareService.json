@@ -16,7 +16,7 @@
     }
   ],
   "url": "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "name": "NoBasisHealthcareService",
   "title": "no-basis-HealthcareService",
   "status": "active",

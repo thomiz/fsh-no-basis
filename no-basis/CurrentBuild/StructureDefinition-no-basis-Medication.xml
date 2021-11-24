@@ -37,7 +37,7 @@ The resource has been changed to support norwegian FEST. The following changes a
     <valueCode value="business"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Medication"/>
-  <version value="2.1.1"/>
+  <version value="2.2.0"/>
   <name value="NoBasisMedication"/>
   <title value="no-basis-Medication"/>
   <status value="active"/>

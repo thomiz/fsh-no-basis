@@ -21,7 +21,7 @@ Technical endpoints providing access to services operated for the location.">end
     <valueCode value="business"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Location"/>
-  <version value="2.1.1"/>
+  <version value="2.2.0"/>
   <name value="NoBasisLocation"/>
   <title value="no-basis-Location"/>
   <status value="active"/>

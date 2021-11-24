@@ -16,7 +16,7 @@
     }
   ],
   "url": "http://hl7.no/fhir/StructureDefinition/no-basis-person-citizenship",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "name": "NoBasisPersonCitizenship",
   "title": "no-basis-person-citizenship",
   "status": "active",

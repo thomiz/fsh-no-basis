@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.no.basis",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [
@@ -9,20 +9,6 @@
       "title": "NoBasisRelatedpersonPersonReference",
       "types": [
         "Reference"
-      ]
-    },
-    {
-      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/PartOf",
-      "title": "no-basis-partOf",
-      "types": [
-        "Reference"
-      ]
-    },
-    {
-      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse/ShortNotice",
-      "title": "no-basis-shortNotice",
-      "types": [
-        "boolean"
       ]
     },
     {
@@ -316,8 +302,36 @@
       ]
     },
     {
-      "url": "https://example.org/fhir/StructureDefinition/PostponementReason",
-      "title": "no-basis-postponementReason",
+      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/conferencetype",
+      "title": "NoBasisConferenceType",
+      "types": [
+        "code"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/group",
+      "title": "no-basis-group",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/partof",
+      "title": "no-basis-partof",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/shortnotice",
+      "title": "no-basis-shortnotice",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://example.org/fhir/structuredefinition/postponementreason",
+      "title": "no-basis-postponementreason",
       "types": [
         "code"
       ]
@@ -328,12 +342,6 @@
       {
         "url": "http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance",
         "title": "no-basis-AllergyIntolerance"
-      }
-    ],
-    "Appointment": [
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment",
-        "title": "no-basis-Appointment"
       }
     ],
     "AppointmentResponse": [
@@ -431,20 +439,23 @@
         "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Substance",
         "title": "no-basis-Substance"
       }
+    ],
+    "Appointment": [
+      {
+        "url": "http://hl7.no/fhir/structuredefinition/no-basis-Appointment",
+        "title": "no-basis-Appointment"
+      }
+    ],
+    "Encounter": [
+      {
+        "url": "http://hl7.no/fhir/structuredefinition/no-basis-Encounter",
+        "title": "no-basis-Encounter"
+      }
     ]
   },
   "usage": {
     "http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference": [
       "RelatedPerson.patient"
-    ],
-    "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/Group": [
-      "Appointment"
-    ],
-    "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment/PartOf": [
-      "Appointment"
-    ],
-    "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse/ShortNotice": [
-      "AppointmentResponse"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-address-official": [
       "Address",
@@ -477,6 +488,18 @@
     ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-urban-district": [
       "Address"
+    ],
+    "http://hl7.no/fhir/structuredefinition/no-basis-appointment/conferencetype": [
+      "Appointment"
+    ],
+    "http://hl7.no/fhir/structuredefinition/no-basis-appointment/group": [
+      "Appointment"
+    ],
+    "http://hl7.no/fhir/structuredefinition/no-basis-appointment/partof": [
+      "Appointment"
+    ],
+    "http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/shortnotice": [
+      "AppointmentResponse"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
@@ -530,7 +553,7 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "https://example.org/fhir/StructureDefinition/PostponementReason": [
+    "https://example.org/fhir/structuredefinition/postponementreason": [
       "Appointment"
     ]
   }

@@ -13,10 +13,10 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoBasis</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis</pre></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis"];
-  fhir:ImplementationGuide.version [ fhir:value "2.1.1"];
+  fhir:ImplementationGuide.version [ fhir:value "2.2.0"];
   fhir:ImplementationGuide.name [ fhir:value "NoBasis"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-11-18T12:27:31+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-11-24T13:32:15+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -997,10 +997,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-partof>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/no-basis-partof" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-conferencetype>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/no-basis-conferencetype" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-partOf" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoBasisConferenceType" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Norwegian valueset for conference type." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 52;
@@ -1010,10 +1011,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-postponementreason>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/no-basis-postponementreason" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-group>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/no-basis-group" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-postponementReason" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-group" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 53;
@@ -1023,13 +1025,42 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/no-basis-shortnotice" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-partof>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/no-basis-partof" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-shortNotice" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-partof" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 54;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-postponementreason>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/no-basis-postponementreason" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-postponementreason" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The basis extension defines the reason for a postponement for example of an appointment or an encounter." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 55;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/no-basis-shortnotice" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-shortnotice" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 56;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1040,9 +1071,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/no-basis-Appointment" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-Appointment" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) must be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 55;
+       fhir:index 57;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1053,9 +1085,24 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/no-basis-AppointmentResponse" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-AppointmentResponse" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 56;
+       fhir:index 58;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Encounter>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/no-basis-Encounter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-Encounter" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Basisprofil for Norwegian Location information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where more specific encounter information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 59;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1069,7 +1116,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Basis profile for a procedure, to be used in Norway. The profile is adapted to include norwegian specific features and constraints." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 57;
+       fhir:index 60;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1083,7 +1130,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "In Norway primary care uses ICPC-2 to document contact-reason, health related problem and diagnosis." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 58;
+       fhir:index 61;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1117,6 +1164,11 @@
          fhir:index 2;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "Datatypes.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Datatypes" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 3;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "introWorkflow.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Intro Workflow" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ]
      ];

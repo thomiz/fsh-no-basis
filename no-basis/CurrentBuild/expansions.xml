@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ef4e72cf-06ea-4b5d-9084-60cfbfd6f9f4"/>
+  <id value="8bba44a2-e38d-4003-8d5d-0aff50d56200"/>
   <meta>
-    <lastUpdated value="2021-11-18T12:27:31.437+00:00"/>
+    <lastUpdated value="2021-11-24T13:32:15.897+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -26,7 +26,7 @@
                   <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html">Endpoint Connection Type v0.1.0 (CodeSystem)</a>
                 </li>
                 <li>
-                  <a href="CodeSystem-no-basis-connection-type.codesystem.html">no-basis-connection-type.codesystem v2.1.1 (CodeSystem)</a>
+                  <a href="CodeSystem-no-basis-connection-type.codesystem.html">no-basis-connection-type.codesystem v2.2.0 (CodeSystem)</a>
                 </li>
               </ul>
             </div>
@@ -193,7 +193,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/no-basis-connection-type"/>
-        <version value="2.1.1"/>
+        <version value="2.2.0"/>
         <name value="NoBasisConnectionType"/>
         <title value="no-basis-connection-type.valueset"/>
         <status value="active"/>
@@ -210,8 +210,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9eb50f1e-3ef1-4a8e-829c-3e66c086d87a"/>
-          <timestamp value="2021-11-18T12:28:00+00:00"/>
+          <identifier value="urn:uuid:20095710-eddc-4bbc-a064-6907e9569db0"/>
+          <timestamp value="2021-11-24T13:32:48+00:00"/>
           <total value="16"/>
           <parameter>
             <name value="excludeNested"/>
@@ -219,7 +219,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-connection-type|2.1.1"/>
+            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-connection-type|2.2.0"/>
           </parameter>
           <parameter>
             <name value="version"/>
@@ -323,7 +323,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-no-basis-family-relation.codesystem.html">no-basis-family-relation.codesystem v2.1.1 (CodeSystem)</a>
+              <a href="CodeSystem-no-basis-family-relation.codesystem.html">no-basis-family-relation.codesystem v2.2.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-no-basis-family-relation.codesystem.html">
@@ -402,7 +402,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/no-basis-family-relation"/>
-        <version value="2.1.1"/>
+        <version value="2.2.0"/>
         <name value="NoBasisFamilyRelation"/>
         <title value="no-basis-family-relation.valueset"/>
         <status value="active"/>
@@ -419,8 +419,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:a36c6ef3-df44-410a-b66e-c606daa68045"/>
-          <timestamp value="2021-11-18T12:28:01+00:00"/>
+          <identifier value="urn:uuid:85fa2f51-d64f-4c68-a42f-86f40d7e7257"/>
+          <timestamp value="2021-11-24T13:32:49+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -428,7 +428,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation|2.1.1"/>
+            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation|2.2.0"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation"/>
@@ -479,7 +479,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 10 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-no-basis-marital-status.codesystem.html">no-basis-marital-status.codesystem v2.1.1 (CodeSystem)</a>
+              <a href="CodeSystem-no-basis-marital-status.codesystem.html">no-basis-marital-status.codesystem v2.2.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-no-basis-marital-status.codesystem.html">
@@ -582,7 +582,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/no-basis-marital-status"/>
-        <version value="2.1.1"/>
+        <version value="2.2.0"/>
         <name value="NoBasisMaritalStatus"/>
         <title value="no-basis-marital-status.valueset"/>
         <status value="active"/>
@@ -599,8 +599,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:121dd3b4-7405-4e76-a86e-50e0744d8eb0"/>
-          <timestamp value="2021-11-18T12:28:01+00:00"/>
+          <identifier value="urn:uuid:0e08fc5a-c0dc-4403-95b2-9d9b335cbcb7"/>
+          <timestamp value="2021-11-24T13:32:49+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -608,7 +608,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status|2.1.1"/>
+            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status|2.2.0"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status"/>
@@ -678,7 +678,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 6 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html">no-basis-parental-responsibility.codesystem v2.1.1 (CodeSystem)</a>
+              <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html">no-basis-parental-responsibility.codesystem v2.2.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html">
@@ -749,7 +749,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility"/>
-        <version value="2.1.1"/>
+        <version value="2.2.0"/>
         <name value="NoBasisParentalResponsibility"/>
         <title value="no-basis-parental-responsibility.valueset"/>
         <status value="active"/>
@@ -766,8 +766,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:3e39cab6-0aec-44c7-a581-08bba36d1a61"/>
-          <timestamp value="2021-11-18T12:28:01+00:00"/>
+          <identifier value="urn:uuid:6f319f6b-abb9-496f-80d0-daf015367ed2"/>
+          <timestamp value="2021-11-24T13:32:49+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -775,7 +775,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility|2.1.1"/>
+            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility|2.2.0"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility"/>
