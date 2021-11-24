@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="no-basis-encounter" />
-  <url value="http://hl7.no/fhir/structuredefinition/no-basis-encounter" />
+  <id value="no-basis-Encounter" />
+  <url value="http://hl7.no/fhir/structuredefinition/no-basis-Encounter" />
   <name value="NoBasisEncounter" />
   <title value="no-basis-Encounter" />
   <status value="draft" />
