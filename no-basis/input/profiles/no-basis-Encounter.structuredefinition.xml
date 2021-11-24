@@ -18,6 +18,7 @@
       <binding>
         <strength value="extensible"/>
         <valueSet value="http://hl7.no/fhir/ValueSet/no-basis-Encounter"/>
+      </binding>
     </element>
     <element id="Encounter.priority">
       <path value="Encounter.priority" />
