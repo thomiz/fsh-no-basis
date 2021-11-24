@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="no-basis-appointment" />
-  <url value="http://hl7.no/fhir/structuredefinition/no-basis-appointment" />
+  <url value="http://hl7.no/fhir/structuredefinition/no-basis-Appointment" />
   <name value="NoBasisAppointment" />
   <title value="no-basis-appointment" />
   <status value="draft" />
