@@ -26,20 +26,16 @@
     <element id="Encounter.class.coding:omsorgsNiva">
       <path value="Encounter.class.coding" />
       <sliceName value="omsorgsNiva" />
-      <binding>
-        <strength value="extensible" />
-        <description value="Volven 8406 - omsorgsniva" />
-        <valueSet value="urn:oid:2.16.578.1.12.4.1.1.8406" />
-      </binding>
+      <patternCoding>
+        <system value="urn:oid:2.16.578.1.12.4.1.1.8406" />
+      </patternCoding>
     </element>
     <element id="Encounter.class.coding:kontaktType">
       <path value="Encounter.class.coding" />
       <sliceName value="kontaktType" />
-      <binding>
-        <strength value="extensible" />
-        <description value="Volven" />
-        <valueSet value="urn:oid:2.16.578.1.12.4.1.1.8432" />
-      </binding>
+      <patternCoding>
+        <system value="urn:oid:2.16.578.1.12.4.1.1.8432" />
+      </patternCoding>
     </element>
     <element id="Encounter.priority">
       <path value="Encounter.priority" />
