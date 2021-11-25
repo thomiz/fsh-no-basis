@@ -1,4 +1,7 @@
-## Short on relationship between no-basis Appointment and no-basis-Encounter
+## Short on relationship between no-basis Appointment and no-basis-Encounter  
+
+![workflow](no-basis-Workflow-Management.png)
+
 <p>Appointment and Encounter have dependencies as they both describe different aspects of the administrative relationship between patient and health care organizations.</p>
 <p>Appointment (no:timeavtale; npr:planlagt episode) – describes a planned meeting between a patient and healthcare personell.</p> 
 <p>Encounter (no: kontakt, besøk, opphold, innleggelse, omsorgsepisode, poliklinisk konsultasjon etc) is defined as: “An interaction between
