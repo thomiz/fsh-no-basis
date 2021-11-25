@@ -13,7 +13,7 @@
   <name value="NoBasisPartOf"/>
   <title value="no-basis-partof"/>
   <status value="draft"/>
-  <date value="2021-11-25T06:07:33+00:00"/>
+  <date value="2021-11-25T07:05:56+00:00"/>
   <description value="This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked."/>
   <jurisdiction>
     <coding>

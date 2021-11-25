@@ -22,7 +22,7 @@
   <name value="NoBasisAppointment"/>
   <title value="no-basis-Appointment"/>
   <status value="draft"/>
-  <date value="2021-11-25T06:07:33+00:00"/>
+  <date value="2021-11-25T07:05:56+00:00"/>
   <description value="Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) must be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."/>
   <jurisdiction>
     <coding>

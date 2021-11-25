@@ -10,7 +10,7 @@
   "name": "NoBasisPostponementReason",
   "title": "no-basis-postponementreason",
   "status": "draft",
-  "date": "2021-11-25T06:07:33+00:00",
+  "date": "2021-11-25T07:05:56+00:00",
   "description": "The basis extension defines the reason for a postponement for example of an appointment or an encounter.",
   "jurisdiction": [
     {

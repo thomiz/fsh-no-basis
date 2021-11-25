@@ -445,12 +445,6 @@
         "url": "http://hl7.no/fhir/structuredefinition/no-basis-Appointment",
         "title": "no-basis-Appointment"
       }
-    ],
-    "Encounter": [
-      {
-        "url": "http://hl7.no/fhir/structuredefinition/no-basis-Encounter",
-        "title": "no-basis-Encounter"
-      }
     ]
   },
   "usage": {

@@ -9,7 +9,7 @@
   "version": "2.2.0",
   "name": "NoBasis",
   "status": "active",
-  "date": "2021-11-25T06:07:33+00:00",
+  "date": "2021-11-25T07:05:56+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -1089,20 +1089,6 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/no-basis-Encounter"
-        },
-        "name": "no-basis-Encounter",
-        "description": "Basisprofil for Norwegian Location information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where more specific encounter information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/no-basis-Procedure"
         },
         "name": "no-basis-Procedure",
@@ -1155,11 +1141,6 @@
         {
           "nameUrl": "Datatypes.html",
           "title": "Datatypes",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "introWorkflow.html",
-          "title": "Intro Workflow",
           "generation": "markdown"
         }
       ]

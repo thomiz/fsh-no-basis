@@ -343,13 +343,6 @@
     "name": "NoBasisAppointment"
   },
   {
-    "id": "no-basis-Encounter",
-    "type": "StructureDefinition",
-    "url": "http://hl7.no/fhir/structuredefinition/no-basis-Encounter",
-    "version": "2.2.0",
-    "name": "NoBasisEncounter"
-  },
-  {
     "id": "no-basis-conferencetype",
     "type": "StructureDefinition",
     "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/conferencetype",

@@ -9,7 +9,7 @@
   <version value="2.2.0"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2021-11-25T06:07:33+00:00"/>
+  <date value="2021-11-25T07:05:56+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -808,17 +808,6 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/no-basis-Encounter"/>
-      </reference>
-      <name value="no-basis-Encounter"/>
-      <description value="Basisprofil for Norwegian Location information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where more specific encounter information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/no-basis-Procedure"/>
       </reference>
       <name value="no-basis-Procedure"/>
@@ -863,11 +852,6 @@
       <page>
         <nameUrl value="Datatypes.html"/>
         <title value="Datatypes"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <nameUrl value="introWorkflow.html"/>
-        <title value="Intro Workflow"/>
         <generation value="markdown"/>
       </page>
     </page>
