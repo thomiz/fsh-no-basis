@@ -302,35 +302,35 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/conferencetype",
-      "title": "NoBasisConferenceType",
-      "types": [
-        "code"
-      ]
-    },
-    {
-      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/group",
+      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-group",
       "title": "no-basis-group",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/partof",
+      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-partof",
       "title": "no-basis-partof",
       "types": [
         "Reference"
       ]
     },
     {
-      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/shortnotice",
+      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/no-basis-shortnotice",
       "title": "no-basis-shortnotice",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "https://example.org/fhir/structuredefinition/postponementreason",
+      "url": "http://hl7.no/fhir/structuredefinition/no-basis-conferencetype",
+      "title": "NoBasisConferenceType",
+      "types": [
+        "code"
+      ]
+    },
+    {
+      "url": "https://example.org/fhir/structuredefinition/no-basis-postponementreason",
       "title": "no-basis-postponementreason",
       "types": [
         "code"
@@ -342,6 +342,12 @@
       {
         "url": "http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance",
         "title": "no-basis-AllergyIntolerance"
+      }
+    ],
+    "Appointment": [
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment",
+        "title": "no-basis-Appointment"
       }
     ],
     "AppointmentResponse": [
@@ -439,12 +445,6 @@
         "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Substance",
         "title": "no-basis-Substance"
       }
-    ],
-    "Appointment": [
-      {
-        "url": "http://hl7.no/fhir/structuredefinition/no-basis-Appointment",
-        "title": "no-basis-Appointment"
-      }
     ]
   },
   "usage": {
@@ -483,17 +483,17 @@
     "http://hl7.no/fhir/StructureDefinition/no-basis-urban-district": [
       "Address"
     ],
-    "http://hl7.no/fhir/structuredefinition/no-basis-appointment/conferencetype": [
+    "http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-group": [
       "Appointment"
     ],
-    "http://hl7.no/fhir/structuredefinition/no-basis-appointment/group": [
+    "http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-partof": [
       "Appointment"
     ],
-    "http://hl7.no/fhir/structuredefinition/no-basis-appointment/partof": [
-      "Appointment"
-    ],
-    "http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/shortnotice": [
+    "http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/no-basis-shortnotice": [
       "AppointmentResponse"
+    ],
+    "http://hl7.no/fhir/structuredefinition/no-basis-conferencetype": [
+      "Appointment"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
@@ -547,7 +547,7 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "https://example.org/fhir/structuredefinition/postponementreason": [
+    "https://example.org/fhir/structuredefinition/no-basis-postponementreason": [
       "Appointment"
     ]
   }

@@ -119,6 +119,13 @@
     "name": "NoBasisAllergyIntolerance"
   },
   {
+    "id": "no-basis-Appointment",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment",
+    "version": "2.2.0",
+    "name": "NoBasisAppointment"
+  },
+  {
     "id": "no-basis-AppointmentResponse",
     "type": "StructureDefinition",
     "url": "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse",
@@ -336,44 +343,37 @@
     "name": "NoBasisServiceType"
   },
   {
-    "id": "no-basis-Appointment",
-    "type": "StructureDefinition",
-    "url": "http://hl7.no/fhir/structuredefinition/no-basis-Appointment",
-    "version": "2.2.0",
-    "name": "NoBasisAppointment"
-  },
-  {
-    "id": "no-basis-conferencetype",
-    "type": "StructureDefinition",
-    "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/conferencetype",
-    "version": "2.2.0",
-    "name": "NoBasisConferenceType"
-  },
-  {
     "id": "no-basis-group",
     "type": "StructureDefinition",
-    "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/group",
+    "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-group",
     "version": "2.2.0",
     "name": "NoBasisGroup"
   },
   {
     "id": "no-basis-partof",
     "type": "StructureDefinition",
-    "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/partof",
+    "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-partof",
     "version": "2.2.0",
     "name": "NoBasisPartOf"
   },
   {
     "id": "no-basis-shortnotice",
     "type": "StructureDefinition",
-    "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/shortnotice",
+    "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/no-basis-shortnotice",
     "version": "2.2.0",
     "name": "NoBasisShortNotice"
   },
   {
+    "id": "no-basis-conferencetype",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/structuredefinition/no-basis-conferencetype",
+    "version": "2.2.0",
+    "name": "NoBasisConferenceType"
+  },
+  {
     "id": "no-basis-postponementreason",
     "type": "StructureDefinition",
-    "url": "https://example.org/fhir/structuredefinition/postponementreason",
+    "url": "https://example.org/fhir/structuredefinition/no-basis-postponementreason",
     "version": "2.2.0",
     "name": "NoBasisPostponementReason"
   }
