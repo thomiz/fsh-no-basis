@@ -9,7 +9,7 @@
   "version": "2.2.0",
   "name": "NoBasis",
   "status": "active",
-  "date": "2021-11-25T08:52:25+00:00",
+  "date": "2021-11-25T21:16:57+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -1131,6 +1131,11 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "Appointment-and-Encounter.html",
+          "title": "Appointment and Encounter",
           "generation": "markdown"
         },
         {

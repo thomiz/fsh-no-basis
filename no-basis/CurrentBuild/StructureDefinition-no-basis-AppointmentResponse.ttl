@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "NoBasisAppointmentResponse"];
   fhir:StructureDefinition.title [ fhir:value "no-basis-AppointmentResponse"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2021-11-25T08:52:25+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-11-25T21:16:57+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;
