@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "NoBasisComposition"];
   fhir:StructureDefinition.title [ fhir:value "no-basis-Composition"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-11-24T13:32:15+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-11-25T06:07:33+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Basisprofil for Norwegian Composition. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to the relevant use-case.\n\nThe profile sets the absolute minimum requirements, identifies the extensions and terminology which can be present."];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;

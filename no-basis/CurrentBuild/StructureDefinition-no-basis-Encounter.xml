@@ -13,7 +13,7 @@
   <name value="NoBasisEncounter"/>
   <title value="no-basis-Encounter"/>
   <status value="draft"/>
-  <date value="2021-11-24T13:32:15+00:00"/>
+  <date value="2021-11-25T06:07:33+00:00"/>
   <description value="Basisprofil for Norwegian Location information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where more specific encounter information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."/>
   <jurisdiction>
     <coding>

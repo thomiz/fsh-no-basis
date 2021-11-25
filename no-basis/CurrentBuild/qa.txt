@@ -3,7 +3,7 @@
 
 err = 23, warn = 103, info = 16
 IG Publisher Version: 1.1.89
-Generated Wed Nov 24 13:33:13 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.0 (canonical = http://hl7.no/fhir)
+Generated Thu Nov 25 06:08:33 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.0 (canonical = http://hl7.no/fhir)
  Build Errors : 523 / 9 / 0
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 1 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 1 / 0 / 2
@@ -600,7 +600,7 @@ ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-service-type.valueset
 ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-service-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 312, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/artifacts.html#/html/body/div/div/div/p/a at Line 890, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/index.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/introWorkflow.html#/html/body/div/div/div/p/a at Line 237, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/introWorkflow.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/toc.html#/html/body/div/div/div/p/a at Line 205, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem.json ==
 ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-connection-type.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-connection-type
