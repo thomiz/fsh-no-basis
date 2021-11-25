@@ -21,7 +21,6 @@ menu:
   Home: index.html
   Guidance:
      Data types: Datatypes.html
-     Appointment and Encounter: introWorkflow.html
   Artifacts: 
     Search Parameters: artifacts.html#1
     Profiles: artifacts.html#2
