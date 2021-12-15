@@ -32,12 +32,12 @@ Description: "Base profile for Norwegian Appointment information. Defined by HL7
 * participant ^slicing.discriminator.path = "resolve().actor"
 * participant ^slicing.rules = #open
 * participant contains
-    helsepersonell 0..* and
-    pasient 0..* and
-    sted 0..1
-* participant[helsepersonell] ^short = "Appointments should contain information regarding the pracitioner involved. The Appointment.actor should contain a Practitioner or PractitionerRole reference"
-* participant[helsepersonell].actor only Reference(Practitioner or PractitionerRole)
-* participant[pasient] ^short = "Appointments should contain information regarding the patient involved. The Appointment.actor should contain  a Patient reference"
-* participant[pasient].actor only Reference(Patient)
-* participant[sted] ^short = "Appointments should contain information regarding where the appointment is executed. The Appointment.actor should contain a Location or HealthcareService reference"
-* participant[sted].actor only Reference(Location or HealthcareService)
+    practitioner 0..* and
+    patient 0..* and
+    location 0..1
+* participant[practitioner] ^short = "Appointments should contain information regarding the pracitioner involved. The Appointment.actor should contain a Practitioner or PractitionerRole reference"
+* participant[practitioner].actor only Reference(Practitioner or PractitionerRole)
+* participant[patient] ^short = "Appointments should contain information regarding the patient involved. The Appointment.actor should contain  a Patient reference"
+* participant[patient].actor only Reference(Patient)
+* participant[location] ^short = "Appointments should contain information regarding where the appointment is executed. The Appointment.actor should contain a Location or HealthcareService reference"
+* participant[location].actor only Reference(Location or HealthcareService)
