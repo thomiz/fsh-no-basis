@@ -35,7 +35,9 @@ Description: "Base profile for Norwegian Appointment information. Defined by HL7
     helsepersonell 0..* and
     pasient 0..* and
     sted 0..1
-* participant[helsepersonell] ^short = "Appointments should contain Practitioner og PractitionerRole reference"
+* participant[helsepersonell] ^short = "Appointments should contain information regarding the pracitioner involved. The Appointment.actor should contain a Practitioner or PractitionerRole reference"
 * participant[helsepersonell].actor only Reference(Practitioner or PractitionerRole)
+* participant[pasient] ^short = "Appointments should contain information regarding the patient involved. The Appointment.actor should contain  a Patient reference"
 * participant[pasient].actor only Reference(Patient)
+* participant[sted] ^short = "Appointments should contain information regarding where the appointment is executed. The Appointment.actor should contain a Location or HealthcareService reference"
 * participant[sted].actor only Reference(Location or HealthcareService)
