@@ -35,6 +35,6 @@ Description: "Base profile for Norwegian Appointment information. Defined by HL7
     helsepersonell 0..* and
     pasient 0..* and
     sted 0..1
-* participant.actor[helsepersonell] 
-* participant.actor[pasient]
-* participant.actor[sted]
+* participant.actor[helsepersonell] only Reference (Practitioner or PractitionerRole)
+* participant.actor[pasient] only Reference (Patient)
+* participant.actor[sted] only Reference (Location or HealthcareService)
