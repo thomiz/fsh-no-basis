@@ -28,13 +28,14 @@ Description: "Base profile for Norwegian Appointment information. Defined by HL7
 * appointmentType.coding[innbygger] ^definition = "Volven 7617"
 * appointmentType.coding[innbygger] ^mustSupport = false
 * appointmentType.coding[innbygger] ^binding.description = "Volven"
-* participant.actor ^slicing.discriminator.type = #type
-* participant.actor ^slicing.discriminator.path = "resolve()"
-* participant.actor ^slicing.rules = #open
-* participant.actor contains
+* participant ^slicing.discriminator.type = #type
+* participant ^slicing.discriminator.path = "resolve().actor"
+* participant ^slicing.rules = #open
+* participant contains
     helsepersonell 0..* and
     pasient 0..* and
     sted 0..1
-* participant.actor[helsepersonell] only Reference (Practitioner or PractitionerRole)
-* participant.actor[pasient] only Reference (Patient)
-* participant.actor[sted] only Reference (Location or HealthcareService)
+* participant[helsepersonell] ^short = "Appointments should contain Practitioner og PractitionerRole reference"
+* participant[helsepersonell].actor only Reference(Practitioner or PractitionerRole)
+* participant[pasient].actor only Reference(Patient)
+* participant[sted].actor only Reference(Location or HealthcareService)
