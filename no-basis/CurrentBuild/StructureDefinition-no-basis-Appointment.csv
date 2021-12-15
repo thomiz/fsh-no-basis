@@ -146,7 +146,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Appointment.participant.period","","","",0,1,"","","","Period {[]} {[]}
 ","Participation period of the actor","Participation period of the actor.","","","","","","","","","",,,,,"",,,,"Appointment.participant.period",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","n/a"
-"Appointment.participant","helsepersonell","","",0,*,"","","","BackboneElement {[]} {[]}
+"Appointment.participant","practitioner","","",0,*,"","","","BackboneElement {[]} {[]}
 ","Appointments should contain information regarding the pracitioner involved. The Appointment.actor should contain a Practitioner or PractitionerRole reference","List of participants involved in the appointment.","","","","","","","","","",,,,,"",,,,"Appointment.participant",1,*,"","app-1:Either the type or actor on the participant SHALL be specified {type.exists() or actor.exists()}
 ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}","Request.performer, Request.subject","performer | reusableDevice | subject | location","ATTENDEE component to be created","PID, AIP, AIG, AIL"
 "Appointment.participant.id","","","",0,1,"","","","string {[]} {[]}
@@ -176,7 +176,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Appointment.participant.period","","","",0,1,"","","","Period {[]} {[]}
 ","Participation period of the actor","Participation period of the actor.","","","","","","","","","",,,,,"",,,,"Appointment.participant.period",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","n/a"
-"Appointment.participant","pasient","","",0,*,"","","","BackboneElement {[]} {[]}
+"Appointment.participant","patient","","",0,*,"","","","BackboneElement {[]} {[]}
 ","Appointments should contain information regarding the patient involved. The Appointment.actor should contain  a Patient reference","List of participants involved in the appointment.","","","","","","","","","",,,,,"",,,,"Appointment.participant",1,*,"","app-1:Either the type or actor on the participant SHALL be specified {type.exists() or actor.exists()}
 ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}","Request.performer, Request.subject","performer | reusableDevice | subject | location","ATTENDEE component to be created","PID, AIP, AIG, AIL"
 "Appointment.participant.id","","","",0,1,"","","","string {[]} {[]}
@@ -206,7 +206,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Appointment.participant.period","","","",0,1,"","","","Period {[]} {[]}
 ","Participation period of the actor","Participation period of the actor.","","","","","","","","","",,,,,"",,,,"Appointment.participant.period",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","n/a"
-"Appointment.participant","sted","","",0,1,"","","","BackboneElement {[]} {[]}
+"Appointment.participant","location","","",0,1,"","","","BackboneElement {[]} {[]}
 ","Appointments should contain information regarding where the appointment is executed. The Appointment.actor should contain a Location or HealthcareService reference","List of participants involved in the appointment.","","","","","","","","","",,,,,"",,,,"Appointment.participant",1,*,"","app-1:Either the type or actor on the participant SHALL be specified {type.exists() or actor.exists()}
 ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}","Request.performer, Request.subject","performer | reusableDevice | subject | location","ATTENDEE component to be created","PID, AIP, AIG, AIL"
 "Appointment.participant.id","","","",0,1,"","","","string {[]} {[]}

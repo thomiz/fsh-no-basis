@@ -11,12 +11,12 @@
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1034.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.appointmentType.coding:kontaktType" title="Slice kontaktType: Volven 8432">coding:kontaktType</a><a name="Appointment.appointmentType.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Volven 8432<br/><span style="font-weight:bold">Binding: </span><a href="urn:oid:2.16.578.1.12.4.1.1.8432">urn:oid:2.16.578.1.12.4.1.1.8432</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>): Volven<br/><br/></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1024.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.appointmentType.coding:innbygger" title="Slice innbygger: Volven 7617">coding:innbygger</a><a name="Appointment.appointmentType.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Volven 7617<br/><span style="font-weight:bold">Binding: </span><a href="urn:oid:2.16.578.1.12.4.1.1.7617">urn:oid:2.16.578.1.12.4.1.1.7617</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>): Volven<br/><br/></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck03.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Definition" class="hierarchy"/> <a style="font-style: italic" href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.participant">Slices for participant</a><a name="Appointment.participant"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="font-style: italic"/><span style="opacity: 0.5; font-style: italic">1</span><span style="opacity: 0.5; font-style: italic">..</span><span style="opacity: 0.5; font-style: italic">*</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; font-style: italic" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5; font-style: italic">Participants involved in appointment</span><br style="font-style: italic"/><span style="font-weight:bold; font-style: italic">Slice: </span><span style="font-style: italic">Unordered, Open by type:resolve().actor</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck035.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.participant:helsepersonell" title="Slice helsepersonell">participant:helsepersonell</a><a name="Appointment.participant"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Appointments should contain information regarding the pracitioner involved. The Appointment.actor should contain a Practitioner or PractitionerRole reference<br/></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0340.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.participant:helsepersonell.actor">actor</a><a name="Appointment.participant.actor"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a> | <a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Person, Location/HealthcareService or Device</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck035.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.participant:pasient" title="Slice pasient">participant:pasient</a><a name="Appointment.participant"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Appointments should contain information regarding the patient involved. The Appointment.actor should contain  a Patient reference<br/></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0340.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.participant:pasient.actor">actor</a><a name="Appointment.participant.actor"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/patient.html">Patient</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Person, Location/HealthcareService or Device</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck025.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.participant:sted" title="Slice sted">participant:sted</a><a name="Appointment.participant"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Appointments should contain information regarding where the appointment is executed. The Appointment.actor should contain a Location or HealthcareService reference</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0240.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.participant:sted.actor">actor</a><a name="Appointment.participant.actor"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/location.html">Location</a> | <a href="http://hl7.org/fhir/R4/healthcareservice.html">HealthcareService</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Person, Location/HealthcareService or Device</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck035.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.participant:practitioner" title="Slice practitioner">participant:practitioner</a><a name="Appointment.participant"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Appointments should contain information regarding the pracitioner involved. The Appointment.actor should contain a Practitioner or PractitionerRole reference<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0340.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.participant:practitioner.actor">actor</a><a name="Appointment.participant.actor"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a> | <a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Person, Location/HealthcareService or Device</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck035.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.participant:patient" title="Slice patient">participant:patient</a><a name="Appointment.participant"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Appointments should contain information regarding the patient involved. The Appointment.actor should contain  a Patient reference<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0340.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.participant:patient.actor">actor</a><a name="Appointment.participant.actor"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/patient.html">Patient</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Person, Location/HealthcareService or Device</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck025.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.participant:location" title="Slice location">participant:location</a><a name="Appointment.participant"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Appointments should contain information regarding where the appointment is executed. The Appointment.actor should contain a Location or HealthcareService reference</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0240.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-no-basis-Appointment-definitions.html#Appointment.participant:location.actor">actor</a><a name="Appointment.participant.actor"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/location.html">Location</a> | <a href="http://hl7.org/fhir/R4/healthcareservice.html">HealthcareService</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Person, Location/HealthcareService or Device</span></td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-category">
@@ -30,7 +30,7 @@
   <name value="NoBasisAppointment"/>
   <title value="no-basis-Appointment"/>
   <status value="draft"/>
-  <date value="2021-12-15T12:39:33+00:00"/>
+  <date value="2021-12-15T13:42:09+00:00"/>
   <description value="Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) must be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."/>
   <jurisdiction>
     <coding>
@@ -1914,9 +1914,9 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:helsepersonell">
+    <element id="Appointment.participant:practitioner">
       <path value="Appointment.participant"/>
-      <sliceName value="helsepersonell"/>
+      <sliceName value="practitioner"/>
       <short value="Appointments should contain information regarding the pracitioner involved. The Appointment.actor should contain a Practitioner or PractitionerRole reference"/>
       <definition value="List of participants involved in the appointment."/>
       <min value="0"/>
@@ -1964,7 +1964,7 @@
         <map value="ATTENDEE component to be created"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:helsepersonell.id">
+    <element id="Appointment.participant:practitioner.id">
       <path value="Appointment.participant.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -1989,7 +1989,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:helsepersonell.extension">
+    <element id="Appointment.participant:practitioner.extension">
       <path value="Appointment.participant.extension"/>
       <short value="Additional content defined by implementations"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
@@ -2029,7 +2029,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:helsepersonell.modifierExtension">
+    <element id="Appointment.participant:practitioner.modifierExtension">
       <path value="Appointment.participant.modifierExtension"/>
       <short value="Extensions that cannot be ignored even if unrecognized"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element&#39;s descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
@@ -2072,7 +2072,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:helsepersonell.type">
+    <element id="Appointment.participant:practitioner.type">
       <path value="Appointment.participant.type"/>
       <short value="Role of participant in the appointment"/>
       <definition value="Role of participant in the appointment."/>
@@ -2118,7 +2118,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:helsepersonell.actor">
+    <element id="Appointment.participant:practitioner.actor">
       <path value="Appointment.participant.actor"/>
       <short value="Person, Location/HealthcareService or Device"/>
       <definition value="A Person, Location/HealthcareService or Device that is participating in the appointment."/>
@@ -2161,7 +2161,7 @@
         <map value="ATTENDEE: (Need to provide the common name CN and also the MAILTO properties from the practitioner resource) where the participant type is not &quot;information-only&quot;"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:helsepersonell.required">
+    <element id="Appointment.participant:practitioner.required">
       <path value="Appointment.participant.required"/>
       <short value="required | optional | information-only"/>
       <definition value="Whether this participant is required to be present at the meeting. This covers a use-case where two doctors need to meet to discuss the results for a specific patient, and the patient is not required to be present."/>
@@ -2202,7 +2202,7 @@
         <map value="ROLE=REQ-PARTICIPANT (roleparam)"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:helsepersonell.status">
+    <element id="Appointment.participant:practitioner.status">
       <path value="Appointment.participant.status"/>
       <short value="accepted | declined | tentative | needs-action"/>
       <definition value="Participation status of the actor."/>
@@ -2247,7 +2247,7 @@
         <map value="ATTENDEE;CN=&quot;John Doe&quot;;RSVP=TRUE:mailto:john@doe.com (rsvpparam | partstatparam)"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:helsepersonell.period">
+    <element id="Appointment.participant:practitioner.period">
       <path value="Appointment.participant.period"/>
       <short value="Participation period of the actor"/>
       <definition value="Participation period of the actor."/>
@@ -2276,9 +2276,9 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:pasient">
+    <element id="Appointment.participant:patient">
       <path value="Appointment.participant"/>
-      <sliceName value="pasient"/>
+      <sliceName value="patient"/>
       <short value="Appointments should contain information regarding the patient involved. The Appointment.actor should contain  a Patient reference"/>
       <definition value="List of participants involved in the appointment."/>
       <min value="0"/>
@@ -2326,7 +2326,7 @@
         <map value="ATTENDEE component to be created"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:pasient.id">
+    <element id="Appointment.participant:patient.id">
       <path value="Appointment.participant.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -2351,7 +2351,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:pasient.extension">
+    <element id="Appointment.participant:patient.extension">
       <path value="Appointment.participant.extension"/>
       <short value="Additional content defined by implementations"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
@@ -2391,7 +2391,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:pasient.modifierExtension">
+    <element id="Appointment.participant:patient.modifierExtension">
       <path value="Appointment.participant.modifierExtension"/>
       <short value="Extensions that cannot be ignored even if unrecognized"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element&#39;s descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
@@ -2434,7 +2434,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:pasient.type">
+    <element id="Appointment.participant:patient.type">
       <path value="Appointment.participant.type"/>
       <short value="Role of participant in the appointment"/>
       <definition value="Role of participant in the appointment."/>
@@ -2480,7 +2480,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:pasient.actor">
+    <element id="Appointment.participant:patient.actor">
       <path value="Appointment.participant.actor"/>
       <short value="Person, Location/HealthcareService or Device"/>
       <definition value="A Person, Location/HealthcareService or Device that is participating in the appointment."/>
@@ -2522,7 +2522,7 @@
         <map value="ATTENDEE: (Need to provide the common name CN and also the MAILTO properties from the practitioner resource) where the participant type is not &quot;information-only&quot;"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:pasient.required">
+    <element id="Appointment.participant:patient.required">
       <path value="Appointment.participant.required"/>
       <short value="required | optional | information-only"/>
       <definition value="Whether this participant is required to be present at the meeting. This covers a use-case where two doctors need to meet to discuss the results for a specific patient, and the patient is not required to be present."/>
@@ -2563,7 +2563,7 @@
         <map value="ROLE=REQ-PARTICIPANT (roleparam)"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:pasient.status">
+    <element id="Appointment.participant:patient.status">
       <path value="Appointment.participant.status"/>
       <short value="accepted | declined | tentative | needs-action"/>
       <definition value="Participation status of the actor."/>
@@ -2608,7 +2608,7 @@
         <map value="ATTENDEE;CN=&quot;John Doe&quot;;RSVP=TRUE:mailto:john@doe.com (rsvpparam | partstatparam)"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:pasient.period">
+    <element id="Appointment.participant:patient.period">
       <path value="Appointment.participant.period"/>
       <short value="Participation period of the actor"/>
       <definition value="Participation period of the actor."/>
@@ -2637,9 +2637,9 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:sted">
+    <element id="Appointment.participant:location">
       <path value="Appointment.participant"/>
-      <sliceName value="sted"/>
+      <sliceName value="location"/>
       <short value="Appointments should contain information regarding where the appointment is executed. The Appointment.actor should contain a Location or HealthcareService reference"/>
       <definition value="List of participants involved in the appointment."/>
       <min value="0"/>
@@ -2687,7 +2687,7 @@
         <map value="ATTENDEE component to be created"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:sted.id">
+    <element id="Appointment.participant:location.id">
       <path value="Appointment.participant.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -2712,7 +2712,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:sted.extension">
+    <element id="Appointment.participant:location.extension">
       <path value="Appointment.participant.extension"/>
       <short value="Additional content defined by implementations"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
@@ -2752,7 +2752,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:sted.modifierExtension">
+    <element id="Appointment.participant:location.modifierExtension">
       <path value="Appointment.participant.modifierExtension"/>
       <short value="Extensions that cannot be ignored even if unrecognized"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element&#39;s descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
@@ -2795,7 +2795,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:sted.type">
+    <element id="Appointment.participant:location.type">
       <path value="Appointment.participant.type"/>
       <short value="Role of participant in the appointment"/>
       <definition value="Role of participant in the appointment."/>
@@ -2841,7 +2841,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:sted.actor">
+    <element id="Appointment.participant:location.actor">
       <path value="Appointment.participant.actor"/>
       <short value="Person, Location/HealthcareService or Device"/>
       <definition value="A Person, Location/HealthcareService or Device that is participating in the appointment."/>
@@ -2884,7 +2884,7 @@
         <map value="ATTENDEE: (Need to provide the common name CN and also the MAILTO properties from the practitioner resource) where the participant type is not &quot;information-only&quot;"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:sted.required">
+    <element id="Appointment.participant:location.required">
       <path value="Appointment.participant.required"/>
       <short value="required | optional | information-only"/>
       <definition value="Whether this participant is required to be present at the meeting. This covers a use-case where two doctors need to meet to discuss the results for a specific patient, and the patient is not required to be present."/>
@@ -2925,7 +2925,7 @@
         <map value="ROLE=REQ-PARTICIPANT (roleparam)"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:sted.status">
+    <element id="Appointment.participant:location.status">
       <path value="Appointment.participant.status"/>
       <short value="accepted | declined | tentative | needs-action"/>
       <definition value="Participation status of the actor."/>
@@ -2970,7 +2970,7 @@
         <map value="ATTENDEE;CN=&quot;John Doe&quot;;RSVP=TRUE:mailto:john@doe.com (rsvpparam | partstatparam)"/>
       </mapping>
     </element>
-    <element id="Appointment.participant:sted.period">
+    <element id="Appointment.participant:location.period">
       <path value="Appointment.participant.period"/>
       <short value="Participation period of the actor"/>
       <definition value="Participation period of the actor."/>
@@ -3111,14 +3111,14 @@
         <rules value="open"/>
       </slicing>
     </element>
-    <element id="Appointment.participant:helsepersonell">
+    <element id="Appointment.participant:practitioner">
       <path value="Appointment.participant"/>
-      <sliceName value="helsepersonell"/>
+      <sliceName value="practitioner"/>
       <short value="Appointments should contain information regarding the pracitioner involved. The Appointment.actor should contain a Practitioner or PractitionerRole reference"/>
       <min value="0"/>
       <max value="*"/>
     </element>
-    <element id="Appointment.participant:helsepersonell.actor">
+    <element id="Appointment.participant:practitioner.actor">
       <path value="Appointment.participant.actor"/>
       <type>
         <code value="Reference"/>
@@ -3126,28 +3126,28 @@
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
       </type>
     </element>
-    <element id="Appointment.participant:pasient">
+    <element id="Appointment.participant:patient">
       <path value="Appointment.participant"/>
-      <sliceName value="pasient"/>
+      <sliceName value="patient"/>
       <short value="Appointments should contain information regarding the patient involved. The Appointment.actor should contain  a Patient reference"/>
       <min value="0"/>
       <max value="*"/>
     </element>
-    <element id="Appointment.participant:pasient.actor">
+    <element id="Appointment.participant:patient.actor">
       <path value="Appointment.participant.actor"/>
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
       </type>
     </element>
-    <element id="Appointment.participant:sted">
+    <element id="Appointment.participant:location">
       <path value="Appointment.participant"/>
-      <sliceName value="sted"/>
+      <sliceName value="location"/>
       <short value="Appointments should contain information regarding where the appointment is executed. The Appointment.actor should contain a Location or HealthcareService reference"/>
       <min value="0"/>
       <max value="1"/>
     </element>
-    <element id="Appointment.participant:sted.actor">
+    <element id="Appointment.participant:location.actor">
       <path value="Appointment.participant.actor"/>
       <type>
         <code value="Reference"/>

@@ -16,7 +16,7 @@
   fhir:StructureDefinition.version [ fhir:value "2.3.0"];
   fhir:StructureDefinition.name [ fhir:value "NoBasisConferenceType"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2021-12-15T12:39:33+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-12-15T13:42:09+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Norwegian valueset for conference type."];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;
