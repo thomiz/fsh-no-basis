@@ -16,7 +16,7 @@
     }
   ],
   "url": "http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "name": "NoBasisPractitionerRole",
   "title": "no-basis-PractitionerRole",
   "status": "active",

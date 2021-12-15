@@ -46,7 +46,7 @@ REST endpoints will have &quot;http://&quot; or &quot;https://&quot; prefix.">ad
     <valueCode value="business"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint"/>
-  <version value="2.2.0"/>
+  <version value="2.3.0"/>
   <name value="NoBasisEndpoint"/>
   <title value="no-basis-Endpoint"/>
   <status value="active"/>

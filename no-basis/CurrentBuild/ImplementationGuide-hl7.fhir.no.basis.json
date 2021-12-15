@@ -6,10 +6,10 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoBasis</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis</pre></div>"
   },
   "url": "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "name": "NoBasis",
   "status": "active",
-  "date": "2021-12-15T08:30:53+00:00",
+  "date": "2021-12-15T12:34:15+00:00",
   "jurisdiction": [
     {
       "coding": [

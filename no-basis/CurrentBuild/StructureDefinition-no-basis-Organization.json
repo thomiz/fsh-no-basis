@@ -20,7 +20,7 @@
     }
   ],
   "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Organization",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "name": "NoBasisOrganization",
   "title": "no-basis-Organization",
   "status": "active",

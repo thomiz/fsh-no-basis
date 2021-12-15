@@ -10,11 +10,11 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse"/>
-  <version value="2.2.0"/>
+  <version value="2.3.0"/>
   <name value="NoBasisAppointmentResponse"/>
   <title value="no-basis-AppointmentResponse"/>
   <status value="draft"/>
-  <date value="2021-12-15T08:30:53+00:00"/>
+  <date value="2021-12-15T12:34:15+00:00"/>
   <description value="Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."/>
   <jurisdiction>
     <coding>

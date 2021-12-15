@@ -46,7 +46,7 @@ Technical endpoints providing access to services operated for the specific healt
     <valueCode value="business"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"/>
-  <version value="2.2.0"/>
+  <version value="2.3.0"/>
   <name value="NoBasisHealthcareService"/>
   <title value="no-basis-HealthcareService"/>
   <status value="active"/>

@@ -16,7 +16,7 @@
     }
   ],
   "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Location",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "name": "NoBasisLocation",
   "title": "no-basis-Location",
   "status": "active",

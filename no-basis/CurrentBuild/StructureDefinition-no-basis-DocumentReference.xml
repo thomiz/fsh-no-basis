@@ -21,7 +21,7 @@ See valueset 'NoBasisDocumentReferenceType' in the Terminology section for more 
     <valueCode value="not-classified"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-DocumentReference"/>
-  <version value="2.2.0"/>
+  <version value="2.3.0"/>
   <name value="NoBasisDocumentReference"/>
   <title value="no-basis-DocumentReference"/>
   <status value="active"/>

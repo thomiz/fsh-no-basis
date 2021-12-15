@@ -1,6 +1,6 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "fhirVersion": "[4.0.1]",
-  "date": "20211215083022",
+  "date": "20211215123343",
   "name": "hl7.fhir.no.basis"
 }

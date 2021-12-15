@@ -9,11 +9,11 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-group"/>
-  <version value="2.2.0"/>
+  <version value="2.3.0"/>
   <name value="NoBasisGroup"/>
   <title value="no-basis-group"/>
   <status value="draft"/>
-  <date value="2021-12-15T08:30:53+00:00"/>
+  <date value="2021-12-15T12:34:15+00:00"/>
   <description value="The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots."/>
   <jurisdiction>
     <coding>

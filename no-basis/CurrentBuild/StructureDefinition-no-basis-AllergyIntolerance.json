@@ -16,7 +16,7 @@
     }
   ],
   "url": "http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "name": "NoBasisAllergyIntolerance",
   "title": "no-basis-AllergyIntolerance",
   "status": "active",

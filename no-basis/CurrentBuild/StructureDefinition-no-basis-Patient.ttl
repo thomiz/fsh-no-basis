@@ -26,7 +26,7 @@
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
   fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"];
-  fhir:StructureDefinition.version [ fhir:value "2.2.0"];
+  fhir:StructureDefinition.version [ fhir:value "2.3.0"];
   fhir:StructureDefinition.name [ fhir:value "NoBasisPatient"];
   fhir:StructureDefinition.title [ fhir:value "no-basis-Patient"];
   fhir:StructureDefinition.status [ fhir:value "active"];

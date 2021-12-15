@@ -23,7 +23,7 @@
     <valueInteger value="1"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-person-citizenship"/>
-  <version value="2.2.0"/>
+  <version value="2.3.0"/>
   <name value="NoBasisPersonCitizenship"/>
   <title value="no-basis-person-citizenship"/>
   <status value="active"/>

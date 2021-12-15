@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.no.basis",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [
