@@ -483,17 +483,8 @@
     "http://hl7.no/fhir/StructureDefinition/no-basis-urban-district": [
       "Address"
     ],
-    "http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-group": [
-      "Appointment"
-    ],
-    "http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-partof": [
-      "Appointment"
-    ],
     "http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/no-basis-shortnotice": [
       "AppointmentResponse"
-    ],
-    "http://hl7.no/fhir/structuredefinition/no-basis-conferencetype": [
-      "Appointment"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
@@ -546,9 +537,6 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
-    ],
-    "https://example.org/fhir/structuredefinition/no-basis-postponementreason": [
-      "Appointment"
     ]
   }
 }

@@ -9,7 +9,7 @@
   "version": "2.2.0",
   "name": "NoBasis",
   "status": "active",
-  "date": "2021-11-25T21:16:57+00:00",
+  "date": "2021-12-15T08:30:53+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -303,6 +303,20 @@
         },
         "name": "no-basis-AllergyIntolerance",
         "description": "Basis profile for allergy intolerance, to be used in Norway. The profile is adapted to support the norwegian standard for critical information (KI standard).",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/no-basis-Appointment"
+        },
+        "name": "no-basis-Appointment",
+        "description": "Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) must be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
         "exampleBoolean": false
       },
       {
@@ -1051,20 +1065,6 @@
         },
         "name": "no-basis-shortnotice",
         "description": "The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/no-basis-Appointment"
-        },
-        "name": "no-basis-Appointment",
-        "description": "Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) must be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
         "exampleBoolean": false
       },
       {

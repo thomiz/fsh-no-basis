@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="2d45560d-7e34-40ea-92e7-8b8ba50023d9"/>
+  <id value="88406a97-22c5-4306-9155-db425610f4e0"/>
   <meta>
-    <lastUpdated value="2021-11-25T21:16:57.389+00:00"/>
+    <lastUpdated value="2021-12-15T08:30:53.369+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -23,7 +23,7 @@
               <p>Expansion based on: </p>
               <ul>
                 <li>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html">Endpoint Connection Type v0.1.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html">Endpoint Connection Type v0.1.0 (CodeSystem)</a>
                 </li>
                 <li>
                   <a href="CodeSystem-no-basis-connection-type.codesystem.html">no-basis-connection-type.codesystem v2.2.0 (CodeSystem)</a>
@@ -66,7 +66,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-xcpd"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xcpd">ihe-xcpd</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xcpd">ihe-xcpd</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>IHE XCPD</td>
@@ -75,7 +75,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-xca"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xca">ihe-xca</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xca">ihe-xca</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>IHE XCA</td>
@@ -84,7 +84,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-xdr"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xdr">ihe-xdr</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xdr">ihe-xdr</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>IHE XDR</td>
@@ -93,7 +93,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-xds"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xds">ihe-xds</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xds">ihe-xds</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>IHE XDS</td>
@@ -102,7 +102,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-iid"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-iid">ihe-iid</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-iid">ihe-iid</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>IHE IID</td>
@@ -111,7 +111,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-dicom-wado-rs"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-wado-rs">dicom-wado-rs</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-wado-rs">dicom-wado-rs</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>DICOM WADO-RS</td>
@@ -120,7 +120,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-dicom-qido-rs"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-qido-rs">dicom-qido-rs</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-qido-rs">dicom-qido-rs</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>DICOM QIDO-RS</td>
@@ -129,7 +129,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-dicom-stow-rs"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-stow-rs">dicom-stow-rs</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-stow-rs">dicom-stow-rs</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>DICOM STOW-RS</td>
@@ -138,7 +138,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-dicom-wado-uri"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-wado-uri">dicom-wado-uri</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-wado-uri">dicom-wado-uri</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>DICOM WADO-URI</td>
@@ -147,7 +147,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-hl7-fhir-rest"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7-fhir-rest">hl7-fhir-rest</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7-fhir-rest">hl7-fhir-rest</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>HL7 FHIR</td>
@@ -156,7 +156,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-hl7-fhir-msg"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7-fhir-msg">hl7-fhir-msg</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7-fhir-msg">hl7-fhir-msg</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>HL7 FHIR Messaging</td>
@@ -165,7 +165,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-hl7v2-mllp"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7v2-mllp">hl7v2-mllp</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7v2-mllp">hl7v2-mllp</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>HL7 v2 MLLP</td>
@@ -174,7 +174,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-secure-email"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-secure-email">secure-email</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-secure-email">secure-email</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>Secure email</td>
@@ -183,7 +183,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-direct-project"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-direct-project">direct-project</a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-direct-project">direct-project</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
                 <td>Direct Project</td>
@@ -210,8 +210,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e97e35d3-e18c-46c7-ab46-0f9269e0c47e"/>
-          <timestamp value="2021-11-25T21:17:32+00:00"/>
+          <identifier value="urn:uuid:294d9743-6d62-45b0-9e8d-51dae74e6a6e"/>
+          <timestamp value="2021-12-15T08:31:30+00:00"/>
           <total value="16"/>
           <parameter>
             <name value="excludeNested"/>
@@ -419,8 +419,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:ae2f0321-9633-4645-a4fe-3e5d1efcbdf8"/>
-          <timestamp value="2021-11-25T21:17:32+00:00"/>
+          <identifier value="urn:uuid:c35d50be-de42-48f2-bde3-e30f6ed955f7"/>
+          <timestamp value="2021-12-15T08:31:31+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -599,8 +599,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:37964085-df91-43f3-943d-7fe9977b9549"/>
-          <timestamp value="2021-11-25T21:17:32+00:00"/>
+          <identifier value="urn:uuid:c5915baf-ea2d-40aa-ad5d-c4b188747574"/>
+          <timestamp value="2021-12-15T08:31:31+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -766,8 +766,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9e156b17-d0f0-4566-bb8b-041c95b97415"/>
-          <timestamp value="2021-11-25T21:17:32+00:00"/>
+          <identifier value="urn:uuid:8f8a21be-14b2-434e-9ab1-3a8c50587e87"/>
+          <timestamp value="2021-12-15T08:31:31+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>

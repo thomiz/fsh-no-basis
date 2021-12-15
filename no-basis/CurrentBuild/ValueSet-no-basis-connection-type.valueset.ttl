@@ -14,7 +14,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-connection-type.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</code></a></li><li>Include all codes defined in <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-endpoint-connection-type.html\"><code>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-connection-type.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</code></a></li><li>Include all codes defined in <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html\"><code>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</code></a></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://hl7.no/fhir/ValueSet/no-basis-connection-type"];
   fhir:ValueSet.version [ fhir:value "2.2.0"];

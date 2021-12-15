@@ -1,10 +1,10 @@
 ﻿NoBasis : Validation Results
 =========================================
 
-err = 19, warn = 99, info = 16
-IG Publisher Version: 1.1.89
-Generated Thu Nov 25 21:17:58 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.0 (canonical = http://hl7.no/fhir)
- Build Errors : 515 / 9 / 0
+err = 19, warn = 98, info = 16
+IG Publisher Version: 1.1.90
+Generated Wed Dec 15 08:31:54 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.0 (canonical = http://hl7.no/fhir)
+ Build Errors : 511 / 9 / 0
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 1 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 1 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem : 1 / 0 / 2
@@ -27,6 +27,7 @@ Generated Thu Nov 25 21:17:58 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis
  /github/workspace/no-basis/fsh-generated/resources/SearchParameter-no-basis-middlename : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Address : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-AllergyIntolerance : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Appointment : 0 / 7 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Composition : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-DocumentReference : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Endpoint : 2 / 9 / 1
@@ -63,7 +64,6 @@ Generated Thu Nov 25 21:17:58 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis
  /github/workspace/no-basis/input/extensions/no-basis-partof.structuredefinition : 0 / 1 / 1
  /github/workspace/no-basis/input/extensions/no-basis-postponementreason.structuredefinition : 0 / 3 / 1
  /github/workspace/no-basis/input/extensions/no-basis-shortnotice.structuredefinition : 0 / 1 / 1
- /github/workspace/no-basis/input/profiles/no-basis-Appointment.structuredefinition : 0 / 8 / 1
  /github/workspace/no-basis/input/profiles/no-basis-AppointmentResponse.structuredefinition : 0 / 1 / 1
  /github/workspace/no-basis/input/profiles/no-basis-Procedure.StructureDefinition : 0 / 0 / 1
  /github/workspace/no-basis/input/resources/no-basis-icpc-2.namingsystem : 0 / 0 / 1
@@ -209,33 +209,29 @@ ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AllergyInt
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AllergyIntolerance.profile.json.html#/html/body/div/div/div/p/a at Line 4657, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AllergyIntolerance.profile.ttl.html#/html/body/div/div/div/p/a at Line 4066, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AllergyIntolerance.profile.xml.html#/html/body/div/div/div/p/a at Line 4250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 494, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 509, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 524, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/p/a at Line 796, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 429, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 444, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 459, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/p/a at Line 731, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-examples.html#/html/body/div/div/div/p/a at Line 301, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-mappings.html#/html/body/div/div/div/p/a at Line 428, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 346, column 1848: The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for "urn:oid:2.16.578.1.12.4.1.1.8446" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 350, column 1823: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 351, column 1837: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 352, column 1821: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 376, column 1830: The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for "urn:oid:2.16.578.1.12.4.1.1.8446" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 390, column 1910: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 391, column 1896: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 392, column 1908: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 584, column 1848: The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for "urn:oid:2.16.578.1.12.4.1.1.8446" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 588, column 1823: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 589, column 1837: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 590, column 1821: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 614, column 1830: The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for "urn:oid:2.16.578.1.12.4.1.1.8446" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 628, column 1910: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 629, column 1896: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 630, column 1908: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/p/a at Line 930, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-mappings.html#/html/body/div/div/div/p/a at Line 423, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 334, column 1789: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 335, column 1803: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 336, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 366, column 1910: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 367, column 1896: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 368, column 1908: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 532, column 1789: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 533, column 1803: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 534, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 564, column 1910: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 565, column 1896: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 566, column 1908: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/p/a at Line 838, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.profile.history.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.profile.json.html#/html/body/div/div/div/p/a at Line 3134, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.profile.ttl.html#/html/body/div/div/div/p/a at Line 2759, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.profile.xml.html#/html/body/div/div/div/p/a at Line 2822, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.profile.json.html#/html/body/div/div/div/p/a at Line 2718, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.profile.ttl.html#/html/body/div/div/div/p/a at Line 2393, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.profile.xml.html#/html/body/div/div/div/p/a at Line 2472, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AppointmentResponse-definitions.html#/html/body/div/div/div/p/a at Line 498, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AppointmentResponse-examples.html#/html/body/div/div/div/p/a at Line 301, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-AppointmentResponse-mappings.html#/html/body/div/div/div/p/a at Line 355, column 28: The link '' for "" cannot be resolved
@@ -651,6 +647,14 @@ WARNING: RelatedPerson/Solid-Aresdoktor-RelatedPerson: RelatedPerson.address[0].
 == fsh-generated/resources/StructureDefinition-no-basis-Address.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-AllergyIntolerance.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-no-basis-Appointment.json ==
+WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.differential.element[3].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8406 on element Appointment.appointmentType.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.differential.element[4].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8432 on element Appointment.appointmentType.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.differential.element[5].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7617 on element Appointment.appointmentType.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.snapshot.element[19].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8406 on element Appointment.appointmentType.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.snapshot.element[20].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8432 on element Appointment.appointmentType.coding could not be resolved
+WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.snapshot.element[21].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7617 on element Appointment.appointmentType.coding could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Appointment'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-Composition.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Composition'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-DocumentReference.json ==
@@ -766,15 +770,6 @@ WARNING: StructureDefinition/no-basis-postponementreason: StructureDefinition.sn
 WARNING: StructureDefinition.where(url = 'https://example.org/fhir/structuredefinition/no-basis-postponementreason'): The Implementation Guide contains no examples for this extension
 == input/extensions/no-basis-shortnotice.structuredefinition.xml ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/no-basis-shortnotice'): The Implementation Guide contains no examples for this extension
-== input/profiles/no-basis-Appointment.structuredefinition.xml ==
-WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.differential.element[9].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8406 on element Appointment.appointmentType.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.differential.element[10].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8432 on element Appointment.appointmentType.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.differential.element[11].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7617 on element Appointment.appointmentType.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.snapshot.element[12].binding: The valueSet reference http://hl7.no/fhir/ValueSet/no-basis-conference-type on element Appointment.extension.value[x] could not be resolved
-WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.snapshot.element[27].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8406 on element Appointment.appointmentType.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.snapshot.element[28].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8432 on element Appointment.appointmentType.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.snapshot.element[29].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7617 on element Appointment.appointmentType.coding could not be resolved
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Appointment'): The Implementation Guide contains no examples for this profile
 == input/profiles/no-basis-AppointmentResponse.structuredefinition.xml ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse'): The Implementation Guide contains no examples for this profile
 == input/profiles/no-basis-Procedure.StructureDefinition.xml ==
