@@ -14,7 +14,7 @@
   <name value="NoBasisAppointmentResponse"/>
   <title value="no-basis-AppointmentResponse"/>
   <status value="draft"/>
-  <date value="2021-12-15T12:34:15+00:00"/>
+  <date value="2021-12-15T12:39:33+00:00"/>
   <description value="Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."/>
   <jurisdiction>
     <coding>
