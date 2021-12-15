@@ -9,3 +9,7 @@ Alias: $sct = http://snomed.info/sct
 Alias: $clinical-codes = http://acme.org/devices/clinical-codes
 Alias: $patient-citizenship = http://hl7.org/fhir/StructureDefinition/patient-citizenship
 Alias: $bcp13.txt = http://www.rfc-editor.org/bcp/bcp13.txt
+Alias: $no-basis-conferencetype = http://hl7.no/fhir/structuredefinition/no-basis-conferencetype
+Alias: $no-basis-group = http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-group
+Alias: $no-basis-partof = http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-partof
+Alias: $no-basis-postponementreason = https://example.org/fhir/structuredefinition/no-basis-postponementreason
