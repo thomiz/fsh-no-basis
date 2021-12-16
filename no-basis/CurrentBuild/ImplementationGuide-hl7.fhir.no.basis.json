@@ -9,7 +9,7 @@
   "version": "2.3.0",
   "name": "NoBasis",
   "status": "active",
-  "date": "2021-12-15T13:42:09+00:00",
+  "date": "2021-12-16T21:16:53+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -704,6 +704,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/no-basis-location-type.valueset"
+        },
+        "name": "no-basis-location-type.valueset",
+        "description": "ValueSet for location types used in Location definition. Includes all Norwegian specific types (no-basis-location-type.codesystem) and all codes from v3.ServiceDeliveryLocationRoleType defined by HL7",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/no-basis-marital-status.valueset"
         },
         "name": "no-basis-marital-status.valueset",
@@ -764,6 +778,20 @@
         },
         "name": "no-basis-family-relation.codesystem",
         "description": "Copy of Codes from Familierelasjon defined by Skatteetaten",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/no-basis-location-type.codesystem"
+        },
+        "name": "no-basis-location-type.codesystem",
+        "description": "Additional codes for location.type used by no-basis-Location",
         "exampleBoolean": false
       },
       {

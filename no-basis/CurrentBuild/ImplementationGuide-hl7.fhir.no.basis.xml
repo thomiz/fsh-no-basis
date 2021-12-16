@@ -9,7 +9,7 @@
   <version value="2.3.0"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2021-12-15T13:42:09+00:00"/>
+  <date value="2021-12-16T21:16:53+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -507,6 +507,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/no-basis-location-type.valueset"/>
+      </reference>
+      <name value="no-basis-location-type.valueset"/>
+      <description value="ValueSet for location types used in Location definition. Includes all Norwegian specific types (no-basis-location-type.codesystem) and all codes from v3.ServiceDeliveryLocationRoleType defined by HL7"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/no-basis-marital-status.valueset"/>
       </reference>
       <name value="no-basis-marital-status.valueset"/>
@@ -555,6 +566,17 @@
       </reference>
       <name value="no-basis-family-relation.codesystem"/>
       <description value="Copy of Codes from Familierelasjon defined by Skatteetaten"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-basis-location-type.codesystem"/>
+      </reference>
+      <name value="no-basis-location-type.codesystem"/>
+      <description value="Additional codes for location.type used by no-basis-Location"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

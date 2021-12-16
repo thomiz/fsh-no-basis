@@ -21,6 +21,13 @@
     "name": "NoBasisFamilyRelation"
   },
   {
+    "id": "no-basis-location-type.codesystem",
+    "type": "CodeSystem",
+    "url": "http://hl7.no/fhir/CodeSystem/no-basis-location-type",
+    "version": "2.3.0",
+    "name": "NoBasisLocationType"
+  },
+  {
     "id": "no-basis-marital-status.codesystem",
     "type": "CodeSystem",
     "url": "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
@@ -320,6 +327,13 @@
     "url": "http://hl7.no/fhir/ValueSet/no-basis-family-relation",
     "version": "2.3.0",
     "name": "NoBasisFamilyRelation"
+  },
+  {
+    "id": "no-basis-location-type.valueset",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-basis-location-type",
+    "version": "2.3.0",
+    "name": "NoBasisLocationType"
   },
   {
     "id": "no-basis-marital-status.valueset",
