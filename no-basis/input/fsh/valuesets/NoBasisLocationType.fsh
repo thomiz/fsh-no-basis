@@ -12,4 +12,5 @@ Description: "ValueSet for location types used in Location definition. Includes 
 * ^publisher = "HL7 Norway"
 * ^immutable = false
 * include codes from system NoBasisLocationType
-* include codes from system v3.ServiceDeliveryLocationRoleType
+* include codes from system $v3-RoleCode where concept is-a #_ServiceDeliveryLocationRoleType
+* exclude $v3-RoleCode#_ServiceDeliveryLocationRoleType
