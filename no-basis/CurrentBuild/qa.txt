@@ -3,7 +3,7 @@
 
 err = 21, warn = 98, info = 17
 IG Publisher Version: 1.1.91
-Generated Fri Dec 17 09:20:30 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.3.0 (canonical = http://hl7.no/fhir)
+Generated Fri Dec 17 12:07:08 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.3.0 (canonical = http://hl7.no/fhir)
  Build Errors : 521 / 9 / 0
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 1 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 1 / 0 / 2
@@ -95,9 +95,9 @@ ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-family-relation.cod
 ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-family-relation.codesystem.xml.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-location-type.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-location-type.codesystem.html#/html/body/div/div/div/p/a at Line 279, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-location-type.codesystem.json.html#/html/body/div/div/div/p/a at Line 299, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-location-type.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-location-type.codesystem.xml.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-location-type.codesystem.json.html#/html/body/div/div/div/p/a at Line 301, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-location-type.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 311, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-location-type.codesystem.xml.html#/html/body/div/div/div/p/a at Line 296, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-marital-status.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-marital-status.codesystem.html#/html/body/div/div/div/p/a at Line 279, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/CodeSystem-no-basis-marital-status.codesystem.json.html#/html/body/div/div/div/p/a at Line 341, column 28: The link '' for "" cannot be resolved

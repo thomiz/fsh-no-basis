@@ -7,7 +7,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.no/fhir/CodeSystem/no-basis-location-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">video<a name=\"no-basis-location-type.codesystem-video\"> </a></td><td>Video</td></tr><tr><td style=\"white-space:nowrap\">telefon<a name=\"no-basis-location-type.codesystem-telefon\"> </a></td><td>Telefon</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.no/fhir/CodeSystem/no-basis-location-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">video<a name=\"no-basis-location-type.codesystem-video\"> </a></td><td>Video</td><td>Any two-way video+audio communication/conference system</td></tr><tr><td style=\"white-space:nowrap\">telephone<a name=\"no-basis-location-type.codesystem-telephone\"> </a></td><td>Telephone</td><td>Telephone or other two-way audio communication</td></tr></table></div>"
   },
   "url": "http://hl7.no/fhir/CodeSystem/no-basis-location-type",
   "version": "2.3.0",
@@ -33,11 +33,13 @@
   "concept": [
     {
       "code": "video",
-      "display": "Video"
+      "display": "Video",
+      "definition": "Any two-way video+audio communication/conference system"
     },
     {
-      "code": "telefon",
-      "display": "Telefon"
+      "code": "telephone",
+      "display": "Telephone",
+      "definition": "Telephone or other two-way audio communication"
     }
   ]
 }

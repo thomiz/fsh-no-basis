@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="955ffb3f-69fd-4b5e-998d-e21a1cfaa365"/>
+  <id value="a30dce4d-0f28-46f3-9b93-cd8b5494acc6"/>
   <meta>
-    <lastUpdated value="2021-12-17T09:19:31.352+00:00"/>
+    <lastUpdated value="2021-12-17T12:06:07.009+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -210,8 +210,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:33178f17-3534-40bf-a74e-2bec1ab4ae62"/>
-          <timestamp value="2021-12-17T09:20:03+00:00"/>
+          <identifier value="urn:uuid:a6db39eb-251e-49eb-9426-10c0c539f045"/>
+          <timestamp value="2021-12-17T12:06:43+00:00"/>
           <total value="16"/>
           <parameter>
             <name value="excludeNested"/>
@@ -419,8 +419,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:69d37fa5-d90f-4f57-a28e-2358630c2a91"/>
-          <timestamp value="2021-12-17T09:20:03+00:00"/>
+          <identifier value="urn:uuid:8ede1fba-7949-4c66-9d65-85a3158e3c0a"/>
+          <timestamp value="2021-12-17T12:06:43+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -515,16 +515,16 @@
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-location-type</td>
                 <td>Video</td>
-                <td/>
+                <td>Any two-way video+audio communication/conference system</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-location-type-telefon"> </a>
-                  <a href="CodeSystem-no-basis-location-type.codesystem.html#no-basis-location-type.codesystem-telefon">telefon</a>
+                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-location-type-telephone"> </a>
+                  <a href="CodeSystem-no-basis-location-type.codesystem.html#no-basis-location-type.codesystem-telephone">telephone</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-location-type</td>
-                <td>Telefon</td>
-                <td/>
+                <td>Telephone</td>
+                <td>Telephone or other two-way audio communication</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1698,8 +1698,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b0d0e1cc-0023-4ea1-b595-5cbfe9edb7b1"/>
-          <timestamp value="2021-12-17T09:20:03+00:00"/>
+          <identifier value="urn:uuid:fee3108a-b25a-474b-9ff5-de990d89d1a2"/>
+          <timestamp value="2021-12-17T12:06:43+00:00"/>
           <total value="129"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1720,8 +1720,8 @@
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-location-type"/>
-            <code value="telefon"/>
-            <display value="Telefon"/>
+            <code value="telephone"/>
+            <display value="Telephone"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
@@ -2496,8 +2496,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:550cffdb-a8d2-4061-8f5d-39cd6b99eb8f"/>
-          <timestamp value="2021-12-17T09:20:03+00:00"/>
+          <identifier value="urn:uuid:f604c2cb-ba3e-41b0-8aed-23f331e6eb1b"/>
+          <timestamp value="2021-12-17T12:06:43+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2663,8 +2663,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:f2ce1766-57c1-4bb3-916b-5c2263efeb30"/>
-          <timestamp value="2021-12-17T09:20:03+00:00"/>
+          <identifier value="urn:uuid:5391deb8-6fad-4486-8db3-9a95a4ac789e"/>
+          <timestamp value="2021-12-17T12:06:43+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
