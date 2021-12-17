@@ -11,4 +11,6 @@ Description: "Additional codes for location.type used by no-basis-Location"
 * ^publisher = "HL7 Norway"
 * ^content = #complete
 * #video "Video"
-* #telefon "Telefon"
+   "Any two-way video+audio communication/conference system"
+* #telephone "Telephone"
+  "Telephone or other two-way audio communication"
