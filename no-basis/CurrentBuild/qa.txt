@@ -3,7 +3,7 @@
 
 err = 21, warn = 98, info = 17
 IG Publisher Version: 1.1.91
-Generated Fri Dec 17 09:08:47 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.3.0 (canonical = http://hl7.no/fhir)
+Generated Fri Dec 17 09:20:30 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.3.0 (canonical = http://hl7.no/fhir)
  Build Errors : 521 / 9 / 0
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 1 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 1 / 0 / 2
@@ -322,14 +322,14 @@ ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HumanName.
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HumanName.profile.json.html#/html/body/div/div/div/p/a at Line 947, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HumanName.profile.ttl.html#/html/body/div/div/div/p/a at Line 875, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HumanName.profile.xml.html#/html/body/div/div/div/p/a at Line 887, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location-definitions.html#/html/body/div/div/div/p/a at Line 669, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location-definitions.html#/html/body/div/div/div/p/a at Line 667, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location-examples.html#/html/body/div/div/div/p/a at Line 301, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location-mappings.html#/html/body/div/div/div/p/a at Line 348, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.html#/html/body/div/div/div/p/a at Line 795, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.html#/html/body/div/div/div/p/a at Line 797, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.profile.history.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.profile.json.html#/html/body/div/div/div/p/a at Line 2083, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.profile.ttl.html#/html/body/div/div/div/p/a at Line 1869, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.profile.xml.html#/html/body/div/div/div/p/a at Line 1881, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.profile.json.html#/html/body/div/div/div/p/a at Line 2085, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.profile.ttl.html#/html/body/div/div/div/p/a at Line 1873, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Location.profile.xml.html#/html/body/div/div/div/p/a at Line 1884, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Medication-definitions.html#/html/body/div/div/div/p/a at Line 891, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Medication-examples.html#/html/body/div/div/div/p/a at Line 301, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Medication-mappings.html#/html/body/div/div/div/p/a at Line 429, column 28: The link '' for "" cannot be resolved
@@ -579,7 +579,7 @@ ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-family-relation.value
 ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-family-relation.valueset.ttl.html#/html/body/div/div/div/p/a at Line 305, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-family-relation.valueset.xml.html#/html/body/div/div/div/p/a at Line 291, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-location-type.valueset.change.history.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-location-type.valueset.html#/html/body/div/div/div/p/a at Line 315, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-location-type.valueset.html#/html/body/div/div/div/p/a at Line 317, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-location-type.valueset.json.html#/html/body/div/div/div/p/a at Line 316, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-location-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 318, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-location-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 305, column 28: The link '' for "" cannot be resolved
