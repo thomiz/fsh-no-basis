@@ -9,7 +9,7 @@
   <version value="2.3.0"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2021-12-17T12:06:07+00:00"/>
+  <date value="2022-01-10T12:40:13+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -173,6 +173,17 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/derived-Person"/>
+      </reference>
+      <name value="derived-Person"/>
+      <description value="Derived person from no-basis-Person for Norwegian Person information."/>
+      <exampleBoolean value="false"/>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:complex-type"/>

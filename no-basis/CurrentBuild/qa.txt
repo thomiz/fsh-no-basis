@@ -1,10 +1,10 @@
 ﻿NoBasis : Validation Results
 =========================================
 
-err = 21, warn = 98, info = 17
-IG Publisher Version: 1.1.91
-Generated Fri Dec 17 12:07:08 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis#2.3.0 (canonical = http://hl7.no/fhir)
- Build Errors : 521 / 9 / 0
+err = 22, warn = 99, info = 17
+IG Publisher Version: 1.1.93
+Generated Mon Jan 10 12:41:13 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.basis#2.3.0 (canonical = http://hl7.no/fhir)
+ Build Errors : 529 / 9 / 0
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 1 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 1 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-location-type.codesystem : 1 / 0 / 2
@@ -26,6 +26,7 @@ Generated Fri Dec 17 12:07:08 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis
  /github/workspace/no-basis/fsh-generated/resources/RelatedPerson-Solid-Aresdoktor-RelatedPerson : 0 / 1 / 2
  /github/workspace/no-basis/fsh-generated/resources/RelatedPerson-Sorgard-Erlend-RelatedPerson : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/SearchParameter-no-basis-middlename : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-derived-Person : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Address : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-AllergyIntolerance : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Appointment : 0 / 7 / 1
@@ -45,7 +46,7 @@ Generated Fri Dec 17 12:07:08 UTC 2021. FHIR version 4.0.1 for hl7.fhir.no.basis
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-RelatedPerson : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Substance : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-address-official : 0 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-middlename : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-middlename : 1 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-municipalitycode : 0 / 2 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-person-citizenship : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-prescriptiongroup : 0 / 1 / 1
@@ -196,6 +197,14 @@ ERROR: /github/workspace/no-basis/output/SearchParameter-no-basis-middlename.htm
 ERROR: /github/workspace/no-basis/output/SearchParameter-no-basis-middlename.json.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/SearchParameter-no-basis-middlename.ttl.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/SearchParameter-no-basis-middlename.xml.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-derived-Person-definitions.html#/html/body/div/div/div/p/a at Line 836, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-derived-Person-examples.html#/html/body/div/div/div/p/a at Line 301, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-derived-Person-mappings.html#/html/body/div/div/div/p/a at Line 391, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-derived-Person.html#/html/body/div/div/div/p/a at Line 833, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-derived-Person.profile.history.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-derived-Person.profile.json.html#/html/body/div/div/div/p/a at Line 2856, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-derived-Person.profile.ttl.html#/html/body/div/div/div/p/a at Line 2500, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-derived-Person.profile.xml.html#/html/body/div/div/div/p/a at Line 2549, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address-definitions.html#/html/body/div/div/div/p/a at Line 498, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address-examples.html#/html/body/div/div/div/p/a at Line 301, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address-mappings.html#/html/body/div/div/div/p/a at Line 353, column 28: The link '' for "" cannot be resolved
@@ -598,7 +607,7 @@ ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-service-type.valueset
 ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-service-type.valueset.json.html#/html/body/div/div/div/p/a at Line 317, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-service-type.valueset.ttl.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/ValueSet-no-basis-service-type.valueset.xml.html#/html/body/div/div/div/p/a at Line 312, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/no-basis/output/artifacts.html#/html/body/div/div/div/p/a at Line 899, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/no-basis/output/artifacts.html#/html/body/div/div/div/p/a at Line 908, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/index.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/no-basis/output/toc.html#/html/body/div/div/div/p/a at Line 205, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem.json ==
@@ -659,6 +668,8 @@ INFORMATION: RelatedPerson/Solid-Aresdoktor-RelatedPerson: RelatedPerson.address
 WARNING: RelatedPerson/Solid-Aresdoktor-RelatedPerson: RelatedPerson.address[0].extension[0].extension[2].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
 == fsh-generated/resources/RelatedPerson-Sorgard-Erlend-RelatedPerson.json ==
 == fsh-generated/resources/SearchParameter-no-basis-middlename.json ==
+== fsh-generated/resources/StructureDefinition-derived-Person.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/derived-Person'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-Address.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-AllergyIntolerance.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance'): The Implementation Guide contains no examples for this profile
@@ -734,6 +745,7 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Substance'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-address-official.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-middlename.json ==
+ERROR: StructureDefinition/no-basis-middlename: StructureDefinition: The structure definition constrains a kind of complex-type, but has a different kind (primitive-type)
 == fsh-generated/resources/StructureDefinition-no-basis-municipalitycode.json ==
 WARNING: StructureDefinition/no-basis-municipalitycode: StructureDefinition.differential.element[3].binding: The valueSet reference https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle on element Extension.value[x] could not be resolved
 WARNING: StructureDefinition/no-basis-municipalitycode: StructureDefinition.snapshot.element[4].binding: The valueSet reference https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle on element Extension.value[x] could not be resolved

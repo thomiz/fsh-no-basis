@@ -338,6 +338,12 @@
     }
   ],
   "profiles": {
+    "Person": [
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Person",
+        "title": "no-basis-Person"
+      }
+    ],
     "AllergyIntolerance": [
       {
         "url": "http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance",
@@ -408,12 +414,6 @@
       {
         "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Patient",
         "title": "no-basis-Patient"
-      }
-    ],
-    "Person": [
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Person",
-        "title": "no-basis-Person"
       }
     ],
     "Practitioner": [

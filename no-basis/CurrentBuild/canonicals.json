@@ -112,6 +112,13 @@
     "name": "NoBasisMiddlename"
   },
   {
+    "id": "derived-Person",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/derived-Person",
+    "version": "2.3.0",
+    "name": "DerivedPerson"
+  },
+  {
     "id": "no-basis-Address",
     "type": "StructureDefinition",
     "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Address",
