@@ -6,9 +6,6 @@ Description: """Derived person from no-basis-Person for Norwegian Person informa
 * ^version = "0.0.1"
 * ^status = #draft
 * ^date = "2022-01-10"
-* identifier ^slicing.discriminator.type = #value
-* identifier ^slicing.discriminator.path = "system"
-* identifier ^slicing.rules = #open
 * identifier ^definition = "An identifier for this person. Should be at Fødselsnummer or D-nummer\r\n\r\nIdentifier for a person within a particular scope. TNR is also allowed"
 * identifier contains
 	TNR 0..*
