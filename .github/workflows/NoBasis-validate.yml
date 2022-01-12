@@ -6,6 +6,7 @@ on:
    branches: [master]
    paths:
       - no-basis/**
+workflow_dispatch:
 
 env:
   IG: no-basis
