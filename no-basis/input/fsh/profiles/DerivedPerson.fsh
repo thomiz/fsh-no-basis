@@ -3,7 +3,7 @@ Parent: NoBasisPerson
 Id: derived-Person
 Title: "derived-Person"
 Description: """Derived person from no-basis-Person for Norwegian Person information."""
-* ^version = "0.0.1"
+* ^version = "2.0.0"
 * ^status = #draft
 * ^date = "2022-01-10"
 * identifier ^definition = "An identifier for this person. Should be at Fødselsnummer or D-nummer\r\n\r\nIdentifier for a person within a particular scope. TNR is also allowed"
