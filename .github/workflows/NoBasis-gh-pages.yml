@@ -42,7 +42,7 @@ jobs:
 
       # Builds the HTML page for the IG.
       - name: 🏃‍♂️ Run IG Publisher
-        uses: docker://hl7fhir/ig-publisher-base:latest
+        uses: docker://thomiz/build-pipeline:latest
         with:
           args: java -jar publisher.jar publisher -ig ${{ env.IG }}/ig.ini -publish https://thomiz.github.io/fsh-no-basis/
 
