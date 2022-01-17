@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "NoBasisPostponementReason"];
   fhir:StructureDefinition.title [ fhir:value "no-basis-postponementreason"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2022-01-11T09:12:02+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-01-17T12:49:07+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "The basis extension defines the reason for a postponement for example of an appointment or an encounter."];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;

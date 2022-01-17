@@ -3,7 +3,7 @@
   "name": "NoBasis",
   "package-id": "hl7.fhir.no.basis",
   "ig-ver": "2.3.0",
-  "date": "Tue, 11 Jan, 2022 09:12:02 +0000",
+  "date": "Mon, 17 Jan, 2022 12:49:07 +0000",
   "errs": 22,
   "warnings": 99,
   "hints": 17,

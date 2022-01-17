@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="01d0fbe1-c0ea-4d0a-b67c-23ff06e7eb91"/>
+  <id value="9361e0c2-dcdf-4dd8-a3db-11b7ba371238"/>
   <meta>
-    <lastUpdated value="2022-01-11T09:12:02.728+00:00"/>
+    <lastUpdated value="2022-01-17T12:49:07.824+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -210,8 +210,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9f586999-b4ec-404a-aa6b-111e4303dff9"/>
-          <timestamp value="2022-01-11T09:12:33+00:00"/>
+          <identifier value="urn:uuid:fa1ac6d7-da61-4e6e-b9a1-69580e6dd8d9"/>
+          <timestamp value="2022-01-17T12:49:46+00:00"/>
           <total value="16"/>
           <parameter>
             <name value="excludeNested"/>
@@ -338,9 +338,6 @@
                 <td>
                   <b>Display</b>
                 </td>
-                <td>
-                  <b>Definition</b>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -348,7 +345,6 @@
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-mor">mor</a>
                 </td>
                 <td>Mor</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -356,7 +352,6 @@
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-far">far</a>
                 </td>
                 <td>Far</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -364,7 +359,6 @@
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-medmor">medmor</a>
                 </td>
                 <td>Medmor</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -372,7 +366,6 @@
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-barn">barn</a>
                 </td>
                 <td>Barn</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -380,7 +373,6 @@
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-s.248sken">søsken</a>
                 </td>
                 <td>Søsken</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -388,7 +380,6 @@
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-ektefelleEllerPartner">ektefelleEllerPartner</a>
                 </td>
                 <td>Ektefelle eller partner</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -396,7 +387,6 @@
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-d.248df.248dtBarn">dødfødtBarn</a>
                 </td>
                 <td>Dødfødt barn</td>
-                <td/>
               </tr>
             </table>
           </div>
@@ -419,8 +409,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:17a76dc1-8b2f-4367-b4af-0820fcc6f2e5"/>
-          <timestamp value="2022-01-11T09:12:33+00:00"/>
+          <identifier value="urn:uuid:50dd6793-1964-43a2-a7d1-371e0178a028"/>
+          <timestamp value="2022-01-17T12:49:46+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1698,8 +1688,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1202401d-3d65-4afe-8022-93963c2c7c9d"/>
-          <timestamp value="2022-01-11T09:12:33+00:00"/>
+          <identifier value="urn:uuid:c977532c-c72f-419c-9bb2-7ca1676cb3e3"/>
+          <timestamp value="2022-01-17T12:49:46+00:00"/>
           <total value="129"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2496,8 +2486,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:0f4f5610-20b9-4f4f-9616-7eed7667885b"/>
-          <timestamp value="2022-01-11T09:12:33+00:00"/>
+          <identifier value="urn:uuid:e03975ce-9963-43c4-a222-f2e2aaddddd3"/>
+          <timestamp value="2022-01-17T12:49:46+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2590,9 +2580,6 @@
                 <td>
                   <b>Display</b>
                 </td>
-                <td>
-                  <b>Definition</b>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2600,7 +2587,6 @@
                   <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-felles">felles</a>
                 </td>
                 <td>Felles</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2608,7 +2594,6 @@
                   <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-mor">mor</a>
                 </td>
                 <td>Mor</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2616,7 +2601,6 @@
                   <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-far">far</a>
                 </td>
                 <td>Far</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2624,7 +2608,6 @@
                   <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-medmor">medmor</a>
                 </td>
                 <td>Medmor</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2632,7 +2615,6 @@
                   <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-andre">andre</a>
                 </td>
                 <td>Andre</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2640,7 +2622,6 @@
                   <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-ukjent">ukjent</a>
                 </td>
                 <td>Ukjent</td>
-                <td/>
               </tr>
             </table>
           </div>
@@ -2663,8 +2644,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e24b4b62-fd8d-48ca-9efa-fc50450ee639"/>
-          <timestamp value="2022-01-11T09:12:33+00:00"/>
+          <identifier value="urn:uuid:37c1622d-e983-44b0-94b1-2ab91d45ab72"/>
+          <timestamp value="2022-01-17T12:49:46+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "01d0fbe1-c0ea-4d0a-b67c-23ff06e7eb91",
+  "id" : "9361e0c2-dcdf-4dd8-a3db-11b7ba371238",
   "meta" : {
-    "lastUpdated" : "2022-01-11T09:12:02.728+00:00"
+    "lastUpdated" : "2022-01-17T12:49:07.824+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -36,8 +36,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:9f586999-b4ec-404a-aa6b-111e4303dff9",
-        "timestamp" : "2022-01-11T09:12:33+00:00",
+        "identifier" : "urn:uuid:fa1ac6d7-da61-4e6e-b9a1-69580e6dd8d9",
+        "timestamp" : "2022-01-17T12:49:46+00:00",
         "total" : 16,
         "parameter" : [{
           "name" : "excludeNested",
@@ -145,7 +145,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-no-basis-family-relation.codesystem.html\">no-basis-family-relation.codesystem v2.3.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-no-basis-family-relation.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-mor\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-mor\">mor</a></td><td>Mor</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-far\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-far\">far</a></td><td>Far</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-medmor\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-medmor\">medmor</a></td><td>Medmor</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-barn\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-barn\">barn</a></td><td>Barn</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-søsken\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-s.248sken\">søsken</a></td><td>Søsken</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-ektefelleEllerPartner\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-ektefelleEllerPartner\">ektefelleEllerPartner</a></td><td>Ektefelle eller partner</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-dødfødtBarn\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-d.248df.248dtBarn\">dødfødtBarn</a></td><td>Dødfødt barn</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-no-basis-family-relation.codesystem.html\">no-basis-family-relation.codesystem v2.3.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-no-basis-family-relation.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-mor\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-mor\">mor</a></td><td>Mor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-far\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-far\">far</a></td><td>Far</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-medmor\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-medmor\">medmor</a></td><td>Medmor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-barn\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-barn\">barn</a></td><td>Barn</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-søsken\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-s.248sken\">søsken</a></td><td>Søsken</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-ektefelleEllerPartner\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-ektefelleEllerPartner\">ektefelleEllerPartner</a></td><td>Ektefelle eller partner</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-dødfødtBarn\"> </a><a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-d.248df.248dtBarn\">dødfødtBarn</a></td><td>Dødfødt barn</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-family-relation",
       "version" : "2.3.0",
@@ -165,8 +165,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:17a76dc1-8b2f-4367-b4af-0820fcc6f2e5",
-        "timestamp" : "2022-01-11T09:12:33+00:00",
+        "identifier" : "urn:uuid:50dd6793-1964-43a2-a7d1-371e0178a028",
+        "timestamp" : "2022-01-17T12:49:46+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -245,8 +245,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:1202401d-3d65-4afe-8022-93963c2c7c9d",
-        "timestamp" : "2022-01-11T09:12:33+00:00",
+        "identifier" : "urn:uuid:c977532c-c72f-419c-9bb2-7ca1676cb3e3",
+        "timestamp" : "2022-01-17T12:49:46+00:00",
         "total" : 129,
         "parameter" : [{
           "name" : "excludeNested",
@@ -939,8 +939,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:0f4f5610-20b9-4f4f-9616-7eed7667885b",
-        "timestamp" : "2022-01-11T09:12:33+00:00",
+        "identifier" : "urn:uuid:e03975ce-9963-43c4-a222-f2e2aaddddd3",
+        "timestamp" : "2022-01-17T12:49:46+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1014,7 +1014,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html\">no-basis-parental-responsibility.codesystem v2.3.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-felles\"> </a><a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-felles\">felles</a></td><td>Felles</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-mor\"> </a><a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-mor\">mor</a></td><td>Mor</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-far\"> </a><a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-far\">far</a></td><td>Far</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-medmor\"> </a><a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-medmor\">medmor</a></td><td>Medmor</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-andre\"> </a><a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-andre\">andre</a></td><td>Andre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-ukjent\"> </a><a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-ukjent\">ukjent</a></td><td>Ukjent</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html\">no-basis-parental-responsibility.codesystem v2.3.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-felles\"> </a><a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-felles\">felles</a></td><td>Felles</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-mor\"> </a><a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-mor\">mor</a></td><td>Mor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-far\"> </a><a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-far\">far</a></td><td>Far</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-medmor\"> </a><a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-medmor\">medmor</a></td><td>Medmor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-andre\"> </a><a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-andre\">andre</a></td><td>Andre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-ukjent\"> </a><a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-ukjent\">ukjent</a></td><td>Ukjent</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility",
       "version" : "2.3.0",
@@ -1034,8 +1034,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:e24b4b62-fd8d-48ca-9efa-fc50450ee639",
-        "timestamp" : "2022-01-11T09:12:33+00:00",
+        "identifier" : "urn:uuid:37c1622d-e983-44b0-94b1-2ab91d45ab72",
+        "timestamp" : "2022-01-17T12:49:46+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
