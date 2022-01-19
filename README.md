@@ -2,8 +2,15 @@
 
 ## Plan
 
-* OK, Skrive resten av ressursene i fsh format, validere og generer IG
-* Ta inn markdown fra SIMPLIFIER til ig-publisher
+Publishing new version
+* Teste og beskrive prosess for å publisere ny offisiell versjon av en IG
+* Publisere på canonical-url
+* Publisere gjennom build.fhir.org
+* Versjonskontroll hvor man tar vare på gamle publiserte (offisielle) versjoner
+  * Utfylling av publish-box
+  * Generering av history.html page **-publish** IG publisher option?
+
+Ta inn markdown fra SIMPLIFIER til ig-publisher
   * Sørge for at markdown filene blir med i generert IG
   * egne md/html sider med dokumentasjonen legges i input/pages eller input/pagecontent katalog før man kjører igpublisher/sushi
   * sushi-config.yaml må nevne sidene 
@@ -15,7 +22,6 @@
   History: CHANGELOG.html
 ~~~
 
-* Sette opp Github workflow
 * Teste ut bruk av maturity level på artefaktene
   * [FMM extension](http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm)
   * La inn maturitylevel i NoBasisHumanNam
@@ -23,7 +29,12 @@
   * ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
   * ^extension.valueInteger = 1
   ~~~
-* Egen gh-pages branch som bare inneholder resultatet av byggeprosessen fra IG-publisher
+
+## Done
+
+* OK, Skrive resten av ressursene i fsh format, validere og generer IG
+* OK, Sette opp Github workflow or CI-build
+* OK, Egen gh-pages branch som bare inneholder resultatet av byggeprosessen fra IG-publisher
   * hvordan styre hvor IG-publisher legger resultatet?
   * Sørge for at IG-publisher resultatene blir lagt i egen katalog og dette blir lagt i gh-pages branchen
   * Hvor er pakkene fra IG-publisher, genereres det pakker?
