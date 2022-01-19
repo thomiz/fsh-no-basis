@@ -2,7 +2,7 @@
 
 ## Plan
 
-Publishing new version
+**Publishing new version**
 * Teste og beskrive prosess for å publisere ny offisiell versjon av en IG
 * Publisere på canonical-url
 * Publisere gjennom build.fhir.org
@@ -10,7 +10,7 @@ Publishing new version
   * Utfylling av publish-box
   * Generering av history.html page **-publish** IG publisher option?
 
-Ta inn markdown fra SIMPLIFIER til ig-publisher
+**Ta inn markdown fra SIMPLIFIER til ig-publisher**
   * Sørge for at markdown filene blir med i generert IG
   * egne md/html sider med dokumentasjonen legges i input/pages eller input/pagecontent katalog før man kjører igpublisher/sushi
   * sushi-config.yaml må nevne sidene 
@@ -22,13 +22,13 @@ Ta inn markdown fra SIMPLIFIER til ig-publisher
   History: CHANGELOG.html
 ~~~
 
-* Teste ut bruk av maturity level på artefaktene
-  * [FMM extension](http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm)
-  * La inn maturitylevel i NoBasisHumanNam
-  ~~~xml
-  * ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
-  * ^extension.valueInteger = 1
-  ~~~
+**Teste ut bruk av maturity level på artefaktene**
+* [FMM extension](http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm)
+* La inn maturitylevel i NoBasisHumanNam
+~~~xml
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension.valueInteger = 1
+~~~
 
 ## Done
 
