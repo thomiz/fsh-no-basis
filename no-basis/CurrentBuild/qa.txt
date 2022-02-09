@@ -1,9 +1,9 @@
 ﻿NoBasis : Validation Results
 =========================================
 
-err = 22, warn = 99, info = 17
-IG Publisher Version: 1.1.96
-Generated Mon Jan 17 12:50:16 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.basis#2.3.0 (canonical = http://hl7.no/fhir)
+err = 22, warn = 99, info = 18
+IG Publisher Version: 1.1.99
+Generated Wed Feb 09 19:13:45 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.basis#2.3.0 (canonical = http://hl7.no/fhir)
  Build Errors : 529 / 9 / 0
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 1 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 1 / 0 / 2
@@ -44,7 +44,7 @@ Generated Mon Jan 17 12:50:16 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.basis
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Practitioner : 0 / 6 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-PractitionerRole : 0 / 5 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-RelatedPerson : 0 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Substance : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Substance : 0 / 1 / 2
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-address-official : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-middlename : 1 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-municipalitycode : 0 / 2 / 1
@@ -742,6 +742,7 @@ WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.snap
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-RelatedPerson.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-Substance.json ==
+INFORMATION: StructureDefinition/no-basis-Substance: StructureDefinition.snapshot.element[38].binding: The element Substance.ingredient.substance[x] has a binding, and has multiple types ([Reference, CodeableConcept]). The binding will apply to all the types
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Substance'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-address-official.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-middlename.json ==
