@@ -1,9 +1,9 @@
 ﻿NoBasis : Validation Results
 =========================================
 
-err = 22, warn = 99, info = 18
-IG Publisher Version: 1.1.99
-Generated Wed Feb 09 19:13:45 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.basis#2.3.0 (canonical = http://hl7.no/fhir)
+err = 22, warn = 99, info = 17
+IG Publisher Version: 1.1.104
+Generated Wed Feb 16 10:09:01 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.basis#2.3.0 (canonical = http://hl7.no/fhir)
  Build Errors : 529 / 9 / 0
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 1 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 1 / 0 / 2
@@ -44,7 +44,7 @@ Generated Wed Feb 09 19:13:45 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.basis
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Practitioner : 0 / 6 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-PractitionerRole : 0 / 5 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-RelatedPerson : 0 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Substance : 0 / 1 / 2
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Substance : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-address-official : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-middlename : 1 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-municipalitycode : 0 / 2 / 1
@@ -687,8 +687,8 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-DocumentReference'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-Endpoint.json ==
 WARNING: no-basis-Endpoint.Endpoint.payloadMimeType: Binding http://www.rfc-editor.org/bcp/bcp13.txt could not be located
-ERROR: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[18].binding.valueSet: OIDs must be valid
-ERROR: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[6].binding.valueSet: OIDs must be valid
+ERROR: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[18].binding.valueSet: OIDs must be valid (2.16.578.1.12.4.1.1.0000)
+ERROR: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[6].binding.valueSet: OIDs must be valid (2.16.578.1.12.4.1.1.0000)
 WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition: Binding http://www.rfc-editor.org/bcp/bcp13.txt could not be located
 WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[5].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8279 on element Endpoint.payloadType could not be resolved
 WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[6].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.0000 on element Endpoint.payloadType could not be resolved
@@ -742,7 +742,6 @@ WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.snap
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-RelatedPerson.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-Substance.json ==
-INFORMATION: StructureDefinition/no-basis-Substance: StructureDefinition.snapshot.element[38].binding: The element Substance.ingredient.substance[x] has a binding, and has multiple types ([Reference, CodeableConcept]). The binding will apply to all the types
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Substance'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-address-official.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-middlename.json ==

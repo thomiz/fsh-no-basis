@@ -16,8 +16,8 @@
      ]
   ];
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"EspenEksempel\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-Patient.html\">no-basis-Patient</a></p></div><blockquote><p><b>citizenship</b></p><p><b>value</b>: Norway <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#NO)</span></p></blockquote><p><b>identifier</b>: id: 210377xxxxx</p><p><b>name</b>: Espen Eksempel </p><p><b>telecom</b>: <a href=\"tel:+4798216832\">+4798216832</a></p><p><b>gender</b>: male</p><p><b>address</b>: Stålverkskroken 14 Oslo 0661 NO (HOME)</p><p><b>maritalStatus</b>: unmarried <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-MaritalStatus.html\">MaritalStatus</a>#U)</span></p><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td></tr><tr><td>*</td><td>Norsk <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></td></tr></table><p><b>generalPractitioner</b>: <span>: SIDSEL AASE JAVERY</span></p></div>"
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Espen Eksempel </b> (no stated gender) DoB Unknown ( id: 210377xxxxx)</div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
