@@ -1,41 +1,35 @@
 {
-  "resourceType": "NamingSystem",
-  "id": "no-basis-dufnummer",
-  "meta": {
-    "versionId": "1.0"
+  "resourceType" : "NamingSystem",
+  "id" : "no-basis-dufnummer",
+  "meta" : {
+    "versionId" : "1.0"
   },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-dufnummer</td></tr><tr><td>Version</td><td>2.3.0</td></tr><tr><td>Name</td><td>DUFnummer</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Et DUF-nummer er et tolvsifret nummer som blir gitt til alle som søker om opphold i Norge.</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/DUFN</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.5</td><td>true</td></tr></table></div>"
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-dufnummer</td></tr><tr><td>Version</td><td>2.3.0</td></tr><tr><td>Name</td><td>DUFnummer</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Et DUF-nummer er et tolvsifret nummer som blir gitt til alle som søker om opphold i Norge.</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/DUFN</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.5</td><td>true</td></tr></table></div>"
   },
-  "name": "DUFnummer",
-  "status": "active",
-  "kind": "identifier",
-  "date": "2018-10-26",
-  "publisher": "Direktoratet for e-helse",
-  "responsible": "Utlendingsdirektoratet",
-  "description": "Et DUF-nummer er et tolvsifret nummer som blir gitt til alle som søker om opphold i Norge. ",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "NO",
-          "display": "Norway"
-        }
-      ]
-    }
-  ],
-  "uniqueId": [
-    {
-      "type": "uri",
-      "value": "http://hl7.no/fhir/NamingSystem/DUFN",
-      "preferred": false
-    },
-    {
-      "type": "oid",
-      "value": "2.16.578.1.12.4.1.4.5",
-      "preferred": true
-    }
-  ]
+  "name" : "DUFnummer",
+  "status" : "active",
+  "kind" : "identifier",
+  "date" : "2018-10-26",
+  "publisher" : "Direktoratet for e-helse",
+  "responsible" : "Utlendingsdirektoratet",
+  "description" : "Et DUF-nummer er et tolvsifret nummer som blir gitt til alle som søker om opphold i Norge. ",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "uniqueId" : [{
+    "type" : "uri",
+    "value" : "http://hl7.no/fhir/NamingSystem/DUFN",
+    "preferred" : false
+  },
+  {
+    "type" : "oid",
+    "value" : "2.16.578.1.12.4.1.4.5",
+    "preferred" : true
+  }]
 }

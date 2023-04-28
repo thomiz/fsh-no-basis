@@ -1,45 +1,39 @@
 {
-  "resourceType": "CodeSystem",
-  "id": "no-basis-location-type.codesystem",
-  "meta": {
-    "versionId": "1",
-    "lastUpdated": "2019-05-07T00:00:00.000+00:00"
+  "resourceType" : "CodeSystem",
+  "id" : "no-basis-location-type.codesystem",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2019-05-07T00:00:00+00:00"
   },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.no/fhir/CodeSystem/no-basis-location-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">video<a name=\"no-basis-location-type.codesystem-video\"> </a></td><td>Video</td><td>Any two-way video+audio communication/conference system</td></tr><tr><td style=\"white-space:nowrap\">telephone<a name=\"no-basis-location-type.codesystem-telephone\"> </a></td><td>Telephone</td><td>Telephone or other two-way audio communication</td></tr></table></div>"
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://hl7.no/fhir/CodeSystem/no-basis-location-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">video<a name=\"no-basis-location-type.codesystem-video\"> </a></td><td>Video</td><td>Any two-way video+audio communication/conference system</td></tr><tr><td style=\"white-space:nowrap\">telephone<a name=\"no-basis-location-type.codesystem-telephone\"> </a></td><td>Telephone</td><td>Telephone or other two-way audio communication</td></tr></table></div>"
   },
-  "url": "http://hl7.no/fhir/CodeSystem/no-basis-location-type",
-  "version": "2.3.0",
-  "name": "NoBasisLocationType",
-  "title": "no-basis-location-type.codesystem",
-  "status": "draft",
-  "date": "2021-12-16T00:00:00+00:00",
-  "publisher": "HL7 Norway",
-  "description": "Additional codes for location.type used by no-basis-Location",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "NO",
-          "display": "Norway"
-        }
-      ]
-    }
-  ],
-  "content": "complete",
-  "count": 2,
-  "concept": [
-    {
-      "code": "video",
-      "display": "Video",
-      "definition": "Any two-way video+audio communication/conference system"
-    },
-    {
-      "code": "telephone",
-      "display": "Telephone",
-      "definition": "Telephone or other two-way audio communication"
-    }
-  ]
+  "url" : "http://hl7.no/fhir/CodeSystem/no-basis-location-type",
+  "version" : "2.3.0",
+  "name" : "NoBasisLocationType",
+  "title" : "no-basis-location-type.codesystem",
+  "status" : "draft",
+  "date" : "2021-12-16T00:00:00+00:00",
+  "publisher" : "HL7 Norway",
+  "description" : "Additional codes for location.type used by no-basis-Location",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "video",
+    "display" : "Video",
+    "definition" : "Any two-way video+audio communication/conference system"
+  },
+  {
+    "code" : "telephone",
+    "display" : "Telephone",
+    "definition" : "Telephone or other two-way audio communication"
+  }]
 }

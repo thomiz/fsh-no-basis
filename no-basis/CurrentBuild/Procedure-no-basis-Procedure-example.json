@@ -1,53 +1,41 @@
 {
-  "resourceType": "Procedure",
-  "id": "no-basis-Procedure-example",
-  "meta": {
-    "profile": [
-      "http://hl7.no/fhir/StructureDefinition/no-basis-Procedure"
-    ]
+  "resourceType" : "Procedure",
+  "id" : "no-basis-Procedure-example",
+  "meta" : {
+    "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Procedure"]
   },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"no-basis-Procedure-example\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-Procedure.html\">no-basis-Procedure</a></p></div><p><b>status</b>: completed</p><p><b>code</b>: Colonoscopy (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#73761001)</span></p><p><b>subject</b>: <a href=\"Patient/example\">Patient/example</a></p><h3>Performers</h3><table class=\"grid\"><tr><td>-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td>*</td><td>Primary performing endoscopist (person) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#8921000202108)</span></td><td><a href=\"Practitioner/example\">Practitioner/example</a></td></tr></table><p><b>bodySite</b>: TC - Transverse colon <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#485005)</span></p></div>"
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Procedure</b><a name=\"no-basis-Procedure-example\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Procedure &quot;no-basis-Procedure-example&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-Procedure.html\">no-basis-Procedure</a></p></div><p><b>status</b>: completed</p><p><b>code</b>: Colonoscopy (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#73761001)</span></p><p><b>subject</b>: <a href=\"Patient/example\">Patient/example</a></p><h3>Performers</h3><table class=\"grid\"><tr><td>-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td>*</td><td>Primary performing endoscopist (person) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#8921000202108)</span></td><td><a href=\"Practitioner/example\">Practitioner/example</a></td></tr></table><p><b>bodySite</b>: TC - Transverse colon <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#485005)</span></p></div>"
   },
-  "status": "completed",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "code": "73761001",
-        "display": "Colonoscopy (procedure)"
-      }
-    ]
+  "status" : "completed",
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "73761001",
+      "display" : "Colonoscopy (procedure)"
+    }]
   },
-  "subject": {
-    "reference": "Patient/example"
+  "subject" : {
+    "reference" : "Patient/example"
   },
-  "performer": [
-    {
-      "function": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "8921000202108",
-            "display": "Primary performing endoscopist (person)"
-          }
-        ]
-      },
-      "actor": {
-        "reference": "Practitioner/example"
-      }
+  "performer" : [{
+    "function" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "8921000202108",
+        "display" : "Primary performing endoscopist (person)"
+      }]
+    },
+    "actor" : {
+      "reference" : "Practitioner/example"
     }
-  ],
-  "bodySite": [
-    {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "485005",
-          "display": "TC - Transverse colon"
-        }
-      ]
-    }
-  ]
+  }],
+  "bodySite" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "485005",
+      "display" : "TC - Transverse colon"
+    }]
+  }]
 }

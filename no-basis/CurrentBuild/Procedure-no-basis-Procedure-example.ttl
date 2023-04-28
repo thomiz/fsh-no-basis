@@ -6,65 +6,54 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/Procedure/no-basis-Procedure-example> a fhir:Procedure;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-basis-Procedure-example"];
-  fhir:Resource.meta [
-     fhir:Meta.profile [
-       fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-Procedure";
-       fhir:index 0;
+<http://hl7.no/fhir/Procedure/no-basis-Procedure-example> a fhir:Procedure ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-basis-Procedure-example"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-Procedure"^^xsd:anyURI ;
        fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Procedure>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Procedure</b><a name=\"no-basis-Procedure-example\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Procedure &quot;no-basis-Procedure-example&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-Procedure.html\">no-basis-Procedure</a></p></div><p><b>status</b>: completed</p><p><b>code</b>: Colonoscopy (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#73761001)</span></p><p><b>subject</b>: <a href=\"Patient/example\">Patient/example</a></p><h3>Performers</h3><table class=\"grid\"><tr><td>-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td>*</td><td>Primary performing endoscopist (person) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#8921000202108)</span></td><td><a href=\"Practitioner/example\">Practitioner/example</a></td></tr></table><p><b>bodySite</b>: TC - Transverse colon <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#485005)</span></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:73761001 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "73761001" ] ;
+       fhir:display [ fhir:v "Colonoscopy (procedure)" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.no/fhir/Patient/example> ;
+     fhir:reference [ fhir:v "Patient/example" ]
+  ] ; # 
+  fhir:performer ( [
+     fhir:function [
+       fhir:coding ( [
+         a sct:8921000202108 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8921000202108" ] ;
+         fhir:display [ fhir:v "Primary performing endoscopist (person)" ]
+       ] )
+     ] ;
+     fhir:actor [
+       fhir:link <http://hl7.no/fhir/Practitioner/example> ;
+       fhir:reference [ fhir:v "Practitioner/example" ]
      ]
-  ];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"no-basis-Procedure-example\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-Procedure.html\">no-basis-Procedure</a></p></div><p><b>status</b>: completed</p><p><b>code</b>: Colonoscopy (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#73761001)</span></p><p><b>subject</b>: <a href=\"Patient/example\">Patient/example</a></p><h3>Performers</h3><table class=\"grid\"><tr><td>-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td>*</td><td>Primary performing endoscopist (person) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#8921000202108)</span></td><td><a href=\"Practitioner/example\">Practitioner/example</a></td></tr></table><p><b>bodySite</b>: TC - Transverse colon <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#485005)</span></p></div>"
-  ];
-  fhir:Procedure.status [ fhir:value "completed"];
-  fhir:Procedure.code [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       a sct:73761001;
-       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-       fhir:Coding.code [ fhir:value "73761001" ];
-       fhir:Coding.display [ fhir:value "Colonoscopy (procedure)" ]
-     ]
-  ];
-  fhir:Procedure.subject [
-     fhir:link <http://hl7.no/fhir/Patient/example>;
-     fhir:Reference.reference [ fhir:value "Patient/example" ]
-  ];
-  fhir:Procedure.performer [
-     fhir:index 0;
-     fhir:Procedure.performer.function [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a sct:8921000202108;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "8921000202108" ];
-         fhir:Coding.display [ fhir:value "Primary performing endoscopist (person)" ]
-       ]
-     ];
-     fhir:Procedure.performer.actor [
-       fhir:link <http://hl7.no/fhir/Practitioner/example>;
-       fhir:Reference.reference [ fhir:value "Practitioner/example" ]
-     ]
-  ];
-  fhir:Procedure.bodySite [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       a sct:485005;
-       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-       fhir:Coding.code [ fhir:value "485005" ];
-       fhir:Coding.display [ fhir:value "TC - Transverse colon" ]
-     ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/Procedure/no-basis-Procedure-example.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+  ] ) ; # 
+  fhir:bodySite ( [
+     fhir:coding ( [
+       a sct:485005 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "485005" ] ;
+       fhir:display [ fhir:v "TC - Transverse colon" ]
+     ] )
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

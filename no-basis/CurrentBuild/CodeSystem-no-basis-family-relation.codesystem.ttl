@@ -5,70 +5,56 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-basis-family-relation.codesystem> a fhir:CodeSystem;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-basis-family-relation.codesystem"];
-  fhir:Resource.meta [
-     fhir:Meta.versionId [ fhir:value "1" ];
-     fhir:Meta.lastUpdated [ fhir:value "2019-05-07T00:00:00.000+00:00"^^xsd:dateTime ]
-  ];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.no/fhir/CodeSystem/no-basis-family-relation defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">mor<a name=\"no-basis-family-relation.codesystem-mor\"> </a></td><td>Mor</td></tr><tr><td style=\"white-space:nowrap\">far<a name=\"no-basis-family-relation.codesystem-far\"> </a></td><td>Far</td></tr><tr><td style=\"white-space:nowrap\">medmor<a name=\"no-basis-family-relation.codesystem-medmor\"> </a></td><td>Medmor</td></tr><tr><td style=\"white-space:nowrap\">barn<a name=\"no-basis-family-relation.codesystem-barn\"> </a></td><td>Barn</td></tr><tr><td style=\"white-space:nowrap\">søsken<a name=\"no-basis-family-relation.codesystem-s.248sken\"> </a></td><td>Søsken</td></tr><tr><td style=\"white-space:nowrap\">ektefelleEllerPartner<a name=\"no-basis-family-relation.codesystem-ektefelleEllerPartner\"> </a></td><td>Ektefelle eller partner</td></tr><tr><td style=\"white-space:nowrap\">dødfødtBarn<a name=\"no-basis-family-relation.codesystem-d.248df.248dtBarn\"> </a></td><td>Dødfødt barn</td></tr></table></div>"
-  ];
-  fhir:CodeSystem.url [ fhir:value "http://hl7.no/fhir/CodeSystem/no-basis-family-relation"];
-  fhir:CodeSystem.version [ fhir:value "2.3.0"];
-  fhir:CodeSystem.name [ fhir:value "NoBasisFamilyRelation"];
-  fhir:CodeSystem.title [ fhir:value "no-basis-family-relation.codesystem"];
-  fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2019-05-15T00:00:00+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "Copy of Codes from Familierelasjon defined by Skatteetaten"];
-  fhir:CodeSystem.description [ fhir:value "Copy of Codes from Familierelasjon defined by Skatteetaten"];
-  fhir:CodeSystem.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ];
-  fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "7"^^xsd:nonNegativeInteger];
-  fhir:CodeSystem.concept [
-     fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "mor" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Mor" ]
-  ], [
-     fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "far" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Far" ]
-  ], [
-     fhir:index 2;
-     fhir:CodeSystem.concept.code [ fhir:value "medmor" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Medmor" ]
-  ], [
-     fhir:index 3;
-     fhir:CodeSystem.concept.code [ fhir:value "barn" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Barn" ]
-  ], [
-     fhir:index 4;
-     fhir:CodeSystem.concept.code [ fhir:value "søsken" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Søsken" ]
-  ], [
-     fhir:index 5;
-     fhir:CodeSystem.concept.code [ fhir:value "ektefelleEllerPartner" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Ektefelle eller partner" ]
-  ], [
-     fhir:index 6;
-     fhir:CodeSystem.concept.code [ fhir:value "dødfødtBarn" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Dødfødt barn" ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/CodeSystem/no-basis-family-relation.codesystem.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.no/fhir/CodeSystem/no-basis-family-relation.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-basis-family-relation.codesystem"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2019-05-07T00:00:00+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">mor<a name=\"no-basis-family-relation.codesystem-mor\"> </a></td><td>Mor</td></tr><tr><td style=\"white-space:nowrap\">far<a name=\"no-basis-family-relation.codesystem-far\"> </a></td><td>Far</td></tr><tr><td style=\"white-space:nowrap\">medmor<a name=\"no-basis-family-relation.codesystem-medmor\"> </a></td><td>Medmor</td></tr><tr><td style=\"white-space:nowrap\">barn<a name=\"no-basis-family-relation.codesystem-barn\"> </a></td><td>Barn</td></tr><tr><td style=\"white-space:nowrap\">søsken<a name=\"no-basis-family-relation.codesystem-s.248sken\"> </a></td><td>Søsken</td></tr><tr><td style=\"white-space:nowrap\">ektefelleEllerPartner<a name=\"no-basis-family-relation.codesystem-ektefelleEllerPartner\"> </a></td><td>Ektefelle eller partner</td></tr><tr><td style=\"white-space:nowrap\">dødfødtBarn<a name=\"no-basis-family-relation.codesystem-d.248df.248dtBarn\"> </a></td><td>Dødfødt barn</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.no/fhir/CodeSystem/no-basis-family-relation"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "2.3.0"] ; # 
+  fhir:name [ fhir:v "NoBasisFamilyRelation"] ; # 
+  fhir:title [ fhir:v "no-basis-family-relation.codesystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2019-05-15T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Copy of Codes from Familierelasjon defined by Skatteetaten"] ; # 
+  fhir:description [ fhir:v "Copy of Codes from Familierelasjon defined by Skatteetaten"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "mor" ] ;
+     fhir:display [ fhir:v "Mor" ]
+  ] [
+     fhir:code [ fhir:v "far" ] ;
+     fhir:display [ fhir:v "Far" ]
+  ] [
+     fhir:code [ fhir:v "medmor" ] ;
+     fhir:display [ fhir:v "Medmor" ]
+  ] [
+     fhir:code [ fhir:v "barn" ] ;
+     fhir:display [ fhir:v "Barn" ]
+  ] [
+     fhir:code [ fhir:v "søsken" ] ;
+     fhir:display [ fhir:v "Søsken" ]
+  ] [
+     fhir:code [ fhir:v "ektefelleEllerPartner" ] ;
+     fhir:display [ fhir:v "Ektefelle eller partner" ]
+  ] [
+     fhir:code [ fhir:v "dødfødtBarn" ] ;
+     fhir:display [ fhir:v "Dødfødt barn" ]
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

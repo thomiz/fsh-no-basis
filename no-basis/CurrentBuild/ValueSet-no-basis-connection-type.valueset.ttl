@@ -5,50 +5,41 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/ValueSet/no-basis-connection-type.valueset> a fhir:ValueSet;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-basis-connection-type.valueset"];
-  fhir:Resource.meta [
-     fhir:Meta.versionId [ fhir:value "1" ];
-     fhir:Meta.lastUpdated [ fhir:value "2018-10-16T10:48:46.366+00:00"^^xsd:dateTime ]
-  ];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-connection-type.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</code></a></li><li>Include all codes defined in <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-endpoint-connection-type.html\"><code>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</code></a></li></ul></div>"
-  ];
-  fhir:ValueSet.url [ fhir:value "http://hl7.no/fhir/ValueSet/no-basis-connection-type"];
-  fhir:ValueSet.version [ fhir:value "2.3.0"];
-  fhir:ValueSet.name [ fhir:value "NoBasisConnectionType"];
-  fhir:ValueSet.title [ fhir:value "no-basis-connection-type.valueset"];
-  fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ValueSet.date [ fhir:value "2019-03-13T10:48:45.936+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "Direktoratet for e-helse"];
-  fhir:ValueSet.description [ fhir:value "ValueSet for connection types used in Endpoint definition. Includes all Norwegian specific types (no-basis-connection-type) and the extensible HL7 CodeSystem for connection-type"];
-  fhir:ValueSet.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ];
-  fhir:ValueSet.immutable [ fhir:value "false"^^xsd:boolean];
-  fhir:ValueSet.compose [
-     fhir:ValueSet.compose.include [
-       fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.no/fhir/CodeSystem/no-basis-connection-type" ]
-     ], [
-       fhir:index 1;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/endpoint-connection-type" ]
-     ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/ValueSet/no-basis-connection-type.valueset.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.no/fhir/ValueSet/no-basis-connection-type.valueset> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-basis-connection-type.valueset"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2018-10-16T10:48:46.366+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-connection-type.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</code></a></li><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-endpoint-connection-type.html\"><code>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.no/fhir/ValueSet/no-basis-connection-type"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "2.3.0"] ; # 
+  fhir:name [ fhir:v "NoBasisConnectionType"] ; # 
+  fhir:title [ fhir:v "no-basis-connection-type.valueset"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2019-03-13T10:48:45.936+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:description [ fhir:v "ValueSet for connection types used in Endpoint definition. Includes all Norwegian specific types (no-basis-connection-type) and the extensible HL7 CodeSystem for connection-type"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:immutable [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://hl7.no/fhir/CodeSystem/no-basis-connection-type"^^xsd:anyURI ]
+     ] [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ]
+     ] )
+  ] . # 
 
 # -------------------------------------------------------------------------------------
 

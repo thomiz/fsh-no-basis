@@ -1,155 +1,113 @@
 {
-  "resourceType": "Patient",
-  "id": "JanniceSorengTo",
-  "meta": {
-    "profile": [
-      "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"
-    ]
+  "resourceType" : "Patient",
+  "id" : "JanniceSorengTo",
+  "meta" : {
+    "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Patient"]
   },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Jannice SørengTo </b> (no stated gender) DoB Unknown ( id: 21030550231)</div>"
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Jannice SørengTo </b> female, DoB Unknown ( id:\u00a021030550231)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Id:</td><td colspan=\"3\">id:\u00a0123</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Details:</td><td colspan=\"3\"><ul><li><a href=\"tel:+4733445566\">+4733445566</a></li><li>Karisvingen 44 Oslo 0603 NO (HOME)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Languages spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes: \">Norsk</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient contact\">Contact</td><td colspan=\"3\"><ul><li>Pål Pårørende Olsen</li><li>Relationships: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v2-0131 C}\">Emergency Contact</span>, <span title=\"Codes: \">Bror</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>General Practitioner: <span>: SIDSEL AASE JAVERY</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The patient's legal status as citizen of a country.\">citizenship:</td><td colspan=\"3\"><ul><li>code: <span title=\"Codes: {urn:iso:std:iso:3166 NO}\">Norway</span></li></ul></td></tr></table></div>"
   },
-  "extension": [
-    {
-      "extension": [
-        {
-          "url": "code",
-          "valueCodeableConcept": {
-            "coding": [
-              {
-                "system": "urn:iso:std:iso:3166",
-                "code": "NO"
-              }
-            ]
-          }
+  "extension" : [{
+    "extension" : [{
+      "url" : "code",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO"
+        }]
+      }
+    }],
+    "url" : "http://hl7.org/fhir/StructureDefinition/patient-citizenship"
+  }],
+  "identifier" : [{
+    "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
+    "value" : "21030550231"
+  },
+  {
+    "system" : "http://profil.visma.no/lopenummer",
+    "value" : "123"
+  }],
+  "name" : [{
+    "family" : "SørengTo",
+    "given" : ["Jannice"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "+4733445566",
+    "use" : "home"
+  }],
+  "gender" : "female",
+  "address" : [{
+    "extension" : [{
+      "extension" : [{
+        "url" : "municipality",
+        "valueCoding" : {
+          "system" : "urn:oid:2.16.578.1.12.4.1.1.3402",
+          "code" : "0301",
+          "display" : "Oslo"
         }
-      ],
-      "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship"
-    }
-  ],
-  "identifier": [
-    {
-      "system": "urn:oid:2.16.578.1.12.4.1.4.1",
-      "value": "21030550231"
+      }],
+      "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation"
     },
     {
-      "system": "http://profil.visma.no/lopenummer",
-      "value": "123"
-    }
-  ],
-  "name": [
-    {
-      "family": "SørengTo",
-      "given": [
-        "Jannice"
-      ]
-    }
-  ],
-  "telecom": [
-    {
-      "system": "phone",
-      "value": "+4733445566",
-      "use": "home"
-    }
-  ],
-  "gender": "female",
-  "address": [
-    {
-      "extension": [
-        {
-          "extension": [
-            {
-              "url": "municipality",
-              "valueCoding": {
-                "system": "urn:oid:2.16.578.1.12.4.1.1.3402",
-                "code": "0301",
-                "display": "Oslo"
-              }
-            }
-          ],
-          "url": "http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation"
-        },
-        {
-          "url": "http://hl7.no/fhir/StructureDefinition/no-basis-address-official",
-          "valueBoolean": true
+      "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-address-official",
+      "valueBoolean" : true
+    }],
+    "use" : "home",
+    "line" : ["Karisvingen 44"],
+    "city" : "Oslo",
+    "district" : "Oslo",
+    "_district" : {
+      "extension" : [{
+        "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode",
+        "valueCoding" : {
+          "system" : "https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle",
+          "code" : "0301"
         }
-      ],
-      "use": "home",
-      "line": [
-        "Karisvingen 44"
-      ],
-      "city": "Oslo",
-      "district": "Oslo",
-      "_district": {
-        "extension": [
-          {
-            "url": "http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode",
-            "valueCoding": {
-              "system": "https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle",
-              "code": "0301"
-            }
-          }
-        ]
-      },
-      "postalCode": "0603",
-      "country": "NO"
-    }
-  ],
-  "maritalStatus": {
-    "coding": [
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
-        "code": "U",
-        "display": "unmarried"
-      }
-    ]
+      }]
+    },
+    "postalCode" : "0603",
+    "country" : "NO"
+  }],
+  "maritalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code" : "U",
+      "display" : "unmarried"
+    }]
   },
-  "contact": [
+  "contact" : [{
+    "relationship" : [{
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+        "code" : "C",
+        "display" : "Emergency Contact"
+      }]
+    },
     {
-      "relationship": [
-        {
-          "coding": [
-            {
-              "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
-              "code": "C",
-              "display": "Emergency Contact"
-            }
-          ]
-        },
-        {
-          "text": "Bror"
-        }
-      ],
-      "name": {
-        "extension": [
-          {
-            "url": "http://hl7.no/fhir/StructureDefinition/no-basis-middlename",
-            "valueString": "Pårørende"
-          }
-        ],
-        "text": "Pål Pårørende Olsen",
-        "family": "Olsen",
-        "given": [
-          "Pål"
-        ]
-      }
+      "text" : "Bror"
+    }],
+    "name" : {
+      "extension" : [{
+        "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-middlename",
+        "valueString" : "Pårørende"
+      }],
+      "text" : "Pål Pårørende Olsen",
+      "family" : "Olsen",
+      "given" : ["Pål"]
     }
-  ],
-  "communication": [
-    {
-      "language": {
-        "text": "Norsk"
-      }
+  }],
+  "communication" : [{
+    "language" : {
+      "text" : "Norsk"
     }
-  ],
-  "generalPractitioner": [
-    {
-      "identifier": {
-        "system": "urn:oid:2.16.578.1.12.4.1.2",
-        "value": "720"
-      },
-      "display": "SIDSEL AASE JAVERY"
-    }
-  ]
+  }],
+  "generalPractitioner" : [{
+    "identifier" : {
+      "system" : "urn:oid:2.16.578.1.12.4.1.2",
+      "value" : "720"
+    },
+    "display" : "SIDSEL AASE JAVERY"
+  }]
 }

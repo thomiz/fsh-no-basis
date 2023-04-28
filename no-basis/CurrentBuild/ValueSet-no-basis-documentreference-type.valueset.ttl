@@ -5,292 +5,221 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/ValueSet/no-basis-documentreference-type.valueset> a fhir:ValueSet;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-basis-documentreference-type.valueset"];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>urn:oid:2.16.578.1.12.4.1.1.9602</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>A00-1</td><td>Epikriser og sammenfatninger</td></tr><tr><td>A01-2</td><td>Kriseplan</td></tr><tr><td>A02-2</td><td>Individuell plan</td></tr><tr><td>A03-2</td><td>Epikrise</td></tr><tr><td>A04-2</td><td>Sykepleiesammenfatning</td></tr><tr><td>A05-2</td><td>Fysioterapisammenfatning</td></tr><tr><td>A06-2</td><td>Ergoterapisammenfatning</td></tr><tr><td>A07-2</td><td>Psykologsammenfatning</td></tr><tr><td>A08-2</td><td>Sosionomsammenfatning</td></tr><tr><td>A09-2</td><td>Ernæringsfysiologsammenfatning</td></tr><tr><td>A10-2</td><td>Annet fagpersonell sammenfatning</td></tr><tr><td>A11-2</td><td>Tverrfaglig sammenfatning</td></tr><tr><td>A12-2</td><td>Utskrivings-/Pasientorientering</td></tr><tr><td>A13-2</td><td>Poliklinisk epikrise</td></tr><tr><td>B00-1</td><td>Kontinuerlig/løpende journal</td></tr><tr><td>B01-2</td><td>Tverrfaglig behandlingsplan</td></tr><tr><td>B02-2</td><td>Journalnotat</td></tr><tr><td>B03-2</td><td>Poliklinisk notat</td></tr><tr><td>C00-1</td><td>Prøvesvar, vev og væsker</td></tr><tr><td>C01-2</td><td>Medisinsk biokjemi</td></tr><tr><td>C02-2</td><td>Blodbank og immunologi</td></tr><tr><td>C03-2</td><td>Mikrobiologi, virologi og serologi</td></tr><tr><td>C04-2</td><td>Patologi, histologi og cytologi</td></tr><tr><td>C05-2</td><td>Klinisk farmakologi</td></tr><tr><td>C06-2</td><td>Medisinsk genetikk</td></tr><tr><td>C07-2</td><td>Allergiutredning</td></tr><tr><td>D00-1</td><td>Organfunksjon</td></tr><tr><td>D01-2</td><td>Hjerte og kretsløp</td></tr><tr><td>D02-2</td><td>Lunge</td></tr><tr><td>D03-2</td><td>Fordøyelse</td></tr><tr><td>D04-2</td><td>Urinveier</td></tr><tr><td>D05-2</td><td>Gyn/Reproduksjon</td></tr><tr><td>D06-2</td><td>Nervesystemet</td></tr><tr><td>D07-2</td><td>Ledd/ ben/ skjelett</td></tr><tr><td>D08-2</td><td>ØNH</td></tr><tr><td>D09-2</td><td>Øye</td></tr><tr><td>D10-2</td><td>Hud</td></tr><tr><td>D11-2</td><td>Endokrinologi</td></tr><tr><td>D12-2</td><td>Metabolisme</td></tr><tr><td>D13-2</td><td>Beinmargsutstryk</td></tr><tr><td>E00-1</td><td>Bildediagnostikk og andre medisinske bilder</td></tr><tr><td>E01-2</td><td>Diagnostiske bilder</td></tr><tr><td>F00-1</td><td>Kurve, observasjon og behandling</td></tr><tr><td>F01-2</td><td>Kurve</td></tr><tr><td>F02-2</td><td>Anestesi- og opr. Rapporter</td></tr><tr><td>F03-2</td><td>Intensiv/postoperativ observasjon</td></tr><tr><td>F04-2</td><td>Svangerskap og fødsel</td></tr><tr><td>F05-2</td><td>Diabetes/ endokrinologi</td></tr><tr><td>F06-2</td><td>Onkologi/ hematologi</td></tr><tr><td>F07-2</td><td>Nyre/ dialyse</td></tr><tr><td>F08-2</td><td>Smertebehandling</td></tr><tr><td>F09-2</td><td>Ambulansejournal</td></tr><tr><td>F10-2</td><td>Transplantasjon</td></tr><tr><td>I00-1</td><td>Korrespondanse</td></tr><tr><td>I01-2</td><td>Henvisninger</td></tr><tr><td>I02-2</td><td>Brev</td></tr><tr><td>J00-1</td><td>Attester, melding og erklæringer</td></tr><tr><td>J01-2</td><td>Sykmeldinger og trygdesaker</td></tr><tr><td>J02-2</td><td>Legeerklæring om dødsfall</td></tr><tr><td>S00-1</td><td>Test og scoring</td></tr><tr><td>S01-2</td><td>Tester</td></tr><tr><td>S02-2</td><td>Systematiserte diagnostiske intervju</td></tr><tr><td>S03-2</td><td>Voldsrisikovurdering</td></tr></table></li></ul></div>"
-  ];
-  fhir:ValueSet.url [ fhir:value "http://hl7.no/fhir/ValueSet/no-basis-documentreference-type"];
-  fhir:ValueSet.version [ fhir:value "2.3.0"];
-  fhir:ValueSet.name [ fhir:value "NoBasisDocumentReferenceType"];
-  fhir:ValueSet.title [ fhir:value "no-basis-documentreference-type.valueset"];
-  fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-02-16T10:05:43+00:00"^^xsd:dateTime];
-  fhir:ValueSet.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ];
-  fhir:ValueSet.compose [
-     fhir:ValueSet.compose.include [
-       fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.9602" ];
-       fhir:ValueSet.compose.include.concept [
-         fhir:index 0;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A00-1" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Epikriser og sammenfatninger" ]
-       ], [
-         fhir:index 1;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A01-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kriseplan" ]
-       ], [
-         fhir:index 2;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A02-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Individuell plan" ]
-       ], [
-         fhir:index 3;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A03-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Epikrise" ]
-       ], [
-         fhir:index 4;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A04-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sykepleiesammenfatning" ]
-       ], [
-         fhir:index 5;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A05-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fysioterapisammenfatning" ]
-       ], [
-         fhir:index 6;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A06-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ergoterapisammenfatning" ]
-       ], [
-         fhir:index 7;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A07-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Psykologsammenfatning" ]
-       ], [
-         fhir:index 8;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A08-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sosionomsammenfatning" ]
-       ], [
-         fhir:index 9;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A09-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ernæringsfysiologsammenfatning" ]
-       ], [
-         fhir:index 10;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A10-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Annet fagpersonell sammenfatning" ]
-       ], [
-         fhir:index 11;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A11-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tverrfaglig sammenfatning" ]
-       ], [
-         fhir:index 12;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A12-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Utskrivings-/Pasientorientering" ]
-       ], [
-         fhir:index 13;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "A13-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Poliklinisk epikrise" ]
-       ], [
-         fhir:index 14;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "B00-1" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kontinuerlig/løpende journal" ]
-       ], [
-         fhir:index 15;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "B01-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tverrfaglig behandlingsplan" ]
-       ], [
-         fhir:index 16;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "B02-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Journalnotat" ]
-       ], [
-         fhir:index 17;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "B03-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Poliklinisk notat" ]
-       ], [
-         fhir:index 18;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "C00-1" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prøvesvar, vev og væsker" ]
-       ], [
-         fhir:index 19;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "C01-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Medisinsk biokjemi" ]
-       ], [
-         fhir:index 20;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "C02-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Blodbank og immunologi" ]
-       ], [
-         fhir:index 21;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "C03-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mikrobiologi, virologi og serologi" ]
-       ], [
-         fhir:index 22;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "C04-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Patologi, histologi og cytologi" ]
-       ], [
-         fhir:index 23;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "C05-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Klinisk farmakologi" ]
-       ], [
-         fhir:index 24;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "C06-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Medisinsk genetikk" ]
-       ], [
-         fhir:index 25;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "C07-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Allergiutredning" ]
-       ], [
-         fhir:index 26;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D00-1" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Organfunksjon" ]
-       ], [
-         fhir:index 27;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D01-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hjerte og kretsløp" ]
-       ], [
-         fhir:index 28;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D02-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lunge" ]
-       ], [
-         fhir:index 29;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D03-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fordøyelse" ]
-       ], [
-         fhir:index 30;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D04-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urinveier" ]
-       ], [
-         fhir:index 31;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D05-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gyn/Reproduksjon" ]
-       ], [
-         fhir:index 32;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D06-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nervesystemet" ]
-       ], [
-         fhir:index 33;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D07-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ledd/ ben/ skjelett" ]
-       ], [
-         fhir:index 34;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D08-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "ØNH" ]
-       ], [
-         fhir:index 35;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D09-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Øye" ]
-       ], [
-         fhir:index 36;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D10-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hud" ]
-       ], [
-         fhir:index 37;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D11-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Endokrinologi" ]
-       ], [
-         fhir:index 38;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D12-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Metabolisme" ]
-       ], [
-         fhir:index 39;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "D13-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Beinmargsutstryk" ]
-       ], [
-         fhir:index 40;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "E00-1" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bildediagnostikk og andre medisinske bilder" ]
-       ], [
-         fhir:index 41;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "E01-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Diagnostiske bilder" ]
-       ], [
-         fhir:index 42;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "F00-1" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kurve, observasjon og behandling" ]
-       ], [
-         fhir:index 43;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "F01-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kurve" ]
-       ], [
-         fhir:index 44;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "F02-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anestesi- og opr. Rapporter" ]
-       ], [
-         fhir:index 45;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "F03-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Intensiv/postoperativ observasjon" ]
-       ], [
-         fhir:index 46;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "F04-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Svangerskap og fødsel" ]
-       ], [
-         fhir:index 47;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "F05-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Diabetes/ endokrinologi" ]
-       ], [
-         fhir:index 48;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "F06-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Onkologi/ hematologi" ]
-       ], [
-         fhir:index 49;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "F07-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nyre/ dialyse" ]
-       ], [
-         fhir:index 50;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "F08-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Smertebehandling" ]
-       ], [
-         fhir:index 51;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "F09-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ambulansejournal" ]
-       ], [
-         fhir:index 52;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "F10-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transplantasjon" ]
-       ], [
-         fhir:index 53;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "I00-1" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Korrespondanse" ]
-       ], [
-         fhir:index 54;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "I01-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Henvisninger" ]
-       ], [
-         fhir:index 55;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "I02-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Brev" ]
-       ], [
-         fhir:index 56;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "J00-1" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Attester, melding og erklæringer" ]
-       ], [
-         fhir:index 57;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "J01-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sykmeldinger og trygdesaker" ]
-       ], [
-         fhir:index 58;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "J02-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Legeerklæring om dødsfall" ]
-       ], [
-         fhir:index 59;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "S00-1" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Test og scoring" ]
-       ], [
-         fhir:index 60;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "S01-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tester" ]
-       ], [
-         fhir:index 61;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "S02-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Systematiserte diagnostiske intervju" ]
-       ], [
-         fhir:index 62;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "S03-2" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Voldsrisikovurdering" ]
-       ]
-     ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/ValueSet/no-basis-documentreference-type.valueset.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.no/fhir/ValueSet/no-basis-documentreference-type.valueset> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-basis-documentreference-type.valueset"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>urn:oid:2.16.578.1.12.4.1.1.9602</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>A00-1</td><td>Epikriser og sammenfatninger</td></tr><tr><td>A01-2</td><td>Kriseplan</td></tr><tr><td>A02-2</td><td>Individuell plan</td></tr><tr><td>A03-2</td><td>Epikrise</td></tr><tr><td>A04-2</td><td>Sykepleiesammenfatning</td></tr><tr><td>A05-2</td><td>Fysioterapisammenfatning</td></tr><tr><td>A06-2</td><td>Ergoterapisammenfatning</td></tr><tr><td>A07-2</td><td>Psykologsammenfatning</td></tr><tr><td>A08-2</td><td>Sosionomsammenfatning</td></tr><tr><td>A09-2</td><td>Ernæringsfysiologsammenfatning</td></tr><tr><td>A10-2</td><td>Annet fagpersonell sammenfatning</td></tr><tr><td>A11-2</td><td>Tverrfaglig sammenfatning</td></tr><tr><td>A12-2</td><td>Utskrivings-/Pasientorientering</td></tr><tr><td>A13-2</td><td>Poliklinisk epikrise</td></tr><tr><td>B00-1</td><td>Kontinuerlig/løpende journal</td></tr><tr><td>B01-2</td><td>Tverrfaglig behandlingsplan</td></tr><tr><td>B02-2</td><td>Journalnotat</td></tr><tr><td>B03-2</td><td>Poliklinisk notat</td></tr><tr><td>C00-1</td><td>Prøvesvar, vev og væsker</td></tr><tr><td>C01-2</td><td>Medisinsk biokjemi</td></tr><tr><td>C02-2</td><td>Blodbank og immunologi</td></tr><tr><td>C03-2</td><td>Mikrobiologi, virologi og serologi</td></tr><tr><td>C04-2</td><td>Patologi, histologi og cytologi</td></tr><tr><td>C05-2</td><td>Klinisk farmakologi</td></tr><tr><td>C06-2</td><td>Medisinsk genetikk</td></tr><tr><td>C07-2</td><td>Allergiutredning</td></tr><tr><td>D00-1</td><td>Organfunksjon</td></tr><tr><td>D01-2</td><td>Hjerte og kretsløp</td></tr><tr><td>D02-2</td><td>Lunge</td></tr><tr><td>D03-2</td><td>Fordøyelse</td></tr><tr><td>D04-2</td><td>Urinveier</td></tr><tr><td>D05-2</td><td>Gyn/Reproduksjon</td></tr><tr><td>D06-2</td><td>Nervesystemet</td></tr><tr><td>D07-2</td><td>Ledd/ ben/ skjelett</td></tr><tr><td>D08-2</td><td>ØNH</td></tr><tr><td>D09-2</td><td>Øye</td></tr><tr><td>D10-2</td><td>Hud</td></tr><tr><td>D11-2</td><td>Endokrinologi</td></tr><tr><td>D12-2</td><td>Metabolisme</td></tr><tr><td>D13-2</td><td>Beinmargsutstryk</td></tr><tr><td>E00-1</td><td>Bildediagnostikk og andre medisinske bilder</td></tr><tr><td>E01-2</td><td>Diagnostiske bilder</td></tr><tr><td>F00-1</td><td>Kurve, observasjon og behandling</td></tr><tr><td>F01-2</td><td>Kurve</td></tr><tr><td>F02-2</td><td>Anestesi- og opr. Rapporter</td></tr><tr><td>F03-2</td><td>Intensiv/postoperativ observasjon</td></tr><tr><td>F04-2</td><td>Svangerskap og fødsel</td></tr><tr><td>F05-2</td><td>Diabetes/ endokrinologi</td></tr><tr><td>F06-2</td><td>Onkologi/ hematologi</td></tr><tr><td>F07-2</td><td>Nyre/ dialyse</td></tr><tr><td>F08-2</td><td>Smertebehandling</td></tr><tr><td>F09-2</td><td>Ambulansejournal</td></tr><tr><td>F10-2</td><td>Transplantasjon</td></tr><tr><td>I00-1</td><td>Korrespondanse</td></tr><tr><td>I01-2</td><td>Henvisninger</td></tr><tr><td>I02-2</td><td>Brev</td></tr><tr><td>J00-1</td><td>Attester, melding og erklæringer</td></tr><tr><td>J01-2</td><td>Sykmeldinger og trygdesaker</td></tr><tr><td>J02-2</td><td>Legeerklæring om dødsfall</td></tr><tr><td>S00-1</td><td>Test og scoring</td></tr><tr><td>S01-2</td><td>Tester</td></tr><tr><td>S02-2</td><td>Systematiserte diagnostiske intervju</td></tr><tr><td>S03-2</td><td>Voldsrisikovurdering</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.no/fhir/ValueSet/no-basis-documentreference-type"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "2.3.0"] ; # 
+  fhir:name [ fhir:v "NoBasisDocumentReferenceType"] ; # 
+  fhir:title [ fhir:v "no-basis-documentreference-type.valueset"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-04-28T21:16:27+00:00"^^xsd:dateTime] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.9602"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "A00-1" ] ;
+         fhir:display [ fhir:v "Epikriser og sammenfatninger" ]
+       ] [
+         fhir:code [ fhir:v "A01-2" ] ;
+         fhir:display [ fhir:v "Kriseplan" ]
+       ] [
+         fhir:code [ fhir:v "A02-2" ] ;
+         fhir:display [ fhir:v "Individuell plan" ]
+       ] [
+         fhir:code [ fhir:v "A03-2" ] ;
+         fhir:display [ fhir:v "Epikrise" ]
+       ] [
+         fhir:code [ fhir:v "A04-2" ] ;
+         fhir:display [ fhir:v "Sykepleiesammenfatning" ]
+       ] [
+         fhir:code [ fhir:v "A05-2" ] ;
+         fhir:display [ fhir:v "Fysioterapisammenfatning" ]
+       ] [
+         fhir:code [ fhir:v "A06-2" ] ;
+         fhir:display [ fhir:v "Ergoterapisammenfatning" ]
+       ] [
+         fhir:code [ fhir:v "A07-2" ] ;
+         fhir:display [ fhir:v "Psykologsammenfatning" ]
+       ] [
+         fhir:code [ fhir:v "A08-2" ] ;
+         fhir:display [ fhir:v "Sosionomsammenfatning" ]
+       ] [
+         fhir:code [ fhir:v "A09-2" ] ;
+         fhir:display [ fhir:v "Ernæringsfysiologsammenfatning" ]
+       ] [
+         fhir:code [ fhir:v "A10-2" ] ;
+         fhir:display [ fhir:v "Annet fagpersonell sammenfatning" ]
+       ] [
+         fhir:code [ fhir:v "A11-2" ] ;
+         fhir:display [ fhir:v "Tverrfaglig sammenfatning" ]
+       ] [
+         fhir:code [ fhir:v "A12-2" ] ;
+         fhir:display [ fhir:v "Utskrivings-/Pasientorientering" ]
+       ] [
+         fhir:code [ fhir:v "A13-2" ] ;
+         fhir:display [ fhir:v "Poliklinisk epikrise" ]
+       ] [
+         fhir:code [ fhir:v "B00-1" ] ;
+         fhir:display [ fhir:v "Kontinuerlig/løpende journal" ]
+       ] [
+         fhir:code [ fhir:v "B01-2" ] ;
+         fhir:display [ fhir:v "Tverrfaglig behandlingsplan" ]
+       ] [
+         fhir:code [ fhir:v "B02-2" ] ;
+         fhir:display [ fhir:v "Journalnotat" ]
+       ] [
+         fhir:code [ fhir:v "B03-2" ] ;
+         fhir:display [ fhir:v "Poliklinisk notat" ]
+       ] [
+         fhir:code [ fhir:v "C00-1" ] ;
+         fhir:display [ fhir:v "Prøvesvar, vev og væsker" ]
+       ] [
+         fhir:code [ fhir:v "C01-2" ] ;
+         fhir:display [ fhir:v "Medisinsk biokjemi" ]
+       ] [
+         fhir:code [ fhir:v "C02-2" ] ;
+         fhir:display [ fhir:v "Blodbank og immunologi" ]
+       ] [
+         fhir:code [ fhir:v "C03-2" ] ;
+         fhir:display [ fhir:v "Mikrobiologi, virologi og serologi" ]
+       ] [
+         fhir:code [ fhir:v "C04-2" ] ;
+         fhir:display [ fhir:v "Patologi, histologi og cytologi" ]
+       ] [
+         fhir:code [ fhir:v "C05-2" ] ;
+         fhir:display [ fhir:v "Klinisk farmakologi" ]
+       ] [
+         fhir:code [ fhir:v "C06-2" ] ;
+         fhir:display [ fhir:v "Medisinsk genetikk" ]
+       ] [
+         fhir:code [ fhir:v "C07-2" ] ;
+         fhir:display [ fhir:v "Allergiutredning" ]
+       ] [
+         fhir:code [ fhir:v "D00-1" ] ;
+         fhir:display [ fhir:v "Organfunksjon" ]
+       ] [
+         fhir:code [ fhir:v "D01-2" ] ;
+         fhir:display [ fhir:v "Hjerte og kretsløp" ]
+       ] [
+         fhir:code [ fhir:v "D02-2" ] ;
+         fhir:display [ fhir:v "Lunge" ]
+       ] [
+         fhir:code [ fhir:v "D03-2" ] ;
+         fhir:display [ fhir:v "Fordøyelse" ]
+       ] [
+         fhir:code [ fhir:v "D04-2" ] ;
+         fhir:display [ fhir:v "Urinveier" ]
+       ] [
+         fhir:code [ fhir:v "D05-2" ] ;
+         fhir:display [ fhir:v "Gyn/Reproduksjon" ]
+       ] [
+         fhir:code [ fhir:v "D06-2" ] ;
+         fhir:display [ fhir:v "Nervesystemet" ]
+       ] [
+         fhir:code [ fhir:v "D07-2" ] ;
+         fhir:display [ fhir:v "Ledd/ ben/ skjelett" ]
+       ] [
+         fhir:code [ fhir:v "D08-2" ] ;
+         fhir:display [ fhir:v "ØNH" ]
+       ] [
+         fhir:code [ fhir:v "D09-2" ] ;
+         fhir:display [ fhir:v "Øye" ]
+       ] [
+         fhir:code [ fhir:v "D10-2" ] ;
+         fhir:display [ fhir:v "Hud" ]
+       ] [
+         fhir:code [ fhir:v "D11-2" ] ;
+         fhir:display [ fhir:v "Endokrinologi" ]
+       ] [
+         fhir:code [ fhir:v "D12-2" ] ;
+         fhir:display [ fhir:v "Metabolisme" ]
+       ] [
+         fhir:code [ fhir:v "D13-2" ] ;
+         fhir:display [ fhir:v "Beinmargsutstryk" ]
+       ] [
+         fhir:code [ fhir:v "E00-1" ] ;
+         fhir:display [ fhir:v "Bildediagnostikk og andre medisinske bilder" ]
+       ] [
+         fhir:code [ fhir:v "E01-2" ] ;
+         fhir:display [ fhir:v "Diagnostiske bilder" ]
+       ] [
+         fhir:code [ fhir:v "F00-1" ] ;
+         fhir:display [ fhir:v "Kurve, observasjon og behandling" ]
+       ] [
+         fhir:code [ fhir:v "F01-2" ] ;
+         fhir:display [ fhir:v "Kurve" ]
+       ] [
+         fhir:code [ fhir:v "F02-2" ] ;
+         fhir:display [ fhir:v "Anestesi- og opr. Rapporter" ]
+       ] [
+         fhir:code [ fhir:v "F03-2" ] ;
+         fhir:display [ fhir:v "Intensiv/postoperativ observasjon" ]
+       ] [
+         fhir:code [ fhir:v "F04-2" ] ;
+         fhir:display [ fhir:v "Svangerskap og fødsel" ]
+       ] [
+         fhir:code [ fhir:v "F05-2" ] ;
+         fhir:display [ fhir:v "Diabetes/ endokrinologi" ]
+       ] [
+         fhir:code [ fhir:v "F06-2" ] ;
+         fhir:display [ fhir:v "Onkologi/ hematologi" ]
+       ] [
+         fhir:code [ fhir:v "F07-2" ] ;
+         fhir:display [ fhir:v "Nyre/ dialyse" ]
+       ] [
+         fhir:code [ fhir:v "F08-2" ] ;
+         fhir:display [ fhir:v "Smertebehandling" ]
+       ] [
+         fhir:code [ fhir:v "F09-2" ] ;
+         fhir:display [ fhir:v "Ambulansejournal" ]
+       ] [
+         fhir:code [ fhir:v "F10-2" ] ;
+         fhir:display [ fhir:v "Transplantasjon" ]
+       ] [
+         fhir:code [ fhir:v "I00-1" ] ;
+         fhir:display [ fhir:v "Korrespondanse" ]
+       ] [
+         fhir:code [ fhir:v "I01-2" ] ;
+         fhir:display [ fhir:v "Henvisninger" ]
+       ] [
+         fhir:code [ fhir:v "I02-2" ] ;
+         fhir:display [ fhir:v "Brev" ]
+       ] [
+         fhir:code [ fhir:v "J00-1" ] ;
+         fhir:display [ fhir:v "Attester, melding og erklæringer" ]
+       ] [
+         fhir:code [ fhir:v "J01-2" ] ;
+         fhir:display [ fhir:v "Sykmeldinger og trygdesaker" ]
+       ] [
+         fhir:code [ fhir:v "J02-2" ] ;
+         fhir:display [ fhir:v "Legeerklæring om dødsfall" ]
+       ] [
+         fhir:code [ fhir:v "S00-1" ] ;
+         fhir:display [ fhir:v "Test og scoring" ]
+       ] [
+         fhir:code [ fhir:v "S01-2" ] ;
+         fhir:display [ fhir:v "Tester" ]
+       ] [
+         fhir:code [ fhir:v "S02-2" ] ;
+         fhir:display [ fhir:v "Systematiserte diagnostiske intervju" ]
+       ] [
+         fhir:code [ fhir:v "S03-2" ] ;
+         fhir:display [ fhir:v "Voldsrisikovurdering" ]
+       ] )
+     ] )
+  ] . # 
 
 # -------------------------------------------------------------------------------------
 

@@ -5,64 +5,52 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/ValueSet/no-basis-location-type.valueset> a fhir:ValueSet;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-basis-location-type.valueset"];
-  fhir:Resource.meta [
-     fhir:Meta.versionId [ fhir:value "1" ];
-     fhir:Meta.lastUpdated [ fhir:value "2021-12-16T10:48:46.366+00:00"^^xsd:dateTime ]
-  ];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-location-type.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-location-type</code></a></li><li>Include codes from <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a> where concept  is-a  <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-_ServiceDeliveryLocationRoleType\">_ServiceDeliveryLocationRoleType</a></li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude these codes as defined in <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-_ServiceDeliveryLocationRoleType\">_ServiceDeliveryLocationRoleType</a></td><td>ServiceDeliveryLocationRoleType</td><td>A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered.</td></tr></table></li></ul></div>"
-  ];
-  fhir:ValueSet.url [ fhir:value "http://hl7.no/fhir/ValueSet/no-basis-location-type"];
-  fhir:ValueSet.version [ fhir:value "2.3.0"];
-  fhir:ValueSet.name [ fhir:value "NoBasisLocationType"];
-  fhir:ValueSet.title [ fhir:value "no-basis-location-type.valueset"];
-  fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ValueSet.date [ fhir:value "2021-12-16T10:48:45.936+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "HL7 Norway"];
-  fhir:ValueSet.description [ fhir:value "ValueSet for location types used in Location definition. Includes all Norwegian specific types (no-basis-location-type.codesystem) and all codes from v3.ServiceDeliveryLocationRoleType defined by HL7"];
-  fhir:ValueSet.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ];
-  fhir:ValueSet.immutable [ fhir:value "false"^^xsd:boolean];
-  fhir:ValueSet.compose [
-     fhir:ValueSet.compose.include [
-       fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.no/fhir/CodeSystem/no-basis-location-type" ]
-     ], [
-       fhir:index 1;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleCode" ];
-       fhir:ValueSet.compose.include.filter [
-         fhir:index 0;
-         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
-         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
-         fhir:ValueSet.compose.include.filter.value [ fhir:value "_ServiceDeliveryLocationRoleType" ]
-       ]
-     ];
-     fhir:ValueSet.compose.exclude [
-       fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleCode" ];
-       fhir:ValueSet.compose.include.concept [
-         fhir:index 0;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "_ServiceDeliveryLocationRoleType" ]
-       ]
-     ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/ValueSet/no-basis-location-type.valueset.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.no/fhir/ValueSet/no-basis-location-type.valueset> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-basis-location-type.valueset"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2021-12-16T10:48:46.366+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-location-type.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-location-type</code></a></li><li>Include codes from <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleCode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a> where concept  is-a  <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-_ServiceDeliveryLocationRoleType\">_ServiceDeliveryLocationRoleType</a></li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude these codes as defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleCode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-_ServiceDeliveryLocationRoleType\">_ServiceDeliveryLocationRoleType</a></td><td>ServiceDeliveryLocationRoleType</td><td>A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered.</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.no/fhir/ValueSet/no-basis-location-type"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "2.3.0"] ; # 
+  fhir:name [ fhir:v "NoBasisLocationType"] ; # 
+  fhir:title [ fhir:v "no-basis-location-type.valueset"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2021-12-16T10:48:45.936+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Norway"] ; # 
+  fhir:description [ fhir:v "ValueSet for location types used in Location definition. Includes all Norwegian specific types (no-basis-location-type.codesystem) and all codes from v3.ServiceDeliveryLocationRoleType defined by HL7"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:immutable [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://hl7.no/fhir/CodeSystem/no-basis-location-type"^^xsd:anyURI ]
+     ] [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "concept" ] ;
+         fhir:op [ fhir:v "is-a" ] ;
+         fhir:value [ fhir:v "_ServiceDeliveryLocationRoleType" ]
+       ] )
+     ] ) ;
+     fhir:exclude ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "_ServiceDeliveryLocationRoleType" ]
+       ] )
+     ] )
+  ] . # 
 
 # -------------------------------------------------------------------------------------
 
