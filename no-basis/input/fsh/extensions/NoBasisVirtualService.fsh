@@ -16,7 +16,7 @@ Description: "The VirtualService is based on VirtualServiceDetail structure from
 * extension[channelType] ^short = "Channel Type"
 * extension[channelType] ^definition = "The type of virtual service to connect to."
 * extension[channelType].value[x] only Coding
-* extension[channelType].value[x] from NoBasisVirtualServiceTypeVS (example)
+* extension[channelType].value[x] from NoBasisVirtualServiceType (example)
 * extension[channelType].value[x] ^short = "Valuset for virtual servie."
 * extension[channelType].value[x] ^definition = "The valuesett inherits all codes from http://hl7.org/fhir/contact-point-system and http://hl7.org/fhir/virtual-service-type. Virtual-service-type is from R5. "
 * extension[virtualAddress] ^short = "Contact address/number"
