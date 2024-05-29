@@ -37,7 +37,7 @@
   <name value="NoBasisVirtualService"/>
   <title value="no-basis-Virtual-Service"/>
   <status value="active"/>
-  <date value="2024-05-29T11:27:53+00:00"/>
+  <date value="2024-05-29T11:39:51+00:00"/>
   <description value="The VirtualService is based on VirtualServiceDetail structure from R5 and defines details of a virtual communication capability, such as a web conference call."/>
   <jurisdiction>
     <coding>

@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 12, errors = 70, warn = 72, info = 22-->
+<!-- broken links = 12, errors = 68, warn = 72, info = 22-->
 <head>
   <title>NoBasis : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for NoBasis</h1>
- <p>Generated Wed May 29 11:29:00 UTC 2024, FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.0-test (canonical = <a href="http://hl7.no/fhir">http://hl7.no/fhir</a> (<a href="http://hl7.no/fhir/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+ <p>Generated Wed May 29 11:40:57 UTC 2024, FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.0-test (canonical = <a href="http://hl7.no/fhir">http://hl7.no/fhir</a> (<a href="http://hl7.no/fhir/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.6.10</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.no.basis, Canonical = http://hl7.no/fhir</td></tr>
@@ -170,7 +170,7 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://hl7.no/fhir (Problem #1 with package-list.json at http://hl7.no/fhir: Not Found)</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 70, warn = 72, info = 22, broken links = 12</td></tr>
+ <tr><td>Summary:</td><td> errors = 68, warn = 72, info = 22, broken links = 12</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -284,8 +284,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_no-basis_fsh-generated_resources_StructureDefinition-no-basis-Medication"><b>/github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Medication</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#_github_workspace_no-basis_fsh-generated_resources_StructureDefinition-no-basis-MedicationStatement"><b>/github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement</b></a></td><td><b>2</b></td><td><b>2</b></td><td><b>0</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_no-basis_fsh-generated_resources_StructureDefinition-no-basis-MedicationStatement"><b>/github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_no-basis_fsh-generated_resources_StructureDefinition-no-basis-Organization"><b>/github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Organization</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -1112,12 +1112,6 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[14]&#8203;.fixed&#8203;.ofType(CodeableConcept)</b></td><td><b>warning</b></td><td title=""><b>For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[28]</b></td><td><b>error</b></td><td title="SD_ILLEGAL_CHARACTERISTICS"><b>This element has a Binding but the types [Reference] do not make this kind of constraint relevant</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[28]&#8203;.binding</b></td><td><b>error</b></td><td title="SD_ED_BIND_NO_BINDABLE"><b>The element MedicationStatement.medication[x] has a binding, but no bindable types are present [Reference]</b></td>
-   </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/no-basis-MedicationStatement')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
@@ -1720,22 +1714,6 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="StructureDefinition-no-basis-Patient.html">fsh-generated/resources/StructureDefinition-no-basis-Patient.json</a></td><td><b>The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] points to something that is not a value set (CodeSystem)</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="SD_ED_BIND_NO_BINDABLE"> </a>
-<h2>SD_ED_BIND_NO_BINDABLE</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-no-basis-MedicationStatement.html">fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement.json</a></td><td><b>The element MedicationStatement.medication[x] has a binding, but no bindable types are present [Reference]</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="SD_ILLEGAL_CHARACTERISTICS"> </a>
-<h2>SD_ILLEGAL_CHARACTERISTICS</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-no-basis-MedicationStatement.html">fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement.json</a></td><td><b>This element has a Binding but the types [Reference] do not make this kind of constraint relevant</b></td>
    </tr>
 </table>
 <hr/>

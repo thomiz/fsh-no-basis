@@ -1,9 +1,9 @@
 NoBasis : Validation Results
 =========================================
 
-err = 70, warn = 72, info = 22
+err = 68, warn = 72, info = 22
 IG Publisher Version: 1.6.10
-Generated Wed May 29 11:29:00 UTC 2024. FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.0-test (canonical = http://hl7.no/fhir)
+Generated Wed May 29 11:40:57 UTC 2024. FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.0-test (canonical = http://hl7.no/fhir)
  Build Errors : 18 / 36 / 0
  /github/workspace/no-basis/fsh-generated/resources/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a : 0 / 0 / 4
  /github/workspace/no-basis/fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample : 0 / 0 / 1
@@ -40,7 +40,7 @@ Generated Wed May 29 11:29:00 UTC 2024. FHIR version 4.0.1 for hl7.fhir.no.basis
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-HumanName : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Location : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Medication : 0 / 1 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement : 2 / 2 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement : 0 / 2 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Organization : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Patient : 4 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Person : 0 / 1 / 1
@@ -232,8 +232,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Medication'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement.json ==
 WARNING: StructureDefinition/no-basis-MedicationStatement: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
-ERROR: StructureDefinition/no-basis-MedicationStatement: StructureDefinition.snapshot.element[28]: This element has a Binding but the types [Reference] do not make this kind of constraint relevant
-ERROR: StructureDefinition/no-basis-MedicationStatement: StructureDefinition.snapshot.element[28].binding: The element MedicationStatement.medication[x] has a binding, but no bindable types are present [Reference]
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-MedicationStatement'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-Organization.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-Patient.json ==

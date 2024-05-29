@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "NoBasisVirtualService"] ; # 
   fhir:title [ fhir:v "no-basis-Virtual-Service"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-05-29T11:27:53+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-05-29T11:39:51+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "The VirtualService is based on VirtualServiceDetail structure from R5 and defines details of a virtual communication capability, such as a web conference call."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

@@ -124,8 +124,6 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Location.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Medication.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement.json: line 0, col 0, Warning - For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance (EXCEPTION)
-/github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement.json: line 0, col 0, Error - This element has a Binding but the types [Reference] do not make this kind of constraint relevant (BUSINESSRULE)
-/github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement.json: line 0, col 0, Error - The element MedicationStatement.medication[x] has a binding, but no bindable types are present [Reference] (BUSINESSRULE)
 /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Patient.json: line 1, col 78673, Error - Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet] (INVALID)
 /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Patient.json: line 1, col 195450, Error - Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet] (INVALID)
@@ -178,5 +176,5 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /github/workspace/no-basis/input/examples/no-basis-Procedure-example.xml: line 0, col 0, Error - Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve (INVALID)
 /github/workspace/no-basis/input/examples/no-basis-Procedure-example.xml: line 0, col 0, Error - Hyperlink 'Practitioner/example' at 'div/table/tr/td/a' for 'Practitioner/example' does not resolve (INVALID)
 
-err = 70, warn = 72, info = 22
+err = 68, warn = 72, info = 22
 IG Publisher Version: 1.6.10
