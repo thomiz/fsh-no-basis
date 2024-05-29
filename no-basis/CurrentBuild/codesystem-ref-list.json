@@ -23,17 +23,6 @@
       "ValueSet-no-basis-family-relation.valueset.html" : "no-basis-family-relation.valueset"
     },
     {
-      "url" : "http://hl7.no/fhir/CodeSystem/no-basis-location-type",
-      "version" : "2.2.0-test",
-      "status" : "draft",
-      "name" : "NoBasisLocationType",
-      "title" : "no-basis-location-type.codesystem",
-      "description" : "Additional codes for location.type used by no-basis-Location",
-      "uses" : {
-      },
-      "ValueSet-no-basis-location-type.valueset.html" : "no-basis-location-type.valueset"
-    },
-    {
       "url" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
       "version" : "2.2.0-test",
       "status" : "active",
@@ -78,18 +67,6 @@
       "uses" : {
       },
       "ValueSet-no-basis-connection-type.valueset.html" : "no-basis-connection-type.valueset"
-    },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-      "version" : "3.0.0",
-      "status" : "active",
-      "name" : "RoleCode",
-      "title" : "RoleCode",
-      "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
-      "oids" : ["2.16.840.1.113883.5.111"],
-      "uses" : {
-      },
-      "ValueSet-no-basis-location-type.valueset.html" : "no-basis-location-type.valueset"
     }
   ]
 }

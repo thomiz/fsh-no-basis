@@ -31,18 +31,6 @@
       "systems" : ["http://hl7.no/fhir/CodeSystem/no-basis-family-relation"]
     },
     {
-      "url" : "http://hl7.no/fhir/ValueSet/no-basis-location-type",
-      "version" : "2.2.0-test",
-      "status" : "draft",
-      "name" : "NoBasisLocationType",
-      "title" : "no-basis-location-type.valueset",
-      "description" : "ValueSet for location types used in Location definition. Includes all Norwegian specific types (no-basis-location-type.codesystem) and all codes from v3.ServiceDeliveryLocationRoleType defined by HL7",
-      "systems" : [
-        "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-        "http://hl7.no/fhir/CodeSystem/no-basis-location-type"
-      ]
-    },
-    {
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-marital-status",
       "version" : "2.2.0-test",
       "status" : "active",

@@ -11,7 +11,7 @@
   <title value="No Basis VirtualServiceType Value Set"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-05-29T11:15:19+00:00"/>
+  <date value="2024-05-29T11:27:53+00:00"/>
   <description value="Example codes for virtual service connection types. Any other codes or codesystem should be added to this valueSet"/>
   <jurisdiction>
     <coding>

@@ -10,7 +10,7 @@
   "name" : "NoBasisVirtualService",
   "title" : "no-basis-Virtual-Service",
   "status" : "active",
-  "date" : "2024-05-29T11:15:19+00:00",
+  "date" : "2024-05-29T11:27:53+00:00",
   "description" : "The VirtualService is based on VirtualServiceDetail structure from R5 and defines details of a virtual communication capability, such as a web conference call.",
   "jurisdiction" : [{
     "coding" : [{

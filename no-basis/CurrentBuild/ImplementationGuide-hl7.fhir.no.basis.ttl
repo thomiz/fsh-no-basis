@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "2.2.0-test"] ; # 
   fhir:name [ fhir:v "NoBasis"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-05-29T11:15:19+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-05-29T11:27:53+00:00"^^xsd:dateTime] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
@@ -902,30 +902,6 @@
        ] ;
        fhir:name [ fhir:v "no-basis-Location" ] ;
        fhir:description [ fhir:v "Basisprofil for Norwegian Location information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific location information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-basis-location-type.codesystem> ;
-         fhir:reference [ fhir:v "CodeSystem/no-basis-location-type.codesystem" ]
-       ] ;
-       fhir:name [ fhir:v "no-basis-location-type.codesystem" ] ;
-       fhir:description [ fhir:v "Additional codes for location.type used by no-basis-Location" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/no-basis-location-type.valueset> ;
-         fhir:reference [ fhir:v "ValueSet/no-basis-location-type.valueset" ]
-       ] ;
-       fhir:name [ fhir:v "no-basis-location-type.valueset" ] ;
-       fhir:description [ fhir:v "ValueSet for location types used in Location definition. Includes all Norwegian specific types (no-basis-location-type.codesystem) and all codes from v3.ServiceDeliveryLocationRoleType defined by HL7" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

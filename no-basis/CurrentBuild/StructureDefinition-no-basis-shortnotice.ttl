@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "NoBasisShortNotice"] ; # 
   fhir:title [ fhir:v "no-basis-shortnotice"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-05-29T11:15:19+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-05-29T11:27:53+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

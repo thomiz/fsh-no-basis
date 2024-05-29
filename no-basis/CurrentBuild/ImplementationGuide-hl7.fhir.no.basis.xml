@@ -9,7 +9,7 @@
   <version value="2.2.0-test"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2024-05-29T11:15:19+00:00"/>
+  <date value="2024-05-29T11:27:53+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -784,28 +784,6 @@
       </reference>
       <name value="no-basis-Location"/>
       <description value="Basisprofil for Norwegian Location information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific location information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/no-basis-location-type.codesystem"/>
-      </reference>
-      <name value="no-basis-location-type.codesystem"/>
-      <description value="Additional codes for location.type used by no-basis-Location"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/no-basis-location-type.valueset"/>
-      </reference>
-      <name value="no-basis-location-type.valueset"/>
-      <description value="ValueSet for location types used in Location definition. Includes all Norwegian specific types (no-basis-location-type.codesystem) and all codes from v3.ServiceDeliveryLocationRoleType defined by HL7"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

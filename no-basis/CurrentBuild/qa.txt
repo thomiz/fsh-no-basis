@@ -1,15 +1,14 @@
 NoBasis : Validation Results
 =========================================
 
-err = 78, warn = 72, info = 23
+err = 70, warn = 72, info = 22
 IG Publisher Version: 1.6.10
-Generated Wed May 29 11:18:46 UTC 2024. FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.0-test (canonical = http://hl7.no/fhir)
+Generated Wed May 29 11:29:00 UTC 2024. FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.0-test (canonical = http://hl7.no/fhir)
  Build Errors : 18 / 36 / 0
  /github/workspace/no-basis/fsh-generated/resources/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a : 0 / 0 / 4
  /github/workspace/no-basis/fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 5 / 0 / 2
- /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-location-type.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
@@ -65,7 +64,6 @@ Generated Wed May 29 11:18:46 UTC 2024. FHIR version 4.0.1 for hl7.fhir.no.basis
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-connection-type.valueset : 3 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset : 5 / 2 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-family-relation.valueset : 3 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-location-type.valueset : 3 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-marital-status.valueset : 3 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-parental-responsibility.valueset : 3 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-service-type.valueset : 3 / 1 / 1
@@ -110,9 +108,9 @@ ERROR: StructureDefinition-no-basis-Patient.html: The reference CodeableReferenc
 ERROR: StructureDefinition-no-basis-Patient.html: The reference RatioRange could not be resolved
 ERROR: StructureDefinition-no-basis-Patient.html: The reference Availability could not be resolved
 ERROR: StructureDefinition-no-basis-Patient.html: The reference ExtendedContactDetail could not be resolved
-WARNING: /github/workspace/no-basis/output/Appointment-and-Encounter.html#/html/body/script at Line 246, column 4: The <script> containing the javascript '$(document).ready(fu'... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild (also in 485 other files)
-WARNING: /github/workspace/no-basis/output/Appointment-and-Encounter.html#/html/body/script at Line 287, column 4: The <script> containing the javascript 'anchors.options.visi'... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild (also in 485 other files)
-WARNING: /github/workspace/no-basis/output/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.change.history.html#/html/body/script at Line 246, column 4: The <script> containing the javascript 'try {       var curr'... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild (also in 325 other files)
+WARNING: /github/workspace/no-basis/output/Appointment-and-Encounter.html#/html/body/script at Line 246, column 4: The <script> containing the javascript '$(document).ready(fu'... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild (also in 473 other files)
+WARNING: /github/workspace/no-basis/output/Appointment-and-Encounter.html#/html/body/script at Line 287, column 4: The <script> containing the javascript 'anchors.options.visi'... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild (also in 473 other files)
+WARNING: /github/workspace/no-basis/output/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.change.history.html#/html/body/script at Line 246, column 4: The <script> containing the javascript 'try {       var curr'... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild (also in 323 other files)
 ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/p/a at Line 239, column 801: The link 'Patient/example' for "Patient/example" cannot be resolved
 ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 239, column 1229: The link 'Practitioner/example' for "Practitioner/example" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 443, column 1592: The link 'integer64.html' for "integer64" cannot be resolved
@@ -148,13 +146,6 @@ INFORMATION: CodeSystem/no-basis-family-relation.codesystem: CodeSystem: CodeSys
 ERROR: CodeSystem/no-basis-family-relation.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 ERROR: CodeSystem/no-basis-family-relation.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-family-relation.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-family-relation
-== fsh-generated/resources/CodeSystem-no-basis-location-type.codesystem.json ==
-ERROR: CodeSystem.where(url = 'http://hl7.no/fhir/CodeSystem/no-basis-location-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-location-type.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-basis-location-type.codesystem) does not match the URL (http://hl7.no/fhir/CodeSystem/no-basis-location-type)
-ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-location-type.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-location-type
-INFORMATION: CodeSystem/no-basis-location-type.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-ERROR: CodeSystem/no-basis-location-type.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-ERROR: CodeSystem/no-basis-location-type.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-location-type.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-location-type.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-location-type
 == fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.no/fhir/CodeSystem/no-basis-marital-status'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-basis-marital-status.codesystem) does not match the URL (http://hl7.no/fhir/CodeSystem/no-basis-marital-status)
 ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-marital-status.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-marital-status
@@ -298,10 +289,6 @@ ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-docu
 ERROR: ValueSet.where(url = 'http://hl7.no/fhir/ValueSet/no-basis-family-relation'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-family-relation.valueset.json - the canonical URL (http://hl7.no/fhir/ValueSet/no-basis-family-relation.valueset) does not match the URL (http://hl7.no/fhir/ValueSet/no-basis-family-relation)
 ERROR: ValueSet.url: Resource id/url mismatch: no-basis-family-relation.valueset/http://hl7.no/fhir/ValueSet/no-basis-family-relation
 ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-family-relation.valueset: URL Mismatch http://hl7.no/fhir/ValueSet/no-basis-family-relation.valueset vs http://hl7.no/fhir/ValueSet/no-basis-family-relation
-== fsh-generated/resources/ValueSet-no-basis-location-type.valueset.json ==
-ERROR: ValueSet.where(url = 'http://hl7.no/fhir/ValueSet/no-basis-location-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-location-type.valueset.json - the canonical URL (http://hl7.no/fhir/ValueSet/no-basis-location-type.valueset) does not match the URL (http://hl7.no/fhir/ValueSet/no-basis-location-type)
-ERROR: ValueSet.url: Resource id/url mismatch: no-basis-location-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-location-type
-ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-location-type.valueset: URL Mismatch http://hl7.no/fhir/ValueSet/no-basis-location-type.valueset vs http://hl7.no/fhir/ValueSet/no-basis-location-type
 == fsh-generated/resources/ValueSet-no-basis-marital-status.valueset.json ==
 ERROR: ValueSet.where(url = 'http://hl7.no/fhir/ValueSet/no-basis-marital-status'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-marital-status.valueset.json - the canonical URL (http://hl7.no/fhir/ValueSet/no-basis-marital-status.valueset) does not match the URL (http://hl7.no/fhir/ValueSet/no-basis-marital-status)
 ERROR: ValueSet.url: Resource id/url mismatch: no-basis-marital-status.valueset/http://hl7.no/fhir/ValueSet/no-basis-marital-status

@@ -17,14 +17,6 @@
       "description" : "Copy of Codes from Familierelasjon defined by Skatteetaten"
     },
     {
-      "url" : "http://hl7.no/fhir/CodeSystem/no-basis-location-type",
-      "version" : "2.2.0-test",
-      "status" : "draft",
-      "name" : "NoBasisLocationType",
-      "title" : "no-basis-location-type.codesystem",
-      "description" : "Additional codes for location.type used by no-basis-Location"
-    },
-    {
       "url" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
       "version" : "2.2.0-test",
       "status" : "active",
