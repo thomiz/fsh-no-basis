@@ -7,8 +7,6 @@ Description: "Basisprofil for Norwegian Location information. Defined by The Nor
 * ^status = #active
 * ^date = "2019-01-31"
 * . ^definition = "Details and position information for a physical place where services are provided  and resources and participants may be stored, found, contained or \r\naccommodated.\r\n\r\nno-basis: The use-case for no-basis-Location is representation of organization structure to describe where a specific department or healthcare service is offered."
-* type from NoBasisLocationType (extensible) 
-* type ^definition = "no-basis: The Location.type can also indicate a virtual meeting by using codes for virtual location like video or telephone"
 * address only NoBasisAddress
 * managingOrganization only Reference(Organization or NoBasisOrganization)
 * managingOrganization ^type.versioning = #specific
