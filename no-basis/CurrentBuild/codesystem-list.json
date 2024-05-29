@@ -1,0 +1,44 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.no/fhir/CodeSystem/no-basis-connection-type",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisConnectionType",
+      "title" : "no-basis-connection-type.codesystem",
+      "description" : "Codes to describe Norwegian message based communication protocols."
+    },
+    {
+      "url" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisFamilyRelation",
+      "title" : "no-basis-family-relation.codesystem",
+      "description" : "Copy of Codes from Familierelasjon defined by Skatteetaten"
+    },
+    {
+      "url" : "http://hl7.no/fhir/CodeSystem/no-basis-location-type",
+      "version" : "2.2.0-test",
+      "status" : "draft",
+      "name" : "NoBasisLocationType",
+      "title" : "no-basis-location-type.codesystem",
+      "description" : "Additional codes for location.type used by no-basis-Location"
+    },
+    {
+      "url" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisMaritalStatus",
+      "title" : "no-basis-marital-status.codesystem",
+      "description" : "Copy of Codes from Sivilstandstype defined by Skatteetaten"
+    },
+    {
+      "url" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisParentalResponsibility",
+      "title" : "no-basis-parental-responsibility.codesystem",
+      "description" : "Copy of Codes from Foreldreansvar defined by Skatteetaten"
+    }
+  ]
+}

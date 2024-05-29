@@ -6,13 +6,12 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-marital-status.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</code></a></li></ul></div>"
   },
   "url" : "http://hl7.no/fhir/ValueSet/no-basis-marital-status",
-  "version" : "2.3.0",
+  "version" : "2.2.0-test",
   "name" : "NoBasisMaritalStatus",
   "title" : "no-basis-marital-status.valueset",
   "status" : "active",
   "experimental" : true,
   "date" : "2020-03-20T10:48:45.936+00:00",
-  "publisher" : "Direktoratet for e-helse",
   "description" : "Copy of Codes from Sivilstandstype defined by Skatteetaten",
   "jurisdiction" : [{
     "coding" : [{

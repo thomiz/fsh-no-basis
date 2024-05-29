@@ -10,15 +10,14 @@
   fhir:id [ fhir:v "no-basis-connection-type.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">no-ebxml-2<a name=\"no-basis-connection-type.codesystem-no-ebxml-2\"> </a></td><td>ebXML 2.0</td><td>ebXML messaging as described in the Norwegian profile HIS 1037:2011 based on OASIS ebMS 2.0 specification</td></tr><tr><td style=\"white-space:nowrap\">no-amqp<a name=\"no-basis-connection-type.codesystem-no-amqp\"> </a></td><td>AMQP</td><td>AMQP based synchronuous and asynchronus message delivery</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">no-ebxml-2<a name=\"no-basis-connection-type.codesystem-no-ebxml-2\"> </a></td><td>ebXML 2.0</td><td>ebXML messaging as described in the Norwegian profile HIS 1037:2011 based on OASIS ebMS 2.0 specification</td></tr><tr><td style=\"white-space:nowrap\">no-amqp<a name=\"no-basis-connection-type.codesystem-no-amqp\"> </a></td><td>AMQP</td><td>AMQP based synchronuous and asynchronus message delivery</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/CodeSystem/no-basis-connection-type"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.3.0"] ; # 
+  fhir:version [ fhir:v "2.2.0-test"] ; # 
   fhir:name [ fhir:v "NoBasisConnectionType"] ; # 
   fhir:title [ fhir:v "no-basis-connection-type.codesystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:date [ fhir:v "2019-05-15T00:00:00+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Direktoratet for e-helse, HL7 Norway"] ; # 
   fhir:description [ fhir:v "Codes to describe Norwegian message based communication protocols."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

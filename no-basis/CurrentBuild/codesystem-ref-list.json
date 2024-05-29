@@ -1,0 +1,95 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.no/fhir/CodeSystem/no-basis-connection-type",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisConnectionType",
+      "title" : "no-basis-connection-type.codesystem",
+      "description" : "Codes to describe Norwegian message based communication protocols.",
+      "uses" : {
+      },
+      "ValueSet-no-basis-connection-type.valueset.html" : "no-basis-connection-type.valueset"
+    },
+    {
+      "url" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisFamilyRelation",
+      "title" : "no-basis-family-relation.codesystem",
+      "description" : "Copy of Codes from Familierelasjon defined by Skatteetaten",
+      "uses" : {
+      },
+      "ValueSet-no-basis-family-relation.valueset.html" : "no-basis-family-relation.valueset"
+    },
+    {
+      "url" : "http://hl7.no/fhir/CodeSystem/no-basis-location-type",
+      "version" : "2.2.0-test",
+      "status" : "draft",
+      "name" : "NoBasisLocationType",
+      "title" : "no-basis-location-type.codesystem",
+      "description" : "Additional codes for location.type used by no-basis-Location",
+      "uses" : {
+      },
+      "ValueSet-no-basis-location-type.valueset.html" : "no-basis-location-type.valueset"
+    },
+    {
+      "url" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisMaritalStatus",
+      "title" : "no-basis-marital-status.codesystem",
+      "description" : "Copy of Codes from Sivilstandstype defined by Skatteetaten",
+      "uses" : {
+      },
+      "ValueSet-no-basis-marital-status.valueset.html" : "no-basis-marital-status.valueset"
+    },
+    {
+      "url" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisParentalResponsibility",
+      "title" : "no-basis-parental-responsibility.codesystem",
+      "description" : "Copy of Codes from Foreldreansvar defined by Skatteetaten",
+      "uses" : {
+      },
+      "ValueSet-no-basis-parental-responsibility.valueset.html" : "no-basis-parental-responsibility.valueset"
+    },
+    {
+      "url" : "http://hl7.org/fhir/contact-point-system",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ContactPointSystem",
+      "title" : "ContactPointSystem",
+      "description" : "Telecommunications form for contact point.",
+      "oids" : ["2.16.840.1.113883.4.642.4.72"],
+      "uses" : {
+      },
+      "ValueSet-no-basis-virtual-service-type.valueset.html" : "No Basis VirtualServiceType Value Set"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "version" : "2.1.0",
+      "status" : "draft",
+      "name" : "EndpointConnectionType",
+      "title" : "Endpoint Connection Type",
+      "description" : "This is an example value set defined by the FHIR project, that could be used to represent possible connection type profile values.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1140"],
+      "uses" : {
+      },
+      "ValueSet-no-basis-connection-type.valueset.html" : "no-basis-connection-type.valueset"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "RoleCode",
+      "title" : "RoleCode",
+      "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+      "oids" : ["2.16.840.1.113883.5.111"],
+      "uses" : {
+      },
+      "ValueSet-no-basis-location-type.valueset.html" : "no-basis-location-type.valueset"
+    }
+  ]
+}

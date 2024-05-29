@@ -4,7 +4,8 @@
 The extension includes a reference to a single Person/no-basis-Person resource.
 
 To support searches for identifiers, an identifier value should be supported in addition to the literal reference.","no-basis currently (v2.0.15) don't include search parameter definition for this extension.","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
-",""
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Extension.extension","Extension.extension","","","",0,0,"","","","Extension {[]} {[]}

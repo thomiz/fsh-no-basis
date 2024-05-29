@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.NO.BASIS\Artifacts Summary - FHIR v4.0.1</title>
+    <title>Artifacts Summary -  v2.2.0-test</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -31,10 +31,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -66,7 +66,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">2.3.0 - ci-build
+            <span style="display:inline-block;">2.2.0-test - ci-build
 
 
 
@@ -281,7 +281,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="StructureDefinition/no-basis-Appointment">no-basis-Appointment</a>
                </td>
                <td>
-<p>Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) must be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+<p>Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) can be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-AppointmentResponse.html"
+                     title="StructureDefinition/no-basis-AppointmentResponse">no-basis-AppointmentResponse</a>
+               </td>
+               <td>
+<p>Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to each use-case.</p>
 </td>
             </tr>
             <tr>
@@ -408,6 +417,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Procedure.html"
+                     title="StructureDefinition/no-basis-Procedure">no-basis-Procedure</a>
+               </td>
+               <td>
+<p>Basis profile for a procedure, to be used in Norway. The profile is adapted to include norwegian specific features and constraints.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-no-basis-RelatedPerson.html"
                      title="StructureDefinition/no-basis-RelatedPerson">no-basis-RelatedPerson</a>
                </td>
@@ -429,24 +447,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Basis profile for Substances to be used in Norway. The profile is adapted to use FEST as source of information.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-no-basis-AppointmentResponse.html"
-                     title="StructureDefinition/no-basis-AppointmentResponse">no-basis-AppointmentResponse</a>
-               </td>
-               <td>
-<p>Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-no-basis-Procedure.html"
-                     title="StructureDefinition/no-basis-Procedure">no-basis-Procedure</a>
-               </td>
-               <td>
-<p>Basis profile for a procedure, to be used in Norway. The profile is adapted to include norwegian specific features and constraints.</p>
 </td>
             </tr>
          </tbody>
@@ -493,11 +493,38 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-relatedperson-person-reference.html"
+                     title="StructureDefinition/no-basis-relatedperson-person-reference">NoBasisRelatedpersonPersonReference</a>
+               </td>
+               <td>
+<p>If a person reference is needed in RelatedPerson.patient element, this optional extension should be used.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-virtual-service.html"
+                     title="StructureDefinition/no-basis-virtual-service">no-basis-Virtual-Service</a>
+               </td>
+               <td>
+<p>The VirtualService is based on VirtualServiceDetail structure from R5 and defines details of a virtual communication capability, such as a web conference call.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-no-basis-address-official.html"
                      title="StructureDefinition/no-basis-address-official">no-basis-address-official</a>
                </td>
                <td>
 <p>Defines the concept of an officialy registered address in Norway. Usually this will be the adress registered in “Folkeregisteret” for persons or “Enhetsregisteret” for organizations.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-group.html"
+                     title="StructureDefinition/no-basis-group">no-basis-group</a>
+               </td>
+               <td>
+<p>The appointment is a group session.</p>
 </td>
             </tr>
             <tr>
@@ -516,6 +543,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Coded value for municipality/county Norwegian kommune</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-partof.html"
+                     title="StructureDefinition/no-basis-partof">no-basis-partof</a>
+               </td>
+               <td>
+<p>This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked. A larger appointment of which this particular appointment is a component or step.</p>
 </td>
             </tr>
             <tr>
@@ -547,11 +583,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-no-basis-relatedperson-person-reference.html"
-                     title="StructureDefinition/no-basis-relatedperson-person-reference">NoBasisRelatedpersonPersonReference</a>
+                  <a href="StructureDefinition-no-basis-shortnotice.html"
+                     title="StructureDefinition/no-basis-shortnotice">no-basis-shortnotice</a>
                </td>
                <td>
-<p>If a person reference is needed in RelatedPerson.patient element, this optional extension should be used.</p>
+<p>The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.</p>
 </td>
             </tr>
             <tr>
@@ -572,51 +608,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose.</p>
 </td>
             </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-no-basis-conferencetype.html"
-                     title="StructureDefinition/no-basis-conferencetype">NoBasisConferenceType</a>
-               </td>
-               <td>
-<p>Norwegian valueset for conference type.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-no-basis-group.html"
-                     title="StructureDefinition/no-basis-group">no-basis-group</a>
-               </td>
-               <td>
-<p>The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-no-basis-partof.html"
-                     title="StructureDefinition/no-basis-partof">no-basis-partof</a>
-               </td>
-               <td>
-<p>This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-no-basis-postponementreason.html"
-                     title="StructureDefinition/no-basis-postponementreason">no-basis-postponementreason</a>
-               </td>
-               <td>
-<p>The basis extension defines the reason for a postponement for example of an appointment or an encounter.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-no-basis-shortnotice.html"
-                     title="StructureDefinition/no-basis-shortnotice">no-basis-shortnotice</a>
-               </td>
-               <td>
-<p>The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.</p>
-</td>
-            </tr>
          </tbody>
       </table>
    </p>
@@ -629,6 +620,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-no-basis-virtual-service-type.valueset.html"
+                     title="ValueSet/no-basis-virtual-service-type.valueset">No Basis VirtualServiceType Value Set</a>
+               </td>
+               <td>
+<p>Example codes for virtual service connection types. Any other codes or codesystem should be added to this valueSet</p>
+</td>
+            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="ValueSet-no-basis-connection-type.valueset.html"
@@ -763,6 +763,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="NamingSystem-no-basis-icpc-2.html"
+                     title="NamingSystem/no-basis-icpc-2">NoBasisICPC2</a>
+               </td>
+               <td>
+<p>In Norway primary care uses ICPC-2 to document contact-reason, health related problem and diagnosis.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="NamingSystem-no-basis-bydelsnummer.html"
                      title="NamingSystem/no-basis-bydelsnummer">no-basis-bydelsnummer</a>
                </td>
@@ -824,15 +833,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Nummerering av kommuner i henhold til SSB sin offisielle liste. Inneholder fremtidige, gyldige og utgåtte kommunenummer.</p>
 </td>
             </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="NamingSystem-no-basis-icpc-2.html"
-                     title="NamingSystem/no-basis-icpc-2">NoBasisICPC2</a>
-               </td>
-               <td>
-<p>In Norway primary care uses ICPC-2 to document contact-reason, health related problem and diagnosis.</p>
-</td>
-            </tr>
          </tbody>
       </table>
    </p>
@@ -847,48 +847,99 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.html"
+                     title="Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a">AppointmentExample</a>
+               </td>
+               <td>
+<p>Discussion on the results of your recent MRI</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="Organization-Direktoratet-for-eHelse-Organization.html"
                      title="Organization/Direktoratet-for-eHelse-Organization">Direktoratet-for-eHelse-Organization</a>
                </td>
+               <td>
+
+</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Patient-EspenEksempel.html" title="Patient/EspenEksempel">EspenEksempel</a>
                </td>
+               <td>
+
+</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Patient-JanniceSoreng.html" title="Patient/JanniceSoreng">JanniceSoreng</a>
                </td>
+               <td>
+
+</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Patient-JanniceSorengTo.html" title="Patient/JanniceSorengTo">JanniceSorengTo</a>
                </td>
+               <td>
+
+</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Practitioner-Magnar-Komann-Practitioner.html"
                      title="Practitioner/Magnar-Komann-Practitioner">Magnar-Komann-Practitioner</a>
                </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AppointmentResponse-PatientAppointmentResponseExample.html"
+                     title="AppointmentResponse/PatientAppointmentResponseExample">PatientAppointmentResponseExample</a>
+               </td>
+               <td>
+<p>Example of Patient response to an appointment using no-basis profile. The profile is identical to the basis profile axept there is a extension that can be used for patient to signal if the patient can come on short notice to an appointment. The example is similar to http://hl7.org/fhir/R4/appointmentresponse-example.json.html with adition for the extension.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473.html"
+                     title="Patient/e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473">PatientExample</a>
+               </td>
+               <td>
+
+</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="RelatedPerson-Solid-Aresdoktor-RelatedPerson.html"
                      title="RelatedPerson/Solid-Aresdoktor-RelatedPerson">Solid-Aresdoktor-RelatedPerson</a>
                </td>
+               <td>
+
+</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="RelatedPerson-Sorgard-Erlend-RelatedPerson.html"
                      title="RelatedPerson/Sorgard-Erlend-RelatedPerson">Sorgard-Erlend-RelatedPerson</a>
                </td>
+               <td>
+
+</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Procedure-no-basis-Procedure-example.html"
                      title="Procedure/no-basis-Procedure-example">no-basis-Procedure-example</a>
                </td>
+               <td>
+
+</td>
             </tr>
          </tbody>
       </table>
@@ -917,7 +968,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.basis#2.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 28, 2023 21:16+0000">2023-04-28</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.basis#2.2.0-test based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 29, 2024 11:15+0000">2024-05-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

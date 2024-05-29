@@ -1,0 +1,6 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+http://hl7.no/fhir/CodeSystem/no-basis-connection-type,2.2.0-test,active,,NoBasisConnectionType,no-basis-connection-type.codesystem,"Codes to describe Norwegian message based communication protocols.",
+http://hl7.no/fhir/CodeSystem/no-basis-family-relation,2.2.0-test,active,,NoBasisFamilyRelation,no-basis-family-relation.codesystem,"Copy of Codes from Familierelasjon defined by Skatteetaten",
+http://hl7.no/fhir/CodeSystem/no-basis-location-type,2.2.0-test,draft,,NoBasisLocationType,no-basis-location-type.codesystem,"Additional codes for location.type used by no-basis-Location",
+http://hl7.no/fhir/CodeSystem/no-basis-marital-status,2.2.0-test,active,,NoBasisMaritalStatus,no-basis-marital-status.codesystem,"Copy of Codes from Sivilstandstype defined by Skatteetaten",
+http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility,2.2.0-test,active,,NoBasisParentalResponsibility,no-basis-parental-responsibility.codesystem,"Copy of Codes from Foreldreansvar defined by Skatteetaten",

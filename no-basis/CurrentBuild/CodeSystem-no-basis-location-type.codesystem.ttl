@@ -14,15 +14,14 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://hl7.no/fhir/CodeSystem/no-basis-location-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">video<a name=\"no-basis-location-type.codesystem-video\"> </a></td><td>Video</td><td>Any two-way video+audio communication/conference system</td></tr><tr><td style=\"white-space:nowrap\">telephone<a name=\"no-basis-location-type.codesystem-telephone\"> </a></td><td>Telephone</td><td>Telephone or other two-way audio communication</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.no/fhir/CodeSystem/no-basis-location-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">video<a name=\"no-basis-location-type.codesystem-video\"> </a></td><td>Video</td><td>Any two-way video+audio communication/conference system</td></tr><tr><td style=\"white-space:nowrap\">telephone<a name=\"no-basis-location-type.codesystem-telephone\"> </a></td><td>Telephone</td><td>Telephone or other two-way audio communication</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/CodeSystem/no-basis-location-type"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.3.0"] ; # 
+  fhir:version [ fhir:v "2.2.0-test"] ; # 
   fhir:name [ fhir:v "NoBasisLocationType"] ; # 
   fhir:title [ fhir:v "no-basis-location-type.codesystem"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:date [ fhir:v "2021-12-16T00:00:00+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:description [ fhir:v "Additional codes for location.type used by no-basis-Location"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

@@ -7,16 +7,15 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-connection-type.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</code></a></li><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-endpoint-connection-type.html\"><code>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-connection-type.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</code></a></li><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html\"><code>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</code></a></li></ul></div>"
   },
   "url" : "http://hl7.no/fhir/ValueSet/no-basis-connection-type",
-  "version" : "2.3.0",
+  "version" : "2.2.0-test",
   "name" : "NoBasisConnectionType",
   "title" : "no-basis-connection-type.valueset",
   "status" : "active",
   "experimental" : true,
   "date" : "2019-03-13T10:48:45.936+00:00",
-  "publisher" : "Direktoratet for e-helse",
   "description" : "ValueSet for connection types used in Endpoint definition. Includes all Norwegian specific types (no-basis-connection-type) and the extensible HL7 CodeSystem for connection-type",
   "jurisdiction" : [{
     "coding" : [{

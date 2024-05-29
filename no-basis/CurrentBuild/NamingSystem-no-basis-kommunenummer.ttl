@@ -13,13 +13,19 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-kommunenummer</td></tr><tr><td>Version</td><td>2.3.0</td></tr><tr><td>Name</td><td>Kommunenummer</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Nummerering av kommuner i henhold til SSB sin offisielle liste. Inneholder fremtidige, gyldige og utgåtte kommunenummer.</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/kommunenummer</td><td>false</td></tr><tr><td>URI</td><td>https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle</td><td>true</td></tr><tr><td>URI</td><td>urn:oid:2.16.578.1.12.4.1.1.3402</td><td>false</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-kommunenummer</td></tr><tr><td>Version</td><td>2.2.0-test</td></tr><tr><td>Name</td><td>Kommunenummer</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Nummerering av kommuner i henhold til SSB sin offisielle liste. Inneholder fremtidige, gyldige og utgåtte kommunenummer.</p>\n</div></td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/kommunenummer</td><td>false</td></tr><tr><td>URI</td><td>https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle</td><td>true</td></tr><tr><td>URI</td><td>urn:oid:2.16.578.1.12.4.1.1.3402</td><td>false</td></tr></table></div>"
   ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "http://hl7.no/fhir/NamingSystem/no-basis-kommunenummer"^^xsd:anyURI ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "2.2.0-test" ]
+  ] ) ; # 
   fhir:name [ fhir:v "Kommunenummer"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:kind [ fhir:v "identifier"] ; # 
   fhir:date [ fhir:v "2018-10-26"^^xsd:date] ; # 
-  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:responsible [ fhir:v "Statistisk sentralbyrå"] ; # 
   fhir:description [ fhir:v "Nummerering av kommuner i henhold til SSB sin offisielle liste. Inneholder fremtidige, gyldige og utgåtte kommunenummer."] ; # 
   fhir:jurisdiction ( [

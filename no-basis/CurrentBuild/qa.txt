@@ -1,16 +1,18 @@
-﻿NoBasis : Validation Results
+NoBasis : Validation Results
 =========================================
 
-err = 80, warn = 162, info = 18
-IG Publisher Version: 1.3.5
-Generated Fri Apr 28 21:20:12 UTC 2023. FHIR version 4.0.1 for hl7.fhir.no.basis#2.3.0 (canonical = http://hl7.no/fhir)
- Build Errors : 183 / 13 / 0
+err = 78, warn = 72, info = 23
+IG Publisher Version: 1.6.10
+Generated Wed May 29 11:18:46 UTC 2024. FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.0-test (canonical = http://hl7.no/fhir)
+ Build Errors : 18 / 36 / 0
+ /github/workspace/no-basis/fsh-generated/resources/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a : 0 / 0 / 4
+ /github/workspace/no-basis/fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-location-type.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem : 5 / 0 / 2
- /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 1 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-bydelsnummer : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-dnummer : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-dufnummer : 0 / 0 / 1
@@ -22,290 +24,152 @@ Generated Fri Apr 28 21:20:12 UTC 2023. FHIR version 4.0.1 for hl7.fhir.no.basis
  /github/workspace/no-basis/fsh-generated/resources/Patient-EspenEksempel : 1 / 1 / 2
  /github/workspace/no-basis/fsh-generated/resources/Patient-JanniceSoreng : 1 / 3 / 4
  /github/workspace/no-basis/fsh-generated/resources/Patient-JanniceSorengTo : 1 / 3 / 4
- /github/workspace/no-basis/fsh-generated/resources/Practitioner-Magnar-Komann-Practitioner : 0 / 4 / 5
+ /github/workspace/no-basis/fsh-generated/resources/Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473 : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/Practitioner-Magnar-Komann-Practitioner : 0 / 4 / 8
  /github/workspace/no-basis/fsh-generated/resources/RelatedPerson-Solid-Aresdoktor-RelatedPerson : 0 / 1 / 2
  /github/workspace/no-basis/fsh-generated/resources/RelatedPerson-Sorgard-Erlend-RelatedPerson : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/SearchParameter-no-basis-middlename : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-derived-Person : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Address : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-AllergyIntolerance : 0 / 1 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Appointment : 0 / 7 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Appointment : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-AppointmentResponse : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Composition : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-DocumentReference : 0 / 1 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Endpoint : 2 / 9 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-HealthcareService : 0 / 11 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Endpoint : 2 / 2 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-HealthcareService : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-HumanName : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Location : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Medication : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement : 2 / 2 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Organization : 0 / 4 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Organization : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Patient : 4 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Person : 0 / 1 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Practitioner : 0 / 6 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-PractitionerRole : 0 / 5 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Practitioner : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-PractitionerRole : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-RelatedPerson : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Substance : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-address-official : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-group : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-middlename : 2 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-municipalitycode : 0 / 2 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-municipalitycode : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-partof : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-person-citizenship : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-prescriptiongroup : 0 / 1 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-propertyinformation : 1 / 2 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-propertyinformation : 1 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-relatedperson-person-reference : 2 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-shortnotice : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-sourceofinformation : 0 / 1 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-urban-district : 0 / 3 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-urban-district : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-virtual-service : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-connection-type.valueset : 3 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset : 5 / 64 / 2
+ /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset : 5 / 2 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-family-relation.valueset : 3 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-location-type.valueset : 3 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-marital-status.valueset : 3 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-parental-responsibility.valueset : 3 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-service-type.valueset : 3 / 1 / 1
- /github/workspace/no-basis/input/examples/no-basis-Procedure-example : 3 / 0 / 1
- /github/workspace/no-basis/input/extensions/no-basis-conferencetype.structuredefinition : 2 / 3 / 1
- /github/workspace/no-basis/input/extensions/no-basis-group.structuredefinition : 3 / 1 / 1
- /github/workspace/no-basis/input/extensions/no-basis-partof.structuredefinition : 2 / 1 / 1
- /github/workspace/no-basis/input/extensions/no-basis-postponementreason.structuredefinition : 2 / 3 / 1
- /github/workspace/no-basis/input/extensions/no-basis-shortnotice.structuredefinition : 2 / 1 / 1
- /github/workspace/no-basis/input/profiles/no-basis-AppointmentResponse.structuredefinition : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-virtual-service-type.valueset : 3 / 1 / 1
+ /github/workspace/no-basis/input/examples/no-basis-Procedure-example : 5 / 0 / 1
  /github/workspace/no-basis/input/profiles/no-basis-Procedure.StructureDefinition : 0 / 0 / 1
  /github/workspace/no-basis/input/resources/no-basis-icpc-2.namingsystem : 0 / 0 / 1
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[23].value: Supressed messages file not found
+WARNING: Address.extension: The reference urn:oid:2.16.578.1.12.4.1.1.3403 could not be resolved
+WARNING: Appointment.appointmentType.coding: The reference urn:oid:2.16.578.1.12.4.1.1.8406 could not be resolved
+WARNING: Appointment.appointmentType.coding: The reference urn:oid:2.16.578.1.12.4.1.1.8432 could not be resolved
+WARNING: Appointment.appointmentType.coding: The reference urn:oid:2.16.578.1.12.4.1.1.7617 could not be resolved
+WARNING: Endpoint.payloadType: The reference urn:oid:2.16.578.1.12.4.1.1.8279 could not be resolved
+WARNING: Endpoint.payloadType: The reference urn:oid:2.16.578.1.12.4.1.1.0000 could not be resolved
+WARNING: HealthcareService.category: The reference urn:oid:2.16.578.1.12.4.1.1.9040 could not be resolved
+WARNING: HealthcareService.specialty.coding: The reference urn:oid:2.16.578.1.12.4.1.1.8655 could not be resolved
+WARNING: HealthcareService.specialty.coding: The reference urn:oid:2.16.578.1.12.4.1.1.8654 could not be resolved
+WARNING: HealthcareService.specialty.coding: The reference urn:oid:2.16.578.1.12.4.1.1.9151 could not be resolved
+WARNING: HealthcareService.specialty.coding: The reference urn:oid:2.16.578.1.12.4.1.1.8451 could not be resolved
+WARNING: Organization.type: The reference urn:oid:2.16.578.1.12.4.1.1.8628 could not be resolved
+WARNING: Organization.type: The reference urn:oid:2.16.578.1.12.4.1.1.8624 could not be resolved
+WARNING: Patient.extension.extension.value: The reference urn:iso:std:iso:3166 could not be resolved
+WARNING: Practitioner.qualification.code.coding: The reference urn:oid:2.16.578.1.12.4.1.1.9060 could not be resolved
+WARNING: Practitioner.qualification.code.coding: The reference urn:oid:2.16.578.1.12.4.1.1.7704 could not be resolved
+WARNING: Practitioner.qualification.code.coding: The reference urn:oid:2.16.578.1.12.4.1.1.7426 could not be resolved
+WARNING: PractitionerRole.code: The reference urn:oid:2.16.578.1.12.4.1.1.9034 could not be resolved
+WARNING: Extension.extension.value: The reference urn:oid:2.16.578.1.12.4.1.1.3402 could not be resolved
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/no-basis-documentreference-type.valueset.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/Direktoratet-for-eHelse-Organization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/EspenEksempel.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/JanniceSoreng.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/JanniceSorengTo.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Magnar-Komann-Practitioner.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Solid-Aresdoktor-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Sorgard-Erlend-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/no-basis-Procedure-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/p/a at Line 251, column 757: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 251, column 1141: The link 'Practitioner/example' for "Practitioner/example" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 367, column 1800: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 406, column 1799: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 462, column 1795: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 632, column 1800: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 670, column 1799: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 726, column 1795: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 302, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 310, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 318, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 770, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 786, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 802, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 364, column 1809: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 365, column 1823: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 366, column 1807: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 494, column 1929: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 495, column 1915: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 496, column 1927: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 776, column 1809: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 777, column 1823: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 778, column 1807: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 905, column 1929: The link 'urn:oid:2.16.578.1.12.4.1.1.8406' for "urn:oid:2.16.578.1.12.4.1.1.8406" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 906, column 1915: The link 'urn:oid:2.16.578.1.12.4.1.1.8432' for "urn:oid:2.16.578.1.12.4.1.1.8432" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Appointment.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 907, column 1927: The link 'urn:oid:2.16.578.1.12.4.1.1.7617' for "urn:oid:2.16.578.1.12.4.1.1.7617" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 327, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 334, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 471, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 485, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 723, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 736, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 380, column 1052: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 383, column 969: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 444, column 1119: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 447, column 1086: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 533, column 1127: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 536, column 1078: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 736, column 1052: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 739, column 969: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 799, column 1119: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 802, column 1086: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 888, column 1127: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 891, column 1078: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 317, column 108: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 341, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 354, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 367, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 380, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 521, column 108: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 577, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 617, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 657, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 697, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1046, column 108: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1120, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1211, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1302, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1393, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 371, column 1902: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 380, column 902: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 383, column 1914: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 386, column 1921: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 389, column 1902: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 450, column 1911: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 459, column 1011: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 462, column 1988: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 465, column 1995: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 468, column 1976: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 557, column 1895: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 568, column 1003: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 576, column 1986: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 584, column 1979: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 592, column 1974: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 929, column 1902: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 938, column 902: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 941, column 1914: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 944, column 1921: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 947, column 1902: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1007, column 1911: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1016, column 1011: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1019, column 1988: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1022, column 1995: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1025, column 1976: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1114, column 1895: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1125, column 1003: The link 'urn:oid:2.16.578.1.12.4.1.1.8655' for "urn:oid:2.16.578.1.12.4.1.1.8655" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1133, column 1986: The link 'urn:oid:2.16.578.1.12.4.1.1.8654' for "urn:oid:2.16.578.1.12.4.1.1.8654" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1141, column 1979: The link 'urn:oid:2.16.578.1.12.4.1.1.9151' for "urn:oid:2.16.578.1.12.4.1.1.9151" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1149, column 1974: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 336, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 347, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 571, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 587, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1000, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1134, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 384, column 1770: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 388, column 1798: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 442, column 1871: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 443, column 1913: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 527, column 1903: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 539, column 1931: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 792, column 1770: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 796, column 1798: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 849, column 1871: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 850, column 1913: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 934, column 1903: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 946, column 1931: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 319, column 108: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 514, column 108: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1116, column 108: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 377, column 1857: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 440, column 1942: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 547, column 1938: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 944, column 1857: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1006, column 1942: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1113, column 1938: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 379, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 392, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 405, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 727, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 766, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 805, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1452, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1541, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1630, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 396, column 2077: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 399, column 2087: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 402, column 2167: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 463, column 2185: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 466, column 2195: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 469, column 2275: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 579, column 2195: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 587, column 2191: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 595, column 2285: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 872, column 2077: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 875, column 2087: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 878, column 2167: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 938, column 2185: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 941, column 2195: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 944, column 2275: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1054, column 2195: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1062, column 2191: The link 'urn:oid:2.16.578.1.12.4.1.1.7704' for "urn:oid:2.16.578.1.12.4.1.1.7704" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1070, column 2285: The link 'urn:oid:2.16.578.1.12.4.1.1.7426' for "urn:oid:2.16.578.1.12.4.1.1.7426" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 303, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 325, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 408, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 437, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 629, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 775, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 368, column 971: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 375, column 1860: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 415, column 1046: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 419, column 1918: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 483, column 1054: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 498, column 1950: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 727, column 971: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 734, column 1860: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 773, column 1046: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 777, column 1918: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 841, column 1054: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 856, column 1950: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-postponementreason-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 297, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for "urn:oid:2.16.578.1.12.4.1.1.8446" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-postponementreason-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 331, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for "urn:oid:2.16.578.1.12.4.1.1.8446" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-postponementreason-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 383, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for "urn:oid:2.16.578.1.12.4.1.1.8446" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-postponementreason.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 369, column 1709: The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for "urn:oid:2.16.578.1.12.4.1.1.8446" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-postponementreason.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 382, column 1602: The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for "urn:oid:2.16.578.1.12.4.1.1.8446" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-postponementreason.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 449, column 1709: The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for "urn:oid:2.16.578.1.12.4.1.1.8446" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-postponementreason.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 462, column 1602: The link 'urn:oid:2.16.578.1.12.4.1.1.8446' for "urn:oid:2.16.578.1.12.4.1.1.8446" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 379, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 629, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 915, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 393, column 2009: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 431, column 1916: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 541, column 2009: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 579, column 1916: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 300, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 349, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 400, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 376, column 1807: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 389, column 1686: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 455, column 1807: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 468, column 1686: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: StructureDefinition-no-basis-Patient.html: The reference integer64 could not be resolved
+ERROR: StructureDefinition-no-basis-Patient.html: The reference CodeableReference could not be resolved
+ERROR: StructureDefinition-no-basis-Patient.html: The reference RatioRange could not be resolved
+ERROR: StructureDefinition-no-basis-Patient.html: The reference Availability could not be resolved
+ERROR: StructureDefinition-no-basis-Patient.html: The reference ExtendedContactDetail could not be resolved
+WARNING: /github/workspace/no-basis/output/Appointment-and-Encounter.html#/html/body/script at Line 246, column 4: The <script> containing the javascript '$(document).ready(fu'... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild (also in 485 other files)
+WARNING: /github/workspace/no-basis/output/Appointment-and-Encounter.html#/html/body/script at Line 287, column 4: The <script> containing the javascript 'anchors.options.visi'... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild (also in 485 other files)
+WARNING: /github/workspace/no-basis/output/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.change.history.html#/html/body/script at Line 246, column 4: The <script> containing the javascript 'try {       var curr'... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild (also in 325 other files)
+ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/p/a at Line 239, column 801: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 239, column 1229: The link 'Practitioner/example' for "Practitioner/example" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 443, column 1592: The link 'integer64.html' for "integer64" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 443, column 3102: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 443, column 4424: The link 'RatioRange.html' for "RatioRange" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 443, column 5764: The link 'Availability.html' for "Availability" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 443, column 5810: The link 'ExtendedContactDetail.html' for "ExtendedContactDetail" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 697, column 1088: The link 'integer64.html' for "integer64" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 697, column 2094: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 697, column 2984: The link 'RatioRange.html' for "RatioRange" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 697, column 3928: The link 'Availability.html' for "Availability" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 697, column 3974: The link 'ExtendedContactDetail.html' for "ExtendedContactDetail" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.json ==
+INFORMATION: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointmentType.coding[1].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7617' could not be found, so the code cannot be validated
+INFORMATION: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointmentType.coding[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment|2.2.0-test (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointmentType.coding[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment|2.2.0-test (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample.json ==
 == fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.no/fhir/CodeSystem/no-basis-connection-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-basis-connection-type.codesystem) does not match the URL (http://hl7.no/fhir/CodeSystem/no-basis-connection-type)
 ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-connection-type.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-connection-type
 INFORMATION: CodeSystem/no-basis-connection-type.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-ERROR: CodeSystem/no-basis-connection-type.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-ERROR: CodeSystem/no-basis-connection-type.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+ERROR: CodeSystem/no-basis-connection-type.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/no-basis-connection-type.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-connection-type.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-connection-type
 == fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.no/fhir/CodeSystem/no-basis-family-relation'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-basis-family-relation.codesystem) does not match the URL (http://hl7.no/fhir/CodeSystem/no-basis-family-relation)
 ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-family-relation.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-family-relation
 INFORMATION: CodeSystem/no-basis-family-relation.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-ERROR: CodeSystem/no-basis-family-relation.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-ERROR: CodeSystem/no-basis-family-relation.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+ERROR: CodeSystem/no-basis-family-relation.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/no-basis-family-relation.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-family-relation.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-family-relation
 == fsh-generated/resources/CodeSystem-no-basis-location-type.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.no/fhir/CodeSystem/no-basis-location-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-location-type.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-basis-location-type.codesystem) does not match the URL (http://hl7.no/fhir/CodeSystem/no-basis-location-type)
 ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-location-type.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-location-type
 INFORMATION: CodeSystem/no-basis-location-type.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-ERROR: CodeSystem/no-basis-location-type.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-ERROR: CodeSystem/no-basis-location-type.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+ERROR: CodeSystem/no-basis-location-type.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/no-basis-location-type.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-location-type.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-location-type.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-location-type
 == fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.no/fhir/CodeSystem/no-basis-marital-status'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-basis-marital-status.codesystem) does not match the URL (http://hl7.no/fhir/CodeSystem/no-basis-marital-status)
 ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-marital-status.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-marital-status
 INFORMATION: CodeSystem/no-basis-marital-status.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-ERROR: CodeSystem/no-basis-marital-status.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-ERROR: CodeSystem/no-basis-marital-status.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+ERROR: CodeSystem/no-basis-marital-status.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/no-basis-marital-status.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-marital-status.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-marital-status
 == fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility.codesystem) does not match the URL (http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility)
 ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-parental-responsibility.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility
 INFORMATION: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-ERROR: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-ERROR: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+ERROR: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis.json ==
-WARNING: /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis: Unknown Parameters: [releaselabel, fmm-definition, excludelogbinaryformat]
-ERROR: ImplementationGuide/hl7.fhir.no.basis: ImplementationGuide: The extension http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency is not allowed to be used at this point (allowed = e:ImplementationGuide.definition; this element is [ImplementationGuide])
 == fsh-generated/resources/NamingSystem-no-basis-bydelsnummer.json ==
 == fsh-generated/resources/NamingSystem-no-basis-dnummer.json ==
 == fsh-generated/resources/NamingSystem-no-basis-dufnummer.json ==
@@ -315,37 +179,41 @@ ERROR: ImplementationGuide/hl7.fhir.no.basis: ImplementationGuide: The extension
 == fsh-generated/resources/NamingSystem-no-basis-kommunenummer.json ==
 == fsh-generated/resources/Organization-Direktoratet-for-eHelse-Organization.json ==
 == fsh-generated/resources/Patient-EspenEksempel.json ==
-ERROR: Patient/EspenEksempel: Patient.extension[0].extension[0].value.ofType(CodeableConcept): Found a reference to a CodeSystem (urn:iso:std:iso:3166) where a ValueSet belongs
-INFORMATION: Patient/EspenEksempel: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
-WARNING: Patient/EspenEksempel: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
+ERROR: Patient/EspenEksempel: Patient.extension[0].extension[0].value.ofType(CodeableConcept): Found a reference to a CodeSystem 'urn:iso:std:iso:3166' where a ValueSet belongs
+INFORMATION: Patient/EspenEksempel: Patient.address[0].extension[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.3402' could not be found, so the code cannot be validated
+WARNING: Patient/EspenEksempel: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet 'urn:oid:2.16.578.1.12.4.1.1.3402' not found
 == fsh-generated/resources/Patient-JanniceSoreng.json ==
-INFORMATION: Patient/JanniceSoreng: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.3.0
-ERROR: Patient/JanniceSoreng: Patient.extension[0].extension[0].value.ofType(CodeableConcept): Found a reference to a CodeSystem (urn:iso:std:iso:3166) where a ValueSet belongs
-INFORMATION: Patient/JanniceSoreng: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
-WARNING: Patient/JanniceSoreng: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
-INFORMATION: Patient/JanniceSoreng: Patient.address[0].district.extension[0].value.ofType(Coding): Code System URI 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' is unknown so the code cannot be validated
-WARNING: Patient/JanniceSoreng: Patient.address[0].district.extension[0].value.ofType(Coding): ValueSet https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle not found by validator
+INFORMATION: Patient/JanniceSoreng: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.0-test (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Patient/JanniceSoreng: Patient.extension[0].extension[0].value.ofType(CodeableConcept): Found a reference to a CodeSystem 'urn:iso:std:iso:3166' where a ValueSet belongs
+INFORMATION: Patient/JanniceSoreng: Patient.address[0].extension[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.3402' could not be found, so the code cannot be validated
+WARNING: Patient/JanniceSoreng: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet 'urn:oid:2.16.578.1.12.4.1.1.3402' not found
+WARNING: Patient/JanniceSoreng: Patient.address[0].district.extension[0].value.ofType(Coding): ValueSet 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' not found
+INFORMATION: Patient/JanniceSoreng: Patient.address[0].district.extension[0].value.ofType(Coding): A definition for CodeSystem 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' could not be found, so the code cannot be validated
 WARNING: Patient/JanniceSoreng: Patient.contact[0].relationship[1]: No code provided, and a code should be provided from the value set 'Patient Contact Relationship ' (http://hl7.org/fhir/ValueSet/patient-contactrelationship|4.0.1)
 == fsh-generated/resources/Patient-JanniceSorengTo.json ==
-INFORMATION: Patient/JanniceSorengTo: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.3.0
-ERROR: Patient/JanniceSorengTo: Patient.extension[0].extension[0].value.ofType(CodeableConcept): Found a reference to a CodeSystem (urn:iso:std:iso:3166) where a ValueSet belongs
-INFORMATION: Patient/JanniceSorengTo: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
-WARNING: Patient/JanniceSorengTo: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
-INFORMATION: Patient/JanniceSorengTo: Patient.address[0].district.extension[0].value.ofType(Coding): Code System URI 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' is unknown so the code cannot be validated
-WARNING: Patient/JanniceSorengTo: Patient.address[0].district.extension[0].value.ofType(Coding): ValueSet https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle not found by validator
+INFORMATION: Patient/JanniceSorengTo: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.0-test (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Patient/JanniceSorengTo: Patient.extension[0].extension[0].value.ofType(CodeableConcept): Found a reference to a CodeSystem 'urn:iso:std:iso:3166' where a ValueSet belongs
+INFORMATION: Patient/JanniceSorengTo: Patient.address[0].extension[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.3402' could not be found, so the code cannot be validated
+WARNING: Patient/JanniceSorengTo: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet 'urn:oid:2.16.578.1.12.4.1.1.3402' not found
+WARNING: Patient/JanniceSorengTo: Patient.address[0].district.extension[0].value.ofType(Coding): ValueSet 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' not found
+INFORMATION: Patient/JanniceSorengTo: Patient.address[0].district.extension[0].value.ofType(Coding): A definition for CodeSystem 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' could not be found, so the code cannot be validated
 WARNING: Patient/JanniceSorengTo: Patient.contact[0].relationship[1]: No code provided, and a code should be provided from the value set 'Patient Contact Relationship ' (http://hl7.org/fhir/ValueSet/patient-contactrelationship|4.0.1)
+== fsh-generated/resources/Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473.json ==
 == fsh-generated/resources/Practitioner-Magnar-Komann-Practitioner.json ==
-INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[0].code.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.9060' is unknown so the code cannot be validated
-WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[0].code.coding[0]: ValueSet urn:oid:2.16.578.1.12.4.1.1.9060 not found by validator
-INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[1].code.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7426' is unknown so the code cannot be validated
-WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[1].code.coding[0]: ValueSet urn:oid:2.16.578.1.12.4.1.1.7426 not found by validator
-INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[2].code.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7704' is unknown so the code cannot be validated
-WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[2].code.coding[0]: ValueSet urn:oid:2.16.578.1.12.4.1.1.7704 not found by validator
-INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[3].code.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7426' is unknown so the code cannot be validated
-WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[3].code.coding[0]: ValueSet urn:oid:2.16.578.1.12.4.1.1.7426 not found by validator
+INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[0].code.coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated
+WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[0].code.coding[0]: ValueSet 'urn:oid:2.16.578.1.12.4.1.1.9060' not found
+INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[0].code.coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated
+INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[1].code.coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7426' could not be found, so the code cannot be validated
+WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[1].code.coding[0]: ValueSet 'urn:oid:2.16.578.1.12.4.1.1.7426' not found
+INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[1].code.coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7426' could not be found, so the code cannot be validated
+INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[2].code.coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7704' could not be found, so the code cannot be validated
+WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[2].code.coding[0]: ValueSet 'urn:oid:2.16.578.1.12.4.1.1.7704' not found
+INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[2].code.coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7704' could not be found, so the code cannot be validated
+INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[3].code.coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7426' could not be found, so the code cannot be validated
+WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[3].code.coding[0]: ValueSet 'urn:oid:2.16.578.1.12.4.1.1.7426' not found
 == fsh-generated/resources/RelatedPerson-Solid-Aresdoktor-RelatedPerson.json ==
-INFORMATION: RelatedPerson/Solid-Aresdoktor-RelatedPerson: RelatedPerson.address[0].extension[0].extension[2].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
-WARNING: RelatedPerson/Solid-Aresdoktor-RelatedPerson: RelatedPerson.address[0].extension[0].extension[2].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
+INFORMATION: RelatedPerson/Solid-Aresdoktor-RelatedPerson: RelatedPerson.address[0].extension[0].extension[2].value.ofType(Coding): A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.3402' could not be found, so the code cannot be validated
+WARNING: RelatedPerson/Solid-Aresdoktor-RelatedPerson: RelatedPerson.address[0].extension[0].extension[2].value.ofType(Coding): ValueSet 'urn:oid:2.16.578.1.12.4.1.1.3402' not found
 == fsh-generated/resources/RelatedPerson-Sorgard-Erlend-RelatedPerson.json ==
 == fsh-generated/resources/SearchParameter-no-basis-middlename.json ==
 == fsh-generated/resources/StructureDefinition-derived-Person.json ==
@@ -354,13 +222,7 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition
 == fsh-generated/resources/StructureDefinition-no-basis-AllergyIntolerance.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-Appointment.json ==
-WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.differential.element[3].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8406 on element Appointment.appointmentType.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.differential.element[4].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8432 on element Appointment.appointmentType.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.differential.element[5].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7617 on element Appointment.appointmentType.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.snapshot.element[19].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8406 on element Appointment.appointmentType.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.snapshot.element[20].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8432 on element Appointment.appointmentType.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.snapshot.element[21].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7617 on element Appointment.appointmentType.coding could not be resolved
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Appointment'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-no-basis-AppointmentResponse.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-Composition.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Composition'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-DocumentReference.json ==
@@ -369,25 +231,8 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition
 WARNING: no-basis-Endpoint.Endpoint.payloadMimeType: Binding http://www.rfc-editor.org/bcp/bcp13.txt could not be located
 ERROR: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[18].binding.valueSet: OIDs must be valid (2.16.578.1.12.4.1.1.0000)
 ERROR: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[6].binding.valueSet: OIDs must be valid (2.16.578.1.12.4.1.1.0000)
-WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition: Binding http://www.rfc-editor.org/bcp/bcp13.txt could not be located
-WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[5].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8279 on element Endpoint.payloadType could not be resolved
-WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[6].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.0000 on element Endpoint.payloadType could not be resolved
-WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[7].binding: The valueSet reference http://www.rfc-editor.org/bcp/bcp13.txt on element Endpoint.payloadMimeType could not be resolved
-WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[17].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8279 on element Endpoint.payloadType could not be resolved
-WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[18].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.0000 on element Endpoint.payloadType could not be resolved
-WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[19].binding: The valueSet reference http://www.rfc-editor.org/bcp/bcp13.txt on element Endpoint.payloadMimeType could not be resolved
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-HealthcareService.json ==
-WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.differential.element[5].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9040 on element HealthcareService.category could not be resolved
-WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.differential.element[9].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8655 on element HealthcareService.specialty.coding could not be resolved
-WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.differential.element[12].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8654 on element HealthcareService.specialty.coding could not be resolved
-WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.differential.element[15].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9151 on element HealthcareService.specialty.coding could not be resolved
-WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.differential.element[18].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8451 on element HealthcareService.specialty.coding could not be resolved
-WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.snapshot.element[26].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9040 on element HealthcareService.category could not be resolved
-WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.snapshot.element[32].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8655 on element HealthcareService.specialty.coding could not be resolved
-WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.snapshot.element[40].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8654 on element HealthcareService.specialty.coding could not be resolved
-WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.snapshot.element[48].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9151 on element HealthcareService.specialty.coding could not be resolved
-WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.snapshot.element[56].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8451 on element HealthcareService.specialty.coding could not be resolved
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-HumanName.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-Location.json ==
@@ -400,56 +245,43 @@ ERROR: StructureDefinition/no-basis-MedicationStatement: StructureDefinition.sna
 ERROR: StructureDefinition/no-basis-MedicationStatement: StructureDefinition.snapshot.element[28].binding: The element MedicationStatement.medication[x] has a binding, but no bindable types are present [Reference]
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-MedicationStatement'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-Organization.json ==
-WARNING: StructureDefinition/no-basis-Organization: StructureDefinition.differential.element[9].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8628 on element Organization.type could not be resolved
-WARNING: StructureDefinition/no-basis-Organization: StructureDefinition.differential.element[12].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8624 on element Organization.type could not be resolved
-WARNING: StructureDefinition/no-basis-Organization: StructureDefinition.snapshot.element[30].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8628 on element Organization.type could not be resolved
-WARNING: StructureDefinition/no-basis-Organization: StructureDefinition.snapshot.element[42].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8624 on element Organization.type could not be resolved
 == fsh-generated/resources/StructureDefinition-no-basis-Patient.json ==
 ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.snapshot.element[15].binding.valueSet: Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
 ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.differential.element[4].binding.valueSet: Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
-ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.differential.element[4].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.valueCodeableConcept points to something that is not a value set (CodeSystem)
+ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.differential.element[4].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] points to something that is not a value set (CodeSystem)
 ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.snapshot.element[15].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] points to something that is not a value set (CodeSystem)
 == fsh-generated/resources/StructureDefinition-no-basis-Person.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Person'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-Practitioner.json ==
-WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.differential.element[16].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9060 on element Practitioner.qualification.code.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.differential.element[19].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7704 on element Practitioner.qualification.code.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.differential.element[22].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7426 on element Practitioner.qualification.code.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.snapshot.element[53].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9060 on element Practitioner.qualification.code.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.snapshot.element[61].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7704 on element Practitioner.qualification.code.coding could not be resolved
-WARNING: StructureDefinition/no-basis-Practitioner: StructureDefinition.snapshot.element[69].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.7426 on element Practitioner.qualification.code.coding could not be resolved
 == fsh-generated/resources/StructureDefinition-no-basis-PractitionerRole.json ==
-WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.differential.element[2].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9034 on element PractitionerRole.code could not be resolved
-WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.differential.element[6].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8451 on element PractitionerRole.specialty could not be resolved
-WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.snapshot.element[15].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9034 on element PractitionerRole.code could not be resolved
-WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.snapshot.element[28].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8451 on element PractitionerRole.specialty could not be resolved
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-RelatedPerson.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-Substance.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Substance'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-address-official.json ==
+== fsh-generated/resources/StructureDefinition-no-basis-group.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-group'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-no-basis-middlename.json ==
 ERROR: StructureDefinition/no-basis-middlename: StructureDefinition: The kind primitive-type must be the same as the kind complex-type in the base structure http://hl7.org/fhir/StructureDefinition/Extension (base type = Extension)
 ERROR: StructureDefinition/no-basis-middlename: StructureDefinition: The structure definition constrains a kind of complex-type, but has a different kind (primitive-type)
 == fsh-generated/resources/StructureDefinition-no-basis-municipalitycode.json ==
-WARNING: StructureDefinition/no-basis-municipalitycode: StructureDefinition.differential.element[3].binding: The valueSet reference https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle on element Extension.value[x] could not be resolved
-WARNING: StructureDefinition/no-basis-municipalitycode: StructureDefinition.snapshot.element[4].binding: The valueSet reference https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle on element Extension.value[x] could not be resolved
+== fsh-generated/resources/StructureDefinition-no-basis-partof.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-partof'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-no-basis-person-citizenship.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-prescriptiongroup.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-prescriptiongroup'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-no-basis-propertyinformation.json ==
 ERROR: StructureDefinition/no-basis-propertyinformation: StructureDefinition.differential.element[17].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition|4.0.1)
-WARNING: StructureDefinition/no-basis-propertyinformation: StructureDefinition.differential.element[20].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3402 on element Extension.extension.value[x] could not be resolved
-WARNING: StructureDefinition/no-basis-propertyinformation: StructureDefinition.snapshot.element[27].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3402 on element Extension.extension.value[x] could not be resolved
 == fsh-generated/resources/StructureDefinition-no-basis-relatedperson-person-reference.json ==
 ERROR: StructureDefinition.where(url = 'http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-relatedperson-person-reference.json - the canonical URL (http://hl7.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference) does not match the URL (http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference)
 ERROR: /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-relatedperson-person-reference: URL Mismatch http://hl7.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference vs http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference
+== fsh-generated/resources/StructureDefinition-no-basis-shortnotice.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-sourceofinformation.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-no-basis-urban-district.json ==
-WARNING: StructureDefinition/no-basis-urban-district: StructureDefinition.differential.element[3].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3403 on element Extension.value[x] could not be resolved
-WARNING: StructureDefinition/no-basis-urban-district: StructureDefinition.snapshot.element[4].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3403 on element Extension.value[x] could not be resolved
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-urban-district'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-no-basis-virtual-service.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-virtual-service'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/ValueSet-no-basis-connection-type.valueset.json ==
 ERROR: ValueSet.where(url = 'http://hl7.no/fhir/ValueSet/no-basis-connection-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-connection-type.valueset.json - the canonical URL (http://hl7.no/fhir/ValueSet/no-basis-connection-type.valueset) does not match the URL (http://hl7.no/fhir/ValueSet/no-basis-connection-type)
 ERROR: ValueSet.url: Resource id/url mismatch: no-basis-connection-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-connection-type
@@ -457,73 +289,10 @@ ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-conn
 == fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset.json ==
 ERROR: ValueSet.where(url = 'http://hl7.no/fhir/ValueSet/no-basis-documentreference-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset.json - the canonical URL (http://hl7.no/fhir/ValueSet/no-basis-documentreference-type.valueset) does not match the URL (http://hl7.no/fhir/ValueSet/no-basis-documentreference-type)
 ERROR: ValueSet.url: Resource id/url mismatch: no-basis-documentreference-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-documentreference-type
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[0]: The code A00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-INFORMATION: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[0]: The CodeSystem urn:oid:2.16.578.1.12.4.1.1.9602 is unknown; The provided code urn:oid:2.16.578.1.12.4.1.1.9602#A00-1 is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from null)
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[1]: The code A01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[2]: The code A02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[3]: The code A03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[4]: The code A04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[5]: The code A05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[6]: The code A06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[7]: The code A07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[8]: The code A08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[9]: The code A09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[10]: The code A10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[11]: The code A11-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[12]: The code A12-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[13]: The code A13-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[14]: The code B00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[15]: The code B01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[16]: The code B02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[17]: The code B03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[18]: The code C00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[19]: The code C01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[20]: The code C02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[21]: The code C03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[22]: The code C04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[23]: The code C05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[24]: The code C06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[25]: The code C07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[26]: The code D00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[27]: The code D01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[28]: The code D02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[29]: The code D03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[30]: The code D04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[31]: The code D05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[32]: The code D06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[33]: The code D07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[34]: The code D08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[35]: The code D09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[36]: The code D10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[37]: The code D11-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[38]: The code D12-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[39]: The code D13-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[40]: The code E00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[41]: The code E01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[42]: The code F00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[43]: The code F01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[44]: The code F02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[45]: The code F03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[46]: The code F04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[47]: The code F05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[48]: The code F06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[49]: The code F07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[50]: The code F08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[51]: The code F09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[52]: The code F10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[53]: The code I00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[54]: The code I01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[55]: The code I02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[56]: The code J00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[57]: The code J01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[58]: The code J02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[59]: The code S00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[60]: The code S01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[61]: The code S02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[62]: The code S03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-ERROR: ValueSet/no-basis-documentreference-type.valueset: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-ERROR: ValueSet/no-basis-documentreference-type.valueset: ValueSet: The ShareableValueSet profile says that the description element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-WARNING: ValueSet.where(id = 'no-basis-documentreference-type.valueset'): Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.578.1.12.4.1.1.9602' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9602' could not be found, so the code cannot be validated)
+ERROR: ValueSet/no-basis-documentreference-type.valueset: ValueSet: Published value sets SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+ERROR: ValueSet/no-basis-documentreference-type.valueset: ValueSet: Published value sets SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'no-basis-documentreference-type.valueset'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9602
 ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset: URL Mismatch http://hl7.no/fhir/ValueSet/no-basis-documentreference-type.valueset vs http://hl7.no/fhir/ValueSet/no-basis-documentreference-type
 == fsh-generated/resources/ValueSet-no-basis-family-relation.valueset.json ==
 ERROR: ValueSet.where(url = 'http://hl7.no/fhir/ValueSet/no-basis-family-relation'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-family-relation.valueset.json - the canonical URL (http://hl7.no/fhir/ValueSet/no-basis-family-relation.valueset) does not match the URL (http://hl7.no/fhir/ValueSet/no-basis-family-relation)
@@ -544,38 +313,18 @@ ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-pare
 == fsh-generated/resources/ValueSet-no-basis-service-type.valueset.json ==
 ERROR: ValueSet.where(url = 'http://hl7.no/fhir/ValueSet/no-basis-service-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-service-type.valueset.json - the canonical URL (http://hl7.no/fhir/ValueSet/no-basis-service-type.valueset) does not match the URL (http://hl7.no/fhir/ValueSet/no-basis-service-type)
 ERROR: ValueSet.url: Resource id/url mismatch: no-basis-service-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-service-type
-WARNING: ValueSet.where(id = 'no-basis-service-type.valueset'): Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8660
+WARNING: ValueSet.where(id = 'no-basis-service-type.valueset'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8660
 ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-service-type.valueset: URL Mismatch http://hl7.no/fhir/ValueSet/no-basis-service-type.valueset vs http://hl7.no/fhir/ValueSet/no-basis-service-type
+== fsh-generated/resources/ValueSet-no-basis-virtual-service-type.valueset.json ==
+ERROR: ValueSet.where(url = 'http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-virtual-service-type.valueset.json - the canonical URL (http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type.valueset) does not match the URL (http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type)
+ERROR: ValueSet.url: Resource id/url mismatch: no-basis-virtual-service-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type
+WARNING: ValueSet.where(id = 'no-basis-virtual-service-type.valueset'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.4.642.4.1809
+ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-virtual-service-type.valueset: URL Mismatch http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type.valueset vs http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type
 == input/examples/no-basis-Procedure-example.xml ==
 ERROR: Procedure/no-basis-Procedure-example: Procedure.subject: Unable to resolve resource with reference 'Patient/example'
-ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].function.coding[0]: Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230131); Unknown Code 8921000202108 in http://snomed.info/sct; The provided code http://snomed.info/sct#8921000202108 is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from null) for 'http://snomed.info/sct#8921000202108'
+ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].function.coding[0].code: Unknown code '8921000202108' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240201'
 ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].actor: Unable to resolve resource with reference 'Practitioner/example'
-== input/extensions/no-basis-conferencetype.structuredefinition.xml ==
-ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/structuredefinition/no-basis-conferencetype'): Conformance resource /github/workspace/no-basis/input/extensions/no-basis-conferencetype.structuredefinition.xml - the canonical URL (http://hl7.no/fhir/StructureDefinition/no-basis-conferencetype) does not match the URL (http://hl7.no/fhir/structuredefinition/no-basis-conferencetype)
-WARNING: StructureDefinition/no-basis-conferencetype: StructureDefinition.differential.element[2].binding: The valueSet reference http://hl7.no/fhir/ValueSet/no-basis-conference-type on element Extension.value[x] could not be resolved
-WARNING: StructureDefinition/no-basis-conferencetype: StructureDefinition.snapshot.element[4].binding: The valueSet reference http://hl7.no/fhir/ValueSet/no-basis-conference-type on element Extension.value[x] could not be resolved
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/structuredefinition/no-basis-conferencetype'): The Implementation Guide contains no examples for this extension
-ERROR: /github/workspace/no-basis/input/extensions/no-basis-conferencetype.structuredefinition: URL Mismatch http://hl7.no/fhir/StructureDefinition/no-basis-conferencetype vs http://hl7.no/fhir/structuredefinition/no-basis-conferencetype
-== input/extensions/no-basis-group.structuredefinition.xml ==
-ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-group'): Conformance resource /github/workspace/no-basis/input/extensions/no-basis-group.structuredefinition.xml - the canonical URL (http://hl7.no/fhir/StructureDefinition/no-basis-group) does not match the URL (http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-group)
-ERROR: StructureDefinition/no-basis-group: StructureDefinition: Rule sdf-21: 'Default values can only be specified on specializations' Failed
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-group'): The Implementation Guide contains no examples for this extension
-ERROR: /github/workspace/no-basis/input/extensions/no-basis-group.structuredefinition: URL Mismatch http://hl7.no/fhir/StructureDefinition/no-basis-group vs http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-group
-== input/extensions/no-basis-partof.structuredefinition.xml ==
-ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-partof'): Conformance resource /github/workspace/no-basis/input/extensions/no-basis-partof.structuredefinition.xml - the canonical URL (http://hl7.no/fhir/StructureDefinition/no-basis-partof) does not match the URL (http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-partof)
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-partof'): The Implementation Guide contains no examples for this extension
-ERROR: /github/workspace/no-basis/input/extensions/no-basis-partof.structuredefinition: URL Mismatch http://hl7.no/fhir/StructureDefinition/no-basis-partof vs http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-partof
-== input/extensions/no-basis-postponementreason.structuredefinition.xml ==
-ERROR: StructureDefinition.where(url = 'https://example.org/fhir/structuredefinition/no-basis-postponementreason'): Conformance resource /github/workspace/no-basis/input/extensions/no-basis-postponementreason.structuredefinition.xml - the canonical URL (http://hl7.no/fhir/StructureDefinition/no-basis-postponementreason) does not match the URL (https://example.org/fhir/structuredefinition/no-basis-postponementreason)
-WARNING: StructureDefinition/no-basis-postponementreason: StructureDefinition.differential.element[2].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8446 on element Extension.value[x] could not be resolved
-WARNING: StructureDefinition/no-basis-postponementreason: StructureDefinition.snapshot.element[4].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8446 on element Extension.value[x] could not be resolved
-WARNING: StructureDefinition.where(url = 'https://example.org/fhir/structuredefinition/no-basis-postponementreason'): The Implementation Guide contains no examples for this extension
-ERROR: /github/workspace/no-basis/input/extensions/no-basis-postponementreason.structuredefinition: URL Mismatch http://hl7.no/fhir/StructureDefinition/no-basis-postponementreason vs https://example.org/fhir/structuredefinition/no-basis-postponementreason
-== input/extensions/no-basis-shortnotice.structuredefinition.xml ==
-ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/no-basis-shortnotice'): Conformance resource /github/workspace/no-basis/input/extensions/no-basis-shortnotice.structuredefinition.xml - the canonical URL (http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice) does not match the URL (http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/no-basis-shortnotice)
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/no-basis-shortnotice'): The Implementation Guide contains no examples for this extension
-ERROR: /github/workspace/no-basis/input/extensions/no-basis-shortnotice.structuredefinition: URL Mismatch http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice vs http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/no-basis-shortnotice
-== input/profiles/no-basis-AppointmentResponse.structuredefinition.xml ==
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse'): The Implementation Guide contains no examples for this profile
+ERROR: Procedure.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Procedure.text.div: Hyperlink 'Practitioner/example' at 'div/table/tr/td/a' for 'Practitioner/example' does not resolve
 == input/profiles/no-basis-Procedure.StructureDefinition.xml ==
 == input/resources/no-basis-icpc-2.namingsystem.xml ==

@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.no.basis",
-  "version": "2.3.0",
+  "version": "2.2.0-test",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [
@@ -14,6 +14,13 @@
     {
       "url": "http://hl7.no/fhir/StructureDefinition/no-basis-address-official",
       "title": "no-basis-address-official",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-group",
+      "title": "no-basis-group",
       "types": [
         "boolean"
       ]
@@ -37,6 +44,13 @@
         "code",
         "string",
         "boolean"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-partof",
+      "title": "no-basis-partof",
+      "types": [
+        "Reference"
       ]
     },
     {
@@ -227,6 +241,13 @@
       ]
     },
     {
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice",
+      "title": "no-basis-shortnotice",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
       "url": "http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation",
       "title": "no-basis-sourceofinformation",
       "types": [
@@ -302,38 +323,66 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-group",
-      "title": "no-basis-group",
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-virtual-service",
+      "title": "no-basis-Virtual-Service",
       "types": [
-        "boolean"
-      ]
-    },
-    {
-      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-partof",
-      "title": "no-basis-partof",
-      "types": [
-        "Reference"
-      ]
-    },
-    {
-      "url": "http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/no-basis-shortnotice",
-      "title": "no-basis-shortnotice",
-      "types": [
-        "boolean"
-      ]
-    },
-    {
-      "url": "http://hl7.no/fhir/structuredefinition/no-basis-conferencetype",
-      "title": "NoBasisConferenceType",
-      "types": [
-        "code"
-      ]
-    },
-    {
-      "url": "https://example.org/fhir/structuredefinition/no-basis-postponementreason",
-      "title": "no-basis-postponementreason",
-      "types": [
-        "code"
+        "Coding",
+        "string",
+        "url",
+        "ContactPoint",
+        "url",
+        "positiveInt",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
       ]
     }
   ],
@@ -457,6 +506,9 @@
       "Patient.address",
       "RelatedPerson.address"
     ],
+    "http://hl7.no/fhir/StructureDefinition/no-basis-group": [
+      "Appointment"
+    ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-middlename": [
       "HumanName",
       "Patient.contact.name",
@@ -465,6 +517,9 @@
     "http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode": [
       "Address.district",
       "Patient.address.district"
+    ],
+    "http://hl7.no/fhir/StructureDefinition/no-basis-partof": [
+      "Appointment"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-person-citizenship": [
       "RelatedPerson"
@@ -477,14 +532,23 @@
       "Patient.address",
       "RelatedPerson.address"
     ],
+    "http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice": [
+      "AppointmentResponse"
+    ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation": [
       "AllergyIntolerance"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-urban-district": [
       "Address"
     ],
-    "http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/no-basis-shortnotice": [
-      "AppointmentResponse"
+    "http://hl7.no/fhir/StructureDefinition/no-basis-virtual-service": [
+      "Appointment"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
+      "NamingSystem"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version": [
+      "NamingSystem"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
@@ -493,9 +557,6 @@
       "StructureDefinition.snapshot.element.constraint"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
@@ -509,9 +570,6 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/regex": [
       "StructureDefinition.snapshot.element.type"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
-      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
@@ -527,7 +585,7 @@
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
-      "ImplementationGuide"
+      "ImplementationGuide.definition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
       "ImplementationGuide.definition.page",

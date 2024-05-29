@@ -1,0 +1,96 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/no-basis-connection-type",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisConnectionType",
+      "title" : "no-basis-connection-type.valueset",
+      "description" : "ValueSet for connection types used in Endpoint definition. Includes all Norwegian specific types (no-basis-connection-type) and the extensible HL7 CodeSystem for connection-type",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "http://hl7.no/fhir/CodeSystem/no-basis-connection-type"
+      ]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/no-basis-documentreference-type",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisDocumentReferenceType",
+      "title" : "no-basis-documentreference-type.valueset",
+      "description" : null,
+      "systems" : ["urn:oid:2.16.578.1.12.4.1.1.9602"]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/no-basis-family-relation",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisFamilyRelation",
+      "title" : "no-basis-family-relation.valueset",
+      "description" : "Copy of Codes from Familierelasjon defined by Skatteetaten",
+      "systems" : ["http://hl7.no/fhir/CodeSystem/no-basis-family-relation"]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/no-basis-location-type",
+      "version" : "2.2.0-test",
+      "status" : "draft",
+      "name" : "NoBasisLocationType",
+      "title" : "no-basis-location-type.valueset",
+      "description" : "ValueSet for location types used in Location definition. Includes all Norwegian specific types (no-basis-location-type.codesystem) and all codes from v3.ServiceDeliveryLocationRoleType defined by HL7",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "http://hl7.no/fhir/CodeSystem/no-basis-location-type"
+      ]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/no-basis-marital-status",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisMaritalStatus",
+      "title" : "no-basis-marital-status.valueset",
+      "description" : "Copy of Codes from Sivilstandstype defined by Skatteetaten",
+      "systems" : ["http://hl7.no/fhir/CodeSystem/no-basis-marital-status"]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisParentalResponsibility",
+      "title" : "no-basis-parental-responsibility.valueset",
+      "description" : "Copy of Codes from Foreldreansvar defined by Skatteetaten",
+      "systems" : [
+        "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility"
+      ]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/no-basis-service-type",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisServiceType",
+      "title" : "no-basis-service-type.valueset",
+      "description" : "ValueSet including all codes for service type (tjenestetype) allowed in the Adressergister",
+      "systems" : [
+        "urn:oid:2.16.578.1.12.4.1.1.8664",
+        "urn:oid:2.16.578.1.12.4.1.1.8666",
+        "urn:oid:2.16.578.1.12.4.1.1.8660",
+        "urn:oid:2.16.578.1.12.4.1.1.8663",
+        "urn:oid:2.16.578.1.12.4.1.1.8669",
+        "urn:oid:2.16.578.1.12.4.1.1.8658",
+        "urn:oid:2.16.578.1.12.4.1.1.8668",
+        "urn:oid:2.16.578.1.12.4.1.1.8659"
+      ]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type",
+      "version" : "2.2.0-test",
+      "status" : "active",
+      "name" : "NoBasisVirtualServiceType",
+      "title" : "No Basis VirtualServiceType Value Set",
+      "description" : "Example codes for virtual service connection types. Any other codes or codesystem should be added to this valueSet",
+      "systems" : [
+        "http://hl7.org/fhir/contact-point-system",
+        "urn:oid:2.16.840.1.113883.4.642.4.1809"
+      ]
+    }
+  ]
+}

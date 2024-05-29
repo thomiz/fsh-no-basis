@@ -1,12 +1,19 @@
 {
   "url" : "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis",
   "name" : "NoBasis",
+  "title" : null,
+  "description" : null,
+  "status" : "active",
   "package-id" : "hl7.fhir.no.basis",
-  "ig-ver" : "2.3.0",
-  "date" : "Fri, 28 Apr, 2023 21:16:27 +0000",
-  "errs" : 80,
-  "warnings" : 162,
-  "hints" : 18,
+  "ig-ver" : "2.2.0-test",
+  "date" : "Wed, 29 May, 2024 11:15:19 +0000",
+  "dateISO8601" : "2024-05-29T11:15:19+00:00",
+  "errs" : 78,
+  "warnings" : 72,
+  "hints" : 23,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
   "version" : "4.0.1",
-  "tool" : "5.0.0 (3)"
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1919533744
 }
