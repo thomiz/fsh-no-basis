@@ -18,13 +18,7 @@ Description: "Basis profile for medication statement, to be used in Norway. The 
 * identifier[PLL-id].type.text 1..
 * identifier[PLL-id].type.text = "PLL" (exactly)
 * status ^definition = "A code representing the patient or other source's judgment about the state of the medication used that this statement is about.  Generally this will be active or completed.\r\n\r\nactive = start date has passed and end date is not reached\r\ncompleted = end date is passed (for treatement that had an initial stop date)\r\nentered-in-error = deleted (ref Norwegian laws)\r\nintended = start date is not reached\r\nstopped = end date is passed and it was an active desition to stop the treatment\r\non-hold = the treatment is paused"
-* medication[x] ^slicing.discriminator.type = #type
-* medication[x] ^slicing.discriminator.path = "$this"
-* medication[x] ^slicing.rules = #openAtEnd
-* medicationReference 1..
 * medicationReference only Reference(NoBasisMedication)
-* medicationReference ^sliceName = "medicationReference"
-* medicationReference ^type.aggregation = #bundled
 * subject only Reference(NoBasisPatient)
 * reasonCode ^slicing.discriminator.type = #value
 * reasonCode ^slicing.discriminator.path = "coding.system"
