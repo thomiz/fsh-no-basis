@@ -47,6 +47,7 @@
 * OK, Legge om til å bruke FHIR template for no-basis
   * [HL7 IG templates](https://build.fhir.org/ig/FHIR/ig-guidance/index.html#templates)
 
+2024-05-29 - La til oppdaterte Appointment ressurser fra versjon 2.2.0 av no-basis
 2021-11-03 - bugfix 2.1.1 added including NamingSystem and Procedure updates
 2021-10-28 - bugfix og validering av Procedure
 2021-10-27 - La inn Procedure og eksempel
