@@ -47,6 +47,11 @@
 * OK, Legge om til å bruke FHIR template for no-basis
   * [HL7 IG templates](https://build.fhir.org/ig/FHIR/ig-guidance/index.html#templates)
 
+2025-03-27 - La inn fix på [issue #136](https://github.com/HL7Norway/basisprofiler-r4/issues/136) 
+2025-03-27 - La inn fix på [issue #134](https://github.com/HL7Norway/basisprofiler-r4/issues/134) 
+2025-03-27 - Trenger ikke fikse [issue #97](https://github.com/HL7Norway/basisprofiler-r4/issues/97), den profilen er ikke med her.
+2025-03-27 - La inn fix på [issue #99](https://github.com/HL7Norway/basisprofiler-r4/issues/99)
+2025-03-27 - La inn fix på [issue #87](https://github.com/HL7Norway/basisprofiler-r4/issues/87)
 2024-05-29 - La til oppdaterte Appointment ressurser fra versjon 2.2.0 av no-basis  
 2021-11-03 - bugfix 2.1.1 added including NamingSystem and Procedure updates  
 2021-10-28 - bugfix og validering av Procedure  

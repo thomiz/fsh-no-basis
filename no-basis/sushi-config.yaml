@@ -9,7 +9,7 @@ FSHOnly: false
 applyExtensionMetadataToRoot: false
 id: hl7.fhir.no.basis
 status: active
-version: 2.2.0-test
+version: 2.2.2-test
 releaseLabel: ci-build
 copyrightYear: 2021+
 jurisdiction: urn:iso:std:iso:3166#NO "Norway"
@@ -31,5 +31,5 @@ menu:
     Naming Systems: artifacts.html#6
     Examples: artifacts.html#7
   Changelog: 
-    R4 Changelog: https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Changelog-21.md
+    R4 Changelog: https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Changelog-22.md
     STU3 Changelog: Changelog-STU3.html

@@ -1,6 +1,6 @@
 Extension: NoBasisVirtualService
 Id: no-basis-virtual-service
-Title: "no-basis-Virtual-Service"
+Title: "no-basis-virtual-service"
 Description: "The VirtualService is based on VirtualServiceDetail structure from R5 and defines details of a virtual communication capability, such as a web conference call."
 * ^status = #active
 * . ^short = "Virtual Service"

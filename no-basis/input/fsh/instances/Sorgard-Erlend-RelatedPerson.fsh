@@ -6,7 +6,7 @@ Usage: #example
 * extension.url = "http://hl7.no/fhir/StructureDefinition/no-basis-person-citizenship"
 * identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * identifier.value = "05073500186"
-* patient.extension.url = "http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference"
+* patient.extension.url = "http://hl7.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference"
 * patient.extension.valueReference.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * patient.extension.valueReference.identifier.value = "04021950128"
 * patient.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"

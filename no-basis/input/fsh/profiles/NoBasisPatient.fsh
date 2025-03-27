@@ -60,7 +60,7 @@ Description: "Basisprofil for Norwegian Patient information. Defined by The Norw
 * identifier[DNR].value ^short = "The actual D-nummer"
 * identifier[DNR].value ^definition = "The actual Norwegian D-nummer"
 * identifier[HNR] ^short = "A locally assigned H-nummer"
-* identifier[HNR] ^definition = "A locally assigned H-nummer. If this identifier is used, information about the assigner is mandatory."
+* identifier[HNR] ^definition = "A locally assigned H-nummer. If this identifier is used, information about the assigner is mandatory.  Merk at lokale hjelpenummer (H-nummer) for pasient ikke garanterer at kombinasjonen system og value er gir unik identifikasjon, siden disse tildeles på lokalt i det enkelte kliniske fagsystem. Felles nasjonale hjelpenummer utstedt av tjenesten for felles hjelpenummer er imidlertid unike i Norge (og globalt unike i kombinasjon med system)."
 * identifier[HNR].type.coding.system 1..
 * identifier[HNR].type.coding.system = "urn:oid:2.16.578.1.12.4.1.1.8327" (exactly)
 * identifier[HNR].type.coding.system ^definition = "CodeSystem on Volven for official personal identifiers.\r\nThe identification of the code system that defines the meaning of the symbol in the code."
