@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://hl7.no/fhir/CodeSystem/no-basis-connection-type",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisConnectionType",
       "title" : "no-basis-connection-type.codesystem",
@@ -10,7 +10,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisFamilyRelation",
       "title" : "no-basis-family-relation.codesystem",
@@ -18,7 +18,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisMaritalStatus",
       "title" : "no-basis-marital-status.codesystem",
@@ -26,7 +26,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisParentalResponsibility",
       "title" : "no-basis-parental-responsibility.codesystem",

@@ -1,16 +1,16 @@
 NoBasis : Validation Results
 =========================================
 
-err = 68, warn = 72, info = 22
+err = 62, warn = 88, info = 22
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.basis#$-- (canonical = http://hl7.no/fhir)
- Build Errors : 18 / 36 / 0
- /github/workspace/no-basis/fsh-generated/resources/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a : 0 / 0 / 4
+ Build Errors : 3 / 34 / 0
+ /github/workspace/no-basis/fsh-generated/resources/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a : 0 / 1 / 3
  /github/workspace/no-basis/fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 5 / 0 / 2
- /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 5 / 0 / 2
+ /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 5 / 1 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem : 5 / 0 / 2
- /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem : 5 / 0 / 2
+ /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem : 5 / 1 / 2
  /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-bydelsnummer : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-dnummer : 0 / 0 / 1
@@ -20,33 +20,33 @@ Generated $--. FHIR version $-- for hl7.fhir.no.basis#$-- (canonical = http://hl
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-helsepersonellnummer : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-kommunenummer : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/Organization-Direktoratet-for-eHelse-Organization : 0 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/Patient-EspenEksempel : 1 / 1 / 2
- /github/workspace/no-basis/fsh-generated/resources/Patient-JanniceSoreng : 1 / 3 / 4
- /github/workspace/no-basis/fsh-generated/resources/Patient-JanniceSorengTo : 1 / 3 / 4
+ /github/workspace/no-basis/fsh-generated/resources/Patient-EspenEksempel : 1 / 2 / 3
+ /github/workspace/no-basis/fsh-generated/resources/Patient-JanniceSoreng : 1 / 3 / 5
+ /github/workspace/no-basis/fsh-generated/resources/Patient-JanniceSorengTo : 1 / 3 / 5
  /github/workspace/no-basis/fsh-generated/resources/Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473 : 0 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/Practitioner-Magnar-Komann-Practitioner : 0 / 4 / 8
+ /github/workspace/no-basis/fsh-generated/resources/Practitioner-Magnar-Komann-Practitioner : 0 / 8 / 4
  /github/workspace/no-basis/fsh-generated/resources/RelatedPerson-Solid-Aresdoktor-RelatedPerson : 0 / 1 / 2
  /github/workspace/no-basis/fsh-generated/resources/RelatedPerson-Sorgard-Erlend-RelatedPerson : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/SearchParameter-no-basis-middlename : 0 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-derived-Person : 0 / 1 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Address : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-derived-Person : 0 / 1 / 2
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Address : 0 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-AllergyIntolerance : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Appointment : 0 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-AppointmentResponse : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-AppointmentResponse : 1 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Composition : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-DocumentReference : 0 / 1 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Endpoint : 2 / 2 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Endpoint : 2 / 4 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-HealthcareService : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-HumanName : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Location : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Medication : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-MedicationStatement : 0 / 2 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Organization : 0 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Patient : 4 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Patient : 4 / 2 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Person : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Practitioner : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-PractitionerRole : 0 / 1 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-RelatedPerson : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-RelatedPerson : 0 / 6 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Substance : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-address-official : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-group : 0 / 1 / 1
@@ -56,7 +56,7 @@ Generated $--. FHIR version $-- for hl7.fhir.no.basis#$-- (canonical = http://hl
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-person-citizenship : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-prescriptiongroup : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-propertyinformation : 1 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-relatedperson-person-reference : 2 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-relatedperson-person-reference : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-shortnotice : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-sourceofinformation : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-urban-district : 0 / 1 / 1
@@ -103,62 +103,47 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Solid-Aresdoktor-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Sorgard-Erlend-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/no-basis-Procedure-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: StructureDefinition-no-basis-Patient.html: The reference integer64 could not be resolved
-ERROR: StructureDefinition-no-basis-Patient.html: The reference CodeableReference could not be resolved
-ERROR: StructureDefinition-no-basis-Patient.html: The reference RatioRange could not be resolved
-ERROR: StructureDefinition-no-basis-Patient.html: The reference Availability could not be resolved
-ERROR: StructureDefinition-no-basis-Patient.html: The reference ExtendedContactDetail could not be resolved
-WARNING: /github/workspace/no-basis/output/Appointment-and-Encounter.html#/html/body/script at Line 246, column 4: The <script> containing the javascript '$(document).ready(fu'... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild (also in 473 other files)
-WARNING: /github/workspace/no-basis/output/Appointment-and-Encounter.html#/html/body/script at Line 287, column 4: The <script> containing the javascript 'anchors.options.visi'... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild (also in 473 other files)
-WARNING: /github/workspace/no-basis/output/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.change.history.html#/html/body/script at Line 246, column 4: The <script> containing the javascript 'try {       var curr'... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild (also in 323 other files)
-ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/p/a at Line 239, column 801: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 239, column 1229: The link 'Practitioner/example' for "Practitioner/example" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 443, column 1592: The link 'integer64.html' for "integer64" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 443, column 3102: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 443, column 4424: The link 'RatioRange.html' for "RatioRange" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 443, column 5764: The link 'Availability.html' for "Availability" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 443, column 5810: The link 'ExtendedContactDetail.html' for "ExtendedContactDetail" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 697, column 1088: The link 'integer64.html' for "integer64" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 697, column 2094: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 697, column 2984: The link 'RatioRange.html' for "RatioRange" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 697, column 3928: The link 'Availability.html' for "Availability" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 697, column 3974: The link 'ExtendedContactDetail.html' for "ExtendedContactDetail" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/p/a at Line 242, column 737: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 242, column 1065: The link 'Practitioner/example' for "Practitioner/example" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
 == fsh-generated/resources/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.json ==
-INFORMATION: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointmentType.coding[1].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7617' could not be found, so the code cannot be validated
-INFORMATION: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointmentType.coding[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment|2.2.0-test (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointmentType.coding[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment|2.2.0-test (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointmentType.coding[1].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7617' could not be found, so the code cannot be validated
+INFORMATION: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointmentType.coding[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointmentType.coding[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample.json ==
 == fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.no/fhir/CodeSystem/no-basis-connection-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-basis-connection-type.codesystem) does not match the URL (http://hl7.no/fhir/CodeSystem/no-basis-connection-type)
 ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-connection-type.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-connection-type
 INFORMATION: CodeSystem/no-basis-connection-type.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-ERROR: CodeSystem/no-basis-connection-type.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-ERROR: CodeSystem/no-basis-connection-type.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+ERROR: CodeSystem/no-basis-connection-type.codesystem: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/no-basis-connection-type.codesystem: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-connection-type.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-connection-type
 == fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.no/fhir/CodeSystem/no-basis-family-relation'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-basis-family-relation.codesystem) does not match the URL (http://hl7.no/fhir/CodeSystem/no-basis-family-relation)
 ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-family-relation.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-family-relation
 INFORMATION: CodeSystem/no-basis-family-relation.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-ERROR: CodeSystem/no-basis-family-relation.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-ERROR: CodeSystem/no-basis-family-relation.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+ERROR: CodeSystem/no-basis-family-relation.codesystem: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/no-basis-family-relation.codesystem: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem/no-basis-family-relation.codesystem: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-family-relation.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-family-relation
 == fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.no/fhir/CodeSystem/no-basis-marital-status'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-basis-marital-status.codesystem) does not match the URL (http://hl7.no/fhir/CodeSystem/no-basis-marital-status)
 ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-marital-status.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-marital-status
 INFORMATION: CodeSystem/no-basis-marital-status.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-ERROR: CodeSystem/no-basis-marital-status.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-ERROR: CodeSystem/no-basis-marital-status.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+ERROR: CodeSystem/no-basis-marital-status.codesystem: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/no-basis-marital-status.codesystem: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-marital-status.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-marital-status
 == fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility.codesystem) does not match the URL (http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility)
 ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-parental-responsibility.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility
 INFORMATION: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-ERROR: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-ERROR: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+ERROR: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis.json ==
 == fsh-generated/resources/NamingSystem-no-basis-bydelsnummer.json ==
@@ -170,37 +155,41 @@ ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-pa
 == fsh-generated/resources/NamingSystem-no-basis-kommunenummer.json ==
 == fsh-generated/resources/Organization-Direktoratet-for-eHelse-Organization.json ==
 == fsh-generated/resources/Patient-EspenEksempel.json ==
+WARNING: Patient/EspenEksempel: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet 'http://hl7.org/fhir/ValueSet/country' not found
 ERROR: Patient/EspenEksempel: Patient.extension[0].extension[0].value.ofType(CodeableConcept): Found a reference to a CodeSystem 'urn:iso:std:iso:3166' where a ValueSet belongs
 INFORMATION: Patient/EspenEksempel: Patient.address[0].extension[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.3402' could not be found, so the code cannot be validated
 WARNING: Patient/EspenEksempel: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet 'urn:oid:2.16.578.1.12.4.1.1.3402' not found
+INFORMATION: Patient/EspenEksempel: Patient.maritalStatus.coding[0].display: 'unmarried' is the default display; the code system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus has no Display Names for the language no-NO
 == fsh-generated/resources/Patient-JanniceSoreng.json ==
-INFORMATION: Patient/JanniceSoreng: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.0-test (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Patient/JanniceSoreng: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: Patient/JanniceSoreng: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet 'http://hl7.org/fhir/ValueSet/country' not found
 ERROR: Patient/JanniceSoreng: Patient.extension[0].extension[0].value.ofType(CodeableConcept): Found a reference to a CodeSystem 'urn:iso:std:iso:3166' where a ValueSet belongs
 INFORMATION: Patient/JanniceSoreng: Patient.address[0].extension[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.3402' could not be found, so the code cannot be validated
 WARNING: Patient/JanniceSoreng: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet 'urn:oid:2.16.578.1.12.4.1.1.3402' not found
 WARNING: Patient/JanniceSoreng: Patient.address[0].district.extension[0].value.ofType(Coding): ValueSet 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' not found
 INFORMATION: Patient/JanniceSoreng: Patient.address[0].district.extension[0].value.ofType(Coding): A definition for CodeSystem 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' could not be found, so the code cannot be validated
-WARNING: Patient/JanniceSoreng: Patient.contact[0].relationship[1]: No code provided, and a code should be provided from the value set 'Patient Contact Relationship ' (http://hl7.org/fhir/ValueSet/patient-contactrelationship|4.0.1)
+INFORMATION: Patient/JanniceSoreng: Patient.maritalStatus.coding[0].display: 'unmarried' is the default display; the code system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus has no Display Names for the language no-NO
 == fsh-generated/resources/Patient-JanniceSorengTo.json ==
-INFORMATION: Patient/JanniceSorengTo: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.0-test (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Patient/JanniceSorengTo: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: Patient/JanniceSorengTo: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet 'http://hl7.org/fhir/ValueSet/country' not found
 ERROR: Patient/JanniceSorengTo: Patient.extension[0].extension[0].value.ofType(CodeableConcept): Found a reference to a CodeSystem 'urn:iso:std:iso:3166' where a ValueSet belongs
 INFORMATION: Patient/JanniceSorengTo: Patient.address[0].extension[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.3402' could not be found, so the code cannot be validated
 WARNING: Patient/JanniceSorengTo: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet 'urn:oid:2.16.578.1.12.4.1.1.3402' not found
 WARNING: Patient/JanniceSorengTo: Patient.address[0].district.extension[0].value.ofType(Coding): ValueSet 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' not found
 INFORMATION: Patient/JanniceSorengTo: Patient.address[0].district.extension[0].value.ofType(Coding): A definition for CodeSystem 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' could not be found, so the code cannot be validated
-WARNING: Patient/JanniceSorengTo: Patient.contact[0].relationship[1]: No code provided, and a code should be provided from the value set 'Patient Contact Relationship ' (http://hl7.org/fhir/ValueSet/patient-contactrelationship|4.0.1)
+INFORMATION: Patient/JanniceSorengTo: Patient.maritalStatus.coding[0].display: 'unmarried' is the default display; the code system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus has no Display Names for the language no-NO
 == fsh-generated/resources/Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473.json ==
 == fsh-generated/resources/Practitioner-Magnar-Komann-Practitioner.json ==
-INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[0].code.coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated
+WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[0].code.coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated
 WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[0].code.coding[0]: ValueSet 'urn:oid:2.16.578.1.12.4.1.1.9060' not found
 INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[0].code.coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated
-INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[1].code.coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7426' could not be found, so the code cannot be validated
+WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[1].code.coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7426' could not be found, so the code cannot be validated
 WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[1].code.coding[0]: ValueSet 'urn:oid:2.16.578.1.12.4.1.1.7426' not found
 INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[1].code.coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7426' could not be found, so the code cannot be validated
-INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[2].code.coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7704' could not be found, so the code cannot be validated
+WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[2].code.coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7704' could not be found, so the code cannot be validated
 WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[2].code.coding[0]: ValueSet 'urn:oid:2.16.578.1.12.4.1.1.7704' not found
 INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[2].code.coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7704' could not be found, so the code cannot be validated
-INFORMATION: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[3].code.coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7426' could not be found, so the code cannot be validated
+WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[3].code.coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7426' could not be found, so the code cannot be validated
 WARNING: Practitioner/Magnar-Komann-Practitioner: Practitioner.qualification[3].code.coding[0]: ValueSet 'urn:oid:2.16.578.1.12.4.1.1.7426' not found
 == fsh-generated/resources/RelatedPerson-Solid-Aresdoktor-RelatedPerson.json ==
 INFORMATION: RelatedPerson/Solid-Aresdoktor-RelatedPerson: RelatedPerson.address[0].extension[0].extension[2].value.ofType(Coding): A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.3402' could not be found, so the code cannot be validated
@@ -208,12 +197,15 @@ WARNING: RelatedPerson/Solid-Aresdoktor-RelatedPerson: RelatedPerson.address[0].
 == fsh-generated/resources/RelatedPerson-Sorgard-Erlend-RelatedPerson.json ==
 == fsh-generated/resources/SearchParameter-no-basis-middlename.json ==
 == fsh-generated/resources/StructureDefinition-derived-Person.json ==
+INFORMATION: StructureDefinition/derived-Person: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/derived-Person'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-Address.json ==
+INFORMATION: StructureDefinition/no-basis-Address: StructureDefinition.snapshot.element[15].type[0].extension[1]: The extension http://hl7.org/fhir/StructureDefinition/regex|5.2.0 is deprecated with the note This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex
 == fsh-generated/resources/StructureDefinition-no-basis-AllergyIntolerance.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-Appointment.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-AppointmentResponse.json ==
+ERROR: StructureDefinition/no-basis-AppointmentResponse: StructureDefinition.differential.element[0].constraint[0]: The constraint key 'inv-1' already exists at the location 'http://hl7.org/fhir/StructureDefinition/Parameters|4.0.1' with a different expression ('(part.exists() and value.empty() and resource.empty()) or (part.empty() and (value.exists() xor resource.exists()))')
 == fsh-generated/resources/StructureDefinition-no-basis-Composition.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Composition'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-DocumentReference.json ==
@@ -222,6 +214,8 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition
 WARNING: no-basis-Endpoint.Endpoint.payloadMimeType: Binding http://www.rfc-editor.org/bcp/bcp13.txt could not be located
 ERROR: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[18].binding.valueSet: OIDs must be valid (2.16.578.1.12.4.1.1.0000)
 ERROR: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[6].binding.valueSet: OIDs must be valid (2.16.578.1.12.4.1.1.0000)
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[2].binding: The definition for the element 'Endpoint.connectionType' binds to the value set 'http://hl7.no/fhir/ValueSet/no-basis-connection-type' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[11].binding: The definition for the element 'Endpoint.connectionType' binds to the value set 'http://hl7.no/fhir/ValueSet/no-basis-connection-type' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-HealthcareService.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService'): The Implementation Guide contains no examples for this profile
@@ -235,7 +229,9 @@ WARNING: StructureDefinition/no-basis-MedicationStatement: StructureDefinition.s
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-MedicationStatement'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-Organization.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-Patient.json ==
+WARNING: StructureDefinition/no-basis-Patient: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-citizenship'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-citizenship' to 'http://hl7.org/fhir/StructureDefinition/patient-citizenship|5.2.0'
 ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.snapshot.element[15].binding.valueSet: Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+WARNING: StructureDefinition/no-basis-Patient: StructureDefinition.differential.element[2].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-citizenship'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-citizenship' to 'http://hl7.org/fhir/StructureDefinition/patient-citizenship|5.2.0'
 ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.differential.element[4].binding.valueSet: Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
 ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.differential.element[4].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] points to something that is not a value set (CodeSystem)
 ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.snapshot.element[15].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] points to something that is not a value set (CodeSystem)
@@ -245,6 +241,12 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition
 == fsh-generated/resources/StructureDefinition-no-basis-PractitionerRole.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-RelatedPerson.json ==
+WARNING: StructureDefinition/no-basis-RelatedPerson: StructureDefinition.differential.element[9].binding: The definition for the element 'RelatedPerson.relationship' binds to the value set 'http://hl7.no/fhir/ValueSet/no-basis-marital-status' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/no-basis-RelatedPerson: StructureDefinition.differential.element[11].binding: The definition for the element 'RelatedPerson.relationship' binds to the value set 'http://hl7.no/fhir/ValueSet/no-basis-family-relation' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/no-basis-RelatedPerson: StructureDefinition.differential.element[13].binding: The definition for the element 'RelatedPerson.relationship' binds to the value set 'http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/no-basis-RelatedPerson: StructureDefinition.snapshot.element[31].binding: The definition for the element 'RelatedPerson.relationship' binds to the value set 'http://hl7.no/fhir/ValueSet/no-basis-marital-status' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/no-basis-RelatedPerson: StructureDefinition.snapshot.element[43].binding: The definition for the element 'RelatedPerson.relationship' binds to the value set 'http://hl7.no/fhir/ValueSet/no-basis-family-relation' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/no-basis-RelatedPerson: StructureDefinition.snapshot.element[55].binding: The definition for the element 'RelatedPerson.relationship' binds to the value set 'http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility' which is experimental, but this structure is not labeled as experimental
 == fsh-generated/resources/StructureDefinition-no-basis-Substance.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Substance'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-address-official.json ==
@@ -262,8 +264,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition
 == fsh-generated/resources/StructureDefinition-no-basis-propertyinformation.json ==
 ERROR: StructureDefinition/no-basis-propertyinformation: StructureDefinition.differential.element[17].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition|4.0.1)
 == fsh-generated/resources/StructureDefinition-no-basis-relatedperson-person-reference.json ==
-ERROR: StructureDefinition.where(url = 'http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-relatedperson-person-reference.json - the canonical URL (http://hl7.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference) does not match the URL (http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference)
-ERROR: /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-relatedperson-person-reference: URL Mismatch http://hl7.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference vs http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference
 == fsh-generated/resources/StructureDefinition-no-basis-shortnotice.json ==
 == fsh-generated/resources/StructureDefinition-no-basis-sourceofinformation.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation'): The Implementation Guide contains no examples for this extension
@@ -279,8 +279,8 @@ ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-conn
 ERROR: ValueSet.where(url = 'http://hl7.no/fhir/ValueSet/no-basis-documentreference-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset.json - the canonical URL (http://hl7.no/fhir/ValueSet/no-basis-documentreference-type.valueset) does not match the URL (http://hl7.no/fhir/ValueSet/no-basis-documentreference-type)
 ERROR: ValueSet.url: Resource id/url mismatch: no-basis-documentreference-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-documentreference-type
 WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.578.1.12.4.1.1.9602' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9602' could not be found, so the code cannot be validated)
-ERROR: ValueSet/no-basis-documentreference-type.valueset: ValueSet: Published value sets SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-ERROR: ValueSet/no-basis-documentreference-type.valueset: ValueSet: Published value sets SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+ERROR: ValueSet/no-basis-documentreference-type.valueset: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+ERROR: ValueSet/no-basis-documentreference-type.valueset: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'no-basis-documentreference-type.valueset'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9602
 ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset: URL Mismatch http://hl7.no/fhir/ValueSet/no-basis-documentreference-type.valueset vs http://hl7.no/fhir/ValueSet/no-basis-documentreference-type
 == fsh-generated/resources/ValueSet-no-basis-family-relation.valueset.json ==
@@ -307,7 +307,7 @@ WARNING: ValueSet.where(id = 'no-basis-virtual-service-type.valueset'): Error fr
 ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-virtual-service-type.valueset: URL Mismatch http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type.valueset vs http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type
 == input/examples/no-basis-Procedure-example.xml ==
 ERROR: Procedure/no-basis-Procedure-example: Procedure.subject: Unable to resolve resource with reference 'Patient/example'
-ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].function.coding[0].code: Unknown code '8921000202108' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240201'
+ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].function.coding[0].code: Unknown code '8921000202108' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
 ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].actor: Unable to resolve resource with reference 'Practitioner/example'
 ERROR: Procedure.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
 ERROR: Procedure.text.div: Hyperlink 'Practitioner/example' at 'div/table/tr/td/a' for 'Practitioner/example' does not resolve

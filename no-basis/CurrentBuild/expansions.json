@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "ccdc5d2d-ee05-43ed-9805-45aab1edc9c5",
+  "id" : "497fcd95-23c7-4559-9cce-bbe3fa30f71f",
   "meta" : {
-    "lastUpdated" : "2024-05-29T11:39:51.930+00:00"
+    "lastUpdated" : "2025-03-27T21:38:23.853+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -15,10 +15,10 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on:</p><ul><li><a href=\"CodeSystem-no-basis-connection-type.codesystem.html\">codesystem no-basis-connection-type.codesystem v2.2.0-test (CodeSystem)</a></li><li><a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html\">codesystem Endpoint Connection Type v2.1.0 (CodeSystem)</a></li></ul></div><p>This value set contains 17 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Inactive</b></td><td><b>Definition</b></td><td><b><a href=\"http://hl7.org/fhir/concept-properties#status\">status</a></b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-connection-type-no-ebxml-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-connection-type.codesystem.html#no-basis-connection-type.codesystem-no-ebxml-2\">no-ebxml-2</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</td><td>ebXML 2.0</td><td/><td><div><p>ebXML messaging as described in the Norwegian profile HIS 1037:2011 based on OASIS ebMS 2.0 specification</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-connection-type-no-amqp\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-connection-type.codesystem.html#no-basis-connection-type.codesystem-no-amqp\">no-amqp</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</td><td>AMQP</td><td/><td><div><p>AMQP based synchronuous and asynchronus message delivery</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-dicom-wado-rs\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-wado-rs\">dicom-wado-rs</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>DICOM WADO-RS</td><td/><td><div><p>DICOMweb RESTful Image Retrieve - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.5.html</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-dicom-qido-rs\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-qido-rs\">dicom-qido-rs</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>DICOM QIDO-RS</td><td/><td><div><p>DICOMweb RESTful Image query - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.7.html</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-dicom-stow-rs\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-stow-rs\">dicom-stow-rs</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>DICOM STOW-RS</td><td/><td><div><p>DICOMweb RESTful image sending and storage - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.6.html</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-dicom-wado-uri\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-wado-uri\">dicom-wado-uri</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>DICOM WADO-URI</td><td/><td><div><p>DICOMweb Image Retrieve - http://dicom.nema.org/dicom/2013/output/chtml/part18/sect_6.3.html</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-hl7-fhir-rest\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7-fhir-rest\">hl7-fhir-rest</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>HL7 FHIR</td><td/><td><div><p>Interact with the server interface using FHIR's RESTful interface. For details on its version/capabilities you should connect the value in Endpoint.address and retrieve the FHIR CapabilityStatement.</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-hl7-fhir-msg\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7-fhir-msg\">hl7-fhir-msg</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>HL7 FHIR Messaging</td><td/><td><div><p>Use the servers FHIR Messaging interface. Details can be found on the messaging.html page in the FHIR Specification. The FHIR server's base address is specified in the Endpoint.address property.</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-hl7v2-mllp\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7v2-mllp\">hl7v2-mllp</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>HL7 v2 MLLP</td><td/><td><div><p>HL7v2 messages over an LLP TCP connection</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-secure-email\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-secure-email\">secure-email</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>Secure email</td><td/><td><div><p>Email delivery using a digital certificate to encrypt the content using the public key, receiver must have the private key to decrypt the content</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-direct-project\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-direct-project\">direct-project</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>Direct Project</td><td/><td><div><p>Direct Project information - http://wiki.directproject.org/</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-cds-hooks-service\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-cds-hooks-service\">cds-hooks-service</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>CDS Hooks Service</td><td/><td><div><p>A CDS Hooks Service connection. The address will be the base URL of the service as described in the CDS specification https://cds-hooks.hl7.org</p>\n</div></td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-xcpd\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xcpd\">ihe-xcpd</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>IHE XCPD</td><td>inactive</td><td><div><p>IHE Cross Community Patient Discovery Profile (XCPD) - http://wiki.ihe.net/index.php/Cross-Community_Patient_Discovery</p>\n</div></td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-xca\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xca\">ihe-xca</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>IHE XCA</td><td>inactive</td><td><div><p>IHE Cross Community Access Profile (XCA) - http://wiki.ihe.net/index.php/Cross-Community_Access</p>\n</div></td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-xdr\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xdr\">ihe-xdr</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>IHE XDR</td><td>inactive</td><td><div><p>IHE Cross-Enterprise Document Reliable Exchange (XDR) - http://wiki.ihe.net/index.php/Cross-enterprise_Document_Reliable_Interchange</p>\n</div></td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-xds\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xds\">ihe-xds</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>IHE XDS</td><td>inactive</td><td><div><p>IHE Cross-Enterprise Document Sharing (XDS) - http://wiki.ihe.net/index.php/Cross-Enterprise_Document_Sharing</p>\n</div></td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-iid\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-iid\">ihe-iid</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td>IHE IID</td><td>inactive</td><td><div><p>IHE Invoke Image Display (IID) - http://wiki.ihe.net/index.php/Invoke_Image_Display</p>\n</div></td><td>deprecated</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"CodeSystem-no-basis-connection-type.codesystem.html\">codesystem no-basis-connection-type.codesystem v2.2.2-test (CodeSystem)</a></li><li><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html\">codesystem Endpoint Connection Type v2.1.1 (CodeSystem)</a></li></ul></div><p>This value set contains 17 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (no-NO)</b></td><td><b>Inactive</b></td><td><b>Definition</b></td><td><b><a href=\"http://hl7.org/fhir/concept-properties#status\">status</a></b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-connection-type-no-ebxml-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-connection-type.codesystem.html#no-basis-connection-type.codesystem-no-ebxml-2\">no-ebxml-2</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</td><td/><td/><td><div><p>ebXML messaging as described in the Norwegian profile HIS 1037:2011 based on OASIS ebMS 2.0 specification</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-connection-type-no-amqp\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-connection-type.codesystem.html#no-basis-connection-type.codesystem-no-amqp\">no-amqp</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</td><td/><td/><td><div><p>AMQP based synchronuous and asynchronus message delivery</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-dicom-wado-rs\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-wado-rs\">dicom-wado-rs</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td/><td><div><p>DICOMweb RESTful Image Retrieve - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.5.html</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-dicom-qido-rs\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-qido-rs\">dicom-qido-rs</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td/><td><div><p>DICOMweb RESTful Image query - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.7.html</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-dicom-stow-rs\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-stow-rs\">dicom-stow-rs</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td/><td><div><p>DICOMweb RESTful image sending and storage - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.6.html</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-dicom-wado-uri\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-wado-uri\">dicom-wado-uri</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td/><td><div><p>DICOMweb Image Retrieve - http://dicom.nema.org/dicom/2013/output/chtml/part18/sect_6.3.html</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-hl7-fhir-rest\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7-fhir-rest\">hl7-fhir-rest</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td/><td><div><p>Interact with the server interface using FHIR's RESTful interface. For details on its version/capabilities you should connect the value in Endpoint.address and retrieve the FHIR CapabilityStatement.</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-hl7-fhir-msg\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7-fhir-msg\">hl7-fhir-msg</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td/><td><div><p>Use the servers FHIR Messaging interface. Details can be found on the messaging.html page in the FHIR Specification. The FHIR server's base address is specified in the Endpoint.address property.</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-hl7v2-mllp\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7v2-mllp\">hl7v2-mllp</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td/><td><div><p>HL7v2 messages over an LLP TCP connection</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-secure-email\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-secure-email\">secure-email</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td/><td><div><p>Email delivery using a digital certificate to encrypt the content using the public key, receiver must have the private key to decrypt the content</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-direct-project\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-direct-project\">direct-project</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td/><td><div><p>Direct Project information - http://wiki.directproject.org/</p>\n</div></td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-cds-hooks-service\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-cds-hooks-service\">cds-hooks-service</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td/><td><div><p>A CDS Hooks Service connection. The address will be the base URL of the service as described in the CDS specification https://cds-hooks.hl7.org</p>\n</div></td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-ihe-xcpd\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xcpd\">ihe-xcpd</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td>inactive</td><td><div><p>IHE Cross Community Patient Discovery Profile (XCPD) - http://wiki.ihe.net/index.php/Cross-Community_Patient_Discovery</p>\n</div></td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-ihe-xca\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xca\">ihe-xca</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td>inactive</td><td><div><p>IHE Cross Community Access Profile (XCA) - http://wiki.ihe.net/index.php/Cross-Community_Access</p>\n</div></td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-ihe-xdr\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xdr\">ihe-xdr</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td>inactive</td><td><div><p>IHE Cross-Enterprise Document Reliable Exchange (XDR) - http://wiki.ihe.net/index.php/Cross-enterprise_Document_Reliable_Interchange</p>\n</div></td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-ihe-xds\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xds\">ihe-xds</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td>inactive</td><td><div><p>IHE Cross-Enterprise Document Sharing (XDS) - http://wiki.ihe.net/index.php/Cross-Enterprise_Document_Sharing</p>\n</div></td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-ihe-iid\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-iid\">ihe-iid</a></td><td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td><td/><td>inactive</td><td><div><p>IHE Invoke Image Display (IID) - http://wiki.ihe.net/index.php/Invoke_Image_Display</p>\n</div></td><td>deprecated</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-connection-type",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "name" : "NoBasisConnectionType",
       "title" : "no-basis-connection-type.valueset",
       "status" : "active",
@@ -33,11 +33,15 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d668d50c-f08b-4ffd-8f7b-5c6d9be421b6",
-        "timestamp" : "2024-05-29T11:40:27+00:00",
+        "identifier" : "urn:uuid:a79fe5be-6b8f-43be-a5de-0737e5d5ae3b",
+        "timestamp" : "2025-03-27T21:38:50+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no-NO"
+        },
+        {
           "name" : "count",
           "valueInteger" : 1000
         },
@@ -51,15 +55,11 @@
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://hl7.no/fhir/CodeSystem/no-basis-connection-type|2.2.0-test"
-        },
-        {
-          "name" : "warning-draft",
-          "valueUri" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type|2.1.0"
+          "valueUri" : "http://hl7.no/fhir/CodeSystem/no-basis-connection-type|2.2.2-test"
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type|2.1.0"
+          "valueUri" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type|2.1.1"
         }],
         "property" : [{
           "code" : "status",
@@ -67,69 +67,56 @@
         }],
         "contains" : [{
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-connection-type",
-          "code" : "no-ebxml-2",
-          "display" : "ebXML 2.0"
+          "code" : "no-ebxml-2"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-connection-type",
-          "code" : "no-amqp",
-          "display" : "AMQP"
+          "code" : "no-amqp"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code" : "dicom-wado-rs",
-          "display" : "DICOM WADO-RS"
+          "code" : "dicom-wado-rs"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code" : "dicom-qido-rs",
-          "display" : "DICOM QIDO-RS"
+          "code" : "dicom-qido-rs"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code" : "dicom-stow-rs",
-          "display" : "DICOM STOW-RS"
+          "code" : "dicom-stow-rs"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code" : "dicom-wado-uri",
-          "display" : "DICOM WADO-URI"
+          "code" : "dicom-wado-uri"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code" : "hl7-fhir-rest",
-          "display" : "HL7 FHIR"
+          "code" : "hl7-fhir-rest"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code" : "hl7-fhir-msg",
-          "display" : "HL7 FHIR Messaging"
+          "code" : "hl7-fhir-msg"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code" : "hl7v2-mllp",
-          "display" : "HL7 v2 MLLP"
+          "code" : "hl7v2-mllp"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code" : "secure-email",
-          "display" : "Secure email"
+          "code" : "secure-email"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code" : "direct-project",
-          "display" : "Direct Project"
+          "code" : "direct-project"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code" : "cds-hooks-service",
-          "display" : "CDS Hooks Service"
+          "code" : "cds-hooks-service"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
           "inactive" : true,
           "code" : "ihe-xcpd",
-          "display" : "IHE XCPD",
           "property" : [{
             "code" : "status",
             "valueCode" : "deprecated"
@@ -139,7 +126,6 @@
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
           "inactive" : true,
           "code" : "ihe-xca",
-          "display" : "IHE XCA",
           "property" : [{
             "code" : "status",
             "valueCode" : "deprecated"
@@ -149,7 +135,6 @@
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
           "inactive" : true,
           "code" : "ihe-xdr",
-          "display" : "IHE XDR",
           "property" : [{
             "code" : "status",
             "valueCode" : "deprecated"
@@ -159,7 +144,6 @@
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
           "inactive" : true,
           "code" : "ihe-xds",
-          "display" : "IHE XDS",
           "property" : [{
             "code" : "status",
             "valueCode" : "deprecated"
@@ -169,7 +153,6 @@
           "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
           "inactive" : true,
           "code" : "ihe-iid",
-          "display" : "IHE IID",
           "property" : [{
             "code" : "status",
             "valueCode" : "deprecated"
@@ -188,10 +171,10 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-no-basis-family-relation.codesystem.html\">codesystem no-basis-family-relation.codesystem v2.2.0-test (CodeSystem)</a></p><p>This value set contains 7 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-mor\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-mor\">mor</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td>Mor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-far\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-far\">far</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td>Far</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-medmor\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-medmor\">medmor</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td>Medmor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-barn\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-barn\">barn</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td>Barn</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-søsken\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-s.248sken\">søsken</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td>Søsken</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-ektefelleEllerPartner\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-ektefelleEllerPartner\">ektefelleEllerPartner</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td>Ektefelle eller partner</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-family-relation-dødfødtBarn\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-d.248df.248dtBarn\">dødfødtBarn</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td>Dødfødt barn</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-no-basis-family-relation.codesystem.html\">codesystem no-basis-family-relation.codesystem v2.2.2-test (CodeSystem)</a></p><p>This value set contains 7 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (no-NO)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-mor\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-mor\">mor</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-far\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-far\">far</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-medmor\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-medmor\">medmor</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-barn\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-barn\">barn</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-s|f8sken\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-s.248sken\">søsken</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-ektefelleEllerPartner\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-ektefelleEllerPartner\">ektefelleEllerPartner</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-d|f8df|f8dtBarn\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-d.248df.248dtBarn\">dødfødtBarn</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td><td/></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-family-relation",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "name" : "NoBasisFamilyRelation",
       "title" : "no-basis-family-relation.valueset",
       "status" : "active",
@@ -206,11 +189,15 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:c7c23265-7928-4678-b446-4ae2299c8882",
-        "timestamp" : "2024-05-29T11:40:27+00:00",
+        "identifier" : "urn:uuid:4740e951-0920-4d0e-924b-e1c179b2567a",
+        "timestamp" : "2025-03-27T21:38:50+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no-NO"
+        },
+        {
           "name" : "count",
           "valueInteger" : 1000
         },
@@ -224,42 +211,35 @@
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation|2.2.0-test"
+          "valueUri" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation|2.2.2-test"
         }],
         "contains" : [{
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
-          "code" : "mor",
-          "display" : "Mor"
+          "code" : "mor"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
-          "code" : "far",
-          "display" : "Far"
+          "code" : "far"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
-          "code" : "medmor",
-          "display" : "Medmor"
+          "code" : "medmor"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
-          "code" : "barn",
-          "display" : "Barn"
+          "code" : "barn"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
-          "code" : "søsken",
-          "display" : "Søsken"
+          "code" : "søsken"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
-          "code" : "ektefelleEllerPartner",
-          "display" : "Ektefelle eller partner"
+          "code" : "ektefelleEllerPartner"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
-          "code" : "dødfødtBarn",
-          "display" : "Dødfødt barn"
+          "code" : "dødfødtBarn"
         }]
       }
     }
@@ -270,10 +250,10 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-no-basis-marital-status.codesystem.html\">codesystem no-basis-marital-status.codesystem v2.2.0-test (CodeSystem)</a></p><p>This value set contains 10 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-marital-status-uoppgitt\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-uoppgitt\">uoppgitt</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td>Uoppgitt</td><td><div><p>sivilstand er ikke stadfestet med godkjent grunnlag</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-marital-status-ugift\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-ugift\">ugift</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td>Ugift</td><td><div><p>person som aldri har inngått ekteskap</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-marital-status-gift\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-gift\">gift</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td>Gift</td><td><div><p>person som er i et ekteskap</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-marital-status-enkeEllerEnkemann\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-enkeEllerEnkemann\">enkeEllerEnkemann</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td>Enke eller enkemann</td><td><div><p>gjenlevende person fra et ekteskap</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-marital-status-skilt\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-skilt\">skilt</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td>Skilt</td><td><div><p>person som er lovlig skilt fra tidligere ektefelle</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-marital-status-separert\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-separert\">separert</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td>Separert</td><td><div><p>person som er i en separasjonsperiode fra sin ektefelle</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-marital-status-registrertPartner\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-registrertPartner\">registrertPartner</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td>Registrert partner</td><td><div><p>person som er i et partnerskap iht partnerskapsloven</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-marital-status-separertPartner\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-separertPartner\">separertPartner</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td>Separert partner</td><td><div><p>person som er i en separasjonsperiode fra sin partner</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-marital-status-skiltPartner\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-skiltPartner\">skiltPartner</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td>Skilt partner</td><td><div><p>person som er lovlig skilt fra tidligere partner</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-marital-status-gjenlevende-partner\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-gjenlevende_partner\">gjenlevende_partner</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td>Gjenlevende partner</td><td><div><p>gjenlevende person fra et partnerskap</p>\n</div></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-no-basis-marital-status.codesystem.html\">codesystem no-basis-marital-status.codesystem v2.2.2-test (CodeSystem)</a></p><p>This value set contains 10 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (no-NO)</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-uoppgitt\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-uoppgitt\">uoppgitt</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td/><td><div><p>sivilstand er ikke stadfestet med godkjent grunnlag</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-ugift\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-ugift\">ugift</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td/><td><div><p>person som aldri har inngått ekteskap</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-gift\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-gift\">gift</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td/><td><div><p>person som er i et ekteskap</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-enkeEllerEnkemann\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-enkeEllerEnkemann\">enkeEllerEnkemann</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td/><td><div><p>gjenlevende person fra et ekteskap</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-skilt\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-skilt\">skilt</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td/><td><div><p>person som er lovlig skilt fra tidligere ektefelle</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-separert\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-separert\">separert</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td/><td><div><p>person som er i en separasjonsperiode fra sin ektefelle</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-registrertPartner\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-registrertPartner\">registrertPartner</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td/><td><div><p>person som er i et partnerskap iht partnerskapsloven</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-separertPartner\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-separertPartner\">separertPartner</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td/><td><div><p>person som er i en separasjonsperiode fra sin partner</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-skiltPartner\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-skiltPartner\">skiltPartner</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td/><td><div><p>person som er lovlig skilt fra tidligere partner</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-gjenlevende_partner\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-gjenlevende_partner\">gjenlevende_partner</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td><td/><td><div><p>gjenlevende person fra et partnerskap</p>\n</div></td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-marital-status",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "name" : "NoBasisMaritalStatus",
       "title" : "no-basis-marital-status.valueset",
       "status" : "active",
@@ -288,11 +268,15 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:ee4b95c4-0914-4821-9930-3353bd7d3b16",
-        "timestamp" : "2024-05-29T11:40:27+00:00",
+        "identifier" : "urn:uuid:b9293b70-c8c4-40ec-a8b5-b6f4dfeb2f71",
+        "timestamp" : "2025-03-27T21:38:50+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no-NO"
+        },
+        {
           "name" : "count",
           "valueInteger" : 1000
         },
@@ -306,57 +290,47 @@
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status|2.2.0-test"
+          "valueUri" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status|2.2.2-test"
         }],
         "contains" : [{
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
-          "code" : "uoppgitt",
-          "display" : "Uoppgitt"
+          "code" : "uoppgitt"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
-          "code" : "ugift",
-          "display" : "Ugift"
+          "code" : "ugift"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
-          "code" : "gift",
-          "display" : "Gift"
+          "code" : "gift"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
-          "code" : "enkeEllerEnkemann",
-          "display" : "Enke eller enkemann"
+          "code" : "enkeEllerEnkemann"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
-          "code" : "skilt",
-          "display" : "Skilt"
+          "code" : "skilt"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
-          "code" : "separert",
-          "display" : "Separert"
+          "code" : "separert"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
-          "code" : "registrertPartner",
-          "display" : "Registrert partner"
+          "code" : "registrertPartner"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
-          "code" : "separertPartner",
-          "display" : "Separert partner"
+          "code" : "separertPartner"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
-          "code" : "skiltPartner",
-          "display" : "Skilt partner"
+          "code" : "skiltPartner"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
-          "code" : "gjenlevende_partner",
-          "display" : "Gjenlevende partner"
+          "code" : "gjenlevende_partner"
         }]
       }
     }
@@ -371,10 +345,10 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html\">codesystem no-basis-parental-responsibility.codesystem v2.2.0-test (CodeSystem)</a></p><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-felles\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-felles\">felles</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td><td>Felles</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-mor\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-mor\">mor</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td><td>Mor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-far\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-far\">far</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td><td>Far</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-medmor\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-medmor\">medmor</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td><td>Medmor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-andre\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-andre\">andre</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td><td>Andre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-ukjent\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-ukjent\">ukjent</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td><td>Ukjent</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html\">codesystem no-basis-parental-responsibility.codesystem v2.2.2-test (CodeSystem)</a></p><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (no-NO)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility-felles\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-felles\">felles</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility-mor\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-mor\">mor</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility-far\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-far\">far</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility-medmor\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-medmor\">medmor</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility-andre\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-andre\">andre</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility-ukjent\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-ukjent\">ukjent</a></td><td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td><td/></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "name" : "NoBasisParentalResponsibility",
       "title" : "no-basis-parental-responsibility.valueset",
       "status" : "active",
@@ -389,11 +363,15 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:a18c6ef9-87ca-43d4-aada-732f86146c31",
-        "timestamp" : "2024-05-29T11:40:27+00:00",
+        "identifier" : "urn:uuid:49c98d47-9791-4a22-ada9-f1d67fb0170f",
+        "timestamp" : "2025-03-27T21:38:50+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no-NO"
+        },
+        {
           "name" : "count",
           "valueInteger" : 1000
         },
@@ -407,37 +385,31 @@
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility|2.2.0-test"
+          "valueUri" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility|2.2.2-test"
         }],
         "contains" : [{
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
-          "code" : "felles",
-          "display" : "Felles"
+          "code" : "felles"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
-          "code" : "mor",
-          "display" : "Mor"
+          "code" : "mor"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
-          "code" : "far",
-          "display" : "Far"
+          "code" : "far"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
-          "code" : "medmor",
-          "display" : "Medmor"
+          "code" : "medmor"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
-          "code" : "andre",
-          "display" : "Andre"
+          "code" : "andre"
         },
         {
           "system" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
-          "code" : "ukjent",
-          "display" : "Ukjent"
+          "code" : "ukjent"
         }]
       }
     }

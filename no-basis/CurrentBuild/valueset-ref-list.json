@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-connection-type",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisConnectionType",
       "title" : "no-basis-connection-type.valueset",
@@ -17,7 +17,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-documentreference-type",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisDocumentReferenceType",
       "title" : "no-basis-documentreference-type.valueset",
@@ -25,12 +25,12 @@
       "systems" : ["urn:oid:2.16.578.1.12.4.1.1.9602"],
       "uses" : {
       },
-      "StructureDefinition-no-basis-DocumentReference.html" : "no-basis-DocumentReference",
-      "StructureDefinition-no-basis-Composition.html" : "no-basis-Composition"
+      "StructureDefinition-no-basis-Composition.html" : "no-basis-Composition",
+      "StructureDefinition-no-basis-DocumentReference.html" : "no-basis-DocumentReference"
     },
     {
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-family-relation",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisFamilyRelation",
       "title" : "no-basis-family-relation.valueset",
@@ -42,7 +42,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-marital-status",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisMaritalStatus",
       "title" : "no-basis-marital-status.valueset",
@@ -54,7 +54,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisParentalResponsibility",
       "title" : "no-basis-parental-responsibility.valueset",
@@ -68,7 +68,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-service-type",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisServiceType",
       "title" : "no-basis-service-type.valueset",
@@ -86,7 +86,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisVirtualServiceType",
       "title" : "No Basis VirtualServiceType Value Set",
@@ -97,7 +97,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-no-basis-virtual-service.html" : "no-basis-Virtual-Service"
+      "StructureDefinition-no-basis-virtual-service.html" : "no-basis-virtual-service"
     }
   ]
 }

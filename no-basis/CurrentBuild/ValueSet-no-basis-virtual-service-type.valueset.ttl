@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,15 +11,22 @@
   fhir:id [ fhir:v "no-basis-virtual-service-type.valueset"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <code>urn:oid:2.16.840.1.113883.4.642.4.1809</code></li><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4/codesystem-contact-point-system.html\"><code>http://hl7.org/fhir/contact-point-system</code></a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet no-basis-virtual-service-type.valueset</b></p><a name=\"no-basis-virtual-service-type.valueset\"> </a><a name=\"hcno-basis-virtual-service-type.valueset\"> </a><a name=\"no-basis-virtual-service-type.valueset-no-NO\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <code>urn:oid:2.16.840.1.113883.4.642.4.1809</code></li><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4/codesystem-contact-point-system.html\"><code>http://hl7.org/fhir/contact-point-system</code></a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.2.0-test"] ; # 
+  fhir:version [ fhir:v "2.2.2-test"] ; # 
   fhir:name [ fhir:v "NoBasisVirtualServiceType"] ; # 
   fhir:title [ fhir:v "No Basis VirtualServiceType Value Set"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-05-29T11:39:51+00:00"^^xsd:dateTime] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-10-05T21:14:02.936+00:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Hl7 Norge" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://Hl7.no/" ]
+     ] )
+  ] ) ; # 
   fhir:description [ fhir:v "Example codes for virtual service connection types. Any other codes or codesystem should be added to this valueSet"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

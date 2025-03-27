@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -14,10 +15,10 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">felles<a name=\"no-basis-parental-responsibility.codesystem-felles\"> </a></td><td>Felles</td></tr><tr><td style=\"white-space:nowrap\">mor<a name=\"no-basis-parental-responsibility.codesystem-mor\"> </a></td><td>Mor</td></tr><tr><td style=\"white-space:nowrap\">far<a name=\"no-basis-parental-responsibility.codesystem-far\"> </a></td><td>Far</td></tr><tr><td style=\"white-space:nowrap\">medmor<a name=\"no-basis-parental-responsibility.codesystem-medmor\"> </a></td><td>Medmor</td></tr><tr><td style=\"white-space:nowrap\">andre<a name=\"no-basis-parental-responsibility.codesystem-andre\"> </a></td><td>Andre</td></tr><tr><td style=\"white-space:nowrap\">ukjent<a name=\"no-basis-parental-responsibility.codesystem-ukjent\"> </a></td><td>Ukjent</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-basis-parental-responsibility.codesystem</b></p><a name=\"no-basis-parental-responsibility.codesystem\"> </a><a name=\"hcno-basis-parental-responsibility.codesystem\"> </a><a name=\"no-basis-parental-responsibility.codesystem-no-NO\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2019-05-07 00:00:00+0000</p></div><p>This  code system <code>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">felles<a name=\"no-basis-parental-responsibility.codesystem-felles\"> </a></td><td>Felles</td></tr><tr><td style=\"white-space:nowrap\">mor<a name=\"no-basis-parental-responsibility.codesystem-mor\"> </a></td><td>Mor</td></tr><tr><td style=\"white-space:nowrap\">far<a name=\"no-basis-parental-responsibility.codesystem-far\"> </a></td><td>Far</td></tr><tr><td style=\"white-space:nowrap\">medmor<a name=\"no-basis-parental-responsibility.codesystem-medmor\"> </a></td><td>Medmor</td></tr><tr><td style=\"white-space:nowrap\">andre<a name=\"no-basis-parental-responsibility.codesystem-andre\"> </a></td><td>Andre</td></tr><tr><td style=\"white-space:nowrap\">ukjent<a name=\"no-basis-parental-responsibility.codesystem-ukjent\"> </a></td><td>Ukjent</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.2.0-test"] ; # 
+  fhir:version [ fhir:v "2.2.2-test"] ; # 
   fhir:name [ fhir:v "NoBasisParentalResponsibility"] ; # 
   fhir:title [ fhir:v "no-basis-parental-responsibility.codesystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 

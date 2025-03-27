@@ -3,15 +3,22 @@
   "id" : "no-basis-virtual-service-type.valueset",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <code>urn:oid:2.16.840.1.113883.4.642.4.1809</code></li><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4/codesystem-contact-point-system.html\"><code>http://hl7.org/fhir/contact-point-system</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet no-basis-virtual-service-type.valueset</b></p><a name=\"no-basis-virtual-service-type.valueset\"> </a><a name=\"hcno-basis-virtual-service-type.valueset\"> </a><a name=\"no-basis-virtual-service-type.valueset-no-NO\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <code>urn:oid:2.16.840.1.113883.4.642.4.1809</code></li><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4/codesystem-contact-point-system.html\"><code>http://hl7.org/fhir/contact-point-system</code></a></li></ul></div>"
   },
   "url" : "http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type",
-  "version" : "2.2.0-test",
+  "version" : "2.2.2-test",
   "name" : "NoBasisVirtualServiceType",
   "title" : "No Basis VirtualServiceType Value Set",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-05-29T11:39:51+00:00",
+  "date" : "2023-10-05T21:14:02.936+00:00",
+  "contact" : [{
+    "name" : "Hl7 Norge",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://Hl7.no/"
+    }]
+  }],
   "description" : "Example codes for virtual service connection types. Any other codes or codesystem should be added to this valueSet",
   "jurisdiction" : [{
     "coding" : [{

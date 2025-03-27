@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-helsepersonellnummer</td></tr><tr><td>Version</td><td>2.2.0-test</td></tr><tr><td>Name</td><td>HelsepersonellregisteretNummer</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>In Norway all registered health care personnel is registered in the Helsepersonellregister (HPR) and is assigned a HPR-number that is used to identify the health care practitioner. Health care personnel not registered in HPR can use FNR for identification.</p>\n</div></td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/HPR</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.4</td><td>true</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: NamingSystem no-basis-helsepersonellnummer</b></p><a name=\"no-basis-helsepersonellnummer\"> </a><a name=\"hcno-basis-helsepersonellnummer\"> </a><a name=\"no-basis-helsepersonellnummer-no-NO\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1.0</p></div><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-helsepersonellnummer</td></tr><tr><td>Version</td><td>2.2.2-test</td></tr><tr><td>Name</td><td>HelsepersonellregisteretNummer</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>In Norway all registered health care personnel is registered in the Helsepersonellregister (HPR) and is assigned a HPR-number that is used to identify the health care practitioner. Health care personnel not registered in HPR can use FNR for identification.</p>\n</div></td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/HPR</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.4</td><td>true</td></tr></table></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url",
@@ -14,7 +14,7 @@
   },
   {
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
-    "valueString" : "2.2.0-test"
+    "valueString" : "2.2.2-test"
   }],
   "name" : "HelsepersonellregisteretNummer",
   "status" : "active",

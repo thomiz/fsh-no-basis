@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -16,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RelatedPerson </b><a name=\"Solid-Aresdoktor-RelatedPerson\"> </a><a name=\"hcSolid-Aresdoktor-RelatedPerson\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceRelatedPerson &quot;Solid-Aresdoktor-RelatedPerson&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-RelatedPerson.html\">no-basis-RelatedPerson</a></p></div><p><b>identifier</b>: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/15080050515</p><p><b>patient</b>: <span><code>urn:oid:2.16.578.1.12.4.1.4.1</code>/04021950128</span></p><p><b>relationship</b>: Far <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-no-basis-family-relation.codesystem.html\">no-basis-family-relation.codesystem</a>#far)</span>, Far <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html\">no-basis-parental-responsibility.codesystem</a>#far)</span></p><p><b>name</b>: SOLID ÆRESDOKTOR </p><p><b>address</b>: Nyhaugveien 3 BERGEN 5067 NO (home)</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: RelatedPerson Solid-Aresdoktor-RelatedPerson</b></p><a name=\"Solid-Aresdoktor-RelatedPerson\"> </a><a name=\"hcSolid-Aresdoktor-RelatedPerson\"> </a><a name=\"Solid-Aresdoktor-RelatedPerson-no-NO\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-RelatedPerson.html\">no-basis-RelatedPerson</a></p></div><p><b>identifier</b>: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/15080050515</p><p><b>patient</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/04021950128</p><p><b>relationship</b>: <span title=\"Codes:{http://hl7.no/fhir/CodeSystem/no-basis-family-relation far}\">Far</span>, <span title=\"Codes:{http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility far}\">Far</span></p><p><b>name</b>: SOLID ÆRESDOKTOR </p><p><b>address</b>: Nyhaugveien 3 BERGEN 5067 NO (home)</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ] ;
@@ -42,7 +43,10 @@
   fhir:name ( [
      fhir:extension ( [
        fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-middlename"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "SKIKKELIG" ]
+       fhir:value [
+         a fhir:string ;
+         fhir:v "SKIKKELIG"
+       ]
      ] ) ;
      fhir:family [ fhir:v "ÆRESDOKTOR" ] ;
      fhir:given ( [ fhir:v "SOLID" ] )
@@ -51,10 +55,16 @@
      fhir:extension ( [
        fhir:extension ( [
          fhir:url [ fhir:v "cadastralUnitNumber"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "15"^^xsd:integer ]
+         fhir:value [
+           a fhir:integer ;
+           fhir:v 15
+         ]
        ] [
          fhir:url [ fhir:v "propertyUnitNumber"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "557"^^xsd:integer ]
+         fhir:value [
+           a fhir:integer ;
+           fhir:v 557
+         ]
        ] [
          fhir:url [ fhir:v "municipality"^^xsd:anyURI ] ;
          fhir:value [
@@ -67,7 +77,10 @@
        fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-address-official"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "true"^^xsd:boolean ]
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] ) ;
      fhir:use [ fhir:v "home" ] ;
      fhir:line ( [ fhir:v "Nyhaugveien 3" ] ) ;

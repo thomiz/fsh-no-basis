@@ -7,10 +7,10 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-connection-type.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</code></a></li><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html\"><code>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet no-basis-connection-type.valueset</b></p><a name=\"no-basis-connection-type.valueset\"> </a><a name=\"hcno-basis-connection-type.valueset\"> </a><a name=\"no-basis-connection-type.valueset-no-NO\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2018-10-16 10:48:46+0000</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-connection-type.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</code></a></li><li>Include all codes defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html\"><code>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</code></a></li></ul></div>"
   },
   "url" : "http://hl7.no/fhir/ValueSet/no-basis-connection-type",
-  "version" : "2.2.0-test",
+  "version" : "2.2.2-test",
   "name" : "NoBasisConnectionType",
   "title" : "no-basis-connection-type.valueset",
   "status" : "active",

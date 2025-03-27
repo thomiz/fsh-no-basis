@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://hl7.no/fhir/CodeSystem/no-basis-connection-type",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisConnectionType",
       "title" : "no-basis-connection-type.codesystem",
@@ -13,7 +13,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisFamilyRelation",
       "title" : "no-basis-family-relation.codesystem",
@@ -24,7 +24,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisMaritalStatus",
       "title" : "no-basis-marital-status.codesystem",
@@ -35,7 +35,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
-      "version" : "2.2.0-test",
+      "version" : "2.2.2-test",
       "status" : "active",
       "name" : "NoBasisParentalResponsibility",
       "title" : "no-basis-parental-responsibility.codesystem",
@@ -401,8 +401,8 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set",
-      "http://hl7.org/fhir/R4/valueset-doc-section-codes.html" : "Document Section Codes"
+      "http://hl7.org/fhir/R4/valueset-doc-section-codes.html" : "Document Section Codes",
+      "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -414,33 +414,33 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-practitioner-role.html" : "Practitioner role",
-      "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)",
-      "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
-      "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
-      "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
-      "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
       "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
-      "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
-      "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
-      "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
-      "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
-      "http://hl7.org/fhir/R4/valueset-route-codes.html" : "SNOMED CT Route Codes",
-      "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
-      "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
-      "http://hl7.org/fhir/R4/valueset-substance-code.html" : "Substance Code",
-      "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
       "http://hl7.org/fhir/R4/valueset-allergyintolerance-code.html" : "AllergyIntolerance Substance/Product, Condition and Negation Codes",
-      "http://hl7.org/fhir/R4/valueset-medication-form-codes.html" : "SNOMED CT Form Codes",
       "http://hl7.org/fhir/R4/valueset-c80-facilitycodes.html" : "Facility Type Code Value Set",
-      "http://hl7.org/fhir/R4/valueset-reason-medication-status-codes.html" : "SNOMED CT Drug Therapy Status codes "
+      "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
+      "http://hl7.org/fhir/R4/valueset-reason-medication-status-codes.html" : "SNOMED CT Drug Therapy Status codes ",
+      "http://hl7.org/fhir/R4/valueset-route-codes.html" : "SNOMED CT Route Codes",
+      "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
+      "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
+      "http://hl7.org/fhir/R4/valueset-medication-form-codes.html" : "SNOMED CT Form Codes",
+      "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+      "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
+      "http://hl7.org/fhir/R4/valueset-substance-code.html" : "Substance Code",
+      "http://hl7.org/fhir/R4/valueset-practitioner-role.html" : "Practitioner role",
+      "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+      "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)",
+      "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "AllergyIntoleranceClinicalStatusCodes",
       "title" : "AllergyIntolerance Clinical Status Codes",
       "description" : "Preferred value set for AllergyIntolerance Clinical Status.",
@@ -451,8 +451,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "AllergyIntoleranceVerificationStatus",
       "title" : "AllergyIntolerance Verification Status",
       "description" : "The verification status to support or decline the clinical status of the allergy or intolerance.",
@@ -463,8 +463,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason",
-      "version" : "2.1.0",
-      "status" : "draft",
+      "version" : "2.1.1",
+      "status" : "active",
       "name" : "AppointmentCancellationReason",
       "title" : "Appointment cancellation reason",
       "description" : "This example value set defines a set of reasons for the cancellation of an appointment.",
@@ -487,8 +487,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-      "version" : "2.1.0",
-      "status" : "draft",
+      "version" : "2.1.1",
+      "status" : "active",
       "name" : "EndpointConnectionType",
       "title" : "Endpoint Connection Type",
       "description" : "This is an example value set defined by the FHIR project, that could be used to represent possible connection type profile values.",
@@ -499,8 +499,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
-      "version" : "2.0.0",
-      "status" : "draft",
+      "version" : "2.0.1",
+      "status" : "active",
       "name" : "EndpointPayloadType",
       "title" : "Endpoint Payload Type",
       "description" : "This is an example value set defined by the FHIR project, that could be used to represent possible payload document types.",
@@ -511,8 +511,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "ListEmptyReasons",
       "title" : "List Empty Reasons",
       "description" : "General reasons for a list to be empty. Reasons are either related to a summary list (i.e. problem or medication list) or to a workflow related list (i.e. consultation list).",
@@ -523,8 +523,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/list-order",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "ListOrderCodes",
       "title" : "List Order Codes",
       "description" : "Base values for the order of the items in a list resource.",
@@ -535,8 +535,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
-      "version" : "2.0.0",
-      "status" : "draft",
+      "version" : "2.0.1",
+      "status" : "active",
       "name" : "LocationType",
       "title" : "Location type",
       "description" : "This example value set defines a set of codes that can be used to indicate the physical form of the Location.\r\rThis includes several 'non physical' codes which are still considered a location.",
@@ -559,8 +559,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/organization-type",
-      "version" : "2.0.0",
-      "status" : "draft",
+      "version" : "2.0.1",
+      "status" : "active",
       "name" : "OrganizationType",
       "title" : "Organization type",
       "description" : "This example value set defines a set of codes that can be used to indicate a type of organization.",
@@ -571,8 +571,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/participant-type",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "ParticipantType",
       "title" : "Participant type",
       "description" : "This value set defines a set of codes that can be used to indicate how an individual participates in an encounter.",
@@ -583,8 +583,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "PractitionerRole",
       "title" : "Practitioner role",
       "description" : "This example value set defines a set of codes that can be used to indicate the role of a Practitioner.",
@@ -595,8 +595,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/program",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "Program",
       "title" : "Program",
       "description" : "This value set defines an example set of codes that could be can be used to classify groupings of service-types/specialties.",
@@ -607,8 +607,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/service-category",
-      "version" : "1.1.0",
-      "status" : "draft",
+      "version" : "1.1.1",
+      "status" : "active",
       "name" : "ServiceCategory",
       "title" : "Service category",
       "description" : "This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.",
@@ -619,8 +619,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/service-provision-conditions",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "ServiceProvisionConditions",
       "title" : "ServiceProvisionConditions",
       "description" : "The code(s) that detail the conditions under which the healthcare service is available/offered.",
@@ -631,8 +631,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/service-referral-method",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "ReferralMethod",
       "title" : "ReferralMethod",
       "description" : "The methods of referral can be used when referring to a specific HealthCareService resource.",
@@ -643,8 +643,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/service-type",
-      "version" : "1.1.0",
-      "status" : "draft",
+      "version" : "1.1.1",
+      "status" : "active",
       "name" : "ServiceType",
       "title" : "Service type",
       "description" : "This value set defines an example set of codes of service-types.",
@@ -655,8 +655,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/substance-category",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "SubstanceCategoryCodes",
       "title" : "Substance Category Codes",
       "description" : "Substance category codes",
@@ -675,7 +675,7 @@
       "oids" : ["2.16.840.1.113883.18.47"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.5.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
+      "http://terminology.hl7.org/6.2.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
@@ -712,7 +712,7 @@
       "oids" : ["2.16.840.1.113883.18.169"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.5.0/ValueSet-v2-0276.html" : "hl7VS-appointmentReasonCodes"
+      "http://terminology.hl7.org/6.2.0/ValueSet-v2-0276.html" : "hl7VS-appointmentReasonCodes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -724,7 +724,7 @@
       "oids" : ["2.16.840.1.113883.5.4"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.5.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode"
+      "http://terminology.hl7.org/6.2.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
@@ -784,7 +784,7 @@
       "oids" : ["2.16.840.1.113883.5.111"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.5.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType",
+      "http://terminology.hl7.org/6.2.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType",
       "http://hl7.org/fhir/R4/valueset-relatedperson-relationshiptype.html" : "Patient relationship type"
     },
     {

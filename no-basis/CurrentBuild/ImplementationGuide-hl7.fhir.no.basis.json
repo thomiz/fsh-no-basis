@@ -2,14 +2,14 @@
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.basis",
   "text" : {
-    "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoBasis</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis</pre></div>"
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.basis</b></p><a name=\"hl7.fhir.no.basis\"> </a><a name=\"hchl7.fhir.no.basis\"> </a><a name=\"hl7.fhir.no.basis-no-NO\"> </a><h2>NoBasis</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis</pre></div>"
   },
   "url" : "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis",
-  "version" : "2.2.0-test",
+  "version" : "2.2.2-test",
   "name" : "NoBasis",
   "status" : "active",
-  "date" : "2024-05-29T11:39:51+00:00",
+  "date" : "2025-03-27T21:37:45+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -28,7 +28,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.5.0"
+    "version" : "6.2.0"
   },
   {
     "id" : "hl7ext",
@@ -38,7 +38,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.1.0"
+    "version" : "5.2.0"
   }],
   "definition" : {
     "extension" : [{
@@ -318,7 +318,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#0.1.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.4.1"
     },
     {
       "extension" : [{
@@ -1227,6 +1227,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-relatedperson-person-reference"
+      },
+      "name" : "no-basis-relatedperson-person-reference",
+      "description" : "If a person reference is needed in RelatedPerson.patient element, this optional extension should be used.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1292,7 +1304,7 @@
       "reference" : {
         "reference" : "StructureDefinition/no-basis-virtual-service"
       },
-      "name" : "no-basis-Virtual-Service",
+      "name" : "no-basis-virtual-service",
       "description" : "The VirtualService is based on VirtualServiceDetail structure from R5 and defines details of a virtual communication capability, such as a web conference call.",
       "exampleBoolean" : false
     },
@@ -1306,18 +1318,6 @@
       },
       "name" : "NoBasisICPC2",
       "description" : "In Norway primary care uses ICPC-2 to document contact-reason, health related problem and diagnosis.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-relatedperson-person-reference"
-      },
-      "name" : "NoBasisRelatedpersonPersonReference",
-      "description" : "If a person reference is needed in RelatedPerson.patient element, this optional extension should be used.",
       "exampleBoolean" : false
     },
     {

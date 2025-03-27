@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -14,14 +15,14 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8660</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8668</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8669</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8658</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8659</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8663</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8664</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8666</code></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet no-basis-service-type.valueset</b></p><a name=\"no-basis-service-type.valueset\"> </a><a name=\"hcno-basis-service-type.valueset\"> </a><a name=\"no-basis-service-type.valueset-no-NO\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2018-10-16 10:48:46+0000</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8660</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8668</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8669</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8658</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8659</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8663</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8664</code></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.8666</code></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/ValueSet/no-basis-service-type"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.2.0-test"] ; # 
+  fhir:version [ fhir:v "2.2.2-test"] ; # 
   fhir:name [ fhir:v "NoBasisServiceType"] ; # 
   fhir:title [ fhir:v "no-basis-service-type.valueset"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:experimental [ fhir:v true] ; # 
   fhir:date [ fhir:v "2018-10-26T10:48:45.936+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "ValueSet including all codes for service type (tjenestetype) allowed in the Adressergister"] ; # 
   fhir:jurisdiction ( [
@@ -31,7 +32,7 @@
        fhir:display [ fhir:v "Norway" ]
      ] )
   ] ) ; # 
-  fhir:immutable [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:immutable [ fhir:v false] ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8660"^^xsd:anyURI ]

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ccdc5d2d-ee05-43ed-9805-45aab1edc9c5"/>
+  <id value="497fcd95-23c7-4559-9cce-bbe3fa30f71f"/>
   <meta>
-    <lastUpdated value="2024-05-29T11:39:51.930+00:00"/>
+    <lastUpdated value="2025-03-27T21:38:23.853+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -17,14 +17,17 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion based on:</p>
+              <p>Expansion performed internally based on:</p>
               <ul>
                 <li>
-                  <a href="CodeSystem-no-basis-connection-type.codesystem.html">codesystem no-basis-connection-type.codesystem v2.2.0-test (CodeSystem)</a>
+                  <a href="CodeSystem-no-basis-connection-type.codesystem.html">codesystem no-basis-connection-type.codesystem v2.2.2-test (CodeSystem)</a>
                 </li>
                 <li>
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html">codesystem Endpoint Connection Type v2.1.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html">codesystem Endpoint Connection Type v2.1.1 (CodeSystem)</a>
                 </li>
               </ul>
             </div>
@@ -38,7 +41,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (no-NO)</b>
                 </td>
                 <td>
                   <b>Inactive</b>
@@ -54,11 +57,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-connection-type-no-ebxml-2"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-connection-type-no-ebxml-2"> </a>  
                   <a href="CodeSystem-no-basis-connection-type.codesystem.html#no-basis-connection-type.codesystem-no-ebxml-2">no-ebxml-2</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</td>
-                <td>ebXML 2.0</td>
+                <td/>
                 <td/>
                 <td>
                   <div>
@@ -70,11 +73,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-connection-type-no-amqp"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-connection-type-no-amqp"> </a>  
                   <a href="CodeSystem-no-basis-connection-type.codesystem.html#no-basis-connection-type.codesystem-no-amqp">no-amqp</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-connection-type</td>
-                <td>AMQP</td>
+                <td/>
                 <td/>
                 <td>
                   <div>
@@ -86,11 +89,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-dicom-wado-rs"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-wado-rs">dicom-wado-rs</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-dicom-wado-rs"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-wado-rs">dicom-wado-rs</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>DICOM WADO-RS</td>
+                <td/>
                 <td/>
                 <td>
                   <div>
@@ -102,11 +105,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-dicom-qido-rs"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-qido-rs">dicom-qido-rs</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-dicom-qido-rs"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-qido-rs">dicom-qido-rs</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>DICOM QIDO-RS</td>
+                <td/>
                 <td/>
                 <td>
                   <div>
@@ -118,11 +121,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-dicom-stow-rs"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-stow-rs">dicom-stow-rs</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-dicom-stow-rs"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-stow-rs">dicom-stow-rs</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>DICOM STOW-RS</td>
+                <td/>
                 <td/>
                 <td>
                   <div>
@@ -134,11 +137,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-dicom-wado-uri"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-wado-uri">dicom-wado-uri</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-dicom-wado-uri"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-dicom-wado-uri">dicom-wado-uri</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>DICOM WADO-URI</td>
+                <td/>
                 <td/>
                 <td>
                   <div>
@@ -150,11 +153,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-hl7-fhir-rest"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7-fhir-rest">hl7-fhir-rest</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-hl7-fhir-rest"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7-fhir-rest">hl7-fhir-rest</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>HL7 FHIR</td>
+                <td/>
                 <td/>
                 <td>
                   <div>
@@ -166,11 +169,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-hl7-fhir-msg"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7-fhir-msg">hl7-fhir-msg</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-hl7-fhir-msg"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7-fhir-msg">hl7-fhir-msg</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>HL7 FHIR Messaging</td>
+                <td/>
                 <td/>
                 <td>
                   <div>
@@ -182,11 +185,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-hl7v2-mllp"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7v2-mllp">hl7v2-mllp</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-hl7v2-mllp"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-hl7v2-mllp">hl7v2-mllp</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>HL7 v2 MLLP</td>
+                <td/>
                 <td/>
                 <td>
                   <div>
@@ -198,11 +201,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-secure-email"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-secure-email">secure-email</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-secure-email"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-secure-email">secure-email</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>Secure email</td>
+                <td/>
                 <td/>
                 <td>
                   <div>
@@ -214,11 +217,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-direct-project"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-direct-project">direct-project</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-direct-project"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-direct-project">direct-project</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>Direct Project</td>
+                <td/>
                 <td/>
                 <td>
                   <div>
@@ -230,11 +233,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-cds-hooks-service"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-cds-hooks-service">cds-hooks-service</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-cds-hooks-service"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-cds-hooks-service">cds-hooks-service</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>CDS Hooks Service</td>
+                <td/>
                 <td/>
                 <td>
                   <div>
@@ -246,11 +249,11 @@
               </tr>
               <tr style="background-color: #ffeeee">
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-xcpd"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xcpd">ihe-xcpd</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-ihe-xcpd"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xcpd">ihe-xcpd</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>IHE XCPD</td>
+                <td/>
                 <td>inactive</td>
                 <td>
                   <div>
@@ -262,11 +265,11 @@
               </tr>
               <tr style="background-color: #ffeeee">
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-xca"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xca">ihe-xca</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-ihe-xca"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xca">ihe-xca</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>IHE XCA</td>
+                <td/>
                 <td>inactive</td>
                 <td>
                   <div>
@@ -278,11 +281,11 @@
               </tr>
               <tr style="background-color: #ffeeee">
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-xdr"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xdr">ihe-xdr</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-ihe-xdr"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xdr">ihe-xdr</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>IHE XDR</td>
+                <td/>
                 <td>inactive</td>
                 <td>
                   <div>
@@ -294,11 +297,11 @@
               </tr>
               <tr style="background-color: #ffeeee">
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-xds"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xds">ihe-xds</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-ihe-xds"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-xds">ihe-xds</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>IHE XDS</td>
+                <td/>
                 <td>inactive</td>
                 <td>
                   <div>
@@ -310,11 +313,11 @@
               </tr>
               <tr style="background-color: #ffeeee">
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-endpoint-connection-type-ihe-iid"> </a>  
-                  <a href="http://terminology.hl7.org/5.5.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-iid">ihe-iid</a>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/endpoint-connection-type-ihe-iid"> </a>  
+                  <a href="http://terminology.hl7.org/6.2.0/CodeSystem-endpoint-connection-type.html#endpoint-connection-type-ihe-iid">ihe-iid</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</td>
-                <td>IHE IID</td>
+                <td/>
                 <td>inactive</td>
                 <td>
                   <div>
@@ -328,7 +331,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/no-basis-connection-type"/>
-        <version value="2.2.0-test"/>
+        <version value="2.2.2-test"/>
         <name value="NoBasisConnectionType"/>
         <title value="no-basis-connection-type.valueset"/>
         <status value="active"/>
@@ -343,10 +346,14 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:d668d50c-f08b-4ffd-8f7b-5c6d9be421b6"/>
-          <timestamp value="2024-05-29T11:40:27+00:00"/>
+          <identifier value="urn:uuid:a79fe5be-6b8f-43be-a5de-0737e5d5ae3b"/>
+          <timestamp value="2025-03-27T21:38:50+00:00"/>
           <total value="17"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="no-NO"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -361,15 +368,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-connection-type|2.2.0-test"/>
-          </parameter>
-          <parameter>
-            <name value="warning-draft"/>
-            <valueUri value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type|2.1.0"/>
+            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-connection-type|2.2.2-test"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type|2.1.0"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type|2.1.1"/>
           </parameter>
           <property>
             <code value="status"/>
@@ -378,68 +381,55 @@
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-connection-type"/>
             <code value="no-ebxml-2"/>
-            <display value="ebXML 2.0"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-connection-type"/>
             <code value="no-amqp"/>
-            <display value="AMQP"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <code value="dicom-wado-rs"/>
-            <display value="DICOM WADO-RS"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <code value="dicom-qido-rs"/>
-            <display value="DICOM QIDO-RS"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <code value="dicom-stow-rs"/>
-            <display value="DICOM STOW-RS"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <code value="dicom-wado-uri"/>
-            <display value="DICOM WADO-URI"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <code value="hl7-fhir-rest"/>
-            <display value="HL7 FHIR"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <code value="hl7-fhir-msg"/>
-            <display value="HL7 FHIR Messaging"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <code value="hl7v2-mllp"/>
-            <display value="HL7 v2 MLLP"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <code value="secure-email"/>
-            <display value="Secure email"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <code value="direct-project"/>
-            <display value="Direct Project"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <code value="cds-hooks-service"/>
-            <display value="CDS Hooks Service"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <inactive value="true"/>
             <code value="ihe-xcpd"/>
-            <display value="IHE XCPD"/>
             <property>
               <code value="status"/>
               <valueCode value="deprecated"/>
@@ -449,7 +439,6 @@
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <inactive value="true"/>
             <code value="ihe-xca"/>
-            <display value="IHE XCA"/>
             <property>
               <code value="status"/>
               <valueCode value="deprecated"/>
@@ -459,7 +448,6 @@
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <inactive value="true"/>
             <code value="ihe-xdr"/>
-            <display value="IHE XDR"/>
             <property>
               <code value="status"/>
               <valueCode value="deprecated"/>
@@ -469,7 +457,6 @@
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <inactive value="true"/>
             <code value="ihe-xds"/>
-            <display value="IHE XDS"/>
             <property>
               <code value="status"/>
               <valueCode value="deprecated"/>
@@ -479,7 +466,6 @@
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
             <inactive value="true"/>
             <code value="ihe-iid"/>
-            <display value="IHE IID"/>
             <property>
               <code value="status"/>
               <valueCode value="deprecated"/>
@@ -500,8 +486,11 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-no-basis-family-relation.codesystem.html">codesystem no-basis-family-relation.codesystem v2.2.0-test (CodeSystem)</a>
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-no-basis-family-relation.codesystem.html">codesystem no-basis-family-relation.codesystem v2.2.2-test (CodeSystem)</a>
             </p>
             <p>This value set contains 7 concepts</p>
             <table class="codes">
@@ -513,70 +502,70 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (no-NO)</b>
                 </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-family-relation-mor"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-mor"> </a>  
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-mor">mor</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td>
-                <td>Mor</td>
+                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-family-relation-far"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-far"> </a>  
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-far">far</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td>
-                <td>Far</td>
+                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-family-relation-medmor"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-medmor"> </a>  
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-medmor">medmor</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td>
-                <td>Medmor</td>
+                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-family-relation-barn"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-barn"> </a>  
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-barn">barn</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td>
-                <td>Barn</td>
+                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-family-relation-søsken"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-s|f8sken"> </a>  
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-s.248sken">søsken</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td>
-                <td>Søsken</td>
+                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-family-relation-ektefelleEllerPartner"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-ektefelleEllerPartner"> </a>  
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-ektefelleEllerPartner">ektefelleEllerPartner</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td>
-                <td>Ektefelle eller partner</td>
+                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-family-relation-dødfødtBarn"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-family-relation-d|f8df|f8dtBarn"> </a>  
                   <a href="CodeSystem-no-basis-family-relation.codesystem.html#no-basis-family-relation.codesystem-d.248df.248dtBarn">dødfødtBarn</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</td>
-                <td>Dødfødt barn</td>
+                <td/>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/no-basis-family-relation"/>
-        <version value="2.2.0-test"/>
+        <version value="2.2.2-test"/>
         <name value="NoBasisFamilyRelation"/>
         <title value="no-basis-family-relation.valueset"/>
         <status value="active"/>
@@ -591,10 +580,14 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:c7c23265-7928-4678-b446-4ae2299c8882"/>
-          <timestamp value="2024-05-29T11:40:27+00:00"/>
+          <identifier value="urn:uuid:4740e951-0920-4d0e-924b-e1c179b2567a"/>
+          <timestamp value="2025-03-27T21:38:50+00:00"/>
           <total value="7"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="no-NO"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -609,42 +602,35 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation|2.2.0-test"/>
+            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation|2.2.2-test"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation"/>
             <code value="mor"/>
-            <display value="Mor"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation"/>
             <code value="far"/>
-            <display value="Far"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation"/>
             <code value="medmor"/>
-            <display value="Medmor"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation"/>
             <code value="barn"/>
-            <display value="Barn"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation"/>
             <code value="søsken"/>
-            <display value="Søsken"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation"/>
             <code value="ektefelleEllerPartner"/>
-            <display value="Ektefelle eller partner"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation"/>
             <code value="dødfødtBarn"/>
-            <display value="Dødfødt barn"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -657,8 +643,11 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-no-basis-marital-status.codesystem.html">codesystem no-basis-marital-status.codesystem v2.2.0-test (CodeSystem)</a>
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-no-basis-marital-status.codesystem.html">codesystem no-basis-marital-status.codesystem v2.2.2-test (CodeSystem)</a>
             </p>
             <p>This value set contains 10 concepts</p>
             <table class="codes">
@@ -670,7 +659,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (no-NO)</b>
                 </td>
                 <td>
                   <b>Definition</b>
@@ -678,11 +667,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-marital-status-uoppgitt"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-uoppgitt"> </a>  
                   <a href="CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-uoppgitt">uoppgitt</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td>
-                <td>Uoppgitt</td>
+                <td/>
                 <td>
                   <div>
                     <p>sivilstand er ikke stadfestet med godkjent grunnlag</p>
@@ -692,11 +681,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-marital-status-ugift"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-ugift"> </a>  
                   <a href="CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-ugift">ugift</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td>
-                <td>Ugift</td>
+                <td/>
                 <td>
                   <div>
                     <p>person som aldri har inngått ekteskap</p>
@@ -706,11 +695,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-marital-status-gift"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-gift"> </a>  
                   <a href="CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-gift">gift</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td>
-                <td>Gift</td>
+                <td/>
                 <td>
                   <div>
                     <p>person som er i et ekteskap</p>
@@ -720,11 +709,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-marital-status-enkeEllerEnkemann"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-enkeEllerEnkemann"> </a>  
                   <a href="CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-enkeEllerEnkemann">enkeEllerEnkemann</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td>
-                <td>Enke eller enkemann</td>
+                <td/>
                 <td>
                   <div>
                     <p>gjenlevende person fra et ekteskap</p>
@@ -734,11 +723,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-marital-status-skilt"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-skilt"> </a>  
                   <a href="CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-skilt">skilt</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td>
-                <td>Skilt</td>
+                <td/>
                 <td>
                   <div>
                     <p>person som er lovlig skilt fra tidligere ektefelle</p>
@@ -748,11 +737,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-marital-status-separert"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-separert"> </a>  
                   <a href="CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-separert">separert</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td>
-                <td>Separert</td>
+                <td/>
                 <td>
                   <div>
                     <p>person som er i en separasjonsperiode fra sin ektefelle</p>
@@ -762,11 +751,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-marital-status-registrertPartner"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-registrertPartner"> </a>  
                   <a href="CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-registrertPartner">registrertPartner</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td>
-                <td>Registrert partner</td>
+                <td/>
                 <td>
                   <div>
                     <p>person som er i et partnerskap iht partnerskapsloven</p>
@@ -776,11 +765,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-marital-status-separertPartner"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-separertPartner"> </a>  
                   <a href="CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-separertPartner">separertPartner</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td>
-                <td>Separert partner</td>
+                <td/>
                 <td>
                   <div>
                     <p>person som er i en separasjonsperiode fra sin partner</p>
@@ -790,11 +779,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-marital-status-skiltPartner"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-skiltPartner"> </a>  
                   <a href="CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-skiltPartner">skiltPartner</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td>
-                <td>Skilt partner</td>
+                <td/>
                 <td>
                   <div>
                     <p>person som er lovlig skilt fra tidligere partner</p>
@@ -804,11 +793,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-marital-status-gjenlevende-partner"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-marital-status-gjenlevende_partner"> </a>  
                   <a href="CodeSystem-no-basis-marital-status.codesystem.html#no-basis-marital-status.codesystem-gjenlevende_partner">gjenlevende_partner</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</td>
-                <td>Gjenlevende partner</td>
+                <td/>
                 <td>
                   <div>
                     <p>gjenlevende person fra et partnerskap</p>
@@ -820,7 +809,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/no-basis-marital-status"/>
-        <version value="2.2.0-test"/>
+        <version value="2.2.2-test"/>
         <name value="NoBasisMaritalStatus"/>
         <title value="no-basis-marital-status.valueset"/>
         <status value="active"/>
@@ -835,10 +824,14 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:ee4b95c4-0914-4821-9930-3353bd7d3b16"/>
-          <timestamp value="2024-05-29T11:40:27+00:00"/>
+          <identifier value="urn:uuid:b9293b70-c8c4-40ec-a8b5-b6f4dfeb2f71"/>
+          <timestamp value="2025-03-27T21:38:50+00:00"/>
           <total value="10"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="no-NO"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -853,57 +846,47 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status|2.2.0-test"/>
+            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status|2.2.2-test"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status"/>
             <code value="uoppgitt"/>
-            <display value="Uoppgitt"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status"/>
             <code value="ugift"/>
-            <display value="Ugift"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status"/>
             <code value="gift"/>
-            <display value="Gift"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status"/>
             <code value="enkeEllerEnkemann"/>
-            <display value="Enke eller enkemann"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status"/>
             <code value="skilt"/>
-            <display value="Skilt"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status"/>
             <code value="separert"/>
-            <display value="Separert"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status"/>
             <code value="registrertPartner"/>
-            <display value="Registrert partner"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status"/>
             <code value="separertPartner"/>
-            <display value="Separert partner"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status"/>
             <code value="skiltPartner"/>
-            <display value="Skilt partner"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status"/>
             <code value="gjenlevende_partner"/>
-            <display value="Gjenlevende partner"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -920,8 +903,11 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html">codesystem no-basis-parental-responsibility.codesystem v2.2.0-test (CodeSystem)</a>
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html">codesystem no-basis-parental-responsibility.codesystem v2.2.2-test (CodeSystem)</a>
             </p>
             <p>This value set contains 6 concepts</p>
             <table class="codes">
@@ -933,62 +919,62 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (no-NO)</b>
                 </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-felles"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility-felles"> </a>  
                   <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-felles">felles</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td>
-                <td>Felles</td>
+                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-mor"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility-mor"> </a>  
                   <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-mor">mor</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td>
-                <td>Mor</td>
+                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-far"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility-far"> </a>  
                   <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-far">far</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td>
-                <td>Far</td>
+                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-medmor"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility-medmor"> </a>  
                   <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-medmor">medmor</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td>
-                <td>Medmor</td>
+                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-andre"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility-andre"> </a>  
                   <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-andre">andre</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td>
-                <td>Andre</td>
+                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-no-basis-parental-responsibility-ukjent"> </a>  
+                  <a name="x-http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility-ukjent"> </a>  
                   <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html#no-basis-parental-responsibility.codesystem-ukjent">ukjent</a>
                 </td>
                 <td>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</td>
-                <td>Ukjent</td>
+                <td/>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility"/>
-        <version value="2.2.0-test"/>
+        <version value="2.2.2-test"/>
         <name value="NoBasisParentalResponsibility"/>
         <title value="no-basis-parental-responsibility.valueset"/>
         <status value="active"/>
@@ -1003,10 +989,14 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:a18c6ef9-87ca-43d4-aada-732f86146c31"/>
-          <timestamp value="2024-05-29T11:40:27+00:00"/>
+          <identifier value="urn:uuid:49c98d47-9791-4a22-ada9-f1d67fb0170f"/>
+          <timestamp value="2025-03-27T21:38:50+00:00"/>
           <total value="6"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="no-NO"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1021,37 +1011,31 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility|2.2.0-test"/>
+            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility|2.2.2-test"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility"/>
             <code value="felles"/>
-            <display value="Felles"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility"/>
             <code value="mor"/>
-            <display value="Mor"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility"/>
             <code value="far"/>
-            <display value="Far"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility"/>
             <code value="medmor"/>
-            <display value="Medmor"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility"/>
             <code value="andre"/>
-            <display value="Andre"/>
           </contains>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility"/>
             <code value="ukjent"/>
-            <display value="Ukjent"/>
           </contains>
         </expansion>
       </ValueSet>

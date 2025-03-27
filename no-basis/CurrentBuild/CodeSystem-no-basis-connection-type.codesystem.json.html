@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>no-basis-connection-type.codesystem - JSON Representation -  v2.2.0-test</title>
+    <title>no-basis-connection-type.codesystem - JSON Representation -  v2.2.2-test</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -20,6 +20,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/hl7.css" rel="stylesheet"/>
     <link href="assets/css/fhir.css" rel="stylesheet"/>
@@ -42,11 +43,13 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"5.43"}
     h3,h4,h5,h6{--heading-prefix:"5.43"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
             
@@ -68,7 +71,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">2.2.0-test - ci-build
+            <span style="display:inline-block;">2.2.2-test - ci-build
 
 
 
@@ -149,7 +152,7 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Changelog-21.md">R4 Changelog</a>
+        <a href="https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Changelog-22.md">R4 Changelog</a>
       </li>
       <li>
         <a href="Changelog-STU3.html">STU3 Changelog</a>
@@ -252,16 +255,15 @@
 
 
 
-  <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">
-{
+  <pre class="json" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">{
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "no-basis-connection-type.codesystem",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This  code system &lt;code&gt;http://hl7.no/fhir/CodeSystem/no-basis-connection-type&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;no-ebxml-2&lt;a name=\&quot;no-basis-connection-type.codesystem-no-ebxml-2\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ebXML 2.0&lt;/td&gt;&lt;td&gt;ebXML messaging as described in the Norwegian profile HIS 1037:2011 based on OASIS ebMS 2.0 specification&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;no-amqp&lt;a name=\&quot;no-basis-connection-type.codesystem-no-amqp\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AMQP&lt;/td&gt;&lt;td&gt;AMQP based synchronuous and asynchronus message delivery&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: CodeSystem no-basis-connection-type.codesystem&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;no-basis-connection-type.codesystem\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcno-basis-connection-type.codesystem\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;no-basis-connection-type.codesystem-no-NO\&quot;&gt; &lt;/a&gt;&lt;p&gt;This  code system &lt;code&gt;http://hl7.no/fhir/CodeSystem/no-basis-connection-type&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;no-ebxml-2&lt;a name=\&quot;no-basis-connection-type.codesystem-no-ebxml-2\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ebXML 2.0&lt;/td&gt;&lt;td&gt;ebXML messaging as described in the Norwegian profile HIS 1037:2011 based on OASIS ebMS 2.0 specification&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;no-amqp&lt;a name=\&quot;no-basis-connection-type.codesystem-no-amqp\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AMQP&lt;/td&gt;&lt;td&gt;AMQP based synchronuous and asynchronus message delivery&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
   },
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "http://hl7.no/fhir/CodeSystem/no-basis-connection-type",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "2.2.0-test",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "2.2.2-test",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "NoBasisConnectionType",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "no-basis-connection-type.codesystem",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "active",
@@ -309,20 +311,14 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.basis#2.2.0-test based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 29, 2024 11:39+0000">2024-05-29</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.basis#2.2.2-test based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 27, 2025 21:38+0000">2025-03-27</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -340,7 +336,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -350,16 +346,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

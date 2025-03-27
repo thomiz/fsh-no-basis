@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RelatedPerson </b><a name=\"Sorgard-Erlend-RelatedPerson\"> </a><a name=\"hcSorgard-Erlend-RelatedPerson\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceRelatedPerson &quot;Sorgard-Erlend-RelatedPerson&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-RelatedPerson.html\">no-basis-RelatedPerson</a></p></div><blockquote><p><b>no-basis-person-citizenship</b></p><blockquote><p><b>url</b></p><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></blockquote><p><b>value</b>: Norway <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#NO)</span></p></blockquote><p><b>identifier</b>: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/05073500186</p><p><b>patient</b>: <span><code>urn:oid:2.16.578.1.12.4.1.4.1</code>/04021950128</span></p><p><b>relationship</b>: Gift <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-no-basis-marital-status.codesystem.html\">no-basis-marital-status.codesystem</a>#gift)</span></p><p><b>name</b>: Ærlend Sørgård </p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: RelatedPerson Sorgard-Erlend-RelatedPerson</b></p><a name=\"Sorgard-Erlend-RelatedPerson\"> </a><a name=\"hcSorgard-Erlend-RelatedPerson\"> </a><a name=\"Sorgard-Erlend-RelatedPerson-no-NO\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-RelatedPerson.html\">no-basis-RelatedPerson</a></p></div><blockquote><p><b>no-basis-person-citizenship</b></p><ul><li>code: <span title=\"Codes:{urn:iso:std:iso:3166 NO}\">Norway</span></li></ul></blockquote><p><b>identifier</b>: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/05073500186</p><p><b>patient</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/04021950128</p><p><b>relationship</b>: <span title=\"Codes:{http://hl7.no/fhir/CodeSystem/no-basis-marital-status gift}\">Gift</span></p><p><b>name</b>: Ærlend Sørgård </p></div>"
   },
   "extension" : [{
     "extension" : [{
@@ -26,7 +26,7 @@
   }],
   "patient" : {
     "extension" : [{
-      "url" : "http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference",
+      "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference",
       "valueReference" : {
         "identifier" : {
           "system" : "urn:oid:2.16.578.1.12.4.1.4.1",

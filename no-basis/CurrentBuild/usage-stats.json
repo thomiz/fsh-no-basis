@@ -1,16 +1,9 @@
 {
   "package": "hl7.fhir.no.basis",
-  "version": "2.2.0-test",
+  "version": "2.2.2-test",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [
-    {
-      "url": "http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference",
-      "title": "NoBasisRelatedpersonPersonReference",
-      "types": [
-        "Reference"
-      ]
-    },
     {
       "url": "http://hl7.no/fhir/StructureDefinition/no-basis-address-official",
       "title": "no-basis-address-official",
@@ -241,6 +234,13 @@
       ]
     },
     {
+      "url": "http://hl7.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference",
+      "title": "no-basis-relatedperson-person-reference",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
       "url": "http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice",
       "title": "no-basis-shortnotice",
       "types": [
@@ -324,7 +324,7 @@
     },
     {
       "url": "http://hl7.no/fhir/StructureDefinition/no-basis-virtual-service",
-      "title": "no-basis-Virtual-Service",
+      "title": "no-basis-virtual-service",
       "types": [
         "Coding",
         "string",
@@ -497,9 +497,6 @@
     ]
   },
   "usage": {
-    "http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference": [
-      "RelatedPerson.patient"
-    ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-address-official": [
       "Address",
       "Organization.address",
@@ -531,6 +528,9 @@
       "Address",
       "Patient.address",
       "RelatedPerson.address"
+    ],
+    "http://hl7.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference": [
+      "RelatedPerson.patient"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice": [
       "AppointmentResponse"
@@ -599,6 +599,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
     ]
   }
 }

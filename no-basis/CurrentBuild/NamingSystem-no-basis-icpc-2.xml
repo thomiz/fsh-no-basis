@@ -6,14 +6,14 @@
     <versionId value="2.1.1"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-icpc-2</td></tr><tr><td>Version</td><td>2.2.0-test</td></tr><tr><td>Name</td><td>NoBasisICPC2</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>In Norway primary care uses ICPC-2 to document contact-reason, health related problem and diagnosis.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem no-basis-icpc-2</b></p><a name="no-basis-icpc-2"> </a><a name="hcno-basis-icpc-2"> </a><a name="no-basis-icpc-2-no-NO"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 2.1.1</p></div><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-icpc-2</td></tr><tr><td>Version</td><td>2.2.2-test</td></tr><tr><td>Name</td><td>NoBasisICPC2</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>In Norway primary care uses ICPC-2 to document contact-reason, health related problem and diagnosis.</p>
 </div></td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td><td><b>Comment</b></td></tr><tr><td>URI</td><td>http://hl7.org/fhir/sid/icpc-2</td><td>true</td><td/></tr><tr><td>OID</td><td>2.16.840.1.113883.6.139</td><td>false</td><td/></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.1.7170</td><td>false</td><td>Volven oid for ICPC-2 codesystem for use in Norwegian legacy implementations.</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url">
     <valueUri value="http://hl7.no/fhir/NamingSystem/no-basis-icpc-2"/>
   </extension>
   <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version">
-    <valueString value="2.2.0-test"/>
+    <valueString value="2.2.2-test"/>
   </extension>
   <name value="NoBasisICPC2"/>
   <status value="active"/>
