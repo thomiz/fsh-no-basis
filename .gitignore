@@ -7,6 +7,7 @@
 */_genonce*
 */_updatePublisher*
 *.jar
+no-basis/fsh-generated/*
 no-basis/fsh-generated/includes/menu.xml
 no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem.json
 no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem.json
