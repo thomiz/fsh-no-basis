@@ -6,7 +6,7 @@ Description: "Example codes for virtual service connection types. Any other code
 * ^version = "2.2.0"
 * ^status = #active
 * ^experimental = false
-* ^date = "10/05/2023 21:14:02"
+* ^date = "10-05-2023T21:14:02.936+00:00"
 * ^publisher = "Hl7 Norge"
 * ^contact.name = "Hl7 Norge"
 * ^contact.telecom.system = #url
