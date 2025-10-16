@@ -15,7 +15,7 @@ The typical use-case is to include information regarding what Healthcare related
 * providedBy ^definition = "The organization that provides this healthcare service.\r\n\r\nno-basis recommends the use of logical reference to an organization using ENH or RSH. To describe a top level organization. Departments within an organization could use a different reference scheme defined by the organization."
 * providedBy.identifier ^short = "The logical reference of organization that provides this healthcare service."
 * providedBy.identifier ^definition = "no-basis recommends the use of logical reference to an organization using ENH or RSH. To describe a top level organization. Departments within an organization could use a different reference scheme defined by the organization.\r\n\r\nno-basis recommends if an identifier is provided the identifier type or system should be provided."
-* providedBy.identifier.system obeys no-basis-identifier-system
+* providedBy.identifier obeys no-basis-identifier-system
 * category from urn:oid:2.16.578.1.12.4.1.1.9040 (example)
 * category ^short = "HealthcareService category"
 * category ^definition = "Example of category. Helsevirksomhet type (OID=9040), identifies the virksomhetstype used in Adresseregisteret. This element is usually not necessary to describe the HealthcareService adequately."
