@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Appointment
   "name" : "NoBasisAppointmentResponse",
   "title" : "no-basis-AppointmentResponse",
   "status" : "active",
-  "date" : "2025-10-16T20:19:25+00:00",
+  "date" : "2025-10-16T20:37:15+00:00",
   "description" : "Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to each use-case.",
   "jurisdiction" : [
     {

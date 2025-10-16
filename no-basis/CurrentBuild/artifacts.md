@@ -129,5 +129,6 @@ These are example instances that show what data produced and consumed by systems
 | [PatientExample](Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473.md) |  |
 | [Solid-Aresdoktor-RelatedPerson](RelatedPerson-Solid-Aresdoktor-RelatedPerson.md) |  |
 | [Sorgard-Erlend-RelatedPerson](RelatedPerson-Sorgard-Erlend-RelatedPerson.md) |  |
+| [no-basis-HealthcareService-example](HealthcareService-no-basis-HealthcareService-example.md) |  |
 | [no-basis-Procedure-example](Procedure-no-basis-Procedure-example.md) |  |
 

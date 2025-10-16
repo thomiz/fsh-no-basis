@@ -1,0 +1,38 @@
+{
+  "resourceType" : "HealthcareService",
+  "id" : "no-basis-HealthcareService-example",
+  "meta" : {
+    "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: HealthcareService no-basis-HealthcareService-example</b></p><a name=\"no-basis-HealthcareService-example\"> </a><a name=\"hcno-basis-HealthcareService-example\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-HealthcareService.html\">no-basis-HealthcareService</a></p></div><p><b>identifier</b>: <code>http://hl7.no/shared-ids</code>/HS-12</p><p><b>active</b>: true</p><p><b>providedBy</b>: <a href=\"Organization/f001\">Burgers University Medical Center</a></p><p><b>category</b>: <span title=\"Codes:{urn:oid:2.16.578.1.12.4.1.1.9040 101}\">Helseforetak/private sykehus</span></p><p><b>specialty</b>: <span title=\"Codes:{urn:oid:2.16.578.1.12.4.1.1.8655 S0208}\">Ortopedisk kirurgi</span></p></div>"
+  },
+  "identifier" : [{
+    "system" : "http://hl7.no/shared-ids",
+    "value" : "HS-12"
+  }],
+  "active" : true,
+  "providedBy" : {
+    "reference" : "Organization/f001",
+    "identifier" : {
+      "system" : "urn:oid:2.16.578.1.12.4.1.4.101",
+      "value" : "test"
+    },
+    "display" : "Burgers University Medical Center"
+  },
+  "category" : [{
+    "coding" : [{
+      "system" : "urn:oid:2.16.578.1.12.4.1.1.9040",
+      "code" : "101",
+      "display" : "Helseforetak/private sykehus"
+    }]
+  }],
+  "specialty" : [{
+    "coding" : [{
+      "system" : "urn:oid:2.16.578.1.12.4.1.1.8655",
+      "code" : "S0208",
+      "display" : "Ortopedisk kirurgi"
+    }]
+  }]
+}

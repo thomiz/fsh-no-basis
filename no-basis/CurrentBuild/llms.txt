@@ -93,6 +93,7 @@
 
 * [d6c523ec-b520-4221-a8d6-c1c58911ce7a (Appointment)](Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.md)
 * [PatientAppointmentResponseExample (AppointmentResponse)](AppointmentResponse-PatientAppointmentResponseExample.md)
+* [no-basis-HealthcareService-example (HealthcareService)](HealthcareService-no-basis-HealthcareService-example.md)
 * [Direktoratet for e-Helse (Organization)](Organization-Direktoratet-for-eHelse-Organization.md)
 * [EspenEksempel (Patient)](Patient-EspenEksempel.md)
 * [JanniceSoreng (Patient)](Patient-JanniceSoreng.md)

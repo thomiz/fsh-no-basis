@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-group.csv),
   "name" : "NoBasisGroup",
   "title" : "no-basis-group",
   "status" : "active",
-  "date" : "2025-10-16T20:19:25+00:00",
+  "date" : "2025-10-16T20:37:15+00:00",
   "description" : "The appointment is a group session.",
   "jurisdiction" : [
     {

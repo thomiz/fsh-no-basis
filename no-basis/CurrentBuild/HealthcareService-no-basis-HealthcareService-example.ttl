@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/HealthcareService/no-basis-HealthcareService-example> a fhir:HealthcareService ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-basis-HealthcareService-example"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"^^xsd:anyURI ;
+       fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: HealthcareService no-basis-HealthcareService-example</b></p><a name=\"no-basis-HealthcareService-example\"> </a><a name=\"hcno-basis-HealthcareService-example\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-HealthcareService.html\">no-basis-HealthcareService</a></p></div><p><b>identifier</b>: <code>http://hl7.no/shared-ids</code>/HS-12</p><p><b>active</b>: true</p><p><b>providedBy</b>: <a href=\"Organization/f001\">Burgers University Medical Center</a></p><p><b>category</b>: <span title=\"Codes:{urn:oid:2.16.578.1.12.4.1.1.9040 101}\">Helseforetak/private sykehus</span></p><p><b>specialty</b>: <span title=\"Codes:{urn:oid:2.16.578.1.12.4.1.1.8655 S0208}\">Ortopedisk kirurgi</span></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://hl7.no/shared-ids"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "HS-12" ]
+  ] ) ; # 
+  fhir:active [ fhir:v true] ; # 
+  fhir:providedBy [
+     fhir:link <http://hl7.no/fhir/Organization/f001> ;
+     fhir:reference [ fhir:v "Organization/f001" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.101"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "test" ]
+     ] ;
+     fhir:display [ fhir:v "Burgers University Medical Center" ]
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.9040"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "101" ] ;
+       fhir:display [ fhir:v "Helseforetak/private sykehus" ]
+     ] )
+  ] ) ; # 
+  fhir:specialty ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8655"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "S0208" ] ;
+       fhir:display [ fhir:v "Ortopedisk kirurgi" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

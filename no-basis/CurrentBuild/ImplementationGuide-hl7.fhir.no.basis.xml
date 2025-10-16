@@ -9,7 +9,7 @@
   <version value="2.2.2-test"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2025-10-16T20:19:25+00:00"/>
+  <date value="2025-10-16T20:37:15+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -741,6 +741,16 @@
       <name value="no-basis-HealthcareService"/>
       <description value="Basisprofil for Norwegian Healthcare Service information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific identification of Healthcare Services. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.&#xA;&#xA;The typical use-case is to include information regarding what Healthcare related services, support functions or activities provided by an Organization or awailable at a Location."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="HealthcareService"/>
+      </extension>
+      <reference>
+        <reference value="HealthcareService/no-basis-HealthcareService-example"/>
+      </reference>
+      <name value="no-basis-HealthcareService-example"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

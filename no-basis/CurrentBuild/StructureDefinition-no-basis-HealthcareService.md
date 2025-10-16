@@ -17,7 +17,7 @@ The typical use-case is to include information regarding what Healthcare related
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Examples for this Profile: [HealthcareService/no-basis-HealthcareService-example](HealthcareService-no-basis-HealthcareService-example.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.basis|current/StructureDefinition/no-basis-HealthcareService)
 

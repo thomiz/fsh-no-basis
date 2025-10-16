@@ -10,7 +10,7 @@
   <version value="2.2.2-test"/>
   <name value="NoBasisMiddlename"/>
   <status value="active"/>
-  <date value="2025-10-16T20:19:25+00:00"/>
+  <date value="2025-10-16T20:37:15+00:00"/>
   <description value="SearchParameter for the Norwegian middlename extension http://hl7.no/fhir/StructureDefinition/no-basis-middlename"/>
   <jurisdiction>
     <coding>
