@@ -1,5 +1,5 @@
-Instance: no-basis-HealthcareService example
-InstanceOf: HealthcareService
+Instance: no-basis-HealthcareService-example
+InstanceOf: no-basis-HealthcareService
 Usage: #example
 * meta.profile = "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"
 * identifier.system = "http://hl7.no/shared-ids"
