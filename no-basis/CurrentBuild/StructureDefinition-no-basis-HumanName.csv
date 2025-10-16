@@ -11,7 +11,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "HumanName.extension:middlename","HumanName.extension","middlename","mellomnavn
-","",0,*,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-middlename]]} {[]}
+","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-middlename]]} {[]}
 ","Defines a middle name","Defines a middle name as a specific extension as this is widely used in Norwegian names. The middlename is defined in norwegian legislation (lov om personnavn).","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "HumanName.use","HumanName.use","","","",0,1,"","Y","Y","code {[]} {[]}

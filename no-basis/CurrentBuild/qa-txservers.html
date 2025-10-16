@@ -3,6 +3,7 @@
 <head>
   <title>NoBasis : Terminology Server Report</title>
   <link href="fhir.css" rel="stylesheet"/>
+  <meta charset="utf-8"/>
   <style>
     span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
     span.toggle  { background-color: #e6f2ff; color: black; border: solid 1px #0056b3; padding: 2px; font-size: 10px }
@@ -11,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for NoBasis</h1>
- <p>Generated Thu Mar 27 21:39:26 UTC 2025, FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.2-test (canonical = <a href="http://hl7.no/fhir">http://hl7.no/fhir</a> (<a href="http://hl7.no/fhir/history.html">history</a>))</p>
+ <p>Generated Thu Oct 16 20:21:38 UTC 2025, FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.2-test (canonical = <a href="http://hl7.no/fhir">http://hl7.no/fhir</a> (<a href="http://hl7.no/fhir/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -20,11 +21,11 @@
 :     <code>dc8fd4bc-091a-424a-8a3b-6198ef146891</code>
   </li>
   <li>
-    <b>displayLanguage</b>
+    <b>defaultDisplayLanguage</b>
 :     <code>no-NO</code>
   </li>
 </ul>
-<h2>Tx Manager report for 'http://tx.fhir.org/tx-reg'</h2>
+<h2>Tx Manager report for 'https://tx.fhir.org/tx-reg'</h2>
 <p>
   <b>Decisions</b>
 </p>
@@ -48,92 +49,239 @@
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://hl7.org/fhir/fhir-types</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://hl7.org/fhir/fhir-types</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>urn:oid:2.16.578.1.12.4.1.1.9602</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td>null</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
     <td>urn:oid:2.16.578.1.12.4.1.1.9602</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.no/fhir/ValueSet/no-basis-documentreference-type-inc-0</td>
+    <td>urn:oid:2.16.578.1.12.4.1.1.9602</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>urn:iso:std:iso:3166</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4, auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4, auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4]</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>urn:oid:2.16.578.1.12.4.1.1.8406</td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>urn:oid:2.16.578.1.12.4.1.1.7617</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>Fallback: primary server</td>
-    <td>http://tx.fhir.org/r4</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>urn:oid:2.16.578.1.12.4.1.1.7617</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>urn:iso:std:iso:3166</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>urn:oid:2.16.578.1.12.4.1.1.9060</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>Fallback: primary server</td>
-    <td>http://tx.fhir.org/r4</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>urn:oid:2.16.578.1.12.4.1.1.9060</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
-    <td>http://tx.fhir.org/r4</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>urn:oid:2.16.578.1.12.4.1.1.7426</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>Fallback: primary server</td>
-    <td>http://tx.fhir.org/r4</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>urn:oid:2.16.578.1.12.4.1.1.7426</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
-    <td>http://tx.fhir.org/r4</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>urn:oid:2.16.578.1.12.4.1.1.7704</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>Fallback: primary server</td>
-    <td>http://tx.fhir.org/r4</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>urn:oid:2.16.578.1.12.4.1.1.7704</td>
     <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/ValueSet/body-site|4.0.1</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://terminology.hl7.org/CodeSystem/v2-0360|2.7</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=https://tx.ontoserver.csiro.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://terminology.hl7.org/ValueSet/v2-2.7-0360|0360</td>
+    <td>http://terminology.hl7.org/CodeSystem/v2-0360|2.7</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=https://tx.ontoserver.csiro.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>urn:oid:2.16.578.1.12.4.1.1.9602</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.no/fhir/ValueSet/no-basis-documentreference-type|2.2.2-test</td>
+    <td>urn:oid:2.16.578.1.12.4.1.1.9602</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>urn:oid:2.16.578.1.12.4.1.1.8660</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.no/fhir/ValueSet/no-basis-service-type|2.2.2-test</td>
+    <td>[urn:oid:2.16.578.1.12.4.1.1.8664, urn:oid:2.16.578.1.12.4.1.1.8666, urn:oid:2.16.578.1.12.4.1.1.8660, urn:oid:2.16.578.1.12.4.1.1.8663, urn:oid:2.16.578.1.12.4.1.1.8669, urn:oid:2.16.578.1.12.4.1.1.8658, urn:oid:2.16.578.1.12.4.1.1.8668, urn:oid:2.16.578.1.12.4.1.1.8659]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>urn:oid:2.16.840.1.113883.4.642.4.1809</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Found most authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type|2.2.2-test</td>
+    <td>[http://hl7.org/fhir/contact-point-system, urn:oid:2.16.840.1.113883.4.642.4.1809]</td>
+    <td>[auth = http://tx.fhir.org/r4, candidates=https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4, auth = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4, auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4, auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4]</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>urn:iso:std:iso:3166</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>urn:iso:std:iso:3166</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>urn:iso:std:iso:3166</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>urn:iso:std:iso:3166:-2</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4</td>
   </tr>
 </table>
-<h2>Primary Server: http://tx.fhir.org/r4</h2>
-<a href="http://tx.fhir.org/r4"></a>
-<p>Use Count: 6. Code Systems used: </p>
+<h2>Primary Server: https://tx.fhir.org/r4</h2>
+<a href="https://tx.fhir.org/r4"></a>
+<p>Use Count: 127. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -150,10 +298,62 @@
     </th>
   </tr>
   <tr>
-    <td>http://hl7.org/fhir/fhir-types</td>
+    <td>http://hl7.org/fhir/contact-point-system</td>
+    <td>1</td>
+    <td>0</td>
+    <td>
+      <a href="http://hl7.org/fhir/R4/codesystem-contact-point-system.html">ContactPointSystem</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://loinc.org</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://snomed.info/sct</td>
+    <td>0</td>
+    <td>4</td>
+    <td>
+      <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">SNOMED CT (all versions)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://terminology.hl7.org/CodeSystem/v2-0360|2.7</td>
+    <td>2</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>0</td>
+    <td>2</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle</td>
     <td>0</td>
     <td>1</td>
     <td></td>
+  </tr>
+  <tr>
+    <td>urn:iso:std:iso:3166</td>
+    <td>3</td>
+    <td>4</td>
+    <td>
+      <a href="http://terminology.hl7.org/6.5.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>
+    </td>
+  </tr>
+  <tr>
+    <td>urn:iso:std:iso:3166:-2</td>
+    <td>1</td>
+    <td>2</td>
+    <td>
+      <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-iso3166-2.html">ISO 3166-2 Codes for the representation of names of countries and their subdivisions — Part 2: Country subdivision code</a>
+    </td>
   </tr>
   <tr>
     <td>urn:oid:2.16.578.1.12.4.1.1.7426</td>
@@ -174,6 +374,54 @@
     <td></td>
   </tr>
   <tr>
+    <td>urn:oid:2.16.578.1.12.4.1.1.8658</td>
+    <td>1</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>urn:oid:2.16.578.1.12.4.1.1.8659</td>
+    <td>1</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>urn:oid:2.16.578.1.12.4.1.1.8660</td>
+    <td>2</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>urn:oid:2.16.578.1.12.4.1.1.8663</td>
+    <td>1</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>urn:oid:2.16.578.1.12.4.1.1.8664</td>
+    <td>1</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>urn:oid:2.16.578.1.12.4.1.1.8666</td>
+    <td>1</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>urn:oid:2.16.578.1.12.4.1.1.8668</td>
+    <td>1</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>urn:oid:2.16.578.1.12.4.1.1.8669</td>
+    <td>1</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+  <tr>
     <td>urn:oid:2.16.578.1.12.4.1.1.9060</td>
     <td>0</td>
     <td>1</td>
@@ -181,9 +429,88 @@
   </tr>
   <tr>
     <td>urn:oid:2.16.578.1.12.4.1.1.9602</td>
+    <td>4</td>
     <td>0</td>
-    <td>1</td>
     <td></td>
+  </tr>
+  <tr>
+    <td>urn:oid:2.16.840.1.113883.4.642.4.1809</td>
+    <td>2</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+</table>
+<p>ValueSets fetched:</p>
+<ul>
+  <li>http://hl7.no/fhir/urn:iso:std:iso:3166</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.0000</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.3402</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.3403</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.7426</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.7617</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.7704</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.8279</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.8406</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.8432</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.8451</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.8624</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.8628</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.8654</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.8655</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.9034</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.9040</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.9060</li>
+  <li>http://hl7.no/fhir/urn:oid:2.16.578.1.12.4.1.1.9151</li>
+  <li>http://hl7.org/fhir/ValueSet/country</li>
+  <li>http://www.rfc-editor.org/bcp/bcp13.txt</li>
+  <li>https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle</li>
+  <li>urn:iso:std:iso:3166</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.0000</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.3402</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.3403</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.7426</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.7617</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.7704</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8279</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8406</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8432</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8451</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8624</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8628</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8654</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8655</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8658</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8659</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8660</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8663</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8664</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8666</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8668</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8669</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.9034</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.9040</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.9060</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.9151</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.9602</li>
+  <li>urn:oid:2.16.840.1.113883.4.642.4.1809</li>
+</ul>
+<h2>Server: https://tx.fhir.org/r4</h2>
+<a href="https://tx.fhir.org/r4"></a>
+<p>Use Count: 2. Code Systems used: </p>
+<table class="grid">
+  <tr>
+    <th>
+      <b>System</b>
+    </th>
+    <th>
+      <b>#Exp.</b>
+    </th>
+    <th>
+      <b>#Val.</b>
+    </th>
+    <th>
+      <b>Details</b>
+    </th>
   </tr>
 </table>
 </body>

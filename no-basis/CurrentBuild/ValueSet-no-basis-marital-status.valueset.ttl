@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "no-basis-marital-status.valueset"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet no-basis-marital-status.valueset</b></p><a name=\"no-basis-marital-status.valueset\"> </a><a name=\"hcno-basis-marital-status.valueset\"> </a><a name=\"no-basis-marital-status.valueset-no-NO\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-marital-status.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</code></a></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet no-basis-marital-status.valueset</b></p><a name=\"no-basis-marital-status.valueset\"> </a><a name=\"hcno-basis-marital-status.valueset\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-marital-status.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?2.2.2-test</span></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/ValueSet/no-basis-marital-status"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "2.2.2-test"] ; # 

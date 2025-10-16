@@ -1,0 +1,104 @@
+# hl7.fhir.no.basis#2.2.2-test: null
+
+## Pages
+
+* [Home](index.md)
+* [Datatypes](Datatypes.md)
+* [Changelog STU 3](Changelog-STU3.md)
+* [Artifacts Summary](artifacts.md)
+* [Appointment and Encounter](Appointment-and-Encounter.md)
+
+## Resources
+
+### CodeSystems
+
+* [no-basis-connection-type.codesystem](CodeSystem-no-basis-connection-type.codesystem.md)
+* [no-basis-family-relation.codesystem](CodeSystem-no-basis-family-relation.codesystem.md)
+* [no-basis-marital-status.codesystem](CodeSystem-no-basis-marital-status.codesystem.md)
+* [no-basis-parental-responsibility.codesystem](CodeSystem-no-basis-parental-responsibility.codesystem.md)
+
+### ValueSets
+
+* [no-basis-connection-type.valueset](ValueSet-no-basis-connection-type.valueset.md)
+* [no-basis-documentreference-type.valueset](ValueSet-no-basis-documentreference-type.valueset.md)
+* [no-basis-family-relation.valueset](ValueSet-no-basis-family-relation.valueset.md)
+* [no-basis-marital-status.valueset](ValueSet-no-basis-marital-status.valueset.md)
+* [no-basis-parental-responsibility.valueset](ValueSet-no-basis-parental-responsibility.valueset.md)
+* [no-basis-service-type.valueset](ValueSet-no-basis-service-type.valueset.md)
+* [No Basis VirtualServiceType Value Set](ValueSet-no-basis-virtual-service-type.valueset.md)
+
+### Complex-type Profiles
+
+* [no-basis-Address](StructureDefinition-no-basis-Address.md)
+* [no-basis-HumanName](StructureDefinition-no-basis-HumanName.md)
+
+### Resource Profiles
+
+* [derived-Person](StructureDefinition-derived-Person.md)
+* [no-basis-AllergyIntolerance](StructureDefinition-no-basis-AllergyIntolerance.md)
+* [no-basis-Appointment](StructureDefinition-no-basis-Appointment.md)
+* [no-basis-AppointmentResponse](StructureDefinition-no-basis-AppointmentResponse.md)
+* [no-basis-Composition](StructureDefinition-no-basis-Composition.md)
+* [no-basis-DocumentReference](StructureDefinition-no-basis-DocumentReference.md)
+* [no-basis-Endpoint](StructureDefinition-no-basis-Endpoint.md)
+* [no-basis-HealthcareService](StructureDefinition-no-basis-HealthcareService.md)
+* [no-basis-Location](StructureDefinition-no-basis-Location.md)
+* [no-basis-Medication](StructureDefinition-no-basis-Medication.md)
+* [no-basis-MedicationStatement](StructureDefinition-no-basis-MedicationStatement.md)
+* [no-basis-Organization](StructureDefinition-no-basis-Organization.md)
+* [no-basis-Patient](StructureDefinition-no-basis-Patient.md)
+* [no-basis-Person](StructureDefinition-no-basis-Person.md)
+* [no-basis-Practitioner](StructureDefinition-no-basis-Practitioner.md)
+* [no-basis-PractitionerRole](StructureDefinition-no-basis-PractitionerRole.md)
+* [no-basis-Procedure](StructureDefinition-no-basis-Procedure.md)
+* [no-basis-RelatedPerson](StructureDefinition-no-basis-RelatedPerson.md)
+* [no-basis-Substance](StructureDefinition-no-basis-Substance.md)
+
+### Extensions
+
+* [no-basis-address-official](StructureDefinition-no-basis-address-official.md)
+* [no-basis-group](StructureDefinition-no-basis-group.md)
+* [no-basis-middlename](StructureDefinition-no-basis-middlename.md)
+* [no-basis-municipalitycode](StructureDefinition-no-basis-municipalitycode.md)
+* [no-basis-partof](StructureDefinition-no-basis-partof.md)
+* [no-basis-person-citizenship](StructureDefinition-no-basis-person-citizenship.md)
+* [no-basis-prescriptiongroup](StructureDefinition-no-basis-prescriptiongroup.md)
+* [no-basis-propertyinformation](StructureDefinition-no-basis-propertyinformation.md)
+* [no-basis-relatedperson-person-reference](StructureDefinition-no-basis-relatedperson-person-reference.md)
+* [no-basis-shortnotice](StructureDefinition-no-basis-shortnotice.md)
+* [no-basis-sourceofinformation](StructureDefinition-no-basis-sourceofinformation.md)
+* [no-basis-urban-district](StructureDefinition-no-basis-urban-district.md)
+* [no-basis-virtual-service](StructureDefinition-no-basis-virtual-service.md)
+
+### ImplementationGuides
+
+* [NoBasis](index.md)
+
+### NamingSystems
+
+* [Bydelsnummer](NamingSystem-no-basis-bydelsnummer.md)
+* [Dnummer](NamingSystem-no-basis-dnummer.md)
+* [DUFnummer](NamingSystem-no-basis-dufnummer.md)
+* [FellesHjelpenummer](NamingSystem-no-basis-felleshjelpenummer.md)
+* [Foedselsnummer](NamingSystem-no-basis-foedselsnummer.md)
+* [HelsepersonellregisteretNummer](NamingSystem-no-basis-helsepersonellnummer.md)
+* [NoBasisICPC2](NamingSystem-no-basis-icpc-2.md)
+* [Kommunenummer](NamingSystem-no-basis-kommunenummer.md)
+
+### SearchParameters
+
+* [NoBasisMiddlename](SearchParameter-no-basis-middlename.md)
+
+### Examples
+
+* [d6c523ec-b520-4221-a8d6-c1c58911ce7a (Appointment)](Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.md)
+* [PatientAppointmentResponseExample (AppointmentResponse)](AppointmentResponse-PatientAppointmentResponseExample.md)
+* [Direktoratet for e-Helse (Organization)](Organization-Direktoratet-for-eHelse-Organization.md)
+* [EspenEksempel (Patient)](Patient-EspenEksempel.md)
+* [JanniceSoreng (Patient)](Patient-JanniceSoreng.md)
+* [JanniceSorengTo (Patient)](Patient-JanniceSorengTo.md)
+* [e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473 (Patient)](Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473.md)
+* [Magnar-Komann-Practitioner (Practitioner)](Practitioner-Magnar-Komann-Practitioner.md)
+* [no-basis-Procedure-example (Procedure)](Procedure-no-basis-Procedure-example.md)
+* [Solid-Aresdoktor-RelatedPerson (RelatedPerson)](RelatedPerson-Solid-Aresdoktor-RelatedPerson.md)
+* [Sorgard-Erlend-RelatedPerson (RelatedPerson)](RelatedPerson-Sorgard-Erlend-RelatedPerson.md)
