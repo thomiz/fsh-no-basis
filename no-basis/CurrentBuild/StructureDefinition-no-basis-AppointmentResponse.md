@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Appointment
   "name" : "NoBasisAppointmentResponse",
   "title" : "no-basis-AppointmentResponse",
   "status" : "active",
-  "date" : "2025-10-17T20:41:05+00:00",
+  "date" : "2025-10-17T20:48:12+00:00",
   "description" : "Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to each use-case.",
   "jurisdiction" : [
     {
@@ -94,7 +94,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Appointment
         "path" : "AppointmentResponse",
         "constraint" : [
           {
-            "key" : "inv-1",
+            "key" : "shortnotice-inv-1",
             "severity" : "error",
             "human" : "The 'shortNotice' extension can only be used when the 'actor' is of type 'Patient'.",
             "expression" : "extension.where(url = 'http://example.org/StructureDefinition/no-basis-shortnotice').value.exists() and actor.type = 'Patient'",

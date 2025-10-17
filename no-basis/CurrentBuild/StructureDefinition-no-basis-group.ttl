@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "NoBasisGroup"] ; # 
   fhir:title [ fhir:v "no-basis-group"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-10-17T20:41:05+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-17T20:48:12+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "The appointment is a group session."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

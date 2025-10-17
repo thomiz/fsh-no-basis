@@ -1,7 +1,7 @@
 NoBasis : Validation Results
 =========================================
 
-err = 63, warn = 150, info = 26
+err = 62, warn = 150, info = 26
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.basis#$-- (canonical = http://hl7.no/fhir)
  Build Errors : 3 / 34 / 0
@@ -33,7 +33,7 @@ Generated $--. FHIR version $-- for hl7.fhir.no.basis#$-- (canonical = http://hl
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Address : 0 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-AllergyIntolerance : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Appointment : 0 / 6 / 1
- /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-AppointmentResponse : 1 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-AppointmentResponse : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Composition : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-DocumentReference : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-Endpoint : 2 / 16 / 1
@@ -116,7 +116,7 @@ WARNING: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointme
 INFORMATION: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointmentType.coding[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointmentType.coding[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample.json ==
-ERROR: AppointmentResponse/PatientAppointmentResponseExample: AppointmentResponse: Constraint failed: inv-1: 'The 'shortNotice' extension can only be used when the 'actor' is of type 'Patient'.' (defined in http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse)
+ERROR: AppointmentResponse/PatientAppointmentResponseExample: AppointmentResponse: Constraint failed: shortnotice-inv-1: 'The 'shortNotice' extension can only be used when the 'actor' is of type 'Patient'.' (defined in http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse)
 == fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.no/fhir/CodeSystem/no-basis-connection-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-basis-connection-type.codesystem) does not match the URL (http://hl7.no/fhir/CodeSystem/no-basis-connection-type). Use the special-url parameter if you really mean for it not to match
 ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-connection-type.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-connection-type
@@ -227,7 +227,6 @@ WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.different
 WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.differential.element[7].binding.valueSet: A definition could not be found for Canonical URL 'urn:oid:2.16.578.1.12.4.1.1.8432'
 WARNING: StructureDefinition/no-basis-Appointment: StructureDefinition.differential.element[8].binding.valueSet: A definition could not be found for Canonical URL 'urn:oid:2.16.578.1.12.4.1.1.7617'
 == fsh-generated/resources/StructureDefinition-no-basis-AppointmentResponse.json ==
-ERROR: StructureDefinition/no-basis-AppointmentResponse: StructureDefinition.differential.element[0].constraint[0]: The constraint key 'inv-1' already exists at the location 'http://hl7.org/fhir/StructureDefinition/Parameters|4.0.1' with a different expression ('(part.exists() and value.empty() and resource.empty()) or (part.empty() and (value.exists() xor resource.exists()))')
 == fsh-generated/resources/StructureDefinition-no-basis-Composition.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Composition'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-no-basis-DocumentReference.json ==
