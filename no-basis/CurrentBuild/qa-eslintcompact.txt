@@ -32,7 +32,6 @@ Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Sorgard-Erlend-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource HealthcareService/no-basis-HealthcareService-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/no-basis-Procedure-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
-Generic: line 0, col 0, Error - The link 'Organization/f001' for "Burgers University Medical Center" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'Patient/example' for "Patient/example" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'Practitioner/example' for "Practitioner/example" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
@@ -69,14 +68,13 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem.json: line 1, col 2418, Warning - HL7 Defined CodeSystems should ensure that every concept has a definition (BUSINESSRULE)
 /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem.json: line 0, col 0, Error - URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility (BUSINESSRULE)
 /github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example.json: line 11, col 43, Warning - No definition could be found for URL value 'http://hl7.no/shared-ids' (INVALID)
-/github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example.json: line 16, col 4, Error - Unable to resolve resource with reference 'Organization/f001' (STRUCTURE)
+/github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example.json: line 16, col 4, Error - Unable to resolve resource with reference 'Organization1' (STRUCTURE)
 /github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example.json: line 20, col 50, Warning - No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101' (INVALID)
 /github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example.json: line 25, col 6, Warning - ValueSet 'urn:oid:2.16.578.1.12.4.1.1.9040' not found (CODEINVALID)
 /github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example.json: line 25, col 6, Warning - A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9040' could not be found, so the code cannot be validated (NOTFOUND)
 /github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example.json: line 36, col 6, Warning - A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8655' could not be found, so the code cannot be validated (NOTFOUND)
 /github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example.json: line 38, col 10, Warning - ValueSet 'urn:oid:2.16.578.1.12.4.1.1.8655' not found (CODEINVALID)
 /github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example.json: line 38, col 10, Info - A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8655' could not be found, so the code cannot be validated (UNKNOWN)
-/github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example.json: line 0, col 0, Error - Hyperlink 'Organization/f001' at 'div/p/a' for 'Burgers University Medical Center' does not resolve (INVALID)
 /github/workspace/no-basis/fsh-generated/resources/Organization-Direktoratet-for-eHelse-Organization.json: line 11, col 50, Warning - No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101' (INVALID)
 /github/workspace/no-basis/fsh-generated/resources/Patient-EspenEksempel.json: line 14, col 12, Warning - ValueSet 'http://hl7.org/fhir/ValueSet/country' not found (CODEINVALID)
 /github/workspace/no-basis/fsh-generated/resources/Patient-EspenEksempel.json: line 14, col 12, Error - Found a reference to a CodeSystem 'urn:iso:std:iso:3166' where a ValueSet belongs (CODEINVALID)
@@ -245,5 +243,5 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /github/workspace/no-basis/input/examples/no-basis-Procedure-example.xml: line 0, col 0, Error - Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve (INVALID)
 /github/workspace/no-basis/input/examples/no-basis-Procedure-example.xml: line 0, col 0, Error - Hyperlink 'Practitioner/example' at 'div/table/tr/td/a' for 'Practitioner/example' does not resolve (INVALID)
 
-err = 64, warn = 150, info = 26
+err = 63, warn = 150, info = 26
 IG Publisher Version: 2.0.21

@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis | *Version*:2.2.2-test |
-| Active as of 2025-10-16 | *Computable Name*:NoBasis |
+| Active as of 2025-10-17 | *Computable Name*:NoBasis |
 
 # Introduction
 
@@ -44,7 +44,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
   "version" : "2.2.2-test",
   "name" : "NoBasis",
   "status" : "active",
-  "date" : "2025-10-16T20:37:15+00:00",
+  "date" : "2025-10-17T19:50:01+00:00",
   "jurisdiction" : [
     {
       "coding" : [

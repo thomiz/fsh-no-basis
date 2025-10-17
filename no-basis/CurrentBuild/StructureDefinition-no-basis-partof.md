@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-partof | *Version*:2.2.2-test |
-| Active as of 2025-10-16 | *Computable Name*:NoBasisPartOf |
+| Active as of 2025-10-17 | *Computable Name*:NoBasisPartOf |
 
 This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked. A larger appointment of which this particular appointment is a component or step.
 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-partof.csv)
   "name" : "NoBasisPartOf",
   "title" : "no-basis-partof",
   "status" : "active",
-  "date" : "2025-10-16T20:37:15+00:00",
+  "date" : "2025-10-17T19:50:01+00:00",
   "description" : "This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked. A larger appointment of which this particular appointment is a component or step.",
   "jurisdiction" : [
     {

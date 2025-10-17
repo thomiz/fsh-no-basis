@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Appointment | *Version*:2.2.2-test |
-| Active as of 2025-10-16 | *Computable Name*:NoBasisAppointment |
+| Active as of 2025-10-17 | *Computable Name*:NoBasisAppointment |
 
  
 Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) can be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Appointment
   "name" : "NoBasisAppointment",
   "title" : "no-basis-Appointment",
   "status" : "active",
-  "date" : "2025-10-16T20:37:15+00:00",
+  "date" : "2025-10-17T19:50:01+00:00",
   "description" : "Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) can be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
   "jurisdiction" : [
     {

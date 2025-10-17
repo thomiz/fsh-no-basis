@@ -1,17 +1,17 @@
 NoBasis : Validation Results
 =========================================
 
-err = 64, warn = 150, info = 26
+err = 63, warn = 150, info = 26
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.basis#$-- (canonical = http://hl7.no/fhir)
- Build Errors : 4 / 34 / 0
+ Build Errors : 3 / 34 / 0
  /github/workspace/no-basis/fsh-generated/resources/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a : 0 / 1 / 3
  /github/workspace/no-basis/fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 5 / 1 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem : 5 / 1 / 2
- /github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example : 2 / 6 / 2
+ /github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example : 1 / 6 / 2
  /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-bydelsnummer : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-dnummer : 0 / 0 / 1
@@ -105,7 +105,6 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Sorgard-Erlend-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource HealthcareService/no-basis-HealthcareService-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/no-basis-Procedure-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: HealthcareService-no-basis-HealthcareService-example.html#/html/body/div/div/div/div/div/div/p/a at Line 242, column 591: The link 'Organization/f001' for "Burgers University Medical Center" cannot be resolved
 ERROR: Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/p/a at Line 242, column 596: The link 'Patient/example' for "Patient/example" cannot be resolved
 ERROR: Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 242, column 924: The link 'Practitioner/example' for "Practitioner/example" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
@@ -149,14 +148,13 @@ WARNING: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem.conc
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility
 == fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example.json ==
 WARNING: HealthcareService/no-basis-HealthcareService-example: HealthcareService.identifier[0].system: No definition could be found for URL value 'http://hl7.no/shared-ids'
-ERROR: HealthcareService/no-basis-HealthcareService-example: HealthcareService.providedBy: Unable to resolve resource with reference 'Organization/f001'
+ERROR: HealthcareService/no-basis-HealthcareService-example: HealthcareService.providedBy: Unable to resolve resource with reference 'Organization1'
 WARNING: HealthcareService/no-basis-HealthcareService-example: HealthcareService.providedBy.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
 WARNING: HealthcareService/no-basis-HealthcareService-example: HealthcareService.category[0]: ValueSet 'urn:oid:2.16.578.1.12.4.1.1.9040' not found
 WARNING: HealthcareService/no-basis-HealthcareService-example: HealthcareService.category[0].coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9040' could not be found, so the code cannot be validated
 WARNING: HealthcareService/no-basis-HealthcareService-example: HealthcareService.specialty[0].coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8655' could not be found, so the code cannot be validated
 WARNING: HealthcareService/no-basis-HealthcareService-example: HealthcareService.specialty[0].coding[0]: ValueSet 'urn:oid:2.16.578.1.12.4.1.1.8655' not found
 INFORMATION: HealthcareService/no-basis-HealthcareService-example: HealthcareService.specialty[0].coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8655' could not be found, so the code cannot be validated
-ERROR: HealthcareService.text.div: Hyperlink 'Organization/f001' at 'div/p/a' for 'Burgers University Medical Center' does not resolve
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis.json ==
 == fsh-generated/resources/NamingSystem-no-basis-bydelsnummer.json ==
 == fsh-generated/resources/NamingSystem-no-basis-dnummer.json ==

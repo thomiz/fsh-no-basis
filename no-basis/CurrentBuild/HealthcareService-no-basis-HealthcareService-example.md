@@ -12,7 +12,7 @@ Profile: [no-basis-HealthcareService](StructureDefinition-no-basis-HealthcareSer
 
 **active**: true
 
-**providedBy**: [Burgers University Medical Center](Organization/f001)
+**providedBy**: `Burgers University Medical Center`
 
 **category**: Helseforetak/private sykehus
 
@@ -39,7 +39,7 @@ Profile: [no-basis-HealthcareService](StructureDefinition-no-basis-HealthcareSer
   ],
   "active" : true,
   "providedBy" : {
-    "reference" : "Organization/f001",
+    "reference" : "Organization1",
     "identifier" : {
       "system" : "urn:oid:2.16.578.1.12.4.1.4.101",
       "value" : "test"

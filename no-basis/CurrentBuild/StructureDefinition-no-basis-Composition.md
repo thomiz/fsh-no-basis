@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Composition | *Version*:2.2.2-test |
-| Active as of 2025-10-16 | *Computable Name*:NoBasisComposition |
+| Active as of 2025-10-17 | *Computable Name*:NoBasisComposition |
 
  
 Basisprofil for Norwegian Composition. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to the relevant use-case. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Composition
   "name" : "NoBasisComposition",
   "title" : "no-basis-Composition",
   "status" : "active",
-  "date" : "2025-10-16T20:37:15+00:00",
+  "date" : "2025-10-17T19:50:01+00:00",
   "description" : "Basisprofil for Norwegian Composition. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to the relevant use-case.\n\nThe profile sets the absolute minimum requirements, identifies the extensions and terminology which can be present.",
   "jurisdiction" : [
     {

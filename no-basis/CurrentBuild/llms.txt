@@ -3,8 +3,8 @@
 ## Pages
 
 * [Home](index.md)
-* [Datatypes](Datatypes.md)
 * [Changelog STU 3](Changelog-STU3.md)
+* [Datatypes](Datatypes.md)
 * [Artifacts Summary](artifacts.md)
 * [Appointment and Encounter](Appointment-and-Encounter.md)
 
