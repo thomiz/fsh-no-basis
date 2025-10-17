@@ -12,7 +12,7 @@ Profile: [no-basis-HealthcareService](StructureDefinition-no-basis-HealthcareSer
 
 **active**: true
 
-**providedBy**: `Burgers University Medical Center`
+**providedBy**: [Direktoratet for e-Helse](Organization/915933149)
 
 **category**: Helseforetak/private sykehus
 
@@ -39,12 +39,12 @@ Profile: [no-basis-HealthcareService](StructureDefinition-no-basis-HealthcareSer
   ],
   "active" : true,
   "providedBy" : {
-    "reference" : "Organization1",
+    "reference" : "Organization/915933149",
     "identifier" : {
       "system" : "urn:oid:2.16.578.1.12.4.1.4.101",
       "value" : "test"
     },
-    "display" : "Burgers University Medical Center"
+    "display" : "Direktoratet for e-Helse"
   },
   "category" : [
     {

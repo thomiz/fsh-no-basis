@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "NoBasisPartOf"] ; # 
   fhir:title [ fhir:v "no-basis-partof"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-10-17T19:50:01+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-17T19:53:44+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked. A larger appointment of which this particular appointment is a component or step."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
