@@ -14,7 +14,7 @@
   <name value="NoBasisAppointmentResponse"/>
   <title value="no-basis-AppointmentResponse"/>
   <status value="active"/>
-  <date value="2025-10-17T20:15:52+00:00"/>
+  <date value="2025-10-17T20:41:05+00:00"/>
   <description value="Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to each use-case."/>
   <jurisdiction>
     <coding>
@@ -127,7 +127,7 @@
         <key value="inv-1"/>
         <severity value="error"/>
         <human value="The 'shortNotice' extension can only be used when the 'actor' is of type 'Patient'."/>
-        <expression value="extension.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice').value.exists() and actor.type.value = 'Patient'"/>
+        <expression value="extension.where(url = 'http://example.org/StructureDefinition/no-basis-shortnotice').value.exists() and actor.type = 'Patient'"/>
         <source value="http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse"/>
       </constraint>
       <isModifier value="false"/>
@@ -899,7 +899,7 @@
         <key value="inv-1"/>
         <severity value="error"/>
         <human value="The 'shortNotice' extension can only be used when the 'actor' is of type 'Patient'."/>
-        <expression value="extension.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice').value.exists() and actor.type.value = 'Patient'"/>
+        <expression value="extension.where(url = 'http://example.org/StructureDefinition/no-basis-shortnotice').value.exists() and actor.type = 'Patient'"/>
         <source value="http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse"/>
       </constraint>
     </element>

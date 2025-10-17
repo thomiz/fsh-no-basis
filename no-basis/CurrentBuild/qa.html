@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 2, errors = 62, warn = 150, info = 26-->
+<!-- broken links = 2, errors = 63, warn = 150, info = 26-->
 <head>
   <title>NoBasis : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -47,7 +47,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for NoBasis</h1>
- <p>Generated Fri Oct 17 20:17:52 UTC 2025, FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.2-test (canonical = <a href="http://hl7.no/fhir">http://hl7.no/fhir</a> (<a href="http://hl7.no/fhir/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Fri Oct 17 20:42:58 UTC 2025, FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.2-test (canonical = <a href="http://hl7.no/fhir">http://hl7.no/fhir</a> (<a href="http://hl7.no/fhir/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.0.21</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.no.basis, Canonical = http://hl7.no/fhir</td></tr>
@@ -176,7 +176,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 62, warn = 150, info = 26, broken links = 2, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
+ <tr><td>Summary:</td><td> errors = 63, warn = 150, info = 26, broken links = 2, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -188,8 +188,8 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_no-basis_fsh-generated_resources_Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a"><b>/github/workspace/no-basis/fsh-generated/resources/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>2</b></td>
    </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#_github_workspace_no-basis_fsh-generated_resources_AppointmentResponse-PatientAppointmentResponseExample"><b>/github/workspace/no-basis/fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_no-basis_fsh-generated_resources_AppointmentResponse-PatientAppointmentResponseExample"><b>/github/workspace/no-basis/fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_github_workspace_no-basis_fsh-generated_resources_CodeSystem-no-basis-connection-type.codesystem"><b>/github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem</b></a></td><td><b>5</b></td><td><b>0</b></td><td><b>1</b></td>
@@ -530,7 +530,10 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
 </div>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>AppointmentResponse (l1/c2)</b></td><td><b>error</b></td><td><b>Constraint failed: inv-1: 'The 'shortNotice' extension can only be used when the 'actor' is of type 'Patient'.' (defined in http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse#inv-1</span></td>
    </tr>
 </table>
 <hr/>
@@ -813,7 +816,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Patient.identifier[1] (l32/c6)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl80" class="flip" onclick="flip('l80')">Show Reasoning</span><div id="l80" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.1' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.3' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.2' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('HNR' in system)</li></ul></div> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Details_for__matching_against_Profile_</span></td>
+     <td><b><a href="">Patient.identifier[1] (l32/c6)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl81" class="flip" onclick="flip('l81')">Show Reasoning</span><div id="l81" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.1' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.3' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.2' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('HNR' in system)</li></ul></div> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Details_for__matching_against_Profile_</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Patient&#8203;.extension[0]&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept) (l14&#8203;/c12)</b></td><td><b>warning</b></td><td><b>ValueSet 'http://hl7.org/fhir/ValueSet/country' not found</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_ValueSet_NotFound</span></td>
@@ -853,7 +856,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Patient.identifier[1] (l74/c6)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl90" class="flip" onclick="flip('l90')">Show Reasoning</span><div id="l90" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.1' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.3' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.2' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('HNR' in system)</li></ul></div> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Details_for__matching_against_Profile_</span></td>
+     <td><b><a href="">Patient.identifier[1] (l74/c6)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl91" class="flip" onclick="flip('l91')">Show Reasoning</span><div id="l91" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.1' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.3' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.2' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('HNR' in system)</li></ul></div> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Details_for__matching_against_Profile_</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Patient&#8203;.extension[0]&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept) (l56&#8203;/c12)</b></td><td><b>warning</b></td><td><b>ValueSet 'http://hl7.org/fhir/ValueSet/country' not found</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_ValueSet_NotFound</span></td>
@@ -1052,7 +1055,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[0]&#8203;.constraint[0] (l1&#8203;/c43073)</b></td><td><b>error</b></td><td><b>The constraint key 'inv-1' already exists at the location 'http://hl7.org/fhir/StructureDefinition/Parameters|4.0.1' with a different expression ('(part.exists() and value.empty() and resource.empty()) or (part.empty() and (value.exists() xor resource.exists()))')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">ED_INVARIANT_KEY_ALREADY_USED</span></td>
+     <td><b>StructureDefinition&#8203;.differential&#8203;.element[0]&#8203;.constraint[0] (l1&#8203;/c43061)</b></td><td><b>error</b></td><td><b>The constraint key 'inv-1' already exists at the location 'http://hl7.org/fhir/StructureDefinition/Parameters|4.0.1' with a different expression ('(part.exists() and value.empty() and resource.empty()) or (part.empty() and (value.exists() xor resource.exists()))')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">ED_INVARIANT_KEY_ALREADY_USED</span></td>
    </tr>
 </table>
 <hr/>

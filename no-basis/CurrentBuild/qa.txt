@@ -1,12 +1,12 @@
 NoBasis : Validation Results
 =========================================
 
-err = 62, warn = 150, info = 26
+err = 63, warn = 150, info = 26
 IG Publisher Version: 2.0.21
-Generated Fri Oct 17 20:17:52 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.2-test (canonical = http://hl7.no/fhir)
+Generated Fri Oct 17 20:42:58 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.2-test (canonical = http://hl7.no/fhir)
  Build Errors : 3 / 34 / 0
  /github/workspace/no-basis/fsh-generated/resources/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a : 0 / 1 / 3
- /github/workspace/no-basis/fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample : 0 / 0 / 1
+ /github/workspace/no-basis/fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample : 1 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 5 / 1 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem : 5 / 0 / 2
@@ -116,6 +116,7 @@ WARNING: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointme
 INFORMATION: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointmentType.coding[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: Appointment.appointmentType.coding[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Appointment|2.2.2-test (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample.json ==
+ERROR: AppointmentResponse/PatientAppointmentResponseExample: AppointmentResponse: Constraint failed: inv-1: 'The 'shortNotice' extension can only be used when the 'actor' is of type 'Patient'.' (defined in http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse)
 == fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.no/fhir/CodeSystem/no-basis-connection-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-basis-connection-type.codesystem) does not match the URL (http://hl7.no/fhir/CodeSystem/no-basis-connection-type). Use the special-url parameter if you really mean for it not to match
 ERROR: CodeSystem.url: Resource id/url mismatch: no-basis-connection-type.codesystem/http://hl7.no/fhir/CodeSystem/no-basis-connection-type

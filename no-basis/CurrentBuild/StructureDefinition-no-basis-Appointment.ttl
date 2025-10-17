@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "NoBasisAppointment"] ; # 
   fhir:title [ fhir:v "no-basis-Appointment"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-10-17T20:15:52+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-17T20:41:05+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) can be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
