@@ -5,7 +5,7 @@ Usage: #example
 * identifier.system = "http://hl7.no/shared-ids"
 * identifier.value = "HS-12"
 * active = true
-* providedBy = Reference(Organization1) "Burgers University Medical Center"
+* providedBy = Reference(Organization/915933149) "Direktoratet for e-Helse"
 * providedBy.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.101"
 * providedBy.identifier.value = "test"
 * category = urn:oid:2.16.578.1.12.4.1.1.9040#101 "Helseforetak/private sykehus"
