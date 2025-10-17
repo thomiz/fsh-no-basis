@@ -1,6 +1,7 @@
 Instance: Direktoratet-for-eHelse-Organization
 InstanceOf: NoBasisOrganization
 Usage: #example
+* id = "a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472"
 * identifier.system = "urn:oid:2.16.578.1.12.4.1.4.101"
 * identifier.value = "915933149"
 * name = "Direktoratet for e-Helse"
