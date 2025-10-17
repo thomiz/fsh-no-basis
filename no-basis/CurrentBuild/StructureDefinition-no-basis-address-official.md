@@ -20,7 +20,7 @@ Defines the concept of an officialy registered address in Norway. Usually this w
 **Usages:**
 
 * Use this Extension: [no-basis-Address](StructureDefinition-no-basis-Address.md)
-* Examples for this Extension: [Direktoratet for e-Helse](Organization-Direktoratet-for-eHelse-Organization.md), [Patient/EspenEksempel](Patient-EspenEksempel.md), [Patient/JanniceSoreng](Patient-JanniceSoreng.md), [Patient/JanniceSorengTo](Patient-JanniceSorengTo.md) and [RelatedPerson/Solid-Aresdoktor-RelatedPerson](RelatedPerson-Solid-Aresdoktor-RelatedPerson.md)
+* Examples for this Extension: [Direktoratet for e-Helse](Organization-a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472.md), [Patient/EspenEksempel](Patient-EspenEksempel.md), [Patient/JanniceSoreng](Patient-JanniceSoreng.md), [Patient/JanniceSorengTo](Patient-JanniceSorengTo.md) and [RelatedPerson/Solid-Aresdoktor-RelatedPerson](RelatedPerson-Solid-Aresdoktor-RelatedPerson.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.basis|current/StructureDefinition/no-basis-address-official)
 

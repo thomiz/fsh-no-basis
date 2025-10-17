@@ -10,7 +10,7 @@
   "name" : "NoBasisComposition",
   "title" : "no-basis-Composition",
   "status" : "active",
-  "date" : "2025-10-17T19:53:44+00:00",
+  "date" : "2025-10-17T20:15:52+00:00",
   "description" : "Basisprofil for Norwegian Composition. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to the relevant use-case.\n\nThe profile sets the absolute minimum requirements, identifies the extensions and terminology which can be present.",
   "jurisdiction" : [{
     "coding" : [{

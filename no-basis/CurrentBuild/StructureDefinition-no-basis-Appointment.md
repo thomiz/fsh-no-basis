@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Appointment
   "name" : "NoBasisAppointment",
   "title" : "no-basis-Appointment",
   "status" : "active",
-  "date" : "2025-10-17T19:53:44+00:00",
+  "date" : "2025-10-17T20:15:52+00:00",
   "description" : "Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) can be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
   "jurisdiction" : [
     {

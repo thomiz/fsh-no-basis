@@ -17,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: HealthcareService no-basis-HealthcareService-example</b></p><a name=\"no-basis-HealthcareService-example\"> </a><a name=\"hcno-basis-HealthcareService-example\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-HealthcareService.html\">no-basis-HealthcareService</a></p></div><p><b>identifier</b>: <code>http://hl7.no/shared-ids</code>/HS-12</p><p><b>active</b>: true</p><p><b>providedBy</b>: <a href=\"Organization/915933149\">Direktoratet for e-Helse</a></p><p><b>category</b>: <span title=\"Codes:{urn:oid:2.16.578.1.12.4.1.1.9040 101}\">Helseforetak/private sykehus</span></p><p><b>specialty</b>: <span title=\"Codes:{urn:oid:2.16.578.1.12.4.1.1.8655 S0208}\">Ortopedisk kirurgi</span></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: HealthcareService no-basis-HealthcareService-example</b></p><a name=\"no-basis-HealthcareService-example\"> </a><a name=\"hcno-basis-HealthcareService-example\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-HealthcareService.html\">no-basis-HealthcareService</a></p></div><p><b>identifier</b>: <code>http://hl7.no/shared-ids</code>/HS-12</p><p><b>active</b>: true</p><p><b>providedBy</b>: <a href=\"Organization-a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472.html\">Direktoratet for e-Helse</a></p><p><b>category</b>: <span title=\"Codes:{urn:oid:2.16.578.1.12.4.1.1.9040 101}\">Helseforetak/private sykehus</span></p><p><b>specialty</b>: <span title=\"Codes:{urn:oid:2.16.578.1.12.4.1.1.8655 S0208}\">Ortopedisk kirurgi</span></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "http://hl7.no/shared-ids"^^xsd:anyURI ] ;
@@ -25,8 +25,8 @@
   ] ) ; # 
   fhir:active [ fhir:v true] ; # 
   fhir:providedBy [
-     fhir:link <http://hl7.no/fhir/Organization/915933149> ;
-     fhir:reference [ fhir:v "Organization/915933149" ] ;
+     fhir:link <http://hl7.no/fhir/Organization/a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472> ;
+     fhir:reference [ fhir:v "Organization/a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472" ] ;
      fhir:identifier [
        fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.101"^^xsd:anyURI ] ;
        fhir:value [ fhir:v "test" ]

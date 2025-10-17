@@ -1,17 +1,17 @@
 NoBasis : Validation Results
 =========================================
 
-err = 64, warn = 150, info = 26
+err = 62, warn = 150, info = 26
 IG Publisher Version: 2.0.21
-Generated Fri Oct 17 19:55:40 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.2-test (canonical = http://hl7.no/fhir)
- Build Errors : 4 / 34 / 0
+Generated Fri Oct 17 20:17:52 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.basis#2.2.2-test (canonical = http://hl7.no/fhir)
+ Build Errors : 3 / 34 / 0
  /github/workspace/no-basis/fsh-generated/resources/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a : 0 / 1 / 3
  /github/workspace/no-basis/fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 5 / 1 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem : 5 / 1 / 2
- /github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example : 2 / 6 / 2
+ /github/workspace/no-basis/fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example : 0 / 6 / 2
  /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-bydelsnummer : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-dnummer : 0 / 0 / 1
@@ -20,7 +20,7 @@ Generated Fri Oct 17 19:55:40 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.basis
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-foedselsnummer : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-helsepersonellnummer : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-kommunenummer : 0 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/Organization-Direktoratet-for-eHelse-Organization : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/Organization-a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472 : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/Patient-EspenEksempel : 1 / 3 / 3
  /github/workspace/no-basis/fsh-generated/resources/Patient-JanniceSoreng : 1 / 5 / 5
  /github/workspace/no-basis/fsh-generated/resources/Patient-JanniceSorengTo : 1 / 5 / 5
@@ -95,7 +95,7 @@ WARNING: Practitioner.qualification.code.coding: The reference urn:oid:2.16.578.
 WARNING: PractitionerRole.code: The reference urn:oid:2.16.578.1.12.4.1.1.9034 could not be resolved
 WARNING: Extension.extension.value: The reference urn:oid:2.16.578.1.12.4.1.1.3402 could not be resolved
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/no-basis-documentreference-type.valueset.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/Direktoratet-for-eHelse-Organization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/EspenEksempel.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/JanniceSoreng.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/JanniceSorengTo.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -105,7 +105,6 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Sorgard-Erlend-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource HealthcareService/no-basis-HealthcareService-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/no-basis-Procedure-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: HealthcareService-no-basis-HealthcareService-example.html#/html/body/div/div/div/div/div/div/p/a at Line 242, column 591: The link 'Organization/915933149' for "Direktoratet for e-Helse" cannot be resolved
 ERROR: Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/p/a at Line 242, column 596: The link 'Patient/example' for "Patient/example" cannot be resolved
 ERROR: Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 242, column 924: The link 'Practitioner/example' for "Practitioner/example" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
@@ -149,14 +148,12 @@ WARNING: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem.conc
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility
 == fsh-generated/resources/HealthcareService-no-basis-HealthcareService-example.json ==
 WARNING: HealthcareService/no-basis-HealthcareService-example: HealthcareService.identifier[0].system: No definition could be found for URL value 'http://hl7.no/shared-ids'
-ERROR: HealthcareService/no-basis-HealthcareService-example: HealthcareService.providedBy: Unable to resolve resource with reference 'Organization/915933149'
 WARNING: HealthcareService/no-basis-HealthcareService-example: HealthcareService.providedBy.identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
 WARNING: HealthcareService/no-basis-HealthcareService-example: HealthcareService.category[0]: ValueSet 'urn:oid:2.16.578.1.12.4.1.1.9040' not found
 WARNING: HealthcareService/no-basis-HealthcareService-example: HealthcareService.category[0].coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9040' could not be found, so the code cannot be validated
 WARNING: HealthcareService/no-basis-HealthcareService-example: HealthcareService.specialty[0].coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8655' could not be found, so the code cannot be validated
 WARNING: HealthcareService/no-basis-HealthcareService-example: HealthcareService.specialty[0].coding[0]: ValueSet 'urn:oid:2.16.578.1.12.4.1.1.8655' not found
 INFORMATION: HealthcareService/no-basis-HealthcareService-example: HealthcareService.specialty[0].coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8655' could not be found, so the code cannot be validated
-ERROR: HealthcareService.text.div: Hyperlink 'Organization/915933149' at 'div/p/a' for 'Direktoratet for e-Helse' does not resolve
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis.json ==
 == fsh-generated/resources/NamingSystem-no-basis-bydelsnummer.json ==
 == fsh-generated/resources/NamingSystem-no-basis-dnummer.json ==
@@ -165,8 +162,8 @@ ERROR: HealthcareService.text.div: Hyperlink 'Organization/915933149' at 'div/p/
 == fsh-generated/resources/NamingSystem-no-basis-foedselsnummer.json ==
 == fsh-generated/resources/NamingSystem-no-basis-helsepersonellnummer.json ==
 == fsh-generated/resources/NamingSystem-no-basis-kommunenummer.json ==
-== fsh-generated/resources/Organization-Direktoratet-for-eHelse-Organization.json ==
-WARNING: Organization/Direktoratet-for-eHelse-Organization: Organization.identifier[0].system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
+== fsh-generated/resources/Organization-a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472.json ==
+WARNING: Organization/a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472: Organization.identifier[0].system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
 == fsh-generated/resources/Patient-EspenEksempel.json ==
 WARNING: Patient/EspenEksempel: Patient.extension[0].extension[0].value.ofType(CodeableConcept): ValueSet 'http://hl7.org/fhir/ValueSet/country' not found
 ERROR: Patient/EspenEksempel: Patient.extension[0].extension[0].value.ofType(CodeableConcept): Found a reference to a CodeSystem 'urn:iso:std:iso:3166' where a ValueSet belongs

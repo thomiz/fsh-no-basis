@@ -44,7 +44,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
   "version" : "2.2.2-test",
   "name" : "NoBasis",
   "status" : "active",
-  "date" : "2025-10-17T19:53:44+00:00",
+  "date" : "2025-10-17T20:15:52+00:00",
   "jurisdiction" : [
     {
       "coding" : [
@@ -779,7 +779,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
           }
         ],
         "reference" : {
-          "reference" : "Organization/Direktoratet-for-eHelse-Organization"
+          "reference" : "Organization/a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472"
         },
         "name" : "Direktoratet-for-eHelse-Organization",
         "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"

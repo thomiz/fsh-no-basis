@@ -12,7 +12,7 @@ Profile: [no-basis-HealthcareService](StructureDefinition-no-basis-HealthcareSer
 
 **active**: true
 
-**providedBy**: [Direktoratet for e-Helse](Organization/915933149)
+**providedBy**: [Direktoratet for e-Helse](Organization-a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472.md)
 
 **category**: Helseforetak/private sykehus
 
@@ -39,7 +39,7 @@ Profile: [no-basis-HealthcareService](StructureDefinition-no-basis-HealthcareSer
   ],
   "active" : true,
   "providedBy" : {
-    "reference" : "Organization/915933149",
+    "reference" : "Organization/a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472",
     "identifier" : {
       "system" : "urn:oid:2.16.578.1.12.4.1.4.101",
       "value" : "test"

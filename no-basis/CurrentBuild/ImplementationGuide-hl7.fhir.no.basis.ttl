@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "2.2.2-test"] ; # 
   fhir:name [ fhir:v "NoBasis"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-10-17T19:53:44+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-17T20:15:52+00:00"^^xsd:dateTime] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
@@ -863,8 +863,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/Organization/Direktoratet-for-eHelse-Organization> ;
-         fhir:reference [ fhir:v "Organization/Direktoratet-for-eHelse-Organization" ]
+         fhir:link <http://hl7.no/fhir/Organization/a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472> ;
+         fhir:reference [ fhir:v "Organization/a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472" ]
        ] ;
        fhir:name [ fhir:v "Direktoratet-for-eHelse-Organization" ] ;
        fhir:example [

@@ -24,7 +24,7 @@ Profile: [no-basis-Organization](StructureDefinition-no-basis-Organization.md)
 ```json
 {
   "resourceType" : "Organization",
-  "id" : "Direktoratet-for-eHelse-Organization",
+  "id" : "a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472",
   "meta" : {
     "profile" : [
       "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"

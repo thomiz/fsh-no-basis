@@ -120,7 +120,7 @@ These are example instances that show what data produced and consumed by systems
 | | |
 | :--- | :--- |
 | [AppointmentExample](Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.md) | Discussion on the results of your recent MRI |
-| [Direktoratet-for-eHelse-Organization](Organization-Direktoratet-for-eHelse-Organization.md) |  |
+| [Direktoratet-for-eHelse-Organization](Organization-a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472.md) |  |
 | [EspenEksempel](Patient-EspenEksempel.md) |  |
 | [JanniceSoreng](Patient-JanniceSoreng.md) |  |
 | [JanniceSorengTo](Patient-JanniceSorengTo.md) |  |

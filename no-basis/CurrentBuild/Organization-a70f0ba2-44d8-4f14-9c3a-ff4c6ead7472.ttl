@@ -6,9 +6,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/Organization/Direktoratet-for-eHelse-Organization> a fhir:Organization ;
+<http://hl7.no/fhir/Organization/a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472> a fhir:Organization ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "Direktoratet-for-eHelse-Organization"] ; # 
+  fhir:id [ fhir:v "a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472"] ; # 
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"^^xsd:anyURI ;
@@ -17,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization Direktoratet-for-eHelse-Organization</b></p><a name=\"Direktoratet-for-eHelse-Organization\"> </a><a name=\"hcDirektoratet-for-eHelse-Organization\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-Organization.html\">no-basis-Organization</a></p></div><p><b>identifier</b>: <code>urn:oid:2.16.578.1.12.4.1.4.101</code>/915933149</p><p><b>name</b>: Direktoratet for e-Helse</p><p><b>address</b>: </p><ul><li>Postboks 221 Skøyen OSLO 0213 </li><li>Verkstedveien 1 OSLO 0277 </li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472</b></p><a name=\"a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472\"> </a><a name=\"hca70f0ba2-44d8-4f14-9c3a-ff4c6ead7472\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-Organization.html\">no-basis-Organization</a></p></div><p><b>identifier</b>: <code>urn:oid:2.16.578.1.12.4.1.4.101</code>/915933149</p><p><b>name</b>: Direktoratet for e-Helse</p><p><b>address</b>: </p><ul><li>Postboks 221 Skøyen OSLO 0213 </li><li>Verkstedveien 1 OSLO 0277 </li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.101"^^xsd:anyURI ] ;

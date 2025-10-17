@@ -17,7 +17,7 @@ Basisprofil for Norwegian Organization information. Defined by The Norwegian Dir
 **Usages:**
 
 * Refer to this Profile: [no-basis-Endpoint](StructureDefinition-no-basis-Endpoint.md), [no-basis-HealthcareService](StructureDefinition-no-basis-HealthcareService.md), [no-basis-Location](StructureDefinition-no-basis-Location.md) and [no-basis-Organization](StructureDefinition-no-basis-Organization.md)
-* Examples for this Profile: [Direktoratet for e-Helse](Organization-Direktoratet-for-eHelse-Organization.md)
+* Examples for this Profile: [Direktoratet for e-Helse](Organization-a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.basis|current/StructureDefinition/no-basis-Organization)
 
