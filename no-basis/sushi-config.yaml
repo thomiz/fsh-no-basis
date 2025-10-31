@@ -2,14 +2,14 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-canonical: http://hl7.no/fhir
+canonical: http://hl7.no/fhir/ig
 name: NoBasis
 fhirVersion: 4.0.1
 FSHOnly: false
 applyExtensionMetadataToRoot: false
 id: hl7.fhir.no.basis
 status: active
-version: 2.2.2-test
+version: 2.2.3-test
 releaseLabel: ci-build
 copyrightYear: 2021+
 jurisdiction: urn:iso:std:iso:3166#NO "Norway"
