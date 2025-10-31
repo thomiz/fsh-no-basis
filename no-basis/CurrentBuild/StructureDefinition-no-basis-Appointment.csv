@@ -24,15 +24,15 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Appointment.extension:virtualService","Appointment.extension","virtualService","","",0,*,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-virtual-service]]} {[]}
+"Appointment.extension:virtualService","Appointment.extension","virtualService","","",0,*,"","","","Extension {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-virtual-service]]} {[]}
 ","Virtual Service","The VirtualService structure defines details of a virtual communication capability, such as a web conference call.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Appointment.extension:group","Appointment.extension","group","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-group]]} {[]}
+"Appointment.extension:group","Appointment.extension","group","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-group]]} {[]}
 ","no-basis-group","The appointment is a group session.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Appointment.extension:partOf","Appointment.extension","partOf","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-partof]]} {[]}
+"Appointment.extension:partOf","Appointment.extension","partOf","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-partof]]} {[]}
 ","no-basis-partof","This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked. A larger appointment of which this particular appointment is a component or step.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

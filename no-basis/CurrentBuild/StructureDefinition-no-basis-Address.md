@@ -1,4 +1,4 @@
-# no-basis-Address - v2.2.2-test
+# no-basis-Address - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Address | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address | *Version*:2.2.3-test |
 | Active as of 2019-05-15 | *Computable Name*:NoBasisAddress |
 
  
@@ -43,8 +43,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Address.csv
     "versionId" : "3",
     "lastUpdated" : "2019-05-15T13:38:12.872+00:00"
   },
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-Address",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address",
+  "version" : "2.2.3-test",
   "name" : "NoBasisAddress",
   "title" : "no-basis-Address",
   "status" : "active",
@@ -103,7 +103,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Address.csv
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.no/fhir/StructureDefinition/no-basis-address-official"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-address-official"
             ]
           }
         ]
@@ -120,7 +120,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Address.csv
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.no/fhir/StructureDefinition/no-basis-urban-district"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-urban-district"
             ]
           }
         ]
@@ -137,7 +137,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Address.csv
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-propertyinformation"
             ]
           }
         ]
@@ -191,7 +191,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Address.csv
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-municipalitycode"
             ]
           }
         ]

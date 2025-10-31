@@ -1,4 +1,4 @@
-# no-basis-MedicationStatement - v2.2.2-test
+# no-basis-MedicationStatement - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-MedicationStatement | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-MedicationStatement | *Version*:2.2.3-test |
 | Active as of 2019-09-20 | *Computable Name*:NoBasisMedicationStatement |
 
  
@@ -36,8 +36,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-MedicationS
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-MedicationStatement",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-MedicationStatement",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-MedicationStatement",
+  "version" : "2.2.3-test",
   "name" : "NoBasisMedicationStatement",
   "title" : "no-basis-MedicationStatement",
   "status" : "active",
@@ -153,7 +153,9 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-MedicationS
         "type" : [
           {
             "code" : "Reference",
-            "targetProfile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Medication"]
+            "targetProfile" : [
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Medication"
+            ]
           }
         ]
       },
@@ -163,7 +165,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-MedicationS
         "type" : [
           {
             "code" : "Reference",
-            "targetProfile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Patient"]
+            "targetProfile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient"]
           }
         ]
       },

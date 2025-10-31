@@ -31,7 +31,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Medication.extension:prescriptiongroup","Medication.extension","prescriptiongroup","","",0,*,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-prescriptiongroup]]} {[]}
+"Medication.extension:prescriptiongroup","Medication.extension","prescriptiongroup","","",0,*,"","","","Extension {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-prescriptiongroup]]} {[]}
 ","Describes the group the medication is within","Prescription group is refered in IDMP as Legal status of supply.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

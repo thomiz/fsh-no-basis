@@ -1,4 +1,4 @@
-# no-basis-documentreference-type.valueset - v2.2.2-test
+# no-basis-documentreference-type.valueset - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ValueSet/no-basis-documentreference-type | *Version*:2.2.2-test |
-| Active as of 2025-10-17 | *Computable Name*:NoBasisDocumentReferenceType |
+| *Official URL*:http://hl7.no/fhir/ValueSet/no-basis-documentreference-type | *Version*:2.2.3-test |
+| Active as of 2025-10-31 | *Computable Name*:NoBasisDocumentReferenceType |
 
  **References** 
 
@@ -22,7 +22,7 @@
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
+No Expansion for this valueset (not supported by Publication Tooling)
 
 -------
 
@@ -46,11 +46,11 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "no-basis-documentreference-type.valueset",
   "url" : "http://hl7.no/fhir/ValueSet/no-basis-documentreference-type",
-  "version" : "2.2.2-test",
+  "version" : "2.2.3-test",
   "name" : "NoBasisDocumentReferenceType",
   "title" : "no-basis-documentreference-type.valueset",
   "status" : "active",
-  "date" : "2025-10-17T20:48:12+00:00",
+  "date" : "2025-10-31T06:29:19+00:00",
   "jurisdiction" : [
     {
       "coding" : [

@@ -6,35 +6,41 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/AppointmentResponse/PatientAppointmentResponseExample> a fhir:AppointmentResponse ;
+<http://hl7.no/fhir/ig/AppointmentResponse/PatientAppointmentResponseExample> a fhir:AppointmentResponse ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "PatientAppointmentResponseExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse"^^xsd:anyURI ;
-       fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse>
+       fhir:v "http://hl7.no/fhir/ig/StructureDefinition/no-basis-AppointmentResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.no/fhir/ig/StructureDefinition/no-basis-AppointmentResponse>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: AppointmentResponse PatientAppointmentResponseExample</b></p><a name=\"PatientAppointmentResponseExample\"> </a><a name=\"hcPatientAppointmentResponseExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-AppointmentResponse.html\">no-basis-AppointmentResponse</a></p></div><p><b>no-basis-shortnotice</b>: true</p><p><b>appointment</b>: <a href=\"Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.html\">MRI results discussion</a></p><p><b>actor</b>: <a href=\"Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473.html\">Peter James Chalmers</a></p><p><b>participantStatus</b>: Accepted</p></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: AppointmentResponse PatientAppointmentResponseExample</b></p><a name=\"PatientAppointmentResponseExample\"> </a><a name=\"hcPatientAppointmentResponseExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-AppointmentResponse.html\">no-basis-AppointmentResponse</a></p></div><p><b>no-basis-shortnotice</b>: true</p><p><b>appointment</b>: <a href=\"Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.html\">MRI results discussion</a></p><p><b>actor</b>: <a href=\"Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473.html\">Peter James Chalmers</a></p><p><b>participantStatus</b>: Accepted</p></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.no/fhir/ig/StructureDefinition/no-basis-shortnotice"^^xsd:anyURI ;
+       fhir:l <http://hl7.no/fhir/ig/StructureDefinition/no-basis-shortnotice>
+     ] ;
      fhir:value [
-       a fhir:boolean ;
+       a fhir:Boolean ;
        fhir:v true
      ]
   ] ) ; # 
   fhir:appointment [
-     fhir:link <http://hl7.no/fhir/Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a> ;
+     fhir:l <http://hl7.no/fhir/ig/Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a> ;
      fhir:reference [ fhir:v "Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a" ] ;
      fhir:display [ fhir:v "MRI results discussion" ]
   ] ; # 
   fhir:actor [
-     fhir:link <http://hl7.no/fhir/Patient/e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473> ;
+     fhir:l <http://hl7.no/fhir/ig/Patient/e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473> ;
      fhir:reference [ fhir:v "Patient/e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473" ] ;
-     fhir:type [ fhir:v "Patient"^^xsd:anyURI ] ;
+     fhir:type [
+       fhir:v "Patient"^^xsd:anyURI ;
+       fhir:l fhir:Patient
+     ] ;
      fhir:display [ fhir:v "Peter James Chalmers" ]
   ] ; # 
   fhir:participantStatus [ fhir:v "accepted"] . # 

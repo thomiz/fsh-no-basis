@@ -1,10 +1,10 @@
-# hl7.fhir.no.basis#2.2.2-test: null
+# hl7.fhir.no.basis#2.2.3-test: null
 
 ## Pages
 
 * [Home](index.md)
-* [Changelog STU 3](Changelog-STU3.md)
 * [Datatypes](Datatypes.md)
+* [Changelog STU 3](Changelog-STU3.md)
 * [Artifacts Summary](artifacts.md)
 * [Appointment and Encounter](Appointment-and-Encounter.md)
 

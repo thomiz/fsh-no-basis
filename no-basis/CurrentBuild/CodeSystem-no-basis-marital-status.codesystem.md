@@ -1,4 +1,4 @@
-# no-basis-marital-status.codesystem - v2.2.2-test
+# no-basis-marital-status.codesystem - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/CodeSystem/no-basis-marital-status | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/CodeSystem/no-basis-marital-status | *Version*:2.2.3-test |
 | Active as of 2019-05-07 | *Computable Name*:NoBasisMaritalStatus |
 
  
@@ -31,7 +31,7 @@ Copy of Codes from Sivilstandstype defined by Skatteetaten
     "lastUpdated" : "2019-05-07T00:00:00+00:00"
   },
   "url" : "http://hl7.no/fhir/CodeSystem/no-basis-marital-status",
-  "version" : "2.2.2-test",
+  "version" : "2.2.3-test",
   "name" : "NoBasisMaritalStatus",
   "title" : "no-basis-marital-status.codesystem",
   "status" : "active",

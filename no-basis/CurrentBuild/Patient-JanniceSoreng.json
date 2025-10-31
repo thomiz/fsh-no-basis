@@ -2,7 +2,7 @@
   "resourceType" : "Patient",
   "id" : "JanniceSoreng",
   "meta" : {
-    "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Patient"]
+    "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient"]
   },
   "text" : {
     "status" : "generated",

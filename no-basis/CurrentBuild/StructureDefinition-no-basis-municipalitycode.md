@@ -1,4 +1,4 @@
-# no-basis-municipalitycode - v2.2.2-test
+# no-basis-municipalitycode - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-municipalitycode | *Version*:2.2.3-test |
 | Active as of 2021-04-09 | *Computable Name*:NoBasisMunicipalitycode |
 
 Coded value for municipality/county Norwegian kommune
@@ -20,7 +20,6 @@ Coded value for municipality/county Norwegian kommune
 **Usages:**
 
 * Use this Extension: [no-basis-Address](StructureDefinition-no-basis-Address.md)
-* Examples for this Extension: [Patient/JanniceSoreng](Patient-JanniceSoreng.md) and [Patient/JanniceSorengTo](Patient-JanniceSorengTo.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.basis|current/StructureDefinition/no-basis-municipalitycode)
 
@@ -44,8 +43,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-municipalit
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-municipalitycode",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-municipalitycode",
+  "version" : "2.2.3-test",
   "name" : "NoBasisMunicipalitycode",
   "title" : "no-basis-municipalitycode",
   "status" : "active",
@@ -91,7 +90,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-municipalit
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode"
+        "fixedUri" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-municipalitycode"
       },
       {
         "id" : "Extension.value[x]",

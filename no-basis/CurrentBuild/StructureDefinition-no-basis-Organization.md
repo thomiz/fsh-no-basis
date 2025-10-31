@@ -1,4 +1,4 @@
-# no-basis-Organization - v2.2.2-test
+# no-basis-Organization - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Organization | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-Organization | *Version*:2.2.3-test |
 | Active as of 2019-05-20 | *Computable Name*:NoBasisOrganization |
 
  
@@ -41,8 +41,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Organizatio
     "versionId" : "3",
     "lastUpdated" : "2020-04-22T10:49:58.004+00:00"
   },
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-Organization",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Organization",
+  "version" : "2.2.3-test",
   "name" : "NoBasisOrganization",
   "title" : "no-basis-Organization",
   "status" : "active",
@@ -211,7 +211,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Organizatio
         "type" : [
           {
             "code" : "Address",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Address"]
+            "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address"]
           }
         ]
       },
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Organizatio
             "code" : "Reference",
             "targetProfile" : [
               "http://hl7.org/fhir/StructureDefinition/Organization",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Organization"
             ]
           }
         ]
@@ -240,7 +240,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Organizatio
         "type" : [
           {
             "code" : "Address",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Address"]
+            "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address"]
           }
         ]
       },

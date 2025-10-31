@@ -1,4 +1,4 @@
-# no-basis-Composition - v2.2.2-test
+# no-basis-Composition - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Composition | *Version*:2.2.2-test |
-| Active as of 2025-10-17 | *Computable Name*:NoBasisComposition |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-Composition | *Version*:2.2.3-test |
+| Active as of 2025-10-31 | *Computable Name*:NoBasisComposition |
 
  
 Basisprofil for Norwegian Composition. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to the relevant use-case. 
@@ -37,12 +37,12 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Composition
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-Composition",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-Composition",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Composition",
+  "version" : "2.2.3-test",
   "name" : "NoBasisComposition",
   "title" : "no-basis-Composition",
   "status" : "active",
-  "date" : "2025-10-17T20:48:12+00:00",
+  "date" : "2025-10-31T06:29:19+00:00",
   "description" : "Basisprofil for Norwegian Composition. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to the relevant use-case.\n\nThe profile sets the absolute minimum requirements, identifies the extensions and terminology which can be present.",
   "jurisdiction" : [
     {

@@ -1,4 +1,4 @@
-# no-basis-Practitioner - v2.2.2-test
+# no-basis-Practitioner - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-Practitioner | *Version*:2.2.3-test |
 | Active as of 2019-05-20 | *Computable Name*:NoBasisPractitioner |
 
  
@@ -42,8 +42,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Practitione
     "versionId" : "1",
     "lastUpdated" : "2018-06-06T06:11:16.19+00:00"
   },
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Practitioner",
+  "version" : "2.2.3-test",
   "name" : "NoBasisPractitioner",
   "title" : "no-basis-Practitioner",
   "status" : "active",
@@ -185,7 +185,9 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Practitione
         "type" : [
           {
             "code" : "HumanName",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"]
+            "profile" : [
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-HumanName"
+            ]
           }
         ]
       },
@@ -197,7 +199,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Practitione
         "type" : [
           {
             "code" : "Address",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Address"]
+            "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address"]
           }
         ]
       },

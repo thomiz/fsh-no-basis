@@ -1,4 +1,4 @@
-# Solid-Aresdoktor-RelatedPerson - v2.2.2-test
+# Solid-Aresdoktor-RelatedPerson - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -28,7 +28,7 @@ Profile: [no-basis-RelatedPerson](StructureDefinition-no-basis-RelatedPerson.md)
   "id" : "Solid-Aresdoktor-RelatedPerson",
   "meta" : {
     "profile" : [
-      "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"
+      "http://hl7.no/fhir/ig/StructureDefinition/no-basis-RelatedPerson"
     ]
   },
   "identifier" : [

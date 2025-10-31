@@ -252,7 +252,7 @@ It is often used to filter patient lists to exclude inactive patients
 
 Deceased patients may also be marked as inactive for the same reasons, but may be active for some time after death.","If a record is inactive, and linked to an active record, then future patient/record updates should occur on the other patient.","Need to be able to mark a patient record as not to be used because it was created in error.","","This resource is generally assumed to be active if no value is provided for the active element","","","","","",,,,,"",,,,"Patient.active",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","statusCode","n/a","FiveWs.status"
-"Patient.name","Patient.name","","","",0,*,"","","Y","HumanName {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-HumanName]]} {[]}
+"Patient.name","Patient.name","","","",0,*,"","","Y","HumanName {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-HumanName]]} {[]}
 ","A name associated with the patient","A name associated with the individual.","A patient may have multiple names with different uses or applicable periods. For animals, the name is a ""HumanName"" in the sense that is assigned and used by humans and has the same patterns.","Need to be able to track the patient by multiple names. Examples are your official name and a partner name.","","","","","","","",,,,,"",,,,"Patient.name",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","name",".patient.name","PID-5, PID-9"
 "Patient.telecom","Patient.telecom","","","",0,*,"","","Y","ContactPoint {[]} {[]}
@@ -267,7 +267,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
 "Patient.deceased[x]","Patient.deceased[x]","","","",0,1,"","Y","Y","boolean {[]} {[]}
 dateTime {[]} {[]}","Indicates if the individual is deceased or not","Indicates if the individual is deceased or not.","If there's no value in the instance, it means there is no statement on whether or not the individual is deceased. Most systems will interpret the absence of a value as a sign of the person being alive.","The fact that a patient is deceased influences the clinical process. Also, in human communication and relation management it is necessary to know whether the person is alive.","","","","","","","",,,,,"",,,,"Patient.deceased[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","player[classCode=PSN|ANM and determinerCode=INSTANCE]/deceasedInd, player[classCode=PSN|ANM and determinerCode=INSTANCE]/deceasedTime","n/a","PID-30  (bool) and PID-29 (datetime)"
-"Patient.address","Patient.address","","","",0,*,"","","Y","Address {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Address]]} {[]}
+"Patient.address","Patient.address","","","",0,*,"","","Y","Address {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address]]} {[]}
 ","Norwegian address","http://hl7.no/fhir/StructureDefinition/no-basis-Address","Patient may have multiple addresses with different uses or applicable periods.","May need to keep track of patient addresses for contacting, billing or reporting requirements and also to help with identification.","","","","","","","",,,,,"",,,,"Patient.address",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","addr",".addr","PID-11"
 "Patient.maritalStatus","Patient.maritalStatus","","","",0,1,"","","","CodeableConcept {[]} {[]}
@@ -300,13 +300,13 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Patient.contact.relationship","Patient.contact.relationship","","","",0,*,"","","","CodeableConcept {[]} {[]}
 ","The kind of relationship","The nature of the relationship between the patient and the contact person.","","Used to determine which contact person is the most relevant to approach, depending on circumstances.","","","","","","","",,"extensible","The nature of the relationship between a patient and a contact person for that patient.","http://hl7.org/fhir/ValueSet/patient-contactrelationship|4.0.1","",,,,"Patient.contact.relationship",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","code","n/a","NK1-7, NK1-3"
-"Patient.contact.name","Patient.contact.name","","","",0,1,"","","","HumanName {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-HumanName]]} {[]}
+"Patient.contact.name","Patient.contact.name","","","",0,1,"","","","HumanName {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-HumanName]]} {[]}
 ","A name associated with the contact person","A name associated with the contact person.","","Contact persons need to be identified by name, but it is uncommon to need details about multiple other names for that contact person.","","","","","","","",,,,,"",,,,"Patient.contact.name",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","name","n/a","NK1-2"
 "Patient.contact.telecom","Patient.contact.telecom","","","",0,*,"","","","ContactPoint {[]} {[]}
 ","A contact detail for the person","A contact detail for the person, e.g. a telephone number or an email address.","Contact may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently, and also to help with identification.","People have (primary) ways to contact them in some way such as phone, email.","","","","","","","",,,,,"",,,,"Patient.contact.telecom",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","telecom","n/a","NK1-5, NK1-6, NK1-40"
-"Patient.contact.address","Patient.contact.address","","","",0,1,"","","","Address {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Address]]} {[]}
+"Patient.contact.address","Patient.contact.address","","","",0,1,"","","","Address {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address]]} {[]}
 ","Address for the contact person","Address for the contact person.","","Need to keep track where the contact person can be contacted per postal mail or visited.","","","","","","","",,,,,"",,,,"Patient.contact.address",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","addr","n/a","NK1-4"
 "Patient.contact.gender","Patient.contact.gender","","","",0,1,"","","","code {[]} {[]}

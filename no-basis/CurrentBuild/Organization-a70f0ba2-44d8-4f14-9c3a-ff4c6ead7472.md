@@ -1,4 +1,4 @@
-# Direktoratet-for-eHelse-Organization - v2.2.2-test
+# Direktoratet-for-eHelse-Organization - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -27,7 +27,7 @@ Profile: [no-basis-Organization](StructureDefinition-no-basis-Organization.md)
   "id" : "a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472",
   "meta" : {
     "profile" : [
-      "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
+      "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Organization"
     ]
   },
   "identifier" : [

@@ -1,4 +1,4 @@
-# no-basis-HealthcareService - v2.2.2-test
+# no-basis-HealthcareService - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-HealthcareService | *Version*:2.2.3-test |
 | Active as of 2019-05-20 | *Computable Name*:NoBasisHealthcareService |
 
  
@@ -37,8 +37,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-HealthcareS
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-HealthcareService",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-HealthcareService",
+  "version" : "2.2.3-test",
   "name" : "NoBasisHealthcareService",
   "title" : "no-basis-HealthcareService",
   "status" : "active",
@@ -94,7 +94,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-HealthcareS
             "code" : "Reference",
             "targetProfile" : [
               "http://hl7.org/fhir/StructureDefinition/Organization",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Organization"
             ]
           }
         ],
@@ -104,7 +104,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-HealthcareS
             "severity" : "warning",
             "human" : "no-basis recommends the use of logical references by ENH or RESH identifiers. If providedBy exists, identifiers should exist.",
             "expression" : "$this.exists(identifier.exists())",
-            "source" : "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"
+            "source" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-HealthcareService"
           }
         ]
       },
@@ -119,7 +119,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-HealthcareS
             "severity" : "warning",
             "human" : "no-basis recommends the use of urn:oid:2.16.578.1.12.4.1.4.101 (ENH) or urn:oid:2.16.578.1.12.4.1.4.102 (RESH) for identifier.system",
             "expression" : "$this.exists(system = 'urn:oid:2.16.578.1.12.4.1.4.101' or system = 'urn:oid:2.16.578.1.12.4.1.4.102')",
-            "source" : "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"
+            "source" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-HealthcareService"
           }
         ]
       },
@@ -267,7 +267,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-HealthcareS
             "code" : "Reference",
             "targetProfile" : [
               "http://hl7.org/fhir/StructureDefinition/Location",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Location"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Location"
             ]
           }
         ]
@@ -281,7 +281,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-HealthcareS
             "code" : "Reference",
             "targetProfile" : [
               "http://hl7.org/fhir/StructureDefinition/Endpoint",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Endpoint"
             ]
           }
         ],

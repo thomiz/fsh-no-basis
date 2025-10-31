@@ -3,13 +3,13 @@
   "id" : "hl7.fhir.no.basis",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.basis</b></p><a name=\"hl7.fhir.no.basis\"> </a><a name=\"hchl7.fhir.no.basis\"> </a><h2>NoBasis</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.basis</b></p><a name=\"hl7.fhir.no.basis\"> </a><a name=\"hchl7.fhir.no.basis\"> </a><h2>NoBasis</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/ImplementationGuide/hl7.fhir.no.basis</pre></div>"
   },
-  "url" : "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/ImplementationGuide/hl7.fhir.no.basis",
+  "version" : "2.2.3-test",
   "name" : "NoBasis",
   "status" : "active",
-  "date" : "2025-10-17T20:48:12+00:00",
+  "date" : "2025-10-31T06:29:19+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -147,7 +147,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://hl7.no/fhir/history.html"
+        "valueString" : "http://hl7.no/fhir/ig/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -426,7 +426,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://hl7.no/fhir/history.html"
+        "valueString" : "http://hl7.no/fhir/ig/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -605,7 +605,7 @@
       },
       "name" : "AppointmentExample",
       "description" : "Discussion on the results of your recent MRI",
-      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment"
+      "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Appointment"
     },
     {
       "extension" : [{
@@ -628,7 +628,7 @@
         "reference" : "Organization/a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472"
       },
       "name" : "Direktoratet-for-eHelse-Organization",
-      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
+      "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Organization"
     },
     {
       "extension" : [{
@@ -639,7 +639,7 @@
         "reference" : "Patient/EspenEksempel"
       },
       "name" : "EspenEksempel",
-      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"
+      "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient"
     },
     {
       "extension" : [{
@@ -650,7 +650,7 @@
         "reference" : "Patient/JanniceSoreng"
       },
       "name" : "JanniceSoreng",
-      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"
+      "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient"
     },
     {
       "extension" : [{
@@ -661,7 +661,7 @@
         "reference" : "Patient/JanniceSorengTo"
       },
       "name" : "JanniceSorengTo",
-      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"
+      "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient"
     },
     {
       "extension" : [{
@@ -672,7 +672,7 @@
         "reference" : "Practitioner/Magnar-Komann-Practitioner"
       },
       "name" : "Magnar-Komann-Practitioner",
-      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner"
+      "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Practitioner"
     },
     {
       "extension" : [{
@@ -934,7 +934,7 @@
         "reference" : "HealthcareService/no-basis-HealthcareService-example"
       },
       "name" : "no-basis-HealthcareService-example",
-      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"
+      "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-HealthcareService"
     },
     {
       "extension" : [{
@@ -1341,7 +1341,7 @@
       },
       "name" : "PatientAppointmentResponseExample",
       "description" : "Example of Patient response to an appointment using no-basis profile. The profile is identical to the basis profile axept there is a extension that can be used for patient to signal if the patient can come on short notice to an appointment. The example is similar to http://hl7.org/fhir/R4/appointmentresponse-example.json.html with adition for the extension.",
-      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse"
+      "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-AppointmentResponse"
     },
     {
       "extension" : [{
@@ -1363,7 +1363,7 @@
         "reference" : "RelatedPerson/Solid-Aresdoktor-RelatedPerson"
       },
       "name" : "Solid-Aresdoktor-RelatedPerson",
-      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"
+      "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-RelatedPerson"
     },
     {
       "extension" : [{
@@ -1374,7 +1374,7 @@
         "reference" : "RelatedPerson/Sorgard-Erlend-RelatedPerson"
       },
       "name" : "Sorgard-Erlend-RelatedPerson",
-      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"
+      "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-RelatedPerson"
     }],
     "page" : {
       "extension" : [{

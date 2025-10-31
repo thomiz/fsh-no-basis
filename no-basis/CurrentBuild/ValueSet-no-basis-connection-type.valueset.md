@@ -1,4 +1,4 @@
-# no-basis-connection-type.valueset - v2.2.2-test
+# no-basis-connection-type.valueset - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ValueSet/no-basis-connection-type | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ValueSet/no-basis-connection-type | *Version*:2.2.3-test |
 | Active as of 2019-03-13 | *Computable Name*:NoBasisConnectionType |
 
  
@@ -24,7 +24,7 @@ version: 1; Last updated: 2018-10-16 10:48:46+0000
 
 This value set includes codes based on the following rules:
 
-* Include all codes defined in [`http://hl7.no/fhir/CodeSystem/no-basis-connection-type`](CodeSystem-no-basis-connection-type.codesystem.md)version 📦2.2.2-test
+* Include all codes defined in [`http://hl7.no/fhir/CodeSystem/no-basis-connection-type`](CodeSystem-no-basis-connection-type.codesystem.md)version 📦2.2.3-test
 * Include all codes defined in [`http://terminology.hl7.org/CodeSystem/endpoint-connection-type`](http://terminology.hl7.org/6.5.0/CodeSystem-endpoint-connection-type.html)version 📦2.1.1
 
  
@@ -59,7 +59,7 @@ This value set contains 17 concepts
     "lastUpdated" : "2018-10-16T10:48:46.366+00:00"
   },
   "url" : "http://hl7.no/fhir/ValueSet/no-basis-connection-type",
-  "version" : "2.2.2-test",
+  "version" : "2.2.3-test",
   "name" : "NoBasisConnectionType",
   "title" : "no-basis-connection-type.valueset",
   "status" : "active",

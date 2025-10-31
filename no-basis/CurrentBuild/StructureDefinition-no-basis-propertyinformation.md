@@ -1,4 +1,4 @@
-# no-basis-propertyinformation - v2.2.2-test
+# no-basis-propertyinformation - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-propertyinformation | *Version*:2.2.3-test |
 | Active as of 2018-10-26 | *Computable Name*:NoBasisPropertyinformation |
 
 This basis extension describes information identifying norwegian real property.
@@ -20,7 +20,7 @@ This basis extension describes information identifying norwegian real property.
 **Usages:**
 
 * Use this Extension: [no-basis-Address](StructureDefinition-no-basis-Address.md)
-* Examples for this Extension: [Patient/EspenEksempel](Patient-EspenEksempel.md), [Patient/JanniceSoreng](Patient-JanniceSoreng.md), [Patient/JanniceSorengTo](Patient-JanniceSorengTo.md) and [RelatedPerson/Solid-Aresdoktor-RelatedPerson](RelatedPerson-Solid-Aresdoktor-RelatedPerson.md)
+* Examples for this Extension: [Patient/JanniceSorengTo](Patient-JanniceSorengTo.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.basis|current/StructureDefinition/no-basis-propertyinformation)
 
@@ -48,8 +48,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-propertyinf
     "versionId" : "1",
     "lastUpdated" : "2018-06-13T12:21:26.15+00:00"
   },
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-propertyinformation",
+  "version" : "2.2.3-test",
   "name" : "NoBasisPropertyinformation",
   "title" : "no-basis-propertyinformation",
   "status" : "active",
@@ -256,7 +256,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-propertyinf
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation"
+        "fixedUri" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-propertyinformation"
       },
       {
         "id" : "Extension.value[x]",

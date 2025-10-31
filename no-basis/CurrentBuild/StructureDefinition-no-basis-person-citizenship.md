@@ -1,4 +1,4 @@
-# no-basis-person-citizenship - v2.2.2-test
+# no-basis-person-citizenship - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-person-citizenship | *Version*:2.2.2-test | |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-person-citizenship | *Version*:2.2.3-test | |
 | Active as of 2018-12-27 | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:NoBasisPersonCitizenship |
 
 The Person's legal status as citizen of a country.
@@ -19,7 +19,7 @@ The Person's legal status as citizen of a country.
 
 **Usages:**
 
-* Examples for this Extension: [RelatedPerson/Sorgard-Erlend-RelatedPerson](RelatedPerson-Sorgard-Erlend-RelatedPerson.md)
+* This Extension is not used by any profiles in this Implementation Guide
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.basis|current/StructureDefinition/no-basis-person-citizenship)
 
@@ -51,8 +51,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-person-citi
       "valueInteger" : 1
     }
   ],
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-person-citizenship",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-person-citizenship",
+  "version" : "2.2.3-test",
   "name" : "NoBasisPersonCitizenship",
   "title" : "no-basis-person-citizenship",
   "status" : "active",
@@ -159,7 +159,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-person-citi
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://hl7.no/fhir/StructureDefinition/no-basis-person-citizenship"
+        "fixedUri" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-person-citizenship"
       },
       {
         "id" : "Extension.value[x]",

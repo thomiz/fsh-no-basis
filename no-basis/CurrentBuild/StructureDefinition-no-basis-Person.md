@@ -1,4 +1,4 @@
-# no-basis-Person - v2.2.2-test
+# no-basis-Person - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Person | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-Person | *Version*:2.2.3-test |
 | Active as of 2019-05-20 | *Computable Name*:NoBasisPerson |
 
  
@@ -38,8 +38,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Person.csv)
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-Person",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-Person",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Person",
+  "version" : "2.2.3-test",
   "name" : "NoBasisPerson",
   "title" : "no-basis-Person",
   "status" : "active",
@@ -166,7 +166,9 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Person.csv)
         "type" : [
           {
             "code" : "HumanName",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"]
+            "profile" : [
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-HumanName"
+            ]
           }
         ]
       },
@@ -178,7 +180,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Person.csv)
         "type" : [
           {
             "code" : "Address",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Address"]
+            "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address"]
           }
         ]
       }

@@ -1,4 +1,4 @@
-# no-basis-DocumentReference - v2.2.2-test
+# no-basis-DocumentReference - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-DocumentReference | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-DocumentReference | *Version*:2.2.3-test |
 | Active as of 2020-08-21 | *Computable Name*:NoBasisDocumentReference |
 
  
@@ -37,8 +37,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-DocumentRef
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-DocumentReference",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-DocumentReference",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-DocumentReference",
+  "version" : "2.2.3-test",
   "name" : "NoBasisDocumentReference",
   "title" : "no-basis-DocumentReference",
   "status" : "active",

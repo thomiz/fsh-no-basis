@@ -47,7 +47,7 @@ A coded value that represents the technical details of the usage of this endpoin
 ","A name that this endpoint can be identified by","A friendly name that this endpoint can be referred to with.","","","","","","","","","",,,,,"",,,,"Endpoint.name",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","n/a","FiveWs.what[x]"
 "Endpoint.managingOrganization","Endpoint.managingOrganization","","dataansvarlig
-","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization], CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Organization]]}
+","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization], CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-Organization]]}
 ","Organization that manages this endpoint (might not be the organization that exposes the endpoint)","The organization that manages this endpoint (even if technically another organisation is hosting this in the cloud, it is the organisation associated with the data).
 
 no-basis: In Norway this relates to the organization with the responsibility for the data e.g. ""dataansvarlig"".

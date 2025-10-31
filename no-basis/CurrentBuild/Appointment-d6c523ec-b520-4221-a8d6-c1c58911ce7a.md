@@ -1,4 +1,4 @@
-# AppointmentExample - v2.2.2-test
+# AppointmentExample - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -37,7 +37,7 @@ Profile: [no-basis-Appointment](StructureDefinition-no-basis-Appointment.md)
   "id" : "d6c523ec-b520-4221-a8d6-c1c58911ce7a",
   "meta" : {
     "profile" : [
-      "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment"
+      "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Appointment"
     ]
   },
   "status" : "booked",

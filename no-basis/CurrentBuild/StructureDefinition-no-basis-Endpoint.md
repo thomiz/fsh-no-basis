@@ -1,4 +1,4 @@
-# no-basis-Endpoint - v2.2.2-test
+# no-basis-Endpoint - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-Endpoint | *Version*:2.2.3-test |
 | Active as of 2019-05-15 | *Computable Name*:NoBasisEndpoint |
 
  
@@ -37,8 +37,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Endpoint.cs
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-Endpoint",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Endpoint",
+  "version" : "2.2.3-test",
   "name" : "NoBasisEndpoint",
   "title" : "no-basis-Endpoint",
   "status" : "active",
@@ -104,7 +104,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Endpoint.cs
             "code" : "Reference",
             "targetProfile" : [
               "http://hl7.org/fhir/StructureDefinition/Organization",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Organization"
             ]
           }
         ]

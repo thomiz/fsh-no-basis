@@ -1,4 +1,4 @@
-# derived-Person - v2.2.2-test
+# derived-Person - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/derived-Person | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/derived-Person | *Version*:2.2.3-test |
 | Draft as of 2022-01-10 | *Computable Name*:DerivedPerson |
 
  
@@ -36,8 +36,8 @@ Other representations of profile: [CSV](StructureDefinition-derived-Person.csv),
 {
   "resourceType" : "StructureDefinition",
   "id" : "derived-Person",
-  "url" : "http://hl7.no/fhir/StructureDefinition/derived-Person",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/derived-Person",
+  "version" : "2.2.3-test",
   "name" : "DerivedPerson",
   "title" : "derived-Person",
   "status" : "draft",
@@ -75,7 +75,7 @@ Other representations of profile: [CSV](StructureDefinition-derived-Person.csv),
   "kind" : "resource",
   "abstract" : false,
   "type" : "Person",
-  "baseDefinition" : "http://hl7.no/fhir/StructureDefinition/no-basis-Person",
+  "baseDefinition" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Person",
   "derivation" : "constraint",
   "differential" : {
     "element" : [

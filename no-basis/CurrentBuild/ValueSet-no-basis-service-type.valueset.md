@@ -1,4 +1,4 @@
-# no-basis-service-type.valueset - v2.2.2-test
+# no-basis-service-type.valueset - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ValueSet/no-basis-service-type | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ValueSet/no-basis-service-type | *Version*:2.2.3-test |
 | Active as of 2018-10-26 | *Computable Name*:NoBasisServiceType |
 
  
@@ -37,7 +37,7 @@ This value set includes codes based on the following rules:
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
+No Expansion for this valueset (not supported by Publication Tooling)
 
 -------
 
@@ -65,7 +65,7 @@ No Expansion for this valueset (Unknown Code System)
     "lastUpdated" : "2018-10-16T10:48:46.366+00:00"
   },
   "url" : "http://hl7.no/fhir/ValueSet/no-basis-service-type",
-  "version" : "2.2.2-test",
+  "version" : "2.2.3-test",
   "name" : "NoBasisServiceType",
   "title" : "no-basis-service-type.valueset",
   "status" : "active",

@@ -1,4 +1,4 @@
-# Home - v2.2.2-test
+# Home - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis | *Version*:2.2.2-test |
-| Active as of 2025-10-17 | *Computable Name*:NoBasis |
+| *Official URL*:http://hl7.no/fhir/ig/ImplementationGuide/hl7.fhir.no.basis | *Version*:2.2.3-test |
+| Active as of 2025-10-31 | *Computable Name*:NoBasis |
 
 # Introduction
 
@@ -40,11 +40,11 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
 {
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.basis",
-  "url" : "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/ImplementationGuide/hl7.fhir.no.basis",
+  "version" : "2.2.3-test",
   "name" : "NoBasis",
   "status" : "active",
-  "date" : "2025-10-17T20:48:12+00:00",
+  "date" : "2025-10-31T06:29:19+00:00",
   "jurisdiction" : [
     {
       "coding" : [
@@ -212,7 +212,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
           },
           {
             "url" : "value",
-            "valueString" : "http://hl7.no/fhir/history.html"
+            "valueString" : "http://hl7.no/fhir/ig/history.html"
           }
         ],
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -541,7 +541,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
           },
           {
             "url" : "value",
-            "valueString" : "http://hl7.no/fhir/history.html"
+            "valueString" : "http://hl7.no/fhir/ig/history.html"
           }
         ],
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -755,7 +755,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
         },
         "name" : "AppointmentExample",
         "description" : "Discussion on the results of your recent MRI",
-        "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment"
+        "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Appointment"
       },
       {
         "extension" : [
@@ -782,7 +782,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
           "reference" : "Organization/a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472"
         },
         "name" : "Direktoratet-for-eHelse-Organization",
-        "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
+        "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Organization"
       },
       {
         "extension" : [
@@ -795,7 +795,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
           "reference" : "Patient/EspenEksempel"
         },
         "name" : "EspenEksempel",
-        "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"
+        "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient"
       },
       {
         "extension" : [
@@ -808,7 +808,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
           "reference" : "Patient/JanniceSoreng"
         },
         "name" : "JanniceSoreng",
-        "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"
+        "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient"
       },
       {
         "extension" : [
@@ -821,7 +821,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
           "reference" : "Patient/JanniceSorengTo"
         },
         "name" : "JanniceSorengTo",
-        "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"
+        "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient"
       },
       {
         "extension" : [
@@ -834,7 +834,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
           "reference" : "Practitioner/Magnar-Komann-Practitioner"
         },
         "name" : "Magnar-Komann-Practitioner",
-        "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner"
+        "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Practitioner"
       },
       {
         "extension" : [
@@ -1140,7 +1140,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
           "reference" : "HealthcareService/no-basis-HealthcareService-example"
         },
         "name" : "no-basis-HealthcareService-example",
-        "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"
+        "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-HealthcareService"
       },
       {
         "extension" : [
@@ -1615,7 +1615,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
         },
         "name" : "PatientAppointmentResponseExample",
         "description" : "Example of Patient response to an appointment using no-basis profile. The profile is identical to the basis profile axept there is a extension that can be used for patient to signal if the patient can come on short notice to an appointment. The example is similar to http://hl7.org/fhir/R4/appointmentresponse-example.json.html with adition for the extension.",
-        "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse"
+        "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-AppointmentResponse"
       },
       {
         "extension" : [
@@ -1641,7 +1641,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
           "reference" : "RelatedPerson/Solid-Aresdoktor-RelatedPerson"
         },
         "name" : "Solid-Aresdoktor-RelatedPerson",
-        "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"
+        "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-RelatedPerson"
       },
       {
         "extension" : [
@@ -1654,7 +1654,7 @@ The model under visualizes the role of Norwegian base profiles. On top are the F
           "reference" : "RelatedPerson/Sorgard-Erlend-RelatedPerson"
         },
         "name" : "Sorgard-Erlend-RelatedPerson",
-        "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"
+        "exampleCanonical" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-RelatedPerson"
       }
     ],
     "page" : {

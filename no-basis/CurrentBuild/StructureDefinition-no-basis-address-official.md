@@ -1,4 +1,4 @@
-# no-basis-address-official - v2.2.2-test
+# no-basis-address-official - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-address-official | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-address-official | *Version*:2.2.3-test |
 | Active as of 2019-05-15 | *Computable Name*:NoBasisAddressOfficial |
 
 Defines the concept of an officialy registered address in Norway. Usually this will be the adress registered in "Folkeregisteret" for persons or "Enhetsregisteret" for organizations.
@@ -20,7 +20,7 @@ Defines the concept of an officialy registered address in Norway. Usually this w
 **Usages:**
 
 * Use this Extension: [no-basis-Address](StructureDefinition-no-basis-Address.md)
-* Examples for this Extension: [Direktoratet for e-Helse](Organization-a70f0ba2-44d8-4f14-9c3a-ff4c6ead7472.md), [Patient/EspenEksempel](Patient-EspenEksempel.md), [Patient/JanniceSoreng](Patient-JanniceSoreng.md), [Patient/JanniceSorengTo](Patient-JanniceSorengTo.md) and [RelatedPerson/Solid-Aresdoktor-RelatedPerson](RelatedPerson-Solid-Aresdoktor-RelatedPerson.md)
+* Examples for this Extension: [Patient/JanniceSorengTo](Patient-JanniceSorengTo.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.basis|current/StructureDefinition/no-basis-address-official)
 
@@ -46,8 +46,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-address-off
     "versionId" : "1",
     "lastUpdated" : "2019-05-15T08:03:50.475+00:00"
   },
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-address-official",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-address-official",
+  "version" : "2.2.3-test",
   "name" : "NoBasisAddressOfficial",
   "title" : "no-basis-address-official",
   "status" : "active",
@@ -101,7 +101,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-address-off
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://hl7.no/fhir/StructureDefinition/no-basis-address-official"
+        "fixedUri" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-address-official"
       },
       {
         "id" : "Extension.value[x]",

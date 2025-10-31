@@ -1,4 +1,4 @@
-# no-basis-prescriptiongroup - v2.2.2-test
+# no-basis-prescriptiongroup - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-prescriptiongroup | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-prescriptiongroup | *Version*:2.2.3-test |
 | Active as of 2019-07-03 | *Computable Name*:NoBasisPrescriptiongroup |
 
 Part of norwegian standard for describing a prescription.
@@ -41,8 +41,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-prescriptio
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-prescriptiongroup",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-prescriptiongroup",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-prescriptiongroup",
+  "version" : "2.2.3-test",
   "name" : "NoBasisPrescriptiongroup",
   "title" : "no-basis-prescriptiongroup",
   "status" : "active",
@@ -120,7 +120,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-prescriptio
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://hl7.no/fhir/StructureDefinition/no-basis-prescriptiongroup"
+        "fixedUri" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-prescriptiongroup"
       },
       {
         "id" : "Extension.value[x]",

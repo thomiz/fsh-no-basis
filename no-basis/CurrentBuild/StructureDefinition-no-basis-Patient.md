@@ -1,4 +1,4 @@
-# no-basis-Patient - v2.2.2-test
+# no-basis-Patient - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Patient | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient | *Version*:2.2.3-test |
 | Active as of 2019-05-20 | *Computable Name*:NoBasisPatient |
 
  
@@ -41,8 +41,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Patient.csv
     "versionId" : "3",
     "lastUpdated" : "2018-06-15T13:55:18.157+00:00"
   },
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-Patient",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient",
+  "version" : "2.2.3-test",
   "name" : "NoBasisPatient",
   "title" : "no-basis-Patient",
   "status" : "active",
@@ -286,7 +286,9 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Patient.csv
         "type" : [
           {
             "code" : "HumanName",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"]
+            "profile" : [
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-HumanName"
+            ]
           }
         ]
       },
@@ -298,7 +300,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Patient.csv
         "type" : [
           {
             "code" : "Address",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Address"]
+            "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address"]
           }
         ]
       },
@@ -308,7 +310,9 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Patient.csv
         "type" : [
           {
             "code" : "HumanName",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"]
+            "profile" : [
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-HumanName"
+            ]
           }
         ]
       },
@@ -318,7 +322,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Patient.csv
         "type" : [
           {
             "code" : "Address",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Address"]
+            "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address"]
           }
         ]
       }

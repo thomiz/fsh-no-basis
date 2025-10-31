@@ -1,4 +1,4 @@
-# Sorgard-Erlend-RelatedPerson - v2.2.2-test
+# Sorgard-Erlend-RelatedPerson - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 Profile: [no-basis-RelatedPerson](StructureDefinition-no-basis-RelatedPerson.md)
 
-> **no-basis-person-citizenship**
+> **no/fhir/StructureDefinition/no-basis-person-citizenship**
 * code: Norway
 
 **identifier**: `urn:oid:2.16.578.1.12.4.1.4.1`/05073500186
@@ -29,7 +29,7 @@ Profile: [no-basis-RelatedPerson](StructureDefinition-no-basis-RelatedPerson.md)
   "id" : "Sorgard-Erlend-RelatedPerson",
   "meta" : {
     "profile" : [
-      "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"
+      "http://hl7.no/fhir/ig/StructureDefinition/no-basis-RelatedPerson"
     ]
   },
   "extension" : [

@@ -1,4 +1,4 @@
-# no-basis-family-relation.valueset - v2.2.2-test
+# no-basis-family-relation.valueset - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ValueSet/no-basis-family-relation | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ValueSet/no-basis-family-relation | *Version*:2.2.3-test |
 | Active as of 2018-10-26 | *Computable Name*:NoBasisFamilyRelation |
 
  
@@ -22,7 +22,7 @@ Copy of Codes from Familierelasjon defined by Skatteetaten
 
 version: 1; Last updated: 2018-10-16 10:48:46+0000
 
-* Include all codes defined in [`http://hl7.no/fhir/CodeSystem/no-basis-family-relation`](CodeSystem-no-basis-family-relation.codesystem.md)version 📦2.2.2-test
+* Include all codes defined in [`http://hl7.no/fhir/CodeSystem/no-basis-family-relation`](CodeSystem-no-basis-family-relation.codesystem.md)version 📦2.2.3-test
 
  
 
@@ -54,7 +54,7 @@ version: 1; Last updated: 2018-10-16 10:48:46+0000
     "lastUpdated" : "2018-10-16T10:48:46.366+00:00"
   },
   "url" : "http://hl7.no/fhir/ValueSet/no-basis-family-relation",
-  "version" : "2.2.2-test",
+  "version" : "2.2.3-test",
   "name" : "NoBasisFamilyRelation",
   "title" : "no-basis-family-relation.valueset",
   "status" : "active",

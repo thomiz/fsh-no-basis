@@ -1,4 +1,4 @@
-# no-basis-AppointmentResponse - v2.2.2-test
+# no-basis-AppointmentResponse - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse | *Version*:2.2.2-test |
-| Active as of 2025-10-17 | *Computable Name*:NoBasisAppointmentResponse |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-AppointmentResponse | *Version*:2.2.3-test |
+| Active as of 2025-10-31 | *Computable Name*:NoBasisAppointmentResponse |
 
  
 Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to each use-case. 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Appointment
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-AppointmentResponse",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-AppointmentResponse",
+  "version" : "2.2.3-test",
   "name" : "NoBasisAppointmentResponse",
   "title" : "no-basis-AppointmentResponse",
   "status" : "active",
-  "date" : "2025-10-17T20:48:12+00:00",
+  "date" : "2025-10-31T06:29:19+00:00",
   "description" : "Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to each use-case.",
   "jurisdiction" : [
     {
@@ -98,7 +98,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Appointment
             "severity" : "error",
             "human" : "The 'shortNotice' extension can only be used when the 'actor' is of type 'Patient'.",
             "expression" : "extension.where(url = 'http://example.org/StructureDefinition/no-basis-shortnotice').value.exists() and actor.type = 'Patient'",
-            "source" : "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse"
+            "source" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-AppointmentResponse"
           }
         ]
       },
@@ -126,7 +126,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Appointment
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-shortnotice"
             ]
           }
         ]

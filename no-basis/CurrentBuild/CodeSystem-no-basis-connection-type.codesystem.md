@@ -1,4 +1,4 @@
-# no-basis-connection-type.codesystem - v2.2.2-test
+# no-basis-connection-type.codesystem - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/CodeSystem/no-basis-connection-type | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/CodeSystem/no-basis-connection-type | *Version*:2.2.3-test |
 | Active as of 2019-05-15 | *Computable Name*:NoBasisConnectionType |
 
  
@@ -27,7 +27,7 @@ Codes to describe Norwegian message based communication protocols.
   "resourceType" : "CodeSystem",
   "id" : "no-basis-connection-type.codesystem",
   "url" : "http://hl7.no/fhir/CodeSystem/no-basis-connection-type",
-  "version" : "2.2.2-test",
+  "version" : "2.2.3-test",
   "name" : "NoBasisConnectionType",
   "title" : "no-basis-connection-type.codesystem",
   "status" : "active",

@@ -1,4 +1,4 @@
-# EspenEksempel - v2.2.2-test
+# EspenEksempel - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -33,7 +33,7 @@ Espen Eksempel Male, DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#210377xxxxx)
   "resourceType" : "Patient",
   "id" : "EspenEksempel",
   "meta" : {
-    "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Patient"]
+    "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient"]
   },
   "extension" : [
     {

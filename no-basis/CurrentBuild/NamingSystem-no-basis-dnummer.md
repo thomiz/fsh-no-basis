@@ -1,4 +1,4 @@
-# no-basis-dnummer - v2.2.2-test
+# no-basis-dnummer - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/NamingSystem/no-basis-dnummer | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/NamingSystem/no-basis-dnummer | *Version*:2.2.3-test |
 | Active as of 2018-10-26 | *Computable Name*:Dnummer |
 
  
@@ -20,8 +20,8 @@ version: 1.0
 
 | | |
 | :--- | :--- |
-| Defining URL | http://hl7.no/fhir/NamingSystem/no-basis-dnummer |
-| Version | 2.2.2-test |
+| Defining URL | http://hl7.no/fhir/ig/NamingSystem/no-basis-dnummer |
+| Version | 2.2.3-test |
 | Name | Dnummer |
 | Status | active |
 | Definition | Personidentifikator for personer som ikke har fødselsnummer og som ikke skal registreres som bosatt i Norge. The D-nummer of the patient. (assigned by the norwegian Skatteetaten) |
@@ -49,11 +49,11 @@ version: 1.0
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url",
-      "valueUri" : "http://hl7.no/fhir/NamingSystem/no-basis-dnummer"
+      "valueUri" : "http://hl7.no/fhir/ig/NamingSystem/no-basis-dnummer"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
-      "valueString" : "2.2.2-test"
+      "valueString" : "2.2.3-test"
     }
   ],
   "name" : "Dnummer",

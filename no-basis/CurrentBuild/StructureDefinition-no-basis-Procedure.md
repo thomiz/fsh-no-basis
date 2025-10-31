@@ -1,4 +1,4 @@
-# no-basis-Procedure - v2.2.2-test
+# no-basis-Procedure - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Procedure | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Procedure | *Version*:2.2.3-test |
 | Active as of 2021-10-27 | *Computable Name*:NoBasisProcedure |
 
  
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Procedure.c
     "lastUpdated" : "2021-06-02T13:43:40.793+00:00"
   },
   "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-Procedure",
-  "version" : "2.2.2-test",
+  "version" : "2.2.3-test",
   "name" : "NoBasisProcedure",
   "title" : "no-basis-Procedure",
   "status" : "active",

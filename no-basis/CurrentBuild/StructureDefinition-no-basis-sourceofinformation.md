@@ -1,4 +1,4 @@
-# no-basis-sourceofinformation - v2.2.2-test
+# no-basis-sourceofinformation - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-sourceofinformation | *Version*:2.2.3-test |
 | Active as of 2019-09-20 | *Computable Name*:NoBasisSourceofinformation |
 
 Part of norwegian KI standard.
@@ -41,8 +41,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-sourceofinf
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-sourceofinformation",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-sourceofinformation",
+  "version" : "2.2.3-test",
   "name" : "NoBasisSourceofinformation",
   "title" : "no-basis-sourceofinformation",
   "status" : "active",
@@ -125,7 +125,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-sourceofinf
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation"
+        "fixedUri" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-sourceofinformation"
       },
       {
         "id" : "Extension.value[x]",

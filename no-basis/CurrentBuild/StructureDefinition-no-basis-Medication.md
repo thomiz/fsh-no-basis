@@ -1,4 +1,4 @@
-# no-basis-Medication - v2.2.2-test
+# no-basis-Medication - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Medication | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-Medication | *Version*:2.2.3-test |
 | Active as of 2019-07-03 | *Computable Name*:NoBasisMedication |
 
  
@@ -36,8 +36,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Medication.
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-Medication",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-Medication",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Medication",
+  "version" : "2.2.3-test",
   "name" : "NoBasisMedication",
   "title" : "no-basis-Medication",
   "status" : "active",
@@ -113,7 +113,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Medication.
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.no/fhir/StructureDefinition/no-basis-prescriptiongroup"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-prescriptiongroup"
             ]
           }
         ]

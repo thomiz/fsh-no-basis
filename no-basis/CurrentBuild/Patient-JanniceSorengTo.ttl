@@ -6,37 +6,52 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/Patient/JanniceSorengTo> a fhir:Patient ;
+<http://hl7.no/fhir/ig/Patient/JanniceSorengTo> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "JanniceSorengTo"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"^^xsd:anyURI ;
-       fhir:link <http://hl7.no/fhir/StructureDefinition/no-basis-Patient>
+       fhir:v "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient"^^xsd:anyURI ;
+       fhir:l <http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient JanniceSorengTo</b></p><a name=\"JanniceSorengTo\"> </a><a name=\"hcJanniceSorengTo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-Patient.html\">no-basis-Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Jannice SørengTo  Female, DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#21030550231)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\"><code>http://profil.visma.no/lopenummer</code>/123</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+4733445566\">+4733445566</a></li><li>Karisvingen 44 Oslo 0603 NO (home)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Language spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes:\">Norsk</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient contact\">Contact:</td><td colspan=\"3\"><ul><li>Pål Pårørende Olsen</li><li>Relationships:<span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0131 C}\">Emergency Contact</span>, <span title=\"Codes:\">Bror</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>General Practitioner: SIDSEL AASE JAVERY (Identifier: <code>urn:oid:2.16.578.1.12.4.1.2</code>/720)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The patient's legal status as citizen of a country.\">Patient Citizenship:</td><td colspan=\"3\"><ul><li>code: <span title=\"Codes:{urn:iso:std:iso:3166 NO}\">Norway</span></li></ul></td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient JanniceSorengTo</b></p><a name=\"JanniceSorengTo\"> </a><a name=\"hcJanniceSorengTo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-Patient.html\">no-basis-Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Jannice SørengTo  Female, DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#21030550231)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\"><code>http://profil.visma.no/lopenummer</code>/123</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+4733445566\">+4733445566</a></li><li>Karisvingen 44 Oslo 0603 NO (home)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Language spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes:\">Norsk</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient contact\">Contact:</td><td colspan=\"3\"><ul><li>Pål Pårørende Olsen</li><li>Relationships:<span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0131 C}\">Emergency Contact</span>, <span title=\"Codes:\">Bror</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>General Practitioner: SIDSEL AASE JAVERY (Identifier: <code>urn:oid:2.16.578.1.12.4.1.2</code>/720)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The patient's legal status as citizen of a country.\">Patient Citizenship:</td><td colspan=\"3\"><ul><li>code: <span title=\"Codes:{urn:iso:std:iso:3166 NO}\">Norway</span></li></ul></td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:extension ( [
-       fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "code"^^xsd:anyURI ;
+         fhir:l fhir:code
+       ] ;
        fhir:value [
          a fhir:CodeableConcept ;
          fhir:coding ( [
-           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:system [
+             fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+             fhir:l <urn:iso:std:iso:3166>
+           ] ;
            fhir:code [ fhir:v "NO" ]
          ] )
        ]
      ] ) ;
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/patient-citizenship"^^xsd:anyURI ]
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/patient-citizenship"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/patient-citizenship>
+     ]
   ] ) ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ;
+       fhir:l <urn:oid:2.16.578.1.12.4.1.4.1>
+     ] ;
      fhir:value [ fhir:v "21030550231" ]
   ] [
-     fhir:system [ fhir:v "http://profil.visma.no/lopenummer"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "http://profil.visma.no/lopenummer"^^xsd:anyURI ;
+       fhir:l <http://profil.visma.no/lopenummer>
+     ] ;
      fhir:value [ fhir:v "123" ]
   ] ) ; # 
   fhir:name ( [
@@ -52,19 +67,31 @@
   fhir:address ( [
      fhir:extension ( [
        fhir:extension ( [
-         fhir:url [ fhir:v "municipality"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "municipality"^^xsd:anyURI ;
+           fhir:l fhir:municipality
+         ] ;
          fhir:value [
            a fhir:Coding ;
-           fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.3402"^^xsd:anyURI ] ;
+           fhir:system [
+             fhir:v "urn:oid:2.16.578.1.12.4.1.1.3402"^^xsd:anyURI ;
+             fhir:l <urn:oid:2.16.578.1.12.4.1.1.3402>
+           ] ;
            fhir:code [ fhir:v "0301" ] ;
            fhir:display [ fhir:v "Oslo" ]
          ]
        ] ) ;
-       fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation"^^xsd:anyURI ]
+       fhir:url [
+         fhir:v "http://hl7.no/fhir/ig/StructureDefinition/no-basis-propertyinformation"^^xsd:anyURI ;
+         fhir:l <http://hl7.no/fhir/ig/StructureDefinition/no-basis-propertyinformation>
+       ]
      ] [
-       fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-address-official"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "http://hl7.no/fhir/ig/StructureDefinition/no-basis-address-official"^^xsd:anyURI ;
+         fhir:l <http://hl7.no/fhir/ig/StructureDefinition/no-basis-address-official>
+       ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] ) ;
@@ -74,10 +101,16 @@
      fhir:district [
        fhir:v "Oslo" ;
        fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode"^^xsd:anyURI ;
+           fhir:l <http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode>
+         ] ;
          fhir:value [
            a fhir:Coding ;
-           fhir:system [ fhir:v "https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle"^^xsd:anyURI ] ;
+           fhir:system [
+             fhir:v "https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle"^^xsd:anyURI ;
+             fhir:l <https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle>
+           ] ;
            fhir:code [ fhir:v "0301" ]
          ]
        ] )
@@ -87,7 +120,10 @@
   ] ) ; # 
   fhir:maritalStatus [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-MaritalStatus>
+       ] ;
        fhir:code [ fhir:v "U" ] ;
        fhir:display [ fhir:v "unmarried" ]
      ] )
@@ -95,7 +131,10 @@
   fhir:contact ( [
      fhir:relationship ( [
        fhir:coding ( [
-         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0131"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/v2-0131"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0131>
+         ] ;
          fhir:code [ fhir:v "C" ] ;
          fhir:display [ fhir:v "Emergency Contact" ]
        ] )
@@ -104,9 +143,12 @@
      ] ) ;
      fhir:name [
        fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-middlename"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-middlename"^^xsd:anyURI ;
+           fhir:l <http://hl7.no/fhir/StructureDefinition/no-basis-middlename>
+         ] ;
          fhir:value [
-           a fhir:string ;
+           a fhir:String ;
            fhir:v "Pårørende"
          ]
        ] ) ;
@@ -122,7 +164,10 @@
   ] ) ; # 
   fhir:generalPractitioner ( [
      fhir:identifier [
-       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.2"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:oid:2.16.578.1.12.4.1.2"^^xsd:anyURI ;
+         fhir:l <urn:oid:2.16.578.1.12.4.1.2>
+       ] ;
        fhir:value [ fhir:v "720" ]
      ] ;
      fhir:display [ fhir:v "SIDSEL AASE JAVERY" ]

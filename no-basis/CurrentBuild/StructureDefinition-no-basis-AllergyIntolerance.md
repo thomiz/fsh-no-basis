@@ -1,4 +1,4 @@
-# no-basis-AllergyIntolerance - v2.2.2-test
+# no-basis-AllergyIntolerance - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-AllergyIntolerance | *Version*:2.2.3-test |
 | Active as of 2019-07-03 | *Computable Name*:NoBasisAllergyIntolerance |
 
  
@@ -36,8 +36,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-AllergyInto
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-AllergyIntolerance",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-AllergyIntolerance",
+  "version" : "2.2.3-test",
   "name" : "NoBasisAllergyIntolerance",
   "title" : "no-basis-AllergyIntolerance",
   "status" : "active",
@@ -107,7 +107,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-AllergyInto
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-sourceofinformation"
             ]
           }
         ]
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-AllergyInto
         "type" : [
           {
             "code" : "Reference",
-            "targetProfile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Patient"]
+            "targetProfile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient"]
           }
         ]
       },
@@ -201,10 +201,10 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-AllergyInto
               "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
               "http://hl7.org/fhir/StructureDefinition/Patient",
               "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Patient",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient",
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Practitioner",
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-PractitionerRole",
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-RelatedPerson"
             ]
           }
         ]
@@ -220,10 +220,10 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-AllergyInto
               "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
               "http://hl7.org/fhir/StructureDefinition/Practitioner",
               "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Patient",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Practitioner",
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-PractitionerRole",
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient",
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-RelatedPerson"
             ]
           }
         ]

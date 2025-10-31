@@ -1,4 +1,4 @@
-# no-basis-Location - v2.2.2-test
+# no-basis-Location - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Location | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-Location | *Version*:2.2.3-test |
 | Active as of 2019-01-31 | *Computable Name*:NoBasisLocation |
 
  
@@ -36,8 +36,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Location.cs
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-Location",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-Location",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Location",
+  "version" : "2.2.3-test",
   "name" : "NoBasisLocation",
   "title" : "no-basis-Location",
   "status" : "active",
@@ -85,7 +85,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Location.cs
         "type" : [
           {
             "code" : "Address",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Address"]
+            "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address"]
           }
         ]
       },
@@ -97,7 +97,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Location.cs
             "code" : "Reference",
             "targetProfile" : [
               "http://hl7.org/fhir/StructureDefinition/Organization",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Organization"
             ],
             "versioning" : "specific"
           }
@@ -112,7 +112,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Location.cs
             "code" : "Reference",
             "targetProfile" : [
               "http://hl7.org/fhir/StructureDefinition/Endpoint",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Endpoint"
             ]
           }
         ]

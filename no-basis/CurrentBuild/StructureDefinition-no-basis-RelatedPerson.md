@@ -1,4 +1,4 @@
-# no-basis-RelatedPerson - v2.2.2-test
+# no-basis-RelatedPerson - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-RelatedPerson | *Version*:2.2.3-test |
 | Active as of 2019-05-20 | *Computable Name*:NoBasisRelatedPerson |
 
  
@@ -42,8 +42,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-RelatedPers
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-RelatedPerson",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-RelatedPerson",
+  "version" : "2.2.3-test",
   "name" : "NoBasisRelatedPerson",
   "title" : "no-basis-RelatedPerson",
   "status" : "active",
@@ -175,7 +175,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-RelatedPers
             "code" : "Reference",
             "targetProfile" : [
               "http://hl7.org/fhir/StructureDefinition/Patient",
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient"
             ]
           }
         ]
@@ -260,7 +260,9 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-RelatedPers
         "type" : [
           {
             "code" : "HumanName",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-HumanName"]
+            "profile" : [
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-HumanName"
+            ]
           }
         ]
       },
@@ -272,7 +274,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-RelatedPers
         "type" : [
           {
             "code" : "Address",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Address"]
+            "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address"]
           }
         ]
       }

@@ -2,7 +2,7 @@
   "resourceType" : "RelatedPerson",
   "id" : "Solid-Aresdoktor-RelatedPerson",
   "meta" : {
-    "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"]
+    "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-RelatedPerson"]
   },
   "text" : {
     "status" : "generated",

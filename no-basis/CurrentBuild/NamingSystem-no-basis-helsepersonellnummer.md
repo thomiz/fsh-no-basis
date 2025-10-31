@@ -1,4 +1,4 @@
-# no-basis-helsepersonellnummer - v2.2.2-test
+# no-basis-helsepersonellnummer - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/NamingSystem/no-basis-helsepersonellnummer | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/NamingSystem/no-basis-helsepersonellnummer | *Version*:2.2.3-test |
 | Active as of 2018-10-26 | *Computable Name*:HelsepersonellregisteretNummer |
 
  
@@ -20,8 +20,8 @@ version: 1.0
 
 | | |
 | :--- | :--- |
-| Defining URL | http://hl7.no/fhir/NamingSystem/no-basis-helsepersonellnummer |
-| Version | 2.2.2-test |
+| Defining URL | http://hl7.no/fhir/ig/NamingSystem/no-basis-helsepersonellnummer |
+| Version | 2.2.3-test |
 | Name | HelsepersonellregisteretNummer |
 | Status | active |
 | Definition | In Norway all registered health care personnel is registered in the Helsepersonellregister (HPR) and is assigned a HPR-number that is used to identify the health care practitioner. Health care personnel not registered in HPR can use FNR for identification. |
@@ -49,11 +49,11 @@ version: 1.0
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url",
-      "valueUri" : "http://hl7.no/fhir/NamingSystem/no-basis-helsepersonellnummer"
+      "valueUri" : "http://hl7.no/fhir/ig/NamingSystem/no-basis-helsepersonellnummer"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
-      "valueString" : "2.2.2-test"
+      "valueString" : "2.2.3-test"
     }
   ],
   "name" : "HelsepersonellregisteretNummer",

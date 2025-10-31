@@ -99,7 +99,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "RelatedPerson.active","RelatedPerson.active","","","",0,1,"","Y","Y","boolean {[]} {[]}
 ","Whether this related person's record is in active use","Whether this related person record is in active use.","This element is labeled as a modifier because it may be used to mark that the resource was created in error.","Need to be able to mark a related person record as not to be used, such as if it was created in error.","","This resource is generally assumed to be active if no value is provided for the active element","","","","","",,,,,"",,,,"RelatedPerson.active",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".statusCode","FiveWs.status"
-"RelatedPerson.patient","RelatedPerson.patient","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient], CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Patient]]}
+"RelatedPerson.patient","RelatedPerson.patient","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient], CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient]]}
 ","The person this person is related to","no-basis: Can reference no-basis-Patient in addition to Patient resources. 
 If a person reference is needed the optional extension should be used.
 
@@ -264,7 +264,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "RelatedPerson.relationship:parental.text","RelatedPerson.relationship.text","","","",0,1,"","","Y","string {[]} {[]}
 ","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./originalText[mediaType/code=""text/plain""]/data","C*E.9. But note many systems use C*E.2 for this"
-"RelatedPerson.name","RelatedPerson.name","","","",0,*,"","","Y","HumanName {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-HumanName]]} {[]}
+"RelatedPerson.name","RelatedPerson.name","","","",0,*,"","","Y","HumanName {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-HumanName]]} {[]}
 ","A name associated with the person","A name associated with the person.","","Related persons need to be identified by name, but it is uncommon to need details about multiple other names for that person.","","","","","","","",,,,,"",,,,"RelatedPerson.name",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","name","NK1-2"
 "RelatedPerson.telecom","RelatedPerson.telecom","","","",0,*,"","","Y","ContactPoint {[]} {[]}
@@ -276,7 +276,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "RelatedPerson.birthDate","RelatedPerson.birthDate","","","",0,1,"","","Y","date {[]} {[]}
 ","The date on which the related person was born","The date on which the related person was born.","","","","","","","","","",,,,,"",,,,"RelatedPerson.birthDate",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","player.birthTime"
-"RelatedPerson.address","RelatedPerson.address","","","",0,*,"","","Y","Address {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Address]]} {[]}
+"RelatedPerson.address","RelatedPerson.address","","","",0,*,"","","Y","Address {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address]]} {[]}
 ","Norwegian address","http://hl7.no/fhir/StructureDefinition/no-basis-Address","","Need to keep track where the related person can be contacted per postal mail or visited.","","","","","","","",,,,,"",,,,"RelatedPerson.address",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","addr","NK1-4"
 "RelatedPerson.photo","RelatedPerson.photo","","","",0,*,"","","","Attachment {[]} {[]}

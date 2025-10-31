@@ -1,4 +1,4 @@
-# no-basis-partof - v2.2.2-test
+# no-basis-partof - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-partof | *Version*:2.2.2-test |
-| Active as of 2025-10-17 | *Computable Name*:NoBasisPartOf |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-partof | *Version*:2.2.3-test |
+| Active as of 2025-10-31 | *Computable Name*:NoBasisPartOf |
 
 This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked. A larger appointment of which this particular appointment is a component or step.
 
@@ -41,12 +41,12 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-partof.csv)
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-partof",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-partof",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-partof",
+  "version" : "2.2.3-test",
   "name" : "NoBasisPartOf",
   "title" : "no-basis-partof",
   "status" : "active",
-  "date" : "2025-10-17T20:48:12+00:00",
+  "date" : "2025-10-31T06:29:19+00:00",
   "description" : "This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked. A larger appointment of which this particular appointment is a component or step.",
   "jurisdiction" : [
     {
@@ -94,7 +94,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-partof.csv)
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://hl7.no/fhir/StructureDefinition/no-basis-partof"
+        "fixedUri" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-partof"
       },
       {
         "id" : "Extension.value[x]",
@@ -105,7 +105,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-partof.csv)
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Appointment"
             ]
           }
         ]

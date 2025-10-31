@@ -1,4 +1,4 @@
-# no-basis-HealthcareService-example - v2.2.2-test
+# no-basis-HealthcareService-example - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,7 +6,7 @@
 
 ## Example HealthcareService: no-basis-HealthcareService-example
 
-Profile: [no-basis-HealthcareService](StructureDefinition-no-basis-HealthcareService.md)
+Profiles: [no-basis-HealthcareService](StructureDefinition-no-basis-HealthcareService.md), `http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService`
 
 **identifier**: `http://hl7.no/shared-ids`/HS-12
 
@@ -28,6 +28,7 @@ Profile: [no-basis-HealthcareService](StructureDefinition-no-basis-HealthcareSer
   "id" : "no-basis-HealthcareService-example",
   "meta" : {
     "profile" : [
+      "http://hl7.no/fhir/ig/StructureDefinition/no-basis-HealthcareService",
       "http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService"
     ]
   },

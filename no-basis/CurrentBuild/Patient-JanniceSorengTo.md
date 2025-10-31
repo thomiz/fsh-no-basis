@@ -1,4 +1,4 @@
-# JanniceSorengTo - v2.2.2-test
+# JanniceSorengTo - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -37,7 +37,7 @@ Jannice SørengTo Female, DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#2103055023
   "resourceType" : "Patient",
   "id" : "JanniceSorengTo",
   "meta" : {
-    "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Patient"]
+    "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-Patient"]
   },
   "extension" : [
     {
@@ -95,10 +95,10 @@ Jannice SørengTo Female, DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#2103055023
               }
             }
           ],
-          "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation"
+          "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-propertyinformation"
         },
         {
-          "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-address-official",
+          "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-address-official",
           "valueBoolean" : true
         }
       ],

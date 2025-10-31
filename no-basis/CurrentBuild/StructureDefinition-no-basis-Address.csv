@@ -11,14 +11,14 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Address.extension:official","Address.extension","official","offisiell adresse
-user content","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-address-official]]} {[]}
+user content","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-address-official]]} {[]}
 ","The concept of an officially registered address","Defines the concept of an officially registered address in Norway. Usually this will be the adress registered in ""Folkeregisteret"" for persons or ""Enhetsregisteret"" for organizations.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Address.extension:urbanDistrict","Address.extension","urbanDistrict","bydel
-urban district","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-urban-district]]} {[]}
+urban district","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-urban-district]]} {[]}
 ","urban district information","The name and number of the of the urban district of this address.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Address.extension:propertyInformation","Address.extension","propertyInformation","","",0,*,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation]]} {[]}
+"Address.extension:propertyInformation","Address.extension","propertyInformation","","",0,*,"","","","Extension {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-propertyinformation]]} {[]}
 ","Real property identification","Identification of a real property in Norway is defined using gårdsnummer, bruksnummer and kommunenummer. In addition real property can be rented out, the area of the real property that is rented is measured and is further identified by its festenummer. In addition some real property is split into sections identified by its seksjonsnummer","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Address.use","Address.use","","","",0,1,"","Y","Y","code {[]} {[]}
@@ -55,7 +55,7 @@ The name of the administrative area (county).","District is sometimes known as c
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Address.district.extension:municipalitycode","Address.district.extension","municipalitycode","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode]]} {[]}
+"Address.district.extension:municipalitycode","Address.district.extension","municipalitycode","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-municipalitycode]]} {[]}
 ","Coded value for municipality/county Norwegian kommune","Coded value for municipality/county Norwegian kommune","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"

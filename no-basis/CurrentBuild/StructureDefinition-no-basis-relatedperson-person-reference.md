@@ -1,4 +1,4 @@
-# no-basis-relatedperson-person-reference - v2.2.2-test
+# no-basis-relatedperson-person-reference - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference | *Version*:2.2.3-test |
 | Active as of 2021-04-07 | *Computable Name*:NoBasisRelatedpersonPersonReference |
 
 If a person reference is needed in RelatedPerson.patient element, this optional extension should be used.
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-relatedpers
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-relatedperson-person-reference",
   "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference",
-  "version" : "2.2.2-test",
+  "version" : "2.2.3-test",
   "name" : "NoBasisRelatedpersonPersonReference",
   "title" : "no-basis-relatedperson-person-reference",
   "status" : "active",
@@ -106,7 +106,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-relatedpers
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Person",
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Person",
               "http://hl7.org/fhir/StructureDefinition/Person"
             ]
           }

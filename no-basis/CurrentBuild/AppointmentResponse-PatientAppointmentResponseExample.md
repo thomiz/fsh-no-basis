@@ -1,4 +1,4 @@
-# PatientAppointmentResponseExample - v2.2.2-test
+# PatientAppointmentResponseExample - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -26,12 +26,12 @@ Profile: [no-basis-AppointmentResponse](StructureDefinition-no-basis-Appointment
   "id" : "PatientAppointmentResponseExample",
   "meta" : {
     "profile" : [
-      "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse"
+      "http://hl7.no/fhir/ig/StructureDefinition/no-basis-AppointmentResponse"
     ]
   },
   "extension" : [
     {
-      "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice",
+      "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-shortnotice",
       "valueBoolean" : true
     }
   ],

@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-basis-marital-status.codesystem> a fhir:CodeSystem ;
+<http://hl7.no/fhir/ig/CodeSystem/no-basis-marital-status.codesystem> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "no-basis-marital-status.codesystem"] ; # 
   fhir:meta [
@@ -15,10 +15,13 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-basis-marital-status.codesystem</b></p><a name=\"no-basis-marital-status.codesystem\"> </a><a name=\"hcno-basis-marital-status.codesystem\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2019-05-07 00:00:00+0000</p></div><p>This  code system <code>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">uoppgitt<a name=\"no-basis-marital-status.codesystem-uoppgitt\"> </a></td><td>Uoppgitt</td><td>sivilstand er ikke stadfestet med godkjent grunnlag</td></tr><tr><td style=\"white-space:nowrap\">ugift<a name=\"no-basis-marital-status.codesystem-ugift\"> </a></td><td>Ugift</td><td>person som aldri har inngått ekteskap</td></tr><tr><td style=\"white-space:nowrap\">gift<a name=\"no-basis-marital-status.codesystem-gift\"> </a></td><td>Gift</td><td>person som er i et ekteskap</td></tr><tr><td style=\"white-space:nowrap\">enkeEllerEnkemann<a name=\"no-basis-marital-status.codesystem-enkeEllerEnkemann\"> </a></td><td>Enke eller enkemann</td><td>gjenlevende person fra et ekteskap</td></tr><tr><td style=\"white-space:nowrap\">skilt<a name=\"no-basis-marital-status.codesystem-skilt\"> </a></td><td>Skilt</td><td>person som er lovlig skilt fra tidligere ektefelle</td></tr><tr><td style=\"white-space:nowrap\">separert<a name=\"no-basis-marital-status.codesystem-separert\"> </a></td><td>Separert</td><td>person som er i en separasjonsperiode fra sin ektefelle</td></tr><tr><td style=\"white-space:nowrap\">registrertPartner<a name=\"no-basis-marital-status.codesystem-registrertPartner\"> </a></td><td>Registrert partner</td><td>person som er i et partnerskap iht partnerskapsloven</td></tr><tr><td style=\"white-space:nowrap\">separertPartner<a name=\"no-basis-marital-status.codesystem-separertPartner\"> </a></td><td>Separert partner</td><td>person som er i en separasjonsperiode fra sin partner</td></tr><tr><td style=\"white-space:nowrap\">skiltPartner<a name=\"no-basis-marital-status.codesystem-skiltPartner\"> </a></td><td>Skilt partner</td><td>person som er lovlig skilt fra tidligere partner</td></tr><tr><td style=\"white-space:nowrap\">gjenlevende_partner<a name=\"no-basis-marital-status.codesystem-gjenlevende_partner\"> </a></td><td>Gjenlevende partner</td><td>gjenlevende person fra et partnerskap</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-basis-marital-status.codesystem</b></p><a name=\"no-basis-marital-status.codesystem\"> </a><a name=\"hcno-basis-marital-status.codesystem\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2019-05-07 00:00:00+0000</p></div><p>This  code system <code>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">uoppgitt<a name=\"no-basis-marital-status.codesystem-uoppgitt\"> </a></td><td>Uoppgitt</td><td>sivilstand er ikke stadfestet med godkjent grunnlag</td></tr><tr><td style=\"white-space:nowrap\">ugift<a name=\"no-basis-marital-status.codesystem-ugift\"> </a></td><td>Ugift</td><td>person som aldri har inngått ekteskap</td></tr><tr><td style=\"white-space:nowrap\">gift<a name=\"no-basis-marital-status.codesystem-gift\"> </a></td><td>Gift</td><td>person som er i et ekteskap</td></tr><tr><td style=\"white-space:nowrap\">enkeEllerEnkemann<a name=\"no-basis-marital-status.codesystem-enkeEllerEnkemann\"> </a></td><td>Enke eller enkemann</td><td>gjenlevende person fra et ekteskap</td></tr><tr><td style=\"white-space:nowrap\">skilt<a name=\"no-basis-marital-status.codesystem-skilt\"> </a></td><td>Skilt</td><td>person som er lovlig skilt fra tidligere ektefelle</td></tr><tr><td style=\"white-space:nowrap\">separert<a name=\"no-basis-marital-status.codesystem-separert\"> </a></td><td>Separert</td><td>person som er i en separasjonsperiode fra sin ektefelle</td></tr><tr><td style=\"white-space:nowrap\">registrertPartner<a name=\"no-basis-marital-status.codesystem-registrertPartner\"> </a></td><td>Registrert partner</td><td>person som er i et partnerskap iht partnerskapsloven</td></tr><tr><td style=\"white-space:nowrap\">separertPartner<a name=\"no-basis-marital-status.codesystem-separertPartner\"> </a></td><td>Separert partner</td><td>person som er i en separasjonsperiode fra sin partner</td></tr><tr><td style=\"white-space:nowrap\">skiltPartner<a name=\"no-basis-marital-status.codesystem-skiltPartner\"> </a></td><td>Skilt partner</td><td>person som er lovlig skilt fra tidligere partner</td></tr><tr><td style=\"white-space:nowrap\">gjenlevende_partner<a name=\"no-basis-marital-status.codesystem-gjenlevende_partner\"> </a></td><td>Gjenlevende partner</td><td>gjenlevende person fra et partnerskap</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "http://hl7.no/fhir/CodeSystem/no-basis-marital-status"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.2.2-test"] ; # 
+  fhir:url [
+     fhir:v "http://hl7.no/fhir/CodeSystem/no-basis-marital-status"^^xsd:anyURI ;
+     fhir:l <http://hl7.no/fhir/CodeSystem/no-basis-marital-status>
+  ] ; # 
+  fhir:version [ fhir:v "2.2.3-test"] ; # 
   fhir:name [ fhir:v "NoBasisMaritalStatus"] ; # 
   fhir:title [ fhir:v "no-basis-marital-status.codesystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -26,7 +29,10 @@
   fhir:description [ fhir:v "Copy of Codes from Sivilstandstype defined by Skatteetaten"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "NO" ] ;
        fhir:display [ fhir:v "Norway" ]
      ] )

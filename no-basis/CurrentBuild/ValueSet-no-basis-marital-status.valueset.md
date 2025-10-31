@@ -1,4 +1,4 @@
-# no-basis-marital-status.valueset - v2.2.2-test
+# no-basis-marital-status.valueset - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ValueSet/no-basis-marital-status | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ValueSet/no-basis-marital-status | *Version*:2.2.3-test |
 | Active as of 2020-03-20 | *Computable Name*:NoBasisMaritalStatus |
 
  
@@ -20,7 +20,7 @@ Copy of Codes from Sivilstandstype defined by Skatteetaten
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://hl7.no/fhir/CodeSystem/no-basis-marital-status`](CodeSystem-no-basis-marital-status.codesystem.md)version 📦2.2.2-test
+* Include all codes defined in [`http://hl7.no/fhir/CodeSystem/no-basis-marital-status`](CodeSystem-no-basis-marital-status.codesystem.md)version 📦2.2.3-test
 
  
 
@@ -48,7 +48,7 @@ Copy of Codes from Sivilstandstype defined by Skatteetaten
   "resourceType" : "ValueSet",
   "id" : "no-basis-marital-status.valueset",
   "url" : "http://hl7.no/fhir/ValueSet/no-basis-marital-status",
-  "version" : "2.2.2-test",
+  "version" : "2.2.3-test",
   "name" : "NoBasisMaritalStatus",
   "title" : "no-basis-marital-status.valueset",
   "status" : "active",

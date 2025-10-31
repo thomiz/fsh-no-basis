@@ -1,4 +1,4 @@
-# no-basis-group - v2.2.2-test
+# no-basis-group - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-group | *Version*:2.2.2-test |
-| Active as of 2025-10-17 | *Computable Name*:NoBasisGroup |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-group | *Version*:2.2.3-test |
+| Active as of 2025-10-31 | *Computable Name*:NoBasisGroup |
 
 The appointment is a group session.
 
@@ -41,12 +41,12 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-group.csv),
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-group",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-group",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-group",
+  "version" : "2.2.3-test",
   "name" : "NoBasisGroup",
   "title" : "no-basis-group",
   "status" : "active",
-  "date" : "2025-10-17T20:48:12+00:00",
+  "date" : "2025-10-31T06:29:19+00:00",
   "description" : "The appointment is a group session.",
   "jurisdiction" : [
     {
@@ -95,7 +95,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-group.csv),
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://hl7.no/fhir/StructureDefinition/no-basis-group"
+        "fixedUri" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-group"
       },
       {
         "id" : "Extension.value[x]",

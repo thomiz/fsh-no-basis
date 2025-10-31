@@ -1,4 +1,4 @@
-# no-basis-virtual-service - v2.2.2-test
+# no-basis-virtual-service - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-virtual-service | *Version*:2.2.2-test |
-| Active as of 2025-10-17 | *Computable Name*:NoBasisVirtualService |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-virtual-service | *Version*:2.2.3-test |
+| Active as of 2025-10-31 | *Computable Name*:NoBasisVirtualService |
 
 The VirtualService is based on VirtualServiceDetail structure from R5 and defines details of a virtual communication capability, such as a web conference call.
 
@@ -43,12 +43,12 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-virtual-ser
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-virtual-service",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-virtual-service",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-virtual-service",
+  "version" : "2.2.3-test",
   "name" : "NoBasisVirtualService",
   "title" : "no-basis-virtual-service",
   "status" : "active",
-  "date" : "2025-10-17T20:48:12+00:00",
+  "date" : "2025-10-31T06:29:19+00:00",
   "description" : "The VirtualService is based on VirtualServiceDetail structure from R5 and defines details of a virtual communication capability, such as a web conference call.",
   "jurisdiction" : [
     {
@@ -243,7 +243,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-virtual-ser
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://hl7.no/fhir/StructureDefinition/no-basis-virtual-service"
+        "fixedUri" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-virtual-service"
       },
       {
         "id" : "Extension.value[x]",

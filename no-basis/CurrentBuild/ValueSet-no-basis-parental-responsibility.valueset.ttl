@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility.valueset> a fhir:ValueSet ;
+<http://hl7.no/fhir/ig/ValueSet/no-basis-parental-responsibility.valueset> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "no-basis-parental-responsibility.valueset"] ; # 
   fhir:meta [
@@ -15,10 +15,13 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet no-basis-parental-responsibility.valueset</b></p><a name=\"no-basis-parental-responsibility.valueset\"> </a><a name=\"hcno-basis-parental-responsibility.valueset\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2018-10-16 10:48:46+0000</p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?2.2.2-test</span></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet no-basis-parental-responsibility.valueset</b></p><a name=\"no-basis-parental-responsibility.valueset\"> </a><a name=\"hcno-basis-parental-responsibility.valueset\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2018-10-16 10:48:46+0000</p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-no-basis-parental-responsibility.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?2.2.3-test</span></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.2.2-test"] ; # 
+  fhir:url [
+     fhir:v "http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility"^^xsd:anyURI ;
+     fhir:l <http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility>
+  ] ; # 
+  fhir:version [ fhir:v "2.2.3-test"] ; # 
   fhir:name [ fhir:v "NoBasisParentalResponsibility"] ; # 
   fhir:title [ fhir:v "no-basis-parental-responsibility.valueset"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -27,7 +30,10 @@
   fhir:description [ fhir:v "Copy of Codes from Foreldreansvar defined by Skatteetaten"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "NO" ] ;
        fhir:display [ fhir:v "Norway" ]
      ] )
@@ -35,7 +41,10 @@
   fhir:immutable [ fhir:v false] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility"^^xsd:anyURI ]
+       fhir:system [
+         fhir:v "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility"^^xsd:anyURI ;
+         fhir:l <http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility>
+       ]
      ] )
   ] . # 
 

@@ -1,4 +1,4 @@
-# Changelog STU 3 - v2.2.2-test
+# Changelog STU 3 - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * **Changelog STU 3**

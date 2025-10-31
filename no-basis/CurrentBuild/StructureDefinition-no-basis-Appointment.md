@@ -1,4 +1,4 @@
-# no-basis-Appointment - v2.2.2-test
+# no-basis-Appointment - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-Appointment | *Version*:2.2.2-test |
-| Active as of 2025-10-17 | *Computable Name*:NoBasisAppointment |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-Appointment | *Version*:2.2.3-test |
+| Active as of 2025-10-31 | *Computable Name*:NoBasisAppointment |
 
  
 Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) can be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case. 
@@ -37,12 +37,12 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Appointment
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-Appointment",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-Appointment",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Appointment",
+  "version" : "2.2.3-test",
   "name" : "NoBasisAppointment",
   "title" : "no-basis-Appointment",
   "status" : "active",
-  "date" : "2025-10-17T20:48:12+00:00",
+  "date" : "2025-10-31T06:29:19+00:00",
   "description" : "Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) can be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
   "jurisdiction" : [
     {
@@ -117,7 +117,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Appointment
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.no/fhir/StructureDefinition/no-basis-virtual-service"
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-virtual-service"
             ]
           }
         ]
@@ -131,7 +131,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Appointment
         "type" : [
           {
             "code" : "Extension",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-group"]
+            "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-group"]
           }
         ]
       },
@@ -144,7 +144,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-Appointment
         "type" : [
           {
             "code" : "Extension",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-partof"]
+            "profile" : ["http://hl7.no/fhir/ig/StructureDefinition/no-basis-partof"]
           }
         ]
       },

@@ -1,4 +1,4 @@
-# Magnar-Komann-Practitioner - v2.2.2-test
+# Magnar-Komann-Practitioner - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -34,7 +34,7 @@ Profile: [no-basis-Practitioner](StructureDefinition-no-basis-Practitioner.md)
   "id" : "Magnar-Komann-Practitioner",
   "meta" : {
     "profile" : [
-      "http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner"
+      "http://hl7.no/fhir/ig/StructureDefinition/no-basis-Practitioner"
     ]
   },
   "identifier" : [

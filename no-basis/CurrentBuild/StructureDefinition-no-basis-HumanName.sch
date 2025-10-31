@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:HumanName</sch:title>
     <sch:rule context="f:HumanName">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/no-basis-middlename']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/no-basis-middlename': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/ig/StructureDefinition/no-basis-middlename']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/ig/StructureDefinition/no-basis-middlename': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

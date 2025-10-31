@@ -12,8 +12,8 @@
   <sch:pattern>
     <sch:title>f:Appointment</sch:title>
     <sch:rule context="f:Appointment">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/no-basis-group']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/no-basis-group': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/no-basis-partof']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/no-basis-partof': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/ig/StructureDefinition/no-basis-group']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/ig/StructureDefinition/no-basis-group': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/ig/StructureDefinition/no-basis-partof']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/ig/StructureDefinition/no-basis-partof': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

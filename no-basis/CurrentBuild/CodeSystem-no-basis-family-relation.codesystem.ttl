@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-basis-family-relation.codesystem> a fhir:CodeSystem ;
+<http://hl7.no/fhir/ig/CodeSystem/no-basis-family-relation.codesystem> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "no-basis-family-relation.codesystem"] ; # 
   fhir:meta [
@@ -15,10 +15,13 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-basis-family-relation.codesystem</b></p><a name=\"no-basis-family-relation.codesystem\"> </a><a name=\"hcno-basis-family-relation.codesystem\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2019-05-07 00:00:00+0000</p></div><p>This  code system <code>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">mor<a name=\"no-basis-family-relation.codesystem-mor\"> </a></td><td>Mor</td></tr><tr><td style=\"white-space:nowrap\">far<a name=\"no-basis-family-relation.codesystem-far\"> </a></td><td>Far</td></tr><tr><td style=\"white-space:nowrap\">medmor<a name=\"no-basis-family-relation.codesystem-medmor\"> </a></td><td>Medmor</td></tr><tr><td style=\"white-space:nowrap\">barn<a name=\"no-basis-family-relation.codesystem-barn\"> </a></td><td>Barn</td></tr><tr><td style=\"white-space:nowrap\">søsken<a name=\"no-basis-family-relation.codesystem-s.248sken\"> </a></td><td>Søsken</td></tr><tr><td style=\"white-space:nowrap\">ektefelleEllerPartner<a name=\"no-basis-family-relation.codesystem-ektefelleEllerPartner\"> </a></td><td>Ektefelle eller partner</td></tr><tr><td style=\"white-space:nowrap\">dødfødtBarn<a name=\"no-basis-family-relation.codesystem-d.248df.248dtBarn\"> </a></td><td>Dødfødt barn</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-basis-family-relation.codesystem</b></p><a name=\"no-basis-family-relation.codesystem\"> </a><a name=\"hcno-basis-family-relation.codesystem\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2019-05-07 00:00:00+0000</p></div><p>This  code system <code>http://hl7.no/fhir/CodeSystem/no-basis-family-relation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">mor<a name=\"no-basis-family-relation.codesystem-mor\"> </a></td><td>Mor</td></tr><tr><td style=\"white-space:nowrap\">far<a name=\"no-basis-family-relation.codesystem-far\"> </a></td><td>Far</td></tr><tr><td style=\"white-space:nowrap\">medmor<a name=\"no-basis-family-relation.codesystem-medmor\"> </a></td><td>Medmor</td></tr><tr><td style=\"white-space:nowrap\">barn<a name=\"no-basis-family-relation.codesystem-barn\"> </a></td><td>Barn</td></tr><tr><td style=\"white-space:nowrap\">søsken<a name=\"no-basis-family-relation.codesystem-s.248sken\"> </a></td><td>Søsken</td></tr><tr><td style=\"white-space:nowrap\">ektefelleEllerPartner<a name=\"no-basis-family-relation.codesystem-ektefelleEllerPartner\"> </a></td><td>Ektefelle eller partner</td></tr><tr><td style=\"white-space:nowrap\">dødfødtBarn<a name=\"no-basis-family-relation.codesystem-d.248df.248dtBarn\"> </a></td><td>Dødfødt barn</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "http://hl7.no/fhir/CodeSystem/no-basis-family-relation"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.2.2-test"] ; # 
+  fhir:url [
+     fhir:v "http://hl7.no/fhir/CodeSystem/no-basis-family-relation"^^xsd:anyURI ;
+     fhir:l <http://hl7.no/fhir/CodeSystem/no-basis-family-relation>
+  ] ; # 
+  fhir:version [ fhir:v "2.2.3-test"] ; # 
   fhir:name [ fhir:v "NoBasisFamilyRelation"] ; # 
   fhir:title [ fhir:v "no-basis-family-relation.codesystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -26,7 +29,10 @@
   fhir:description [ fhir:v "Copy of Codes from Familierelasjon defined by Skatteetaten"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "NO" ] ;
        fhir:display [ fhir:v "Norway" ]
      ] )

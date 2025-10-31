@@ -1,4 +1,4 @@
-# No Basis VirtualServiceType Value Set - v2.2.2-test
+# No Basis VirtualServiceType Value Set - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type | *Version*:2.2.3-test |
 | Active as of 2023-10-05 | *Computable Name*:NoBasisVirtualServiceType |
 
  
@@ -29,7 +29,7 @@ This value set includes codes based on the following rules:
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
+No Expansion for this valueset (not supported by Publication Tooling)
 
 -------
 
@@ -53,7 +53,7 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "no-basis-virtual-service-type.valueset",
   "url" : "http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type",
-  "version" : "2.2.2-test",
+  "version" : "2.2.3-test",
   "name" : "NoBasisVirtualServiceType",
   "title" : "No Basis VirtualServiceType Value Set",
   "status" : "active",

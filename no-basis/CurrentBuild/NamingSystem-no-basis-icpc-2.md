@@ -1,4 +1,4 @@
-# NoBasisICPC2 - v2.2.2-test
+# NoBasisICPC2 - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/NamingSystem/no-basis-icpc-2 | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/NamingSystem/no-basis-icpc-2 | *Version*:2.2.3-test |
 | Active as of 2021-11-02 | *Computable Name*:NoBasisICPC2 |
 
  
@@ -20,8 +20,8 @@ version: 2.1.1
 
 | | |
 | :--- | :--- |
-| Defining URL | http://hl7.no/fhir/NamingSystem/no-basis-icpc-2 |
-| Version | 2.2.2-test |
+| Defining URL | http://hl7.no/fhir/ig/NamingSystem/no-basis-icpc-2 |
+| Version | 2.2.3-test |
 | Name | NoBasisICPC2 |
 | Status | active |
 | Definition | In Norway primary care uses ICPC-2 to document contact-reason, health related problem and diagnosis. |
@@ -55,11 +55,11 @@ version: 2.1.1
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url",
-      "valueUri" : "http://hl7.no/fhir/NamingSystem/no-basis-icpc-2"
+      "valueUri" : "http://hl7.no/fhir/ig/NamingSystem/no-basis-icpc-2"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
-      "valueString" : "2.2.2-test"
+      "valueString" : "2.2.3-test"
     }
   ],
   "name" : "NoBasisICPC2",

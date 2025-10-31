@@ -1,4 +1,4 @@
-# no-basis-shortnotice - v2.2.2-test
+# no-basis-shortnotice - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice | *Version*:2.2.2-test |
-| Active as of 2025-10-17 | *Computable Name*:NoBasisShortNotice |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-shortnotice | *Version*:2.2.3-test |
+| Active as of 2025-10-31 | *Computable Name*:NoBasisShortNotice |
 
 The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.
 
@@ -42,12 +42,12 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-shortnotice
 {
   "resourceType" : "StructureDefinition",
   "id" : "no-basis-shortnotice",
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-shortnotice",
+  "version" : "2.2.3-test",
   "name" : "NoBasisShortNotice",
   "title" : "no-basis-shortnotice",
   "status" : "active",
-  "date" : "2025-10-17T20:48:12+00:00",
+  "date" : "2025-10-31T06:29:19+00:00",
   "description" : "The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.",
   "jurisdiction" : [
     {
@@ -94,7 +94,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-shortnotice
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://hl7.no/fhir/StructureDefinition/no-basis-shortnotice"
+        "fixedUri" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-shortnotice"
       },
       {
         "id" : "Extension.value[x]",

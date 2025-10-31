@@ -127,7 +127,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Person.identifier:TNR.assigner","Person.identifier.assigner","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|4.0.1]]}
 ","Organization that issued id (may be just text)","Organization that issued/manages the identifier.","The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization.","","","","","","","","",,,,,"",,,,"Identifier.assigner",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper","CX.4 / (CX.4,CX.9,CX.10)"
-"Person.name","Person.name","","","",0,*,"","","Y","HumanName {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-HumanName]]} {[]}
+"Person.name","Person.name","","","",0,*,"","","Y","HumanName {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-HumanName]]} {[]}
 ","A name associated with the person","A name associated with the person.","Person may have multiple names with different uses or applicable periods.","Need to be able to track the person by multiple names. Examples are your official name and a partner name.","","","","","","","",,,,,"",,,,"Person.name",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./name","PID-5, PID-9"
 "Person.telecom","Person.telecom","","","",0,*,"","","Y","ContactPoint {[]} {[]}
@@ -139,7 +139,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Person.birthDate","Person.birthDate","","","",0,1,"","","Y","date {[]} {[]}
 ","The date on which the person was born","The birth date for the person.","At least an estimated year should be provided as a guess if the real DOB is unknown.","Age of person drives many clinical processes, and is often used in performing identification of the person. Times are not included so as to not confuse things with potential timezone issues.","","","","","","","",,,,,"",,,,"Person.birthDate",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./birthTime","PID-7"
-"Person.address","Person.address","","","",0,*,"","","","Address {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Address]]} {[]}
+"Person.address","Person.address","","","",0,*,"","","","Address {[CanonicalType[http://hl7.no/fhir/ig/StructureDefinition/no-basis-Address]]} {[]}
 ","Norwegian address","http://hl7.no/fhir/StructureDefinition/no-basis-Address","Person may have multiple addresses with different uses or applicable periods.","May need to keep track of person's addresses for contacting, billing or reporting requirements and also to help with identification.","","","","","","","",,,,,"",,,,"Person.address",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./addr","PID-11"
 "Person.photo","Person.photo","","","",0,1,"","","","Attachment {[]} {[]}

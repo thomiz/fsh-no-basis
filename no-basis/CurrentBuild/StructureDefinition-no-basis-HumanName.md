@@ -1,4 +1,4 @@
-# no-basis-HumanName - v2.2.2-test
+# no-basis-HumanName - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-HumanName | *Version*:2.2.2-test | |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-HumanName | *Version*:2.2.3-test | |
 | Active as of 2019-05-20 | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:NoBasisHumanName |
 
  
@@ -46,8 +46,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-HumanName.c
       "valueInteger" : 1
     }
   ],
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-HumanName",
+  "version" : "2.2.3-test",
   "name" : "NoBasisHumanName",
   "title" : "no-basis-HumanName",
   "status" : "active",
@@ -106,7 +106,9 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-HumanName.c
         "type" : [
           {
             "code" : "Extension",
-            "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-middlename"]
+            "profile" : [
+              "http://hl7.no/fhir/ig/StructureDefinition/no-basis-middlename"
+            ]
           }
         ]
       },

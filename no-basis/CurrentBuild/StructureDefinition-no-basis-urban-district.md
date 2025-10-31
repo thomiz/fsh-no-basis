@@ -1,4 +1,4 @@
-# no-basis-urban-district - v2.2.2-test
+# no-basis-urban-district - v2.2.3-test
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-urban-district | *Version*:2.2.2-test |
+| *Official URL*:http://hl7.no/fhir/ig/StructureDefinition/no-basis-urban-district | *Version*:2.2.3-test |
 | Active as of 2018-10-26 | *Computable Name*:NoBasisUrbanDistrict |
 
 Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose.
@@ -47,8 +47,8 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-urban-distr
     "versionId" : "1",
     "lastUpdated" : "2018-06-13T12:22:12.74+00:00"
   },
-  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-urban-district",
-  "version" : "2.2.2-test",
+  "url" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-urban-district",
+  "version" : "2.2.3-test",
   "name" : "NoBasisUrbanDistrict",
   "title" : "no-basis-urban-district",
   "status" : "active",
@@ -111,7 +111,7 @@ Other representations of profile: [CSV](StructureDefinition-no-basis-urban-distr
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "http://hl7.no/fhir/StructureDefinition/no-basis-urban-district"
+        "fixedUri" : "http://hl7.no/fhir/ig/StructureDefinition/no-basis-urban-district"
       },
       {
         "id" : "Extension.value[x]",

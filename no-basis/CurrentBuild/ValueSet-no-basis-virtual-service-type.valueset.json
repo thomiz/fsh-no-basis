@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet no-basis-virtual-service-type.valueset</b></p><a name=\"no-basis-virtual-service-type.valueset\"> </a><a name=\"hcno-basis-virtual-service-type.valueset\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <code>urn:oid:2.16.840.1.113883.4.642.4.1809</code><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span></li><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4/codesystem-contact-point-system.html\"><code>http://hl7.org/fhir/contact-point-system</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references\"> version &#x1F4E6;4.0.1</span></li></ul></div>"
   },
   "url" : "http://hl7.no/fhir/ValueSet/no-basis-virtual-service-type",
-  "version" : "2.2.2-test",
+  "version" : "2.2.3-test",
   "name" : "NoBasisVirtualServiceType",
   "title" : "No Basis VirtualServiceType Value Set",
   "status" : "active",

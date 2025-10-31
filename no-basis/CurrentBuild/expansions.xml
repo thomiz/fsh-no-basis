@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="0e7dda7c-a590-41b8-969e-6327c2792248"/>
+  <id value="bd304639-12cf-444d-a809-c479a48c8309"/>
   <meta>
-    <lastUpdated value="2025-10-17T20:48:51.033+00:00"/>
+    <lastUpdated value="2025-10-31T06:29:19.596+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -22,9 +22,9 @@
               <p>Expansion performed internally based on:</p>
               <ul>
                 <li>
-                  <a href="CodeSystem-no-basis-connection-type.codesystem.html">codesystem no-basis-connection-type.codesystem v2.2.2-test (CodeSystem)</a>
+                  <a href="CodeSystem-no-basis-connection-type.codesystem.html">codesystem no-basis-connection-type.codesystem v2.2.3-test (CodeSystem)</a>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="http://hl7.no/fhir/CodeSystem/no-basis-connection-type|2.2.2-test" title="Click to Copy URL" class="btn-copy"> </button>
+                    <button data-clipboard-text="http://hl7.no/fhir/CodeSystem/no-basis-connection-type|2.2.3-test" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
                 <li>
@@ -71,12 +71,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-connection-type&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;no-ebxml-2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-connection-type&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;no-ebxml-2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-connection-type&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;no-ebxml-2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-connection-type&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;no-ebxml-2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -92,12 +92,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-connection-type&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;no-amqp&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-connection-type&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;no-amqp&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-connection-type&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;no-amqp&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-connection-type&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;no-amqp&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -420,7 +420,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/no-basis-connection-type"/>
-        <version value="2.2.2-test"/>
+        <version value="2.2.3-test"/>
         <name value="NoBasisConnectionType"/>
         <title value="no-basis-connection-type.valueset"/>
         <status value="active"/>
@@ -435,8 +435,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:d6384df1-620a-4b7c-94d8-d213697c7186"/>
-          <timestamp value="2025-10-17T20:49:24+00:00"/>
+          <identifier value="urn:uuid:a6cac3a8-979c-4669-922a-29538dbef955"/>
+          <timestamp value="2025-10-31T06:30:40+00:00"/>
           <total value="17"/>
           <offset value="0"/>
           <parameter>
@@ -457,7 +457,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-connection-type|2.2.2-test"/>
+            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-connection-type|2.2.3-test"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
@@ -572,9 +572,9 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-no-basis-family-relation.codesystem.html">codesystem no-basis-family-relation.codesystem v2.2.2-test (CodeSystem)</a>
+              <a href="CodeSystem-no-basis-family-relation.codesystem.html">codesystem no-basis-family-relation.codesystem v2.2.3-test (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://hl7.no/fhir/CodeSystem/no-basis-family-relation|2.2.2-test" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="http://hl7.no/fhir/CodeSystem/no-basis-family-relation|2.2.3-test" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>This value set contains 7 concepts</p>
@@ -611,12 +611,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;mor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;mor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;mor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;mor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -632,12 +632,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;far&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;far&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;far&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;far&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -653,12 +653,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;medmor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;medmor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;medmor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;medmor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -674,12 +674,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;barn&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;barn&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;barn&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;barn&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -695,12 +695,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;søsken&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;søsken&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;søsken&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;søsken&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -716,12 +716,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;ektefelleEllerPartner&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;ektefelleEllerPartner&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;ektefelleEllerPartner&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;ektefelleEllerPartner&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -737,12 +737,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;dødfødtBarn&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;dødfødtBarn&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;dødfødtBarn&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-family-relation&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;dødfødtBarn&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -750,7 +750,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/no-basis-family-relation"/>
-        <version value="2.2.2-test"/>
+        <version value="2.2.3-test"/>
         <name value="NoBasisFamilyRelation"/>
         <title value="no-basis-family-relation.valueset"/>
         <status value="active"/>
@@ -765,8 +765,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:f7a5855d-5dcb-4056-9323-bed9bef43f46"/>
-          <timestamp value="2025-10-17T20:49:24+00:00"/>
+          <identifier value="urn:uuid:898adf42-5d51-4717-84de-9aa99afd691d"/>
+          <timestamp value="2025-10-31T06:30:40+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -787,7 +787,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation|2.2.2-test"/>
+            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation|2.2.3-test"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-family-relation"/>
@@ -830,9 +830,9 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-no-basis-marital-status.codesystem.html">codesystem no-basis-marital-status.codesystem v2.2.2-test (CodeSystem)</a>
+              <a href="CodeSystem-no-basis-marital-status.codesystem.html">codesystem no-basis-marital-status.codesystem v2.2.3-test (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://hl7.no/fhir/CodeSystem/no-basis-marital-status|2.2.2-test" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="http://hl7.no/fhir/CodeSystem/no-basis-marital-status|2.2.3-test" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>This value set contains 10 concepts</p>
@@ -865,12 +865,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;uoppgitt&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;uoppgitt&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;uoppgitt&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;uoppgitt&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -885,12 +885,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;ugift&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;ugift&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;ugift&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;ugift&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -905,12 +905,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;gift&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;gift&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;gift&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;gift&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -925,12 +925,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;enkeEllerEnkemann&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;enkeEllerEnkemann&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;enkeEllerEnkemann&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;enkeEllerEnkemann&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -945,12 +945,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;skilt&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;skilt&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;skilt&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;skilt&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -965,12 +965,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;separert&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;separert&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;separert&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;separert&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -985,12 +985,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;registrertPartner&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;registrertPartner&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;registrertPartner&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;registrertPartner&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1005,12 +1005,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;separertPartner&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;separertPartner&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;separertPartner&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;separertPartner&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1025,12 +1025,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;skiltPartner&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;skiltPartner&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;skiltPartner&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;skiltPartner&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1045,12 +1045,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;gjenlevende_partner&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;gjenlevende_partner&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;gjenlevende_partner&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;gjenlevende_partner&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1058,7 +1058,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/no-basis-marital-status"/>
-        <version value="2.2.2-test"/>
+        <version value="2.2.3-test"/>
         <name value="NoBasisMaritalStatus"/>
         <title value="no-basis-marital-status.valueset"/>
         <status value="active"/>
@@ -1073,8 +1073,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:ff640480-8979-4bc9-a144-84f121cd614e"/>
-          <timestamp value="2025-10-17T20:49:24+00:00"/>
+          <identifier value="urn:uuid:afa52846-00e4-4709-b7c4-49d569bb2025"/>
+          <timestamp value="2025-10-31T06:30:41+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -1095,7 +1095,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status|2.2.2-test"/>
+            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status|2.2.3-test"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-marital-status"/>
@@ -1154,9 +1154,9 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html">codesystem no-basis-parental-responsibility.codesystem v2.2.2-test (CodeSystem)</a>
+              <a href="CodeSystem-no-basis-parental-responsibility.codesystem.html">codesystem no-basis-parental-responsibility.codesystem v2.2.3-test (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility|2.2.2-test" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility|2.2.3-test" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>This value set contains 6 concepts</p>
@@ -1193,12 +1193,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;felles&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;felles&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;felles&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;felles&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1214,12 +1214,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;mor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;mor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;mor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;mor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1235,12 +1235,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;far&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;far&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;far&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;far&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1256,12 +1256,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;medmor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;medmor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;medmor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;medmor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1277,12 +1277,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;andre&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;andre&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;andre&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;andre&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1298,12 +1298,12 @@
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;, &quot;version&quot;: &quot;2.2.2-test&quot;, &quot;code&quot;: &quot;ukjent&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;, &quot;version&quot;: &quot;2.2.3-test&quot;, &quot;code&quot;: &quot;ukjent&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;&gt;&lt;version value=&quot;2.2.2-test&quot;&gt;&lt;code value=&quot;ukjent&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility&quot;&gt;&lt;version value=&quot;2.2.3-test&quot;&gt;&lt;code value=&quot;ukjent&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1311,7 +1311,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/no-basis-parental-responsibility"/>
-        <version value="2.2.2-test"/>
+        <version value="2.2.3-test"/>
         <name value="NoBasisParentalResponsibility"/>
         <title value="no-basis-parental-responsibility.valueset"/>
         <status value="active"/>
@@ -1326,8 +1326,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1b54492a-0e58-4683-8e2e-968c10ddb83e"/>
-          <timestamp value="2025-10-17T20:49:24+00:00"/>
+          <identifier value="urn:uuid:a95437ba-b118-4ebb-84eb-63af2c2644db"/>
+          <timestamp value="2025-10-31T06:30:41+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -1348,7 +1348,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility|2.2.2-test"/>
+            <valueUri value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility|2.2.3-test"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility"/>
